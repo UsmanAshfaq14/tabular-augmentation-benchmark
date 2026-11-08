@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+rf,tabddpm,0.3516,0.6672,0.9089,12.16,0.6672,0.3516,0.9089,1287,,,,0,0.6672,0.3516,0.9089,1287,123,294_satellite_image

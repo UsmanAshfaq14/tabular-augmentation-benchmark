@@ -1,0 +1,139 @@
+2026-06-11 02:07:22  INFO  Datasets : ['titanic', '529_pollen', '503_wind', '294_satellite_image']
+2026-06-11 02:07:22  INFO  Epochs   : 75
+2026-06-11 02:07:22  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-11 02:07:22  INFO    [seed 42] imputed 103 train + 26 test cells
+2026-06-11 02:07:22  WARNING    [seed 42] rare region EMPTY for titanic (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 02:12:20  INFO    [great] Generated 353 rows in 298.0s
+2026-06-11 02:12:21  INFO    [great] RF  RMSE=0.4058  R2=0.2333
+2026-06-11 02:12:21  INFO    [great] XGB RMSE=0.4074  R2=0.2272
+2026-06-11 02:12:25  INFO    [titanic/great] 1/5 seeds complete
+2026-06-11 02:12:25  INFO    [seed 123] imputed 96 train + 33 test cells
+2026-06-11 02:12:25  WARNING    [seed 123] rare region EMPTY for titanic (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 02:17:09  INFO    [great] Generated 353 rows in 284.4s
+2026-06-11 02:17:10  INFO    [great] RF  RMSE=0.4498  R2=0.1142
+2026-06-11 02:17:10  INFO    [great] XGB RMSE=0.4519  R2=0.1056
+2026-06-11 02:17:13  INFO    [titanic/great] 2/5 seeds complete
+2026-06-11 02:17:13  INFO    [seed 456] imputed 106 train + 23 test cells
+2026-06-11 02:17:13  WARNING    [seed 456] rare region EMPTY for titanic (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 02:21:58  INFO    [great] Generated 353 rows in 285.5s
+2026-06-11 02:21:59  INFO    [great] RF  RMSE=0.3996  R2=0.2988
+2026-06-11 02:21:59  INFO    [great] XGB RMSE=0.4062  R2=0.2755
+2026-06-11 02:22:02  INFO    [titanic/great] 3/5 seeds complete
+2026-06-11 02:22:02  INFO    [seed 789] imputed 103 train + 26 test cells
+2026-06-11 02:22:02  WARNING    [seed 789] rare region EMPTY for titanic (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 02:26:46  INFO    [great] Generated 353 rows in 283.2s
+2026-06-11 02:26:46  INFO    [great] RF  RMSE=0.4087  R2=0.2368
+2026-06-11 02:26:46  INFO    [great] XGB RMSE=0.4201  R2=0.1936
+2026-06-11 02:26:50  INFO    [titanic/great] 4/5 seeds complete
+2026-06-11 02:26:50  INFO    [seed 999] imputed 107 train + 22 test cells
+2026-06-11 02:26:50  WARNING    [seed 999] rare region EMPTY for titanic (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 02:31:35  INFO    [great] Generated 353 rows in 285.5s
+2026-06-11 02:31:36  INFO    [great] RF  RMSE=0.3907  R2=0.2647
+2026-06-11 02:31:36  INFO    [great] XGB RMSE=0.4110  R2=0.1863
+2026-06-11 02:31:39  INFO    [titanic/great] 5/5 seeds complete
+2026-06-11 02:31:39  INFO    titanic/great DONE: 5/5 seeds
+2026-06-11 02:40:01  INFO    [great] Generated 616 rows in 502.0s
+2026-06-11 02:40:02  INFO    [great] RF  RMSE=1.6600  R2=0.7293
+2026-06-11 02:40:02  INFO    [great] XGB RMSE=1.7410  R2=0.7022
+2026-06-11 02:40:09  INFO    [529_pollen/great] 1/5 seeds complete
+2026-06-11 02:48:45  INFO    [great] Generated 616 rows in 516.0s
+2026-06-11 02:48:45  INFO    [great] RF  RMSE=1.6821  R2=0.7417
+2026-06-11 02:48:45  INFO    [great] XGB RMSE=1.7315  R2=0.7263
+2026-06-11 02:48:52  INFO    [529_pollen/great] 2/5 seeds complete
+2026-06-11 02:57:25  INFO    [great] Generated 616 rows in 513.1s
+2026-06-11 02:57:26  INFO    [great] RF  RMSE=1.5504  R2=0.7421
+2026-06-11 02:57:26  INFO    [great] XGB RMSE=1.6369  R2=0.7125
+2026-06-11 02:57:31  INFO    [529_pollen/great] 3/5 seeds complete
+2026-06-11 03:06:03  INFO    [great] Generated 616 rows in 511.7s
+2026-06-11 03:06:03  INFO    [great] RF  RMSE=1.6963  R2=0.7174
+2026-06-11 03:06:03  INFO    [great] XGB RMSE=1.7279  R2=0.7068
+2026-06-11 03:06:10  INFO    [529_pollen/great] 4/5 seeds complete
+2026-06-11 03:14:49  INFO    [great] Generated 616 rows in 518.6s
+2026-06-11 03:14:49  INFO    [great] RF  RMSE=1.5261  R2=0.7741
+2026-06-11 03:14:49  INFO    [great] XGB RMSE=1.5766  R2=0.7589
+2026-06-11 03:14:56  INFO    [529_pollen/great] 5/5 seeds complete
+2026-06-11 03:14:56  INFO    529_pollen/great DONE: 5/5 seeds
+2026-06-11 03:45:37  INFO    [great] Generated 1052 rows in 1841.1s
+2026-06-11 03:45:38  INFO    [great] RF  RMSE=3.0530  R2=0.7916
+2026-06-11 03:45:38  INFO    [great] XGB RMSE=3.1309  R2=0.7808
+2026-06-11 03:46:01  INFO    [503_wind/great] 1/5 seeds complete
+2026-06-11 04:16:38  INFO    [great] Generated 1052 rows in 1836.8s
+2026-06-11 04:16:39  INFO    [great] RF  RMSE=3.1112  R2=0.7857
+2026-06-11 04:16:39  INFO    [great] XGB RMSE=3.2092  R2=0.7719
+2026-06-11 04:17:04  INFO    [503_wind/great] 2/5 seeds complete
+2026-06-11 04:47:44  INFO    [great] Generated 1052 rows in 1839.8s
+2026-06-11 04:47:45  INFO    [great] RF  RMSE=3.2047  R2=0.7723
+2026-06-11 04:47:45  INFO    [great] XGB RMSE=3.2545  R2=0.7651
+2026-06-11 04:48:09  INFO    [503_wind/great] 3/5 seeds complete
+2026-06-11 05:18:55  INFO    [great] Generated 1052 rows in 1846.1s
+2026-06-11 05:18:56  INFO    [great] RF  RMSE=3.1509  R2=0.7894
+2026-06-11 05:18:56  INFO    [great] XGB RMSE=3.2440  R2=0.7768
+2026-06-11 05:19:20  INFO    [503_wind/great] 4/5 seeds complete
+2026-06-11 05:49:59  INFO    [great] Generated 1052 rows in 1839.1s
+2026-06-11 05:50:00  INFO    [great] RF  RMSE=3.2011  R2=0.7712
+2026-06-11 05:50:00  INFO    [great] XGB RMSE=3.1570  R2=0.7775
+2026-06-11 05:50:23  INFO    [503_wind/great] 5/5 seeds complete
+2026-06-11 05:50:23  INFO    503_wind/great DONE: 5/5 seeds
+2026-06-11 05:50:23  WARNING    [seed 42] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 06:55:29  INFO    [great] Generated 1030 rows in 3906.0s
+2026-06-11 06:55:30  INFO    [great] RF  RMSE=0.7009  R2=0.8990
+2026-06-11 06:55:30  INFO    [great] XGB RMSE=0.7342  R2=0.8892
+2026-06-11 06:55:39  INFO    [294_satellite_image/great] 1/5 seeds complete
+2026-06-11 06:55:39  WARNING    [seed 123] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 08:00:48  INFO    [great] Generated 1030 rows in 3909.6s
+2026-06-11 08:00:49  INFO    [great] RF  RMSE=0.6743  R2=0.9070
+2026-06-11 08:00:49  INFO    [great] XGB RMSE=0.6925  R2=0.9019
+2026-06-11 08:00:58  INFO    [294_satellite_image/great] 2/5 seeds complete
+2026-06-11 08:00:58  WARNING    [seed 456] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 09:06:20  INFO    [great] Generated 1030 rows in 3921.7s
+2026-06-11 09:06:21  INFO    [great] RF  RMSE=0.6588  R2=0.9131
+2026-06-11 09:06:21  INFO    [great] XGB RMSE=0.6802  R2=0.9074
+2026-06-11 09:06:31  INFO    [294_satellite_image/great] 3/5 seeds complete
+2026-06-11 09:06:31  WARNING  SESSION LIMIT REACHED — stopping gracefully. Re-run to continue from the last finished seed.
+2026-06-11 09:06:31  INFO    294_satellite_image/great DONE: 3/5 seeds
+2026-06-11 09:06:31  INFO  Done. Re-run reg_medium.py once to fold great into the comparison summaries.
+2026-06-11 12:24:08  INFO  Datasets : ['titanic', '529_pollen', '503_wind', '294_satellite_image']
+2026-06-11 12:24:08  INFO  Epochs   : 75
+2026-06-11 12:24:08  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-11 12:24:08  INFO    titanic/great: all 5 seeds complete. Skipping.
+2026-06-11 12:24:08  INFO    529_pollen/great: all 5 seeds complete. Skipping.
+2026-06-11 12:24:08  INFO    503_wind/great: all 5 seeds complete. Skipping.
+2026-06-11 12:24:08  INFO    seed=42: already done. Skipping.
+2026-06-11 12:24:08  INFO    seed=123: already done. Skipping.
+2026-06-11 12:24:08  INFO    seed=456: already done. Skipping.
+2026-06-11 12:24:08  WARNING    [seed 789] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 15:42:48  INFO    [great] Generated 1030 rows in 11920.5s
+2026-06-11 15:42:50  INFO    [great] RF  RMSE=0.6788  R2=0.9080
+2026-06-11 15:42:50  INFO    [great] XGB RMSE=0.7097  R2=0.8994
+2026-06-11 15:43:02  INFO    [294_satellite_image/great] 4/5 seeds complete
+2026-06-11 15:43:02  WARNING    294_satellite_image/great: time budget (3.0h) exceeded. Stopping. Re-run to resume from seed 999.
+2026-06-11 15:43:02  INFO    294_satellite_image/great DONE: 4/5 seeds
+2026-06-11 15:43:02  INFO  Done. Re-run reg_medium.py once to fold great into the comparison summaries.
+2026-06-11 18:31:32  INFO  Datasets : ['titanic', '529_pollen', '503_wind', '294_satellite_image']
+2026-06-11 18:31:32  INFO  Epochs   : 75
+2026-06-11 18:31:32  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-11 18:31:32  INFO    titanic/great: all 5 seeds complete. Skipping.
+2026-06-11 18:31:32  INFO    529_pollen/great: all 5 seeds complete. Skipping.
+2026-06-11 18:31:32  INFO    503_wind/great: all 5 seeds complete. Skipping.
+2026-06-11 18:31:32  INFO    seed=42: already done. Skipping.
+2026-06-11 18:31:32  INFO    seed=123: already done. Skipping.
+2026-06-11 18:31:32  INFO    seed=456: already done. Skipping.
+2026-06-11 18:31:32  INFO    seed=789: already done. Skipping.
+2026-06-11 18:31:32  WARNING    [seed 999] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 20:48:08  INFO  Datasets : ['titanic', '529_pollen', '503_wind', '294_satellite_image']
+2026-06-11 20:48:08  INFO  Epochs   : 75
+2026-06-11 20:48:08  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-11 20:48:08  INFO    titanic/great: all 5 seeds complete. Skipping.
+2026-06-11 20:48:08  INFO    529_pollen/great: all 5 seeds complete. Skipping.
+2026-06-11 20:48:08  INFO    503_wind/great: all 5 seeds complete. Skipping.
+2026-06-11 20:48:08  INFO    seed=42: already done. Skipping.
+2026-06-11 20:48:08  INFO    seed=123: already done. Skipping.
+2026-06-11 20:48:08  INFO    seed=456: already done. Skipping.
+2026-06-11 20:48:08  INFO    seed=789: already done. Skipping.
+2026-06-11 20:48:08  WARNING    [seed 999] rare region EMPTY for 294_satellite_image (binary / bounded-discrete target) — rare metrics will be NaN.
+2026-06-11 21:42:53  INFO    [great] Generated 1030 rows in 3284.7s
+2026-06-11 21:42:54  INFO    [great] RF  RMSE=0.7278  R2=0.8903
+2026-06-11 21:42:54  INFO    [great] XGB RMSE=0.7369  R2=0.8876
+2026-06-11 21:43:03  INFO    [294_satellite_image/great] 5/5 seeds complete
+2026-06-11 21:43:03  INFO    294_satellite_image/great DONE: 5/5 seeds
+2026-06-11 21:43:03  INFO  Done. Re-run reg_medium.py once to fold great into the comparison summaries.

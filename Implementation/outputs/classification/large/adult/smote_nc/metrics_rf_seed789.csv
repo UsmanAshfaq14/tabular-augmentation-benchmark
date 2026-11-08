@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,smote_nc,0.8474,0.7906,0.7895,0.79,0.58,0.9023,789,adult

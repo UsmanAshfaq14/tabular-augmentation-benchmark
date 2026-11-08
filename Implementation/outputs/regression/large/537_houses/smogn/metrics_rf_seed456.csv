@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+rf,smogn,35793.282,52784.1952,0.7966,19.98,52784.1952,35793.282,0.7966,4128,71071.7021,47625.1809,0.8762,828,47094.1426,32824.5511,0.6064,3300,456,537_houses

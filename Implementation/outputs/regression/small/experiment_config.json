@@ -1,0 +1,31 @@
+{
+  "size": "small",
+  "task": "regression",
+  "test_size": 0.3,
+  "datasets": [
+    "230_machine_cpu",
+    "560_bodyfat",
+    "547_no2",
+    "1028_SWD"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smogn",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "great",
+    "dice"
+  ],
+  "gan_epochs": 100,
+  "great_epochs": 25,
+  "diffusion_steps": 5000,
+  "smote_k": 3,
+  "reg_aug_pct": 0.2
+}

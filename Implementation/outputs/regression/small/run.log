@@ -1,0 +1,701 @@
+2026-06-09 12:03:12  INFO  Starting regression/small experiment
+2026-06-09 12:03:12  INFO  Datasets : ['230_machine_cpu', '560_bodyfat', '547_no2', '1028_SWD']
+2026-06-09 12:03:12  INFO  Methods  : ['smogn', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-06-09 12:03:12  INFO  Split    : 70/30
+2026-06-09 12:03:12  INFO    [seed 42] rarity=boxplot_iqr  thresholds=[-90.5, 223.5]  rare_test=13/63
+2026-06-09 12:03:17  INFO    [baseline] RF  RMSE=144.5470  R2=0.6351  rareRMSE=313.2561
+2026-06-09 12:03:17  INFO    [baseline] XGB RMSE=138.2613  R2=0.6662  rareRMSE=297.628
+2026-06-09 12:03:18  INFO    [smogn] Generated 24 synthetic rows in 0.1s
+2026-06-09 12:03:19  INFO    [smogn] RF  RMSE=142.6178  R2=0.6448  rareRMSE=308.9985
+2026-06-09 12:03:19  INFO    [smogn] XGB RMSE=134.4815  R2=0.6842  rareRMSE=289.7765
+2026-06-09 12:03:26  INFO    [ctgan] Generated 29 synthetic rows in 4.4s
+2026-06-09 12:03:26  INFO    [ctgan] RF  RMSE=144.2068  R2=0.6368  rareRMSE=313.2323
+2026-06-09 12:03:26  INFO    [ctgan] XGB RMSE=124.9106  R2=0.7275  rareRMSE=267.239
+2026-06-09 12:03:30  INFO    [tvae] Generated 29 synthetic rows in 1.3s
+2026-06-09 12:03:30  INFO    [tvae] RF  RMSE=147.1136  R2=0.6220  rareRMSE=318.6786
+2026-06-09 12:03:30  INFO    [tvae] XGB RMSE=138.4487  R2=0.6653  rareRMSE=299.046
+2026-06-09 12:03:50  INFO    [tabddpm] Generated 29 synthetic rows in 17.2s
+2026-06-09 12:03:51  INFO    [tabddpm] RF  RMSE=138.4024  R2=0.6655  rareRMSE=299.5347
+2026-06-09 12:03:51  INFO    [tabddpm] XGB RMSE=119.3114  R2=0.7514  rareRMSE=253.5229
+2026-06-09 12:05:27  INFO    [great] Generated 29 synthetic rows in 94.2s
+2026-06-09 12:05:28  INFO    [great] RF  RMSE=143.1812  R2=0.6420  rareRMSE=304.3935
+2026-06-09 12:05:28  INFO    [great] XGB RMSE=135.1739  R2=0.6809  rareRMSE=281.5424
+2026-06-09 12:09:48  INFO    [dice] Generated 21 synthetic rows in 257.4s
+2026-06-09 12:09:48  INFO    [dice] RF  RMSE=143.6406  R2=0.6397  rareRMSE=309.4026
+2026-06-09 12:09:48  INFO    [dice] XGB RMSE=127.8781  R2=0.7144  rareRMSE=276.0652
+2026-06-09 12:09:51  INFO    [seed 123] rarity=boxplot_iqr  thresholds=[-88.125, 218.875]  rare_test=7/63
+2026-06-09 12:09:51  INFO    [baseline] RF  RMSE=44.8014  R2=0.9077  rareRMSE=110.69
+2026-06-09 12:09:51  INFO    [baseline] XGB RMSE=37.5828  R2=0.9350  rareRMSE=76.4448
+2026-06-09 12:09:52  INFO    [smogn] Generated 23 synthetic rows in 0.3s
+2026-06-09 12:09:53  INFO    [smogn] RF  RMSE=46.4514  R2=0.9008  rareRMSE=113.7727
+2026-06-09 12:09:53  INFO    [smogn] XGB RMSE=37.3890  R2=0.9357  rareRMSE=69.4177
+2026-06-09 12:09:57  INFO    [ctgan] Generated 29 synthetic rows in 1.9s
+2026-06-09 12:09:58  INFO    [ctgan] RF  RMSE=48.3226  R2=0.8926  rareRMSE=116.5088
+2026-06-09 12:09:58  INFO    [ctgan] XGB RMSE=46.2432  R2=0.9017  rareRMSE=100.1836
+2026-06-09 12:10:02  INFO    [tvae] Generated 29 synthetic rows in 1.9s
+2026-06-09 12:10:02  INFO    [tvae] RF  RMSE=43.9655  R2=0.9111  rareRMSE=107.7945
+2026-06-09 12:10:02  INFO    [tvae] XGB RMSE=37.2378  R2=0.9362  rareRMSE=75.718
+2026-06-09 12:10:22  INFO    [tabddpm] Generated 29 synthetic rows in 17.3s
+2026-06-09 12:10:23  INFO    [tabddpm] RF  RMSE=39.7215  R2=0.9274  rareRMSE=94.8592
+2026-06-09 12:10:23  INFO    [tabddpm] XGB RMSE=37.6554  R2=0.9348  rareRMSE=61.1422
+2026-06-09 12:11:51  INFO    [great] Generated 29 synthetic rows in 86.3s
+2026-06-09 12:11:52  INFO    [great] RF  RMSE=47.6417  R2=0.8956  rareRMSE=111.4323
+2026-06-09 12:11:52  INFO    [great] XGB RMSE=62.9869  R2=0.8175  rareRMSE=152.8874
+2026-06-09 12:12:25  INFO    [dice] Generated 30 synthetic rows in 31.2s
+2026-06-09 12:12:26  INFO    [dice] RF  RMSE=42.3547  R2=0.9175  rareRMSE=102.5332
+2026-06-09 12:12:26  INFO    [dice] XGB RMSE=45.7108  R2=0.9039  rareRMSE=99.2724
+2026-06-09 12:12:28  INFO    [seed 456] rarity=boxplot_iqr  thresholds=[-47.625, 143.375]  rare_test=19/63
+2026-06-09 12:12:29  INFO    [baseline] RF  RMSE=77.9592  R2=0.8598  rareRMSE=135.9842
+2026-06-09 12:12:29  INFO    [baseline] XGB RMSE=72.6562  R2=0.8782  rareRMSE=119.7322
+2026-06-09 12:12:30  INFO    [smogn] Generated 17 synthetic rows in 1.1s
+2026-06-09 12:12:31  INFO    [smogn] RF  RMSE=74.4630  R2=0.8721  rareRMSE=130.9999
+2026-06-09 12:12:31  INFO    [smogn] XGB RMSE=75.0089  R2=0.8702  rareRMSE=121.8484
+2026-06-09 12:12:35  INFO    [ctgan] Generated 29 synthetic rows in 1.9s
+2026-06-09 12:12:36  INFO    [ctgan] RF  RMSE=80.8368  R2=0.8493  rareRMSE=138.8327
+2026-06-09 12:12:36  INFO    [ctgan] XGB RMSE=103.6446  R2=0.7522  rareRMSE=176.4814
+2026-06-09 12:12:40  INFO    [tvae] Generated 29 synthetic rows in 1.3s
+2026-06-09 12:12:40  INFO    [tvae] RF  RMSE=75.2476  R2=0.8694  rareRMSE=130.6879
+2026-06-09 12:12:40  INFO    [tvae] XGB RMSE=73.9690  R2=0.8738  rareRMSE=119.3385
+2026-06-09 12:12:56  INFO    [tabddpm] Generated 29 synthetic rows in 13.1s
+2026-06-09 12:12:57  INFO    [tabddpm] RF  RMSE=77.6517  R2=0.8609  rareRMSE=134.6573
+2026-06-09 12:12:57  INFO    [tabddpm] XGB RMSE=74.9228  R2=0.8705  rareRMSE=121.3464
+2026-06-09 12:14:25  INFO    [great] Generated 29 synthetic rows in 86.3s
+2026-06-09 12:14:26  INFO    [great] RF  RMSE=87.9546  R2=0.8215  rareRMSE=142.7659
+2026-06-09 12:14:26  INFO    [great] XGB RMSE=206.4258  R2=0.0170  rareRMSE=108.9679
+2026-06-09 12:17:59  INFO    [dice] Generated 21 synthetic rows in 210.3s
+2026-06-09 12:17:59  INFO    [dice] RF  RMSE=75.3796  R2=0.8689  rareRMSE=131.3013
+2026-06-09 12:17:59  INFO    [dice] XGB RMSE=74.8700  R2=0.8707  rareRMSE=121.8671
+2026-06-09 12:18:01  INFO    [seed 789] rarity=boxplot_iqr  thresholds=[-107.25, 248.75]  rare_test=5/63
+2026-06-09 12:18:02  INFO    [baseline] RF  RMSE=33.7626  R2=0.8960  rareRMSE=45.2508
+2026-06-09 12:18:02  INFO    [baseline] XGB RMSE=36.4479  R2=0.8788  rareRMSE=70.7315
+2026-06-09 12:18:03  INFO    [smogn] Generated 22 synthetic rows in 0.6s
+2026-06-09 12:18:04  INFO    [smogn] RF  RMSE=34.8213  R2=0.8893  rareRMSE=58.7973
+2026-06-09 12:18:04  INFO    [smogn] XGB RMSE=38.0019  R2=0.8682  rareRMSE=69.0959
+2026-06-09 12:18:08  INFO    [ctgan] Generated 29 synthetic rows in 1.8s
+2026-06-09 12:18:09  INFO    [ctgan] RF  RMSE=30.6916  R2=0.9140  rareRMSE=50.8878
+2026-06-09 12:18:09  INFO    [ctgan] XGB RMSE=35.9714  R2=0.8819  rareRMSE=73.0387
+2026-06-09 12:18:13  INFO    [tvae] Generated 29 synthetic rows in 1.3s
+2026-06-09 12:18:13  INFO    [tvae] RF  RMSE=35.6030  R2=0.8843  rareRMSE=44.7927
+2026-06-09 12:18:13  INFO    [tvae] XGB RMSE=38.4847  R2=0.8648  rareRMSE=66.5939
+2026-06-09 12:18:33  INFO    [tabddpm] Generated 29 synthetic rows in 17.1s
+2026-06-09 12:18:33  INFO    [tabddpm] RF  RMSE=33.0718  R2=0.9002  rareRMSE=41.4646
+2026-06-09 12:18:33  INFO    [tabddpm] XGB RMSE=38.1624  R2=0.8671  rareRMSE=65.78
+2026-06-09 12:20:02  INFO    [great] Generated 29 synthetic rows in 86.3s
+2026-06-09 12:20:03  INFO    [great] RF  RMSE=38.1362  R2=0.8673  rareRMSE=81.8206
+2026-06-09 12:20:03  INFO    [great] XGB RMSE=39.6087  R2=0.8568  rareRMSE=83.6403
+2026-06-09 12:22:24  INFO    [dice] Generated 24 synthetic rows in 138.5s
+2026-06-09 12:22:24  INFO    [dice] RF  RMSE=36.5502  R2=0.8781  rareRMSE=53.4252
+2026-06-09 12:22:24  INFO    [dice] XGB RMSE=38.3878  R2=0.8655  rareRMSE=64.5706
+2026-06-09 12:22:26  INFO    [seed 999] rarity=boxplot_iqr  thresholds=[-112.75, 257.25]  rare_test=7/63
+2026-06-09 12:22:27  INFO    [baseline] RF  RMSE=61.4982  R2=0.8633  rareRMSE=166.5145
+2026-06-09 12:22:27  INFO    [baseline] XGB RMSE=55.9138  R2=0.8870  rareRMSE=127.576
+2026-06-09 12:22:28  INFO    [smogn] Generated 23 synthetic rows in 0.3s
+2026-06-09 12:22:28  INFO    [smogn] RF  RMSE=58.9893  R2=0.8742  rareRMSE=159.2066
+2026-06-09 12:22:28  INFO    [smogn] XGB RMSE=53.1576  R2=0.8979  rareRMSE=122.7408
+2026-06-09 12:22:33  INFO    [ctgan] Generated 29 synthetic rows in 1.8s
+2026-06-09 12:22:34  INFO    [ctgan] RF  RMSE=59.0389  R2=0.8740  rareRMSE=157.1394
+2026-06-09 12:22:34  INFO    [ctgan] XGB RMSE=51.8454  R2=0.9028  rareRMSE=125.3245
+2026-06-09 12:22:37  INFO    [tvae] Generated 29 synthetic rows in 1.3s
+2026-06-09 12:22:38  INFO    [tvae] RF  RMSE=59.7086  R2=0.8711  rareRMSE=161.2639
+2026-06-09 12:22:38  INFO    [tvae] XGB RMSE=55.7546  R2=0.8876  rareRMSE=126.5593
+2026-06-09 12:22:54  INFO    [tabddpm] Generated 29 synthetic rows in 13.0s
+2026-06-09 12:22:54  INFO    [tabddpm] RF  RMSE=64.4751  R2=0.8497  rareRMSE=174.5328
+2026-06-09 12:22:54  INFO    [tabddpm] XGB RMSE=54.8297  R2=0.8913  rareRMSE=123.2968
+2026-06-09 12:24:23  INFO    [great] Generated 29 synthetic rows in 86.4s
+2026-06-09 12:24:23  INFO    [great] RF  RMSE=61.7050  R2=0.8624  rareRMSE=168.9691
+2026-06-09 12:24:23  INFO    [great] XGB RMSE=55.2129  R2=0.8898  rareRMSE=126.5207
+2026-06-09 12:24:54  INFO    [dice] Generated 30 synthetic rows in 28.0s
+2026-06-09 12:24:54  INFO    [dice] RF  RMSE=63.2377  R2=0.8554  rareRMSE=166.2684
+2026-06-09 12:24:54  INFO    [dice] XGB RMSE=53.6495  R2=0.8960  rareRMSE=120.7072
+2026-06-09 12:24:59  INFO    Dataset 230_machine_cpu complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/230_machine_cpu
+2026-06-09 12:24:59  INFO    [seed 42] rarity=decile_tail  thresholds=[7.95, 31.45]  rare_test=8/76
+2026-06-09 12:24:59  INFO    [baseline] RF  RMSE=1.1703  R2=0.9735  rareRMSE=0.7332
+2026-06-09 12:24:59  INFO    [baseline] XGB RMSE=1.0067  R2=0.9804  rareRMSE=0.5714
+2026-06-09 12:25:01  INFO    [smogn] Generated 22 synthetic rows in 0.7s
+2026-06-09 12:25:01  INFO    [smogn] RF  RMSE=1.0650  R2=0.9781  rareRMSE=0.7394
+2026-06-09 12:25:01  INFO    [smogn] XGB RMSE=0.8981  R2=0.9844  rareRMSE=1.3981
+2026-06-09 12:25:10  INFO    [ctgan] Generated 35 synthetic rows in 3.9s
+2026-06-09 12:25:10  INFO    [ctgan] RF  RMSE=1.1081  R2=0.9763  rareRMSE=1.2787
+2026-06-09 12:25:10  INFO    [ctgan] XGB RMSE=1.1404  R2=0.9749  rareRMSE=1.6081
+2026-06-09 12:25:18  INFO    [tvae] Generated 35 synthetic rows in 3.2s
+2026-06-09 12:25:18  INFO    [tvae] RF  RMSE=1.4464  R2=0.9596  rareRMSE=0.9293
+2026-06-09 12:25:18  INFO    [tvae] XGB RMSE=1.9296  R2=0.9281  rareRMSE=1.214
+2026-06-09 12:26:22  INFO    [tabddpm] Generated 35 synthetic rows in 59.0s
+2026-06-09 12:26:23  INFO    [tabddpm] RF  RMSE=1.0382  R2=0.9792  rareRMSE=0.6487
+2026-06-09 12:26:23  INFO    [tabddpm] XGB RMSE=0.9159  R2=0.9838  rareRMSE=0.9285
+2026-06-09 12:28:40  INFO    [great] Generated 35 synthetic rows in 132.2s
+2026-06-09 12:28:40  INFO    [great] RF  RMSE=1.6282  R2=0.9488  rareRMSE=2.6656
+2026-06-09 12:28:40  INFO    [great] XGB RMSE=2.8510  R2=0.8430  rareRMSE=5.6974
+2026-06-09 12:28:49  INFO    [dice] Generated 35 synthetic rows in 4.0s
+2026-06-09 12:28:49  INFO    [dice] RF  RMSE=1.0271  R2=0.9796  rareRMSE=0.6751
+2026-06-09 12:28:49  INFO    [dice] XGB RMSE=0.7633  R2=0.9887  rareRMSE=0.7445
+2026-06-09 12:28:54  INFO    [seed 123] rarity=decile_tail  thresholds=[8.9, 30.1]  rare_test=21/76
+2026-06-09 12:28:54  INFO    [baseline] RF  RMSE=0.5970  R2=0.9951  rareRMSE=1.044
+2026-06-09 12:28:54  INFO    [baseline] XGB RMSE=0.9625  R2=0.9872  rareRMSE=1.7329
+2026-06-09 12:28:56  INFO    [smogn] Generated 17 synthetic rows in 0.8s
+2026-06-09 12:28:56  INFO    [smogn] RF  RMSE=0.5623  R2=0.9956  rareRMSE=0.9953
+2026-06-09 12:28:56  INFO    [smogn] XGB RMSE=0.9558  R2=0.9873  rareRMSE=1.6416
+2026-06-09 12:29:05  INFO    [ctgan] Generated 35 synthetic rows in 4.0s
+2026-06-09 12:29:06  INFO    [ctgan] RF  RMSE=1.2667  R2=0.9778  rareRMSE=2.1854
+2026-06-09 12:29:06  INFO    [ctgan] XGB RMSE=2.1198  R2=0.9377  rareRMSE=3.0489
+2026-06-09 12:29:14  INFO    [tvae] Generated 35 synthetic rows in 3.3s
+2026-06-09 12:29:14  INFO    [tvae] RF  RMSE=1.2718  R2=0.9776  rareRMSE=1.5118
+2026-06-09 12:29:14  INFO    [tvae] XGB RMSE=1.5246  R2=0.9678  rareRMSE=1.8305
+2026-06-09 12:30:19  INFO    [tabddpm] Generated 35 synthetic rows in 59.8s
+2026-06-09 12:30:19  INFO    [tabddpm] RF  RMSE=0.6007  R2=0.9950  rareRMSE=0.9955
+2026-06-09 12:30:19  INFO    [tabddpm] XGB RMSE=0.8950  R2=0.9889  rareRMSE=1.5378
+2026-06-09 12:32:06  INFO    [great] Generated 35 synthetic rows in 102.4s
+2026-06-09 12:32:07  INFO    [great] RF  RMSE=1.7952  R2=0.9553  rareRMSE=2.2111
+2026-06-09 12:32:07  INFO    [great] XGB RMSE=2.2926  R2=0.9271  rareRMSE=2.9648
+2026-06-09 12:32:20  INFO    [dice] Generated 36 synthetic rows in 8.9s
+2026-06-09 12:32:21  INFO    [dice] RF  RMSE=0.5602  R2=0.9956  rareRMSE=1.0043
+2026-06-09 12:32:21  INFO    [dice] XGB RMSE=1.0673  R2=0.9842  rareRMSE=1.935
+2026-06-09 12:32:26  INFO    [seed 456] rarity=decile_tail  thresholds=[8.2, 31.5]  rare_test=8/76
+2026-06-09 12:32:26  INFO    [baseline] RF  RMSE=1.6364  R2=0.9525  rareRMSE=0.3123
+2026-06-09 12:32:26  INFO    [baseline] XGB RMSE=1.9695  R2=0.9312  rareRMSE=0.3443
+2026-06-09 12:32:28  INFO    [smogn] Generated 27 synthetic rows in 0.6s
+2026-06-09 12:32:28  INFO    [smogn] RF  RMSE=1.7150  R2=0.9478  rareRMSE=0.5351
+2026-06-09 12:32:28  INFO    [smogn] XGB RMSE=1.9023  R2=0.9358  rareRMSE=0.4843
+2026-06-09 12:32:37  INFO    [ctgan] Generated 35 synthetic rows in 4.0s
+2026-06-09 12:32:37  INFO    [ctgan] RF  RMSE=1.0325  R2=0.9811  rareRMSE=0.999
+2026-06-09 12:32:37  INFO    [ctgan] XGB RMSE=1.8366  R2=0.9402  rareRMSE=2.0047
+2026-06-09 12:32:45  INFO    [tvae] Generated 35 synthetic rows in 3.3s
+2026-06-09 12:32:46  INFO    [tvae] RF  RMSE=2.0555  R2=0.9251  rareRMSE=0.3257
+2026-06-09 12:32:46  INFO    [tvae] XGB RMSE=2.5614  R2=0.8837  rareRMSE=0.5237
+2026-06-09 12:33:50  INFO    [tabddpm] Generated 35 synthetic rows in 59.7s
+2026-06-09 12:33:50  INFO    [tabddpm] RF  RMSE=1.6138  R2=0.9538  rareRMSE=0.2876
+2026-06-09 12:33:50  INFO    [tabddpm] XGB RMSE=1.9844  R2=0.9302  rareRMSE=0.5389
+2026-06-09 12:36:08  INFO    [great] Generated 35 synthetic rows in 132.4s
+2026-06-09 12:36:08  INFO    [great] RF  RMSE=1.7191  R2=0.9476  rareRMSE=2.5146
+2026-06-09 12:36:08  INFO    [great] XGB RMSE=2.3356  R2=0.9033  rareRMSE=2.2546
+2026-06-09 12:36:14  INFO    [dice] Generated 36 synthetic rows in 1.7s
+2026-06-09 12:36:15  INFO    [dice] RF  RMSE=1.6078  R2=0.9542  rareRMSE=0.2422
+2026-06-09 12:36:15  INFO    [dice] XGB RMSE=1.9769  R2=0.9307  rareRMSE=0.4975
+2026-06-09 12:36:19  INFO    [seed 789] rarity=decile_tail  thresholds=[7.75, 30.3]  rare_test=10/76
+2026-06-09 12:36:20  INFO    [baseline] RF  RMSE=0.8835  R2=0.9865  rareRMSE=1.2316
+2026-06-09 12:36:20  INFO    [baseline] XGB RMSE=0.9369  R2=0.9848  rareRMSE=1.8386
+2026-06-09 12:36:22  INFO    [smogn] Generated 19 synthetic rows in 0.8s
+2026-06-09 12:36:22  INFO    [smogn] RF  RMSE=0.8586  R2=0.9872  rareRMSE=1.0247
+2026-06-09 12:36:22  INFO    [smogn] XGB RMSE=1.1523  R2=0.9770  rareRMSE=2.2882
+2026-06-09 12:36:31  INFO    [ctgan] Generated 35 synthetic rows in 4.0s
+2026-06-09 12:36:31  INFO    [ctgan] RF  RMSE=1.2119  R2=0.9746  rareRMSE=1.8579
+2026-06-09 12:36:31  INFO    [ctgan] XGB RMSE=1.8380  R2=0.9415  rareRMSE=1.745
+2026-06-09 12:36:39  INFO    [tvae] Generated 35 synthetic rows in 3.2s
+2026-06-09 12:36:40  INFO    [tvae] RF  RMSE=1.0289  R2=0.9817  rareRMSE=1.1958
+2026-06-09 12:36:40  INFO    [tvae] XGB RMSE=1.2605  R2=0.9725  rareRMSE=2.2973
+2026-06-09 12:37:44  INFO    [tabddpm] Generated 35 synthetic rows in 60.4s
+2026-06-09 12:37:45  INFO    [tabddpm] RF  RMSE=0.9424  R2=0.9846  rareRMSE=0.9156
+2026-06-09 12:37:45  INFO    [tabddpm] XGB RMSE=1.0296  R2=0.9816  rareRMSE=2.1357
+2026-06-09 12:40:02  INFO    [great] Generated 35 synthetic rows in 132.3s
+2026-06-09 12:40:02  INFO    [great] RF  RMSE=1.4199  R2=0.9651  rareRMSE=1.3364
+2026-06-09 12:40:02  INFO    [great] XGB RMSE=1.4281  R2=0.9647  rareRMSE=2.3075
+2026-06-09 12:41:08  INFO    [dice] Generated 33 synthetic rows in 61.3s
+2026-06-09 12:41:08  INFO    [dice] RF  RMSE=0.8199  R2=0.9884  rareRMSE=1.0122
+2026-06-09 12:41:08  INFO    [dice] XGB RMSE=1.1042  R2=0.9789  rareRMSE=2.278
+2026-06-09 12:41:13  INFO    [seed 999] rarity=decile_tail  thresholds=[8.4, 30.55]  rare_test=13/76
+2026-06-09 12:41:14  INFO    [baseline] RF  RMSE=2.0105  R2=0.9306  rareRMSE=2.7773
+2026-06-09 12:41:14  INFO    [baseline] XGB RMSE=2.2469  R2=0.9133  rareRMSE=2.491
+2026-06-09 12:41:16  INFO    [smogn] Generated 16 synthetic rows in 0.8s
+2026-06-09 12:41:16  INFO    [smogn] RF  RMSE=1.9908  R2=0.9320  rareRMSE=2.7468
+2026-06-09 12:41:16  INFO    [smogn] XGB RMSE=2.2617  R2=0.9122  rareRMSE=2.5157
+2026-06-09 12:41:25  INFO    [ctgan] Generated 35 synthetic rows in 3.8s
+2026-06-09 12:41:25  INFO    [ctgan] RF  RMSE=1.4818  R2=0.9623  rareRMSE=2.8224
+2026-06-09 12:41:25  INFO    [ctgan] XGB RMSE=1.8309  R2=0.9425  rareRMSE=2.7906
+2026-06-09 12:41:33  INFO    [tvae] Generated 35 synthetic rows in 3.1s
+2026-06-09 12:41:33  INFO    [tvae] RF  RMSE=2.1388  R2=0.9215  rareRMSE=2.7733
+2026-06-09 12:41:33  INFO    [tvae] XGB RMSE=2.4515  R2=0.8968  rareRMSE=2.4382
+2026-06-09 12:42:38  INFO    [tabddpm] Generated 35 synthetic rows in 60.1s
+2026-06-09 12:42:38  INFO    [tabddpm] RF  RMSE=1.9769  R2=0.9329  rareRMSE=2.6861
+2026-06-09 12:42:38  INFO    [tabddpm] XGB RMSE=2.2835  R2=0.9105  rareRMSE=2.5938
+2026-06-09 12:44:56  INFO    [great] Generated 35 synthetic rows in 132.6s
+2026-06-09 12:44:56  INFO    [great] RF  RMSE=1.9735  R2=0.9331  rareRMSE=2.9985
+2026-06-09 12:44:56  INFO    [great] XGB RMSE=2.3117  R2=0.9083  rareRMSE=3.0074
+2026-06-09 12:45:03  INFO    [dice] Generated 36 synthetic rows in 2.0s
+2026-06-09 12:45:03  INFO    [dice] RF  RMSE=1.9795  R2=0.9327  rareRMSE=2.7808
+2026-06-09 12:45:03  INFO    [dice] XGB RMSE=2.2671  R2=0.9118  rareRMSE=2.5364
+2026-06-09 12:45:10  INFO    Dataset 560_bodyfat complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/560_bodyfat
+2026-06-09 12:45:10  INFO    [seed 42] rarity=decile_tail  thresholds=[2.7245, 4.5032]  rare_test=27/150
+2026-06-09 12:45:10  INFO    [baseline] RF  RMSE=0.4868  R2=0.5665  rareRMSE=0.762
+2026-06-09 12:45:10  INFO    [baseline] XGB RMSE=0.5056  R2=0.5325  rareRMSE=0.7086
+2026-06-09 12:45:13  INFO    [smogn] Generated 37 synthetic rows in 1.8s
+2026-06-09 12:45:13  INFO    [smogn] RF  RMSE=0.4914  R2=0.5583  rareRMSE=0.7142
+2026-06-09 12:45:13  INFO    [smogn] XGB RMSE=0.5025  R2=0.5382  rareRMSE=0.6564
+2026-06-09 12:45:20  INFO    [ctgan] Generated 70 synthetic rows in 2.7s
+2026-06-09 12:45:21  INFO    [ctgan] RF  RMSE=0.4853  R2=0.5692  rareRMSE=0.7922
+2026-06-09 12:45:21  INFO    [ctgan] XGB RMSE=0.5137  R2=0.5174  rareRMSE=0.7486
+2026-06-09 12:45:26  INFO    [tvae] Generated 70 synthetic rows in 2.2s
+2026-06-09 12:45:27  INFO    [tvae] RF  RMSE=0.4883  R2=0.5639  rareRMSE=0.7598
+2026-06-09 12:45:27  INFO    [tvae] XGB RMSE=0.5079  R2=0.5283  rareRMSE=0.7218
+2026-06-09 12:45:53  INFO    [tabddpm] Generated 70 synthetic rows in 22.5s
+2026-06-09 12:45:54  INFO    [tabddpm] RF  RMSE=0.4865  R2=0.5672  rareRMSE=0.7688
+2026-06-09 12:45:54  INFO    [tabddpm] XGB RMSE=0.4972  R2=0.5479  rareRMSE=0.6933
+2026-06-09 12:48:01  INFO    [great] Generated 70 synthetic rows in 123.8s
+2026-06-09 12:48:02  INFO    [great] RF  RMSE=0.4910  R2=0.5590  rareRMSE=0.7737
+2026-06-09 12:48:02  INFO    [great] XGB RMSE=0.5171  R2=0.5108  rareRMSE=0.7335
+2026-06-09 12:48:06  INFO    [dice] Generated 72 synthetic rows in 1.1s
+2026-06-09 12:48:07  INFO    [dice] RF  RMSE=0.4841  R2=0.5713  rareRMSE=0.7541
+2026-06-09 12:48:07  INFO    [dice] XGB RMSE=0.5080  R2=0.5280  rareRMSE=0.7361
+2026-06-09 12:48:10  INFO    [seed 123] rarity=decile_tail  thresholds=[2.6532, 4.3886]  rare_test=40/150
+2026-06-09 12:48:11  INFO    [baseline] RF  RMSE=0.4847  R2=0.5664  rareRMSE=0.6083
+2026-06-09 12:48:11  INFO    [baseline] XGB RMSE=0.5184  R2=0.5040  rareRMSE=0.6409
+2026-06-09 12:48:14  INFO    [smogn] Generated 29 synthetic rows in 1.9s
+2026-06-09 12:48:15  INFO    [smogn] RF  RMSE=0.4850  R2=0.5658  rareRMSE=0.6031
+2026-06-09 12:48:15  INFO    [smogn] XGB RMSE=0.4922  R2=0.5529  rareRMSE=0.6
+2026-06-09 12:48:21  INFO    [ctgan] Generated 70 synthetic rows in 2.4s
+2026-06-09 12:48:21  INFO    [ctgan] RF  RMSE=0.5111  R2=0.5178  rareRMSE=0.6921
+2026-06-09 12:48:21  INFO    [ctgan] XGB RMSE=0.5155  R2=0.5094  rareRMSE=0.6537
+2026-06-09 12:48:27  INFO    [tvae] Generated 70 synthetic rows in 2.0s
+2026-06-09 12:48:27  INFO    [tvae] RF  RMSE=0.4886  R2=0.5593  rareRMSE=0.6165
+2026-06-09 12:48:27  INFO    [tvae] XGB RMSE=0.5295  R2=0.4825  rareRMSE=0.6562
+2026-06-09 12:48:54  INFO    [tabddpm] Generated 70 synthetic rows in 22.6s
+2026-06-09 12:48:54  INFO    [tabddpm] RF  RMSE=0.4819  R2=0.5714  rareRMSE=0.6146
+2026-06-09 12:48:54  INFO    [tabddpm] XGB RMSE=0.5155  R2=0.5094  rareRMSE=0.6335
+2026-06-09 12:51:32  INFO    [great] Generated 70 synthetic rows in 153.9s
+2026-06-09 12:51:32  INFO    [great] RF  RMSE=0.5057  R2=0.5279  rareRMSE=0.6525
+2026-06-09 12:51:32  INFO    [great] XGB RMSE=0.5169  R2=0.5068  rareRMSE=0.6129
+2026-06-09 12:51:37  INFO    [dice] Generated 72 synthetic rows in 1.1s
+2026-06-09 12:51:37  INFO    [dice] RF  RMSE=0.4951  R2=0.5475  rareRMSE=0.6269
+2026-06-09 12:51:37  INFO    [dice] XGB RMSE=0.5029  R2=0.5332  rareRMSE=0.637
+2026-06-09 12:51:41  INFO    [seed 456] rarity=decile_tail  thresholds=[2.6525, 4.505]  rare_test=18/150
+2026-06-09 12:51:42  INFO    [baseline] RF  RMSE=0.4100  R2=0.5936  rareRMSE=0.5163
+2026-06-09 12:51:42  INFO    [baseline] XGB RMSE=0.4457  R2=0.5197  rareRMSE=0.4915
+2026-06-09 12:51:45  INFO    [smogn] Generated 32 synthetic rows in 1.8s
+2026-06-09 12:51:45  INFO    [smogn] RF  RMSE=0.4115  R2=0.5904  rareRMSE=0.5012
+2026-06-09 12:51:45  INFO    [smogn] XGB RMSE=0.4568  R2=0.4955  rareRMSE=0.5012
+2026-06-09 12:51:51  INFO    [ctgan] Generated 70 synthetic rows in 2.5s
+2026-06-09 12:51:52  INFO    [ctgan] RF  RMSE=0.3963  R2=0.6202  rareRMSE=0.5393
+2026-06-09 12:51:52  INFO    [ctgan] XGB RMSE=0.4285  R2=0.5560  rareRMSE=0.4385
+2026-06-09 12:51:58  INFO    [tvae] Generated 70 synthetic rows in 2.0s
+2026-06-09 12:51:58  INFO    [tvae] RF  RMSE=0.4078  R2=0.5979  rareRMSE=0.5402
+2026-06-09 12:51:58  INFO    [tvae] XGB RMSE=0.4496  R2=0.5113  rareRMSE=0.5991
+2026-06-09 12:52:24  INFO    [tabddpm] Generated 70 synthetic rows in 22.5s
+2026-06-09 12:52:24  INFO    [tabddpm] RF  RMSE=0.4191  R2=0.5753  rareRMSE=0.5557
+2026-06-09 12:52:24  INFO    [tabddpm] XGB RMSE=0.4519  R2=0.5061  rareRMSE=0.5149
+2026-06-09 12:54:32  INFO    [great] Generated 70 synthetic rows in 123.8s
+2026-06-09 12:54:33  INFO    [great] RF  RMSE=0.4207  R2=0.5721  rareRMSE=0.5608
+2026-06-09 12:54:33  INFO    [great] XGB RMSE=0.4309  R2=0.5510  rareRMSE=0.5247
+2026-06-09 12:54:37  INFO    [dice] Generated 72 synthetic rows in 1.1s
+2026-06-09 12:54:38  INFO    [dice] RF  RMSE=0.4167  R2=0.5802  rareRMSE=0.5122
+2026-06-09 12:54:38  INFO    [dice] XGB RMSE=0.4345  R2=0.5434  rareRMSE=0.4524
+2026-06-09 12:54:42  INFO    [seed 789] rarity=decile_tail  thresholds=[2.6658, 4.4308]  rare_test=32/150
+2026-06-09 12:54:42  INFO    [baseline] RF  RMSE=0.5152  R2=0.5673  rareRMSE=0.7851
+2026-06-09 12:54:42  INFO    [baseline] XGB RMSE=0.5306  R2=0.5411  rareRMSE=0.7605
+2026-06-09 12:54:45  INFO    [smogn] Generated 41 synthetic rows in 1.7s
+2026-06-09 12:54:46  INFO    [smogn] RF  RMSE=0.4935  R2=0.6029  rareRMSE=0.7575
+2026-06-09 12:54:46  INFO    [smogn] XGB RMSE=0.5110  R2=0.5743  rareRMSE=0.7413
+2026-06-09 12:54:51  INFO    [ctgan] Generated 70 synthetic rows in 2.4s
+2026-06-09 12:54:52  INFO    [ctgan] RF  RMSE=0.5071  R2=0.5807  rareRMSE=0.7686
+2026-06-09 12:54:52  INFO    [ctgan] XGB RMSE=0.5263  R2=0.5485  rareRMSE=0.7191
+2026-06-09 12:54:58  INFO    [tvae] Generated 70 synthetic rows in 2.0s
+2026-06-09 12:54:58  INFO    [tvae] RF  RMSE=0.5177  R2=0.5630  rareRMSE=0.7906
+2026-06-09 12:54:58  INFO    [tvae] XGB RMSE=0.5556  R2=0.4967  rareRMSE=0.7634
+2026-06-09 12:55:24  INFO    [tabddpm] Generated 70 synthetic rows in 22.5s
+2026-06-09 12:55:25  INFO    [tabddpm] RF  RMSE=0.5094  R2=0.5769  rareRMSE=0.7529
+2026-06-09 12:55:25  INFO    [tabddpm] XGB RMSE=0.5205  R2=0.5584  rareRMSE=0.7487
+2026-06-09 12:57:32  INFO    [great] Generated 70 synthetic rows in 123.6s
+2026-06-09 12:57:33  INFO    [great] RF  RMSE=0.5110  R2=0.5744  rareRMSE=0.7738
+2026-06-09 12:57:33  INFO    [great] XGB RMSE=0.5526  R2=0.5022  rareRMSE=0.8397
+2026-06-09 12:57:38  INFO    [dice] Generated 72 synthetic rows in 1.1s
+2026-06-09 12:57:38  INFO    [dice] RF  RMSE=0.5052  R2=0.5839  rareRMSE=0.7566
+2026-06-09 12:57:38  INFO    [dice] XGB RMSE=0.5252  R2=0.5503  rareRMSE=0.713
+2026-06-09 12:57:41  INFO    [seed 999] rarity=decile_tail  thresholds=[2.7245, 4.4637]  rare_test=33/150
+2026-06-09 12:57:42  INFO    [baseline] RF  RMSE=0.5104  R2=0.5837  rareRMSE=0.7846
+2026-06-09 12:57:42  INFO    [baseline] XGB RMSE=0.5216  R2=0.5652  rareRMSE=0.7493
+2026-06-09 12:57:45  INFO    [smogn] Generated 35 synthetic rows in 1.8s
+2026-06-09 12:57:46  INFO    [smogn] RF  RMSE=0.5160  R2=0.5745  rareRMSE=0.7967
+2026-06-09 12:57:46  INFO    [smogn] XGB RMSE=0.5323  R2=0.5473  rareRMSE=0.7596
+2026-06-09 12:57:52  INFO    [ctgan] Generated 70 synthetic rows in 2.5s
+2026-06-09 12:57:52  INFO    [ctgan] RF  RMSE=0.5332  R2=0.5458  rareRMSE=0.8415
+2026-06-09 12:57:52  INFO    [ctgan] XGB RMSE=0.5524  R2=0.5124  rareRMSE=0.8405
+2026-06-09 12:57:58  INFO    [tvae] Generated 70 synthetic rows in 2.1s
+2026-06-09 12:57:59  INFO    [tvae] RF  RMSE=0.5053  R2=0.5921  rareRMSE=0.772
+2026-06-09 12:57:59  INFO    [tvae] XGB RMSE=0.5221  R2=0.5645  rareRMSE=0.7733
+2026-06-09 12:58:25  INFO    [tabddpm] Generated 70 synthetic rows in 22.5s
+2026-06-09 12:58:25  INFO    [tabddpm] RF  RMSE=0.5238  R2=0.5616  rareRMSE=0.8
+2026-06-09 12:58:25  INFO    [tabddpm] XGB RMSE=0.5333  R2=0.5455  rareRMSE=0.7858
+2026-06-09 13:01:02  INFO    [great] Generated 70 synthetic rows in 153.5s
+2026-06-09 13:01:03  INFO    [great] RF  RMSE=0.5155  R2=0.5754  rareRMSE=0.808
+2026-06-09 13:01:03  INFO    [great] XGB RMSE=0.5627  R2=0.4941  rareRMSE=0.8753
+2026-06-09 13:01:08  INFO    [dice] Generated 72 synthetic rows in 1.1s
+2026-06-09 13:01:08  INFO    [dice] RF  RMSE=0.5169  R2=0.5731  rareRMSE=0.7779
+2026-06-09 13:01:08  INFO    [dice] XGB RMSE=0.5463  R2=0.5232  rareRMSE=0.8221
+2026-06-09 13:01:14  INFO    Dataset 547_no2 complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/547_no2
+2026-06-09 13:01:14  INFO    [seed 42] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 13:01:14  INFO    [baseline] RF  RMSE=0.6714  R2=0.3063  rareRMSE=1.2956
+2026-06-09 13:01:14  INFO    [baseline] XGB RMSE=0.6724  R2=0.3043  rareRMSE=1.2937
+2026-06-09 13:01:23  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 13:01:28  INFO    [ctgan] Generated 140 synthetic rows in 4.8s
+2026-06-09 13:01:28  INFO    [ctgan] RF  RMSE=0.6705  R2=0.3083  rareRMSE=1.3038
+2026-06-09 13:01:28  INFO    [ctgan] XGB RMSE=0.6732  R2=0.3027  rareRMSE=1.2938
+2026-06-09 13:01:40  INFO    [tvae] Generated 140 synthetic rows in 7.0s
+2026-06-09 13:01:41  INFO    [tvae] RF  RMSE=0.6709  R2=0.3074  rareRMSE=1.2917
+2026-06-09 13:01:41  INFO    [tvae] XGB RMSE=0.6717  R2=0.3058  rareRMSE=1.2923
+2026-06-09 13:02:44  INFO    [tabddpm] Generated 140 synthetic rows in 59.3s
+2026-06-09 13:02:44  INFO    [tabddpm] RF  RMSE=0.6728  R2=0.3035  rareRMSE=1.3068
+2026-06-09 13:02:44  INFO    [tabddpm] XGB RMSE=0.6724  R2=0.3044  rareRMSE=1.2928
+2026-06-09 13:06:32  INFO    [great] Generated 140 synthetic rows in 222.3s
+2026-06-09 13:06:32  INFO    [great] RF  RMSE=0.6691  R2=0.3112  rareRMSE=1.2979
+2026-06-09 13:06:32  INFO    [great] XGB RMSE=0.6701  R2=0.3091  rareRMSE=1.2935
+2026-06-09 13:06:42  INFO    [dice] Generated 141 synthetic rows in 5.8s
+2026-06-09 13:06:43  INFO    [dice] RF  RMSE=0.6707  R2=0.3080  rareRMSE=1.2944
+2026-06-09 13:06:43  INFO    [dice] XGB RMSE=0.6714  R2=0.3064  rareRMSE=1.2927
+2026-06-09 13:06:47  INFO    [seed 123] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=7/300
+2026-06-09 13:06:48  INFO    [baseline] RF  RMSE=0.6692  R2=0.2393  rareRMSE=0.9282
+2026-06-09 13:06:48  INFO    [baseline] XGB RMSE=0.6718  R2=0.2332  rareRMSE=0.9366
+2026-06-09 13:06:57  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 13:07:01  INFO    [ctgan] Generated 140 synthetic rows in 4.3s
+2026-06-09 13:07:01  INFO    [ctgan] RF  RMSE=0.6670  R2=0.2442  rareRMSE=0.9271
+2026-06-09 13:07:01  INFO    [ctgan] XGB RMSE=0.6719  R2=0.2330  rareRMSE=0.9362
+2026-06-09 13:07:07  INFO    [tvae] Generated 140 synthetic rows in 1.3s
+2026-06-09 13:07:08  INFO    [tvae] RF  RMSE=0.6684  R2=0.2410  rareRMSE=0.9257
+2026-06-09 13:07:08  INFO    [tvae] XGB RMSE=0.6716  R2=0.2338  rareRMSE=0.9368
+2026-06-09 13:08:10  INFO    [tabddpm] Generated 140 synthetic rows in 57.6s
+2026-06-09 13:08:10  INFO    [tabddpm] RF  RMSE=0.6682  R2=0.2415  rareRMSE=0.9299
+2026-06-09 13:08:10  INFO    [tabddpm] XGB RMSE=0.6730  R2=0.2304  rareRMSE=0.9365
+2026-06-09 13:11:28  INFO    [great] Generated 140 synthetic rows in 193.3s
+2026-06-09 13:11:28  INFO    [great] RF  RMSE=0.6683  R2=0.2413  rareRMSE=0.928
+2026-06-09 13:11:28  INFO    [great] XGB RMSE=0.6721  R2=0.2325  rareRMSE=0.9367
+2026-06-09 13:11:38  INFO    [dice] Generated 141 synthetic rows in 5.8s
+2026-06-09 13:11:39  INFO    [dice] RF  RMSE=0.6636  R2=0.2519  rareRMSE=0.9277
+2026-06-09 13:11:39  INFO    [dice] XGB RMSE=0.6664  R2=0.2455  rareRMSE=0.935
+2026-06-09 13:11:43  INFO    [seed 456] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 13:11:44  INFO    [baseline] RF  RMSE=0.6407  R2=0.3420  rareRMSE=1.1902
+2026-06-09 13:11:44  INFO    [baseline] XGB RMSE=0.6421  R2=0.3389  rareRMSE=1.2008
+2026-06-09 13:11:53  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 13:11:57  INFO    [ctgan] Generated 140 synthetic rows in 4.1s
+2026-06-09 13:11:57  INFO    [ctgan] RF  RMSE=0.6393  R2=0.3448  rareRMSE=1.1884
+2026-06-09 13:11:57  INFO    [ctgan] XGB RMSE=0.6403  R2=0.3427  rareRMSE=1.2018
+2026-06-09 13:12:03  INFO    [tvae] Generated 140 synthetic rows in 1.3s
+2026-06-09 13:12:04  INFO    [tvae] RF  RMSE=0.6419  R2=0.3395  rareRMSE=1.1902
+2026-06-09 13:12:04  INFO    [tvae] XGB RMSE=0.6424  R2=0.3384  rareRMSE=1.2013
+2026-06-09 13:13:05  INFO    [tabddpm] Generated 140 synthetic rows in 56.7s
+2026-06-09 13:13:05  INFO    [tabddpm] RF  RMSE=0.6393  R2=0.3447  rareRMSE=1.1906
+2026-06-09 13:13:05  INFO    [tabddpm] XGB RMSE=0.6421  R2=0.3390  rareRMSE=1.201
+2026-06-09 13:16:52  INFO    [great] Generated 140 synthetic rows in 222.6s
+2026-06-09 13:16:53  INFO    [great] RF  RMSE=0.6410  R2=0.3412  rareRMSE=1.1892
+2026-06-09 13:16:53  INFO    [great] XGB RMSE=0.6424  R2=0.3383  rareRMSE=1.2006
+2026-06-09 13:17:03  INFO    [dice] Generated 141 synthetic rows in 5.8s
+2026-06-09 13:17:03  INFO    [dice] RF  RMSE=0.6349  R2=0.3538  rareRMSE=1.1896
+2026-06-09 13:17:03  INFO    [dice] XGB RMSE=0.6356  R2=0.3524  rareRMSE=1.2008
+2026-06-09 13:17:08  INFO    [seed 789] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=10/300
+2026-06-09 13:17:08  INFO    [baseline] RF  RMSE=0.6974  R2=0.2539  rareRMSE=1.0756
+2026-06-09 13:17:08  INFO    [baseline] XGB RMSE=0.7002  R2=0.2478  rareRMSE=1.0969
+2026-06-09 13:17:25  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 13:17:29  INFO    [ctgan] Generated 140 synthetic rows in 4.0s
+2026-06-09 13:17:30  INFO    [ctgan] RF  RMSE=0.7000  R2=0.2482  rareRMSE=1.0711
+2026-06-09 13:17:30  INFO    [ctgan] XGB RMSE=0.7000  R2=0.2483  rareRMSE=1.0971
+2026-06-09 13:17:36  INFO    [tvae] Generated 140 synthetic rows in 1.3s
+2026-06-09 13:17:36  INFO    [tvae] RF  RMSE=0.6983  R2=0.2518  rareRMSE=1.0793
+2026-06-09 13:17:36  INFO    [tvae] XGB RMSE=0.7003  R2=0.2476  rareRMSE=1.0974
+2026-06-09 13:18:38  INFO    [tabddpm] Generated 140 synthetic rows in 56.5s
+2026-06-09 13:18:38  INFO    [tabddpm] RF  RMSE=0.6981  R2=0.2524  rareRMSE=1.0716
+2026-06-09 13:18:38  INFO    [tabddpm] XGB RMSE=0.7001  R2=0.2480  rareRMSE=1.0963
+2026-06-09 13:22:24  INFO    [great] Generated 140 synthetic rows in 222.1s
+2026-06-09 13:22:25  INFO    [great] RF  RMSE=0.6994  R2=0.2496  rareRMSE=1.0752
+2026-06-09 13:22:25  INFO    [great] XGB RMSE=0.7013  R2=0.2454  rareRMSE=1.0963
+2026-06-09 13:22:35  INFO    [dice] Generated 141 synthetic rows in 5.8s
+2026-06-09 13:22:35  INFO    [dice] RF  RMSE=0.6901  R2=0.2694  rareRMSE=1.0613
+2026-06-09 13:22:35  INFO    [dice] XGB RMSE=0.6913  R2=0.2668  rareRMSE=1.0744
+2026-06-09 13:22:40  INFO    [seed 999] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=9/300
+2026-06-09 13:22:40  INFO    [baseline] RF  RMSE=0.6238  R2=0.3835  rareRMSE=1.0158
+2026-06-09 13:22:40  INFO    [baseline] XGB RMSE=0.6281  R2=0.3750  rareRMSE=1.0043
+2026-06-09 13:22:55  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 13:22:59  INFO    [ctgan] Generated 140 synthetic rows in 4.1s
+2026-06-09 13:23:00  INFO    [ctgan] RF  RMSE=0.6240  R2=0.3830  rareRMSE=1.0165
+2026-06-09 13:23:00  INFO    [ctgan] XGB RMSE=0.6281  R2=0.3750  rareRMSE=1.0043
+2026-06-09 13:23:06  INFO    [tvae] Generated 140 synthetic rows in 1.3s
+2026-06-09 13:23:06  INFO    [tvae] RF  RMSE=0.6234  R2=0.3842  rareRMSE=1.0184
+2026-06-09 13:23:06  INFO    [tvae] XGB RMSE=0.6275  R2=0.3762  rareRMSE=1.0042
+2026-06-09 13:24:08  INFO    [tabddpm] Generated 140 synthetic rows in 57.1s
+2026-06-09 13:24:08  INFO    [tabddpm] RF  RMSE=0.6242  R2=0.3826  rareRMSE=1.0165
+2026-06-09 13:24:08  INFO    [tabddpm] XGB RMSE=0.6281  R2=0.3749  rareRMSE=1.0041
+2026-06-09 13:27:55  INFO    [great] Generated 140 synthetic rows in 222.3s
+2026-06-09 13:27:55  INFO    [great] RF  RMSE=0.6246  R2=0.3818  rareRMSE=1.0113
+2026-06-09 13:27:55  INFO    [great] XGB RMSE=0.6275  R2=0.3761  rareRMSE=1.0048
+2026-06-09 13:28:05  INFO    [dice] Generated 141 synthetic rows in 5.8s
+2026-06-09 13:28:06  INFO    [dice] RF  RMSE=0.6216  R2=0.3879  rareRMSE=1.018
+2026-06-09 13:28:06  INFO    [dice] XGB RMSE=0.6229  R2=0.3852  rareRMSE=1.0073
+2026-06-09 13:28:12  INFO    Dataset 1028_SWD complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/1028_SWD
+2026-06-09 13:28:12  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/regression/small
+2026-06-09 16:36:02  INFO  Starting regression/small experiment
+2026-06-09 16:36:02  INFO  Datasets : ['230_machine_cpu', '560_bodyfat', '547_no2', '1028_SWD']
+2026-06-09 16:36:02  INFO  Methods  : ['smogn', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-06-09 16:36:02  INFO  Split    : 70/30
+2026-06-09 16:36:02  INFO    230_machine_cpu: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:36:02  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:36:02  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:36:03  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:36:03  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:36:03  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:36:04  INFO    Dataset 230_machine_cpu complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/230_machine_cpu
+2026-06-09 16:36:04  INFO    560_bodyfat: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:36:05  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:36:05  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:36:05  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:36:05  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:36:05  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:36:07  INFO    Dataset 560_bodyfat complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/560_bodyfat
+2026-06-09 16:36:07  INFO    547_no2: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:36:07  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:36:07  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:36:07  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:36:07  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:36:07  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:36:09  INFO    Dataset 547_no2 complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/547_no2
+2026-06-09 16:36:09  INFO    1028_SWD: resuming — 30/35 cells already done.
+2026-06-09 16:36:09  INFO    [seed 42] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:36:09  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:36:17  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  INFO    [great] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  INFO    [dice] seed=42: checkpointed — skipping.
+2026-06-09 16:36:17  INFO    [seed 123] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=7/300
+2026-06-09 16:36:17  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:36:24  INFO    [ctgan] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  INFO    [tvae] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  INFO    [tabddpm] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  INFO    [great] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  INFO    [dice] seed=123: checkpointed — skipping.
+2026-06-09 16:36:24  INFO    [seed 456] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:36:24  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:36:31  INFO    [ctgan] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  INFO    [tvae] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  INFO    [tabddpm] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  INFO    [great] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  INFO    [dice] seed=456: checkpointed — skipping.
+2026-06-09 16:36:31  INFO    [seed 789] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=10/300
+2026-06-09 16:36:31  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:36:39  INFO    [ctgan] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  INFO    [tvae] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  INFO    [tabddpm] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  INFO    [great] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  INFO    [dice] seed=789: checkpointed — skipping.
+2026-06-09 16:36:39  INFO    [seed 999] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=9/300
+2026-06-09 16:36:39  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-06-09 16:36:45  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:36:45  INFO    [ctgan] seed=999: checkpointed — skipping.
+2026-06-09 16:36:46  INFO    [tvae] seed=999: checkpointed — skipping.
+2026-06-09 16:36:46  INFO    [tabddpm] seed=999: checkpointed — skipping.
+2026-06-09 16:36:46  INFO    [great] seed=999: checkpointed — skipping.
+2026-06-09 16:36:46  INFO    [dice] seed=999: checkpointed — skipping.
+2026-06-09 16:36:47  INFO    Dataset 1028_SWD complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/1028_SWD
+2026-06-09 16:36:47  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/regression/small
+2026-06-09 16:41:21  INFO  Starting regression/small experiment
+2026-06-09 16:41:21  INFO  Datasets : ['230_machine_cpu', '560_bodyfat', '547_no2', '1028_SWD']
+2026-06-09 16:41:21  INFO  Methods  : ['smogn', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-06-09 16:41:21  INFO  Split    : 70/30
+2026-06-09 16:41:21  INFO    230_machine_cpu: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:41:21  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:41:21  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:41:21  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:41:21  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:41:21  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:41:23  INFO    Dataset 230_machine_cpu complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/230_machine_cpu
+2026-06-09 16:41:23  INFO    560_bodyfat: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:41:23  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:41:23  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:41:23  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:41:23  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:41:23  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:41:25  INFO    Dataset 560_bodyfat complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/560_bodyfat
+2026-06-09 16:41:25  INFO    547_no2: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:41:25  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:41:25  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:41:25  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:41:25  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:41:25  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:41:27  INFO    Dataset 547_no2 complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/547_no2
+2026-06-09 16:41:27  INFO    1028_SWD: resuming — 30/35 cells already done.
+2026-06-09 16:41:27  INFO    [seed 42] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:41:27  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:41:35  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  INFO    [great] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  INFO    [dice] seed=42: checkpointed — skipping.
+2026-06-09 16:41:35  INFO    [seed 123] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=7/300
+2026-06-09 16:41:35  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:41:50  INFO    [ctgan] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  INFO    [tvae] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  INFO    [tabddpm] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  INFO    [great] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  INFO    [dice] seed=123: checkpointed — skipping.
+2026-06-09 16:41:50  INFO    [seed 456] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:41:50  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:42:04  INFO    [ctgan] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  INFO    [tvae] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  INFO    [tabddpm] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  INFO    [great] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  INFO    [dice] seed=456: checkpointed — skipping.
+2026-06-09 16:42:04  INFO    [seed 789] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=10/300
+2026-06-09 16:42:04  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:42:12  INFO    [ctgan] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  INFO    [tvae] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  INFO    [tabddpm] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  INFO    [great] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  INFO    [dice] seed=789: checkpointed — skipping.
+2026-06-09 16:42:12  INFO    [seed 999] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=9/300
+2026-06-09 16:42:12  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-06-09 16:42:18  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:42:18  INFO    [ctgan] seed=999: checkpointed — skipping.
+2026-06-09 16:42:18  INFO    [tvae] seed=999: checkpointed — skipping.
+2026-06-09 16:42:18  INFO    [tabddpm] seed=999: checkpointed — skipping.
+2026-06-09 16:42:18  INFO    [great] seed=999: checkpointed — skipping.
+2026-06-09 16:42:18  INFO    [dice] seed=999: checkpointed — skipping.
+2026-06-09 16:42:20  INFO    Dataset 1028_SWD complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/1028_SWD
+2026-06-09 16:42:20  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/regression/small
+2026-06-09 16:49:51  INFO  Starting regression/small experiment
+2026-06-09 16:49:51  INFO  Datasets : ['230_machine_cpu', '560_bodyfat', '547_no2', '1028_SWD']
+2026-06-09 16:49:51  INFO  Methods  : ['smogn', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-06-09 16:49:51  INFO  Split    : 70/30
+2026-06-09 16:49:52  INFO    230_machine_cpu: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:49:52  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:49:52  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:49:52  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:49:52  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:49:52  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:49:54  INFO    Dataset 230_machine_cpu complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/230_machine_cpu
+2026-06-09 16:49:54  INFO    560_bodyfat: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:49:54  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:49:54  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:49:54  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:49:54  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:49:54  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:49:56  INFO    Dataset 560_bodyfat complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/560_bodyfat
+2026-06-09 16:49:56  INFO    547_no2: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 16:49:56  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 16:49:56  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 16:49:56  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 16:49:56  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 16:49:56  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 16:49:58  INFO    Dataset 547_no2 complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/547_no2
+2026-06-09 16:49:58  INFO    1028_SWD: resuming — 30/35 cells already done.
+2026-06-09 16:49:58  INFO    [seed 42] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:49:58  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:50:05  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  INFO    [great] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  INFO    [dice] seed=42: checkpointed — skipping.
+2026-06-09 16:50:05  INFO    [seed 123] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=7/300
+2026-06-09 16:50:05  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:50:13  INFO    [ctgan] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  INFO    [tvae] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  INFO    [tabddpm] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  INFO    [great] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  INFO    [dice] seed=123: checkpointed — skipping.
+2026-06-09 16:50:13  INFO    [seed 456] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 16:50:13  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:50:20  INFO    [ctgan] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  INFO    [tvae] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  INFO    [tabddpm] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  INFO    [great] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  INFO    [dice] seed=456: checkpointed — skipping.
+2026-06-09 16:50:20  INFO    [seed 789] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=10/300
+2026-06-09 16:50:20  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-06-09 16:50:27  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:50:27  INFO    [ctgan] seed=789: checkpointed — skipping.
+2026-06-09 16:50:27  INFO    [tvae] seed=789: checkpointed — skipping.
+2026-06-09 16:50:27  INFO    [tabddpm] seed=789: checkpointed — skipping.
+2026-06-09 16:50:27  INFO    [great] seed=789: checkpointed — skipping.
+2026-06-09 16:50:27  INFO    [dice] seed=789: checkpointed — skipping.
+2026-06-09 16:50:28  INFO    [seed 999] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=9/300
+2026-06-09 16:50:28  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-06-09 16:50:34  WARNING    [smogn] Augmentation failed - skipping.
+2026-06-09 16:50:34  INFO    [ctgan] seed=999: checkpointed — skipping.
+2026-06-09 16:50:34  INFO    [tvae] seed=999: checkpointed — skipping.
+2026-06-09 16:50:34  INFO    [tabddpm] seed=999: checkpointed — skipping.
+2026-06-09 16:50:34  INFO    [great] seed=999: checkpointed — skipping.
+2026-06-09 16:50:34  INFO    [dice] seed=999: checkpointed — skipping.
+2026-06-09 16:50:36  INFO    Dataset 1028_SWD complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/1028_SWD
+2026-06-09 16:50:36  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/regression/small
+2026-06-09 21:52:21  INFO  Starting regression/small experiment
+2026-06-09 21:52:21  INFO  Datasets : ['230_machine_cpu', '560_bodyfat', '547_no2', '1028_SWD']
+2026-06-09 21:52:21  INFO  Methods  : ['smogn', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-06-09 21:52:21  INFO  Split    : 70/30
+2026-06-09 21:52:21  INFO    230_machine_cpu: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 21:52:21  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 21:52:22  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 21:52:22  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 21:52:22  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 21:52:22  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 21:52:24  INFO    Dataset 230_machine_cpu complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/230_machine_cpu
+2026-06-09 21:52:24  INFO    560_bodyfat: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 21:52:24  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 21:52:24  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 21:52:24  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 21:52:24  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 21:52:24  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 21:52:26  INFO    Dataset 560_bodyfat complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/560_bodyfat
+2026-06-09 21:52:26  INFO    547_no2: all 35 cells already complete — rebuilding summaries from checkpoint, no recompute.
+2026-06-09 21:52:26  INFO    Seed 42: fully checkpointed — loading saved.
+2026-06-09 21:52:26  INFO    Seed 123: fully checkpointed — loading saved.
+2026-06-09 21:52:26  INFO    Seed 456: fully checkpointed — loading saved.
+2026-06-09 21:52:27  INFO    Seed 789: fully checkpointed — loading saved.
+2026-06-09 21:52:27  INFO    Seed 999: fully checkpointed — loading saved.
+2026-06-09 21:52:28  INFO    Dataset 547_no2 complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/547_no2
+2026-06-09 21:52:28  INFO    1028_SWD: resuming — 30/35 cells already done.
+2026-06-09 21:52:28  INFO    [seed 42] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 21:52:34  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-06-09 21:52:42  INFO    [smogn] Generated 74 synthetic rows in 7.7s
+2026-06-09 21:52:42  INFO    [smogn] RF  RMSE=0.6856  R2=0.2767  rareRMSE=1.3537
+2026-06-09 21:52:42  INFO    [smogn] XGB RMSE=0.6847  R2=0.2788  rareRMSE=1.3466
+2026-06-09 21:52:47  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-06-09 21:52:47  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-06-09 21:52:47  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-06-09 21:52:47  INFO    [great] seed=42: checkpointed — skipping.
+2026-06-09 21:52:47  INFO    [dice] seed=42: checkpointed — skipping.
+2026-06-09 21:52:47  INFO    [seed 123] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=7/300
+2026-06-09 21:52:47  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-06-09 21:52:54  INFO    [smogn] Generated 79 synthetic rows in 7.5s
+2026-06-09 21:52:55  INFO    [smogn] RF  RMSE=0.6821  R2=0.2096  rareRMSE=1.0691
+2026-06-09 21:52:55  INFO    [smogn] XGB RMSE=0.6849  R2=0.2030  rareRMSE=1.0791
+2026-06-09 21:52:59  INFO    [ctgan] seed=123: checkpointed — skipping.
+2026-06-09 21:52:59  INFO    [tvae] seed=123: checkpointed — skipping.
+2026-06-09 21:52:59  INFO    [tabddpm] seed=123: checkpointed — skipping.
+2026-06-09 21:52:59  INFO    [great] seed=123: checkpointed — skipping.
+2026-06-09 21:52:59  INFO    [dice] seed=123: checkpointed — skipping.
+2026-06-09 21:52:59  INFO    [seed 456] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=8/300
+2026-06-09 21:52:59  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-09 21:53:06  INFO    [smogn] Generated 80 synthetic rows in 7.3s
+2026-06-09 21:53:07  INFO    [smogn] RF  RMSE=0.6450  R2=0.3331  rareRMSE=1.3067
+2026-06-09 21:53:07  INFO    [smogn] XGB RMSE=0.6462  R2=0.3306  rareRMSE=1.3156
+2026-06-09 21:53:11  INFO    [ctgan] seed=456: checkpointed — skipping.
+2026-06-09 21:53:11  INFO    [tvae] seed=456: checkpointed — skipping.
+2026-06-09 21:53:11  INFO    [tabddpm] seed=456: checkpointed — skipping.
+2026-06-09 21:53:11  INFO    [great] seed=456: checkpointed — skipping.
+2026-06-09 21:53:11  INFO    [dice] seed=456: checkpointed — skipping.
+2026-06-09 21:53:11  INFO    [seed 789] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=10/300
+2026-06-09 21:53:11  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-06-09 21:53:19  INFO    [smogn] Generated 75 synthetic rows in 7.8s
+2026-06-09 21:53:19  INFO    [smogn] RF  RMSE=0.6997  R2=0.2488  rareRMSE=1.1955
+2026-06-09 21:53:19  INFO    [smogn] XGB RMSE=0.6995  R2=0.2493  rareRMSE=1.1909
+2026-06-09 21:53:23  INFO    [ctgan] seed=789: checkpointed — skipping.
+2026-06-09 21:53:23  INFO    [tvae] seed=789: checkpointed — skipping.
+2026-06-09 21:53:23  INFO    [tabddpm] seed=789: checkpointed — skipping.
+2026-06-09 21:53:23  INFO    [great] seed=789: checkpointed — skipping.
+2026-06-09 21:53:24  INFO    [dice] seed=789: checkpointed — skipping.
+2026-06-09 21:53:24  INFO    [seed 999] rarity=decile_tail  thresholds=[3.0, 5.0]  rare_test=9/300
+2026-06-09 21:53:24  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-06-09 21:53:30  INFO    [smogn] Generated 94 synthetic rows in 6.6s
+2026-06-09 21:53:31  INFO    [smogn] RF  RMSE=0.6565  R2=0.3171  rareRMSE=1.2141
+2026-06-09 21:53:31  INFO    [smogn] XGB RMSE=0.6608  R2=0.3082  rareRMSE=1.2162
+2026-06-09 21:53:35  INFO    [ctgan] seed=999: checkpointed — skipping.
+2026-06-09 21:53:35  INFO    [tvae] seed=999: checkpointed — skipping.
+2026-06-09 21:53:35  INFO    [tabddpm] seed=999: checkpointed — skipping.
+2026-06-09 21:53:35  INFO    [great] seed=999: checkpointed — skipping.
+2026-06-09 21:53:35  INFO    [dice] seed=999: checkpointed — skipping.
+2026-06-09 21:53:37  INFO    Dataset 1028_SWD complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/regression/small/1028_SWD
+2026-06-09 21:53:37  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/regression/small

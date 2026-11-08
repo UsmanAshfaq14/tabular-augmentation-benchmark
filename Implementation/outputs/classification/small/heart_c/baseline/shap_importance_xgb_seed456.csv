@@ -1,0 +1,14 @@
+,mean_abs_shap_xgb
+cp,1.5037707
+ca,1.1942221
+thal,1.1317235
+slope,0.9701583
+sex,0.72892886
+age,0.6040417
+exang,0.5543033
+thalach,0.48009282
+chol,0.35454985
+trestbps,0.35273588
+oldpeak,0.3315804
+restecg,0.10452805
+fbs,0.010558856

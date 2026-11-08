@@ -1,0 +1,30 @@
+{
+  "size": "large",
+  "task": "classification",
+  "test_size": 0.2,
+  "datasets": [
+    "mushroom",
+    "nursery",
+    "adult",
+    "connect_4"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice"
+  ],
+  "gpu": "NVIDIA L40S",
+  "gan_epochs": 300,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "subsample_limit": 15000
+}

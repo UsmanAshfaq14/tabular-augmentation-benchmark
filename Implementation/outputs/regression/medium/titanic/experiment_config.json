@@ -1,0 +1,65 @@
+{
+  "size": "medium",
+  "task": "regression",
+  "test_size": 0.2,
+  "datasets": [
+    "titanic",
+    "529_pollen",
+    "503_wind",
+    "294_satellite_image"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smogn",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice",
+    "great"
+  ],
+  "gan_epochs": 300,
+  "great_epochs": 75,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "reg_aug_pct": 0.2,
+  "dice_max_seconds": 1800,
+  "dice_query_timeout": 60,
+  "dataset": "titanic",
+  "info": {
+    "name": "titanic",
+    "n_samples": 2207,
+    "n_features": 8,
+    "binary_cols": [
+      "gender"
+    ],
+    "cat_cols": [
+      "class",
+      "embarked"
+    ],
+    "cont_cols": [
+      "age",
+      "country",
+      "fare",
+      "sibsp",
+      "parch"
+    ],
+    "n_classes": 2,
+    "class_counts": {
+      "0": 1496,
+      "1": 711
+    },
+    "missing": 129,
+    "target_min": 0.0,
+    "target_max": 1.0,
+    "target_mean": 0.3222,
+    "target_std": 0.4674,
+    "target_skew": 0.7617,
+    "target_unique": 2
+  }
+}

@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,0.9762,0.0025,0.8,"theta2, tau1, thetad2, thetad1, theta3","theta2, tau1, theta1, thetad2, theta3",42,225_puma8NH,xgb

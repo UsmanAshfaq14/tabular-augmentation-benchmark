@@ -1,0 +1,57 @@
+{
+  "size": "small",
+  "task": "classification",
+  "test_size": 0.3,
+  "datasets": [
+    "heart_c",
+    "saheart",
+    "australian",
+    "german"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "great",
+    "dice"
+  ],
+  "gan_epochs": 100,
+  "great_epochs": 25,
+  "diffusion_steps": 5000,
+  "smote_k": 3,
+  "dataset": "heart_c",
+  "info": {
+    "name": "heart_c",
+    "n_samples": 303,
+    "n_features": 13,
+    "binary_cols": [
+      "sex",
+      "fbs",
+      "exang"
+    ],
+    "cat_cols": [
+      "cp",
+      "restecg",
+      "slope",
+      "ca",
+      "thal"
+    ],
+    "cont_cols": [
+      "age",
+      "trestbps",
+      "chol",
+      "thalach",
+      "oldpeak"
+    ],
+    "n_classes": 2,
+    "missing": 0
+  }
+}

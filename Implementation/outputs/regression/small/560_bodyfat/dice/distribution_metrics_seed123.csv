@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_Density,ks_Age,ks_Weight,ks_Height,ks_Neck,ks_Chest,ks_Abdomen,ks_Hip,ks_Thigh,ks_Knee,ks_Ankle,ks_Biceps,ks_Forearm,ks_Wrist,seed,dataset,kl_Density,kl_Age,kl_Weight,kl_Height,kl_Neck,kl_Chest,kl_Abdomen,kl_Hip,kl_Thigh,kl_Knee,kl_Ankle,kl_Biceps,kl_Forearm,kl_Wrist
+dice,0.0349,0.047,1.9555,14,0.0377,0.0234,0.0326,0.0402,0.03,0.0265,0.0353,0.0334,0.047,0.0441,0.0307,0.0403,0.0358,0.0313,123,560_bodyfat,0.018,0.0152,0.0104,0.0173,0.0103,0.0141,0.0223,0.0195,0.0218,0.0219,0.0158,0.0185,0.0308,0.0066

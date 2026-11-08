@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_x1,ks_x2,ks_x3,ks_x4,ks_x5,ks_x6,ks_x7,ks_x8,ks_x9,ks_x10,seed,dataset,kl_x1,kl_x2,kl_x3,kl_x4,kl_x5,kl_x6,kl_x7,kl_x8,kl_x9,kl_x10
+tabddpm,0.0184,0.0565,0.0227,10,0.0027,0.002,0.0473,0.0049,0.0046,0.0048,0.0542,0.0565,0.0026,0.0043,42,344_mv,0.0002,0.0001,0.0281,0.0008,0.0004,0.0002,0.0023,0.0007,0.0002,0.0004

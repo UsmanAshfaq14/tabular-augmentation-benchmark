@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,tvae,0.8672,0.8241,0.7997,0.8107,0.6234,0.9168,42,adult

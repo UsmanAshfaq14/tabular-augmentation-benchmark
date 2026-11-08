@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,tabddpm,0.5627,0.5412,0.5363,0.538,0.3202,0.7201,456,cmc

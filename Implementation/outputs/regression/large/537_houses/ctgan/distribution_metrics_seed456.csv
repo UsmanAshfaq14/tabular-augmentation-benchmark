@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_median_income,ks_housing_median_age,ks_total_rooms,ks_total_bedrooms,ks_population,ks_households,ks_latitude,ks_longitude,seed,dataset,kl_median_income,kl_housing_median_age,kl_total_rooms,kl_total_bedrooms,kl_population,kl_households,kl_latitude,kl_longitude
+ctgan,0.0386,0.1345,0.8648,8,0.0112,0.0074,0.0098,0.011,0.0067,0.0137,0.1142,0.1345,456,537_houses,0.0012,0.0007,0.0007,0.0011,0.0005,0.0007,0.1686,0.169

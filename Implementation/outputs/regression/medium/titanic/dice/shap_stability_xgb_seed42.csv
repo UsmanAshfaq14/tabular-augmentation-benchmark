@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+dice,1.0,0.0066,1.0,"age, country, fare, class, gender","age, country, fare, class, gender",42,titanic,xgb

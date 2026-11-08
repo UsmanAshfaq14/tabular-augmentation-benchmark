@@ -1,0 +1,13 @@
+Regression residual report
+========================================
+n_test            : 63
+target mean / std : 87.9841 / 104.6777
+RMSE              : 34.8213
+MAE               : 23.0883
+R2                : 0.8893
+residual mean     : 5.4551
+residual std      : 34.3913
+residual min/max  : -89.3737 / 106.0704
+rare-region n     : 5
+rare-region RMSE  : 58.7973
+rare-region MAE   : 56.8455

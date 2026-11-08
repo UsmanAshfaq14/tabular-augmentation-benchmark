@@ -1,0 +1,436 @@
+2026-05-30 10:31:20  INFO  Datasets : ['flare', 'cmc', 'car', 'churn']
+2026-05-30 10:31:20  INFO  Epochs   : 75
+2026-05-30 10:31:20  INFO  Time limit per dataset: 1.5h
+2026-05-30 10:31:20  INFO  
+2026-05-30 10:31:20  ERROR    [great] seed=42 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=123 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=456 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=789 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=999 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  INFO    flare/great DONE: 0/5 seeds
+2026-05-30 10:31:20  ERROR    [great] seed=42 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=123 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=456 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=789 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=999 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  INFO    cmc/great DONE: 0/5 seeds
+2026-05-30 10:31:20  ERROR    [great] seed=42 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=123 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=456 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=789 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=999 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  INFO    car/great DONE: 0/5 seeds
+2026-05-30 10:31:20  ERROR    [great] seed=42 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=123 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=456 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=789 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  ERROR    [great] seed=999 failed: apply_great() got an unexpected keyword argument 'cat_cols'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 142, in run_great_dataset
+    X_aug, y_aug, X_syn, y_syn = apply_great(
+                                 ^^^^^^^^^^^^
+TypeError: apply_great() got an unexpected keyword argument 'cat_cols'
+2026-05-30 10:31:20  INFO    churn/great DONE: 0/5 seeds
+2026-05-30 10:31:20  INFO  Done. Outputs merged with clf_medium.py results.
+2026-05-30 10:39:30  INFO  Datasets : ['flare', 'cmc', 'car', 'churn']
+2026-05-30 10:39:30  INFO  Epochs   : 75
+2026-05-30 10:39:30  INFO  Time limit per dataset: 1.5h
+2026-05-30 10:39:30  INFO  
+2026-05-30 10:43:21  INFO    [great] Generated 562 rows in 230.4s
+2026-05-30 10:43:22  INFO    [great] RF  F1=0.5817  AUC=0.7109
+2026-05-30 10:43:22  INFO    [great] XGB F1=0.5512  AUC=0.7216
+2026-05-30 10:43:23  INFO    [flare/great] 1/5 seeds complete
+2026-05-30 10:47:04  INFO    [great] Generated 562 rows in 220.7s
+2026-05-30 10:47:05  INFO    [great] RF  F1=0.5244  AUC=0.7363
+2026-05-30 10:47:05  INFO    [great] XGB F1=0.5659  AUC=0.7454
+2026-05-30 10:47:06  INFO    [flare/great] 2/5 seeds complete
+2026-05-30 10:50:47  INFO    [great] Generated 562 rows in 221.4s
+2026-05-30 10:50:48  INFO    [great] RF  F1=0.5801  AUC=0.7293
+2026-05-30 10:50:48  INFO    [great] XGB F1=0.6302  AUC=0.7268
+2026-05-30 10:50:49  INFO    [flare/great] 3/5 seeds complete
+2026-05-30 10:54:30  INFO    [great] Generated 562 rows in 221.5s
+2026-05-30 10:54:31  INFO    [great] RF  F1=0.5307  AUC=0.6674
+2026-05-30 10:54:31  INFO    [great] XGB F1=0.5406  AUC=0.6676
+2026-05-30 10:54:32  INFO    [flare/great] 4/5 seeds complete
+2026-05-30 10:58:13  INFO    [great] Generated 562 rows in 221.3s
+2026-05-30 10:58:14  INFO    [great] RF  F1=0.6060  AUC=0.6996
+2026-05-30 10:58:14  INFO    [great] XGB F1=0.5685  AUC=0.6925
+2026-05-30 10:58:15  INFO    [flare/great] 5/5 seeds complete
+2026-05-30 10:58:15  INFO    flare/great DONE: 5/5 seeds
+2026-05-30 11:03:09  INFO    [great] Generated 331 rows in 293.2s
+2026-05-30 11:03:09  ERROR  Dataset cmc failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 241, in main
+    run_great_dataset(ds, logger)
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 170, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 11:11:36  INFO    [great] Generated 2490 rows in 506.6s
+2026-05-30 11:11:36  INFO    [great] RF  F1=0.4960  AUC=0.9206
+2026-05-30 11:11:36  INFO    [great] XGB F1=0.6410  AUC=0.9609
+2026-05-30 11:11:40  INFO    [car/great] 1/5 seeds complete
+2026-05-30 11:20:06  INFO    [great] Generated 2490 rows in 506.0s
+2026-05-30 11:20:07  INFO    [great] RF  F1=0.4620  AUC=0.8851
+2026-05-30 11:20:07  INFO    [great] XGB F1=0.5217  AUC=0.9411
+2026-05-30 11:20:10  INFO    [car/great] 2/5 seeds complete
+2026-05-30 11:28:37  INFO    [great] Generated 2490 rows in 506.8s
+2026-05-30 11:28:38  INFO    [great] RF  F1=0.5432  AUC=0.8907
+2026-05-30 11:28:38  INFO    [great] XGB F1=0.6438  AUC=0.9424
+2026-05-30 11:28:42  INFO    [car/great] 3/5 seeds complete
+2026-05-30 11:37:08  INFO    [great] Generated 2490 rows in 506.6s
+2026-05-30 11:37:09  INFO    [great] RF  F1=0.4882  AUC=0.8964
+2026-05-30 11:37:09  INFO    [great] XGB F1=0.5847  AUC=0.9497
+2026-05-30 11:37:13  INFO    [car/great] 4/5 seeds complete
+2026-05-30 19:00:55  INFO  Datasets : ['cmc', 'car']
+2026-05-30 19:00:55  INFO  Epochs   : 75
+2026-05-30 19:00:55  INFO  Time limit per dataset: 1.5h
+2026-05-30 19:00:55  INFO  
+2026-05-30 19:05:48  INFO    [great] Generated 331 rows in 293.7s
+2026-05-30 19:05:49  ERROR  Dataset cmc failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 254, in main
+    run_great_dataset(ds, logger)
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 183, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:05:49  INFO    seed=42: already done. Skipping.
+2026-05-30 19:05:49  INFO    seed=123: already done. Skipping.
+2026-05-30 19:05:49  INFO    seed=456: already done. Skipping.
+2026-05-30 19:05:49  INFO    seed=789: already done. Skipping.
+2026-05-30 19:13:43  INFO    [great] Generated 2490 rows in 474.0s
+2026-05-30 19:13:43  INFO    [great] RF  F1=0.4815  AUC=0.8887
+2026-05-30 19:13:43  INFO    [great] XGB F1=0.5502  AUC=0.9513
+2026-05-30 19:13:46  INFO    [car/great] 5/5 seeds complete
+2026-05-30 19:13:46  INFO    car/great DONE: 5/5 seeds
+2026-05-30 19:13:46  INFO  Done. Outputs merged with clf_medium.py results.
+2026-05-30 19:18:07  INFO  Datasets : ['cmc']
+2026-05-30 19:18:07  INFO  Epochs   : 75
+2026-05-30 19:18:07  INFO  Time limit per dataset: 1.5h
+2026-05-30 19:18:07  INFO  
+2026-05-30 19:22:55  INFO    [great] Generated 331 rows in 288.4s
+2026-05-30 19:22:56  ERROR    [great] seed=42 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:27:46  INFO    [great] Generated 331 rows in 290.1s
+2026-05-30 19:27:46  ERROR    [great] seed=123 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:32:36  INFO    [great] Generated 331 rows in 289.9s
+2026-05-30 19:32:36  ERROR    [great] seed=456 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:37:26  INFO    [great] Generated 331 rows in 290.3s
+2026-05-30 19:37:26  ERROR    [great] seed=789 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:42:17  INFO    [great] Generated 331 rows in 290.4s
+2026-05-30 19:42:17  ERROR    [great] seed=999 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:42:17  INFO    cmc/great DONE: 0/5 seeds
+2026-05-30 19:42:17  INFO  Done. Outputs merged with clf_medium.py results.
+2026-05-30 19:44:28  INFO  Datasets : ['cmc']
+2026-05-30 19:44:28  INFO  Epochs   : 75
+2026-05-30 19:44:28  INFO  Time limit per dataset: 1.5h
+2026-05-30 19:44:28  INFO  
+2026-05-30 19:49:16  INFO    [great] Generated 331 rows in 287.5s
+2026-05-30 19:49:16  ERROR    [great] seed=42 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:54:06  INFO    [great] Generated 331 rows in 290.0s
+2026-05-30 19:54:06  ERROR    [great] seed=123 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 19:58:56  INFO    [great] Generated 331 rows in 289.9s
+2026-05-30 19:58:56  ERROR    [great] seed=456 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:03:46  INFO    [great] Generated 331 rows in 290.0s
+2026-05-30 20:03:46  ERROR    [great] seed=789 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:08:37  INFO    [great] Generated 331 rows in 290.1s
+2026-05-30 20:08:37  ERROR    [great] seed=999 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:08:37  INFO    cmc/great DONE: 0/5 seeds
+2026-05-30 20:08:37  INFO  Done. Outputs merged with clf_medium.py results.
+2026-05-30 20:39:33  INFO  Datasets : ['cmc']
+2026-05-30 20:39:33  INFO  Epochs   : 75
+2026-05-30 20:39:33  INFO  Time limit per dataset: 1.5h
+2026-05-30 20:39:33  INFO  
+2026-05-30 20:44:37  INFO    [great] Generated 331 rows in 303.6s
+2026-05-30 20:44:37  ERROR    [great] seed=42 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:49:42  INFO    [great] Generated 331 rows in 305.4s
+2026-05-30 20:49:42  ERROR    [great] seed=123 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:54:46  INFO    [great] Generated 331 rows in 303.6s
+2026-05-30 20:54:46  ERROR    [great] seed=456 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 20:56:28  INFO  Datasets : ['cmc']
+2026-05-30 20:56:28  INFO  Epochs   : 75
+2026-05-30 20:56:28  INFO  Time limit per dataset: 1.5h
+2026-05-30 20:56:28  INFO  
+2026-05-30 21:01:20  INFO    [great] Generated 331 rows in 292.4s
+2026-05-30 21:01:21  INFO    [great] RF  F1=0.4794  AUC=0.6899
+2026-05-30 21:01:21  INFO    [great] XGB F1=0.4896  AUC=0.7027
+2026-05-30 21:01:24  INFO    [cmc/great] 1/5 seeds complete
+2026-05-30 21:06:14  INFO    [great] Generated 331 rows in 290.5s
+2026-05-30 21:06:15  INFO    [great] RF  F1=0.4731  AUC=0.6886
+2026-05-30 21:06:15  INFO    [great] XGB F1=0.5130  AUC=0.7071
+2026-05-30 21:06:18  INFO    [cmc/great] 2/5 seeds complete
+2026-05-30 21:11:10  INFO    [great] Generated 331 rows in 291.9s
+2026-05-30 21:11:10  INFO    [great] RF  F1=0.5164  AUC=0.7033
+2026-05-30 21:11:10  INFO    [great] XGB F1=0.5176  AUC=0.7139
+2026-05-30 21:11:13  INFO    [cmc/great] 3/5 seeds complete
+2026-05-30 21:16:05  INFO    [great] Generated 331 rows in 291.6s
+2026-05-30 21:16:05  INFO    [great] RF  F1=0.4735  AUC=0.6879
+2026-05-30 21:16:05  INFO    [great] XGB F1=0.4929  AUC=0.6921
+2026-05-30 21:16:09  INFO    [cmc/great] 4/5 seeds complete
+2026-05-30 21:21:00  INFO    [great] Generated 331 rows in 291.5s
+2026-05-30 21:21:01  INFO    [great] RF  F1=0.4729  AUC=0.6836
+2026-05-30 21:21:01  INFO    [great] XGB F1=0.4620  AUC=0.6695
+2026-05-30 21:21:04  INFO    [cmc/great] 5/5 seeds complete
+2026-05-30 21:21:04  INFO    cmc/great DONE: 5/5 seeds
+2026-05-30 21:21:04  INFO  Done. Outputs merged with clf_medium.py results.
+2026-05-30 21:35:24  INFO  Datasets : ['churn']
+2026-05-30 21:35:25  INFO  Epochs   : 75
+2026-05-30 21:35:25  INFO  Time limit per dataset: 1.5h
+2026-05-30 21:35:25  INFO  
+2026-05-30 22:05:06  INFO    [great] Generated 2868 rows in 1781.8s
+2026-05-30 22:05:07  ERROR    [great] seed=42 train/eval failed: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [ 0  1 40]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/great_medium.py", line 188, in run_great_dataset
+    xgb.fit(X_aug, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [ 0  1 40]
+2026-05-30 22:31:32  INFO  Datasets : ['churn']
+2026-05-30 22:31:32  INFO  Epochs   : 75
+2026-05-30 22:31:32  INFO  Time limit per dataset: 3.0h
+2026-05-30 22:31:32  INFO  
+2026-05-30 23:01:23  INFO    [great] Generated 2868 rows in 1790.6s
+2026-05-30 23:01:24  INFO    [great] RF  F1=0.8797  AUC=0.9014
+2026-05-30 23:01:24  INFO    [great] XGB F1=0.8849  AUC=0.9219
+2026-05-30 23:01:28  INFO    [churn/great] 1/5 seeds complete
+2026-05-30 23:31:13  INFO    [great] Generated 2868 rows in 1785.0s
+2026-05-30 23:31:14  INFO    [great] RF  F1=0.8825  AUC=0.9074
+2026-05-30 23:31:14  INFO    [great] XGB F1=0.8609  AUC=0.9159
+2026-05-30 23:31:18  INFO    [churn/great] 2/5 seeds complete
+2026-05-31 00:01:00  INFO    [great] Generated 2868 rows in 1782.2s
+2026-05-31 00:01:01  INFO    [great] RF  F1=0.8915  AUC=0.91
+2026-05-31 00:01:01  INFO    [great] XGB F1=0.8868  AUC=0.9146
+2026-05-31 00:01:06  INFO    [churn/great] 3/5 seeds complete
+2026-05-31 00:30:50  INFO    [great] Generated 2868 rows in 1784.7s
+2026-05-31 00:30:51  INFO    [great] RF  F1=0.8934  AUC=0.91
+2026-05-31 00:30:51  INFO    [great] XGB F1=0.8766  AUC=0.9275
+2026-05-31 00:30:55  INFO    [churn/great] 4/5 seeds complete
+2026-05-31 01:00:40  INFO    [great] Generated 2868 rows in 1784.6s
+2026-05-31 01:00:40  INFO    [great] RF  F1=0.8814  AUC=0.9211
+2026-05-31 01:00:40  INFO    [great] XGB F1=0.8975  AUC=0.9288
+2026-05-31 01:00:45  INFO    [churn/great] 5/5 seeds complete
+2026-05-31 01:00:45  INFO    churn/great DONE: 5/5 seeds
+2026-05-31 01:00:45  INFO  Done. Outputs merged with clf_medium.py results.

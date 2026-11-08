@@ -1,0 +1,64 @@
+{
+  "size": "small",
+  "task": "classification",
+  "test_size": 0.3,
+  "datasets": [
+    "heart_c",
+    "saheart",
+    "australian",
+    "german"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "great",
+    "dice"
+  ],
+  "gan_epochs": 100,
+  "great_epochs": 25,
+  "diffusion_steps": 5000,
+  "smote_k": 3,
+  "dataset": "german",
+  "info": {
+    "name": "german",
+    "n_samples": 1000,
+    "n_features": 20,
+    "binary_cols": [
+      "Liable-people",
+      "Telephone",
+      "Foreign"
+    ],
+    "cat_cols": [
+      "Status",
+      "Credit-history",
+      "Purpose",
+      "Savings-account",
+      "Employment",
+      "Personal-status",
+      "Debtors",
+      "Property",
+      "Installments",
+      "Housing",
+      "Job"
+    ],
+    "cont_cols": [
+      "Duration",
+      "Credit",
+      "Installment-rate",
+      "Residence-time",
+      "Age",
+      "Existing-credits"
+    ],
+    "n_classes": 2,
+    "missing": 0
+  }
+}

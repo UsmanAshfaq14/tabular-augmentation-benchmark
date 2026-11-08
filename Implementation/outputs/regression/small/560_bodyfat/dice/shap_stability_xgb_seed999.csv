@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+dice,0.1956,0.0008,0.6,"Density, Age, Forearm, Abdomen, Biceps","Density, Age, Biceps, Weight, Height",999,560_bodyfat,xgb

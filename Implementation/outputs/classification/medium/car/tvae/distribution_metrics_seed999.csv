@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_buying,ks_maint,ks_doors,ks_persons,ks_lug_boot,ks_safety,seed,dataset,kl_buying,kl_maint,kl_doors,kl_persons,kl_lug_boot,kl_safety
+tvae,0.0248,0.0623,0.2565,6,0.0293,0.0623,0.0075,0.0103,0.0314,0.0079,999,car,0.0026,0.0095,0.0003,0.0004,0.0025,0.0003

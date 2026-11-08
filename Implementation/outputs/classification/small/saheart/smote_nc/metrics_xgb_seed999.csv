@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,smote_nc,0.6403,0.6022,0.6022,0.6022,0.2044,0.6774,999,saheart

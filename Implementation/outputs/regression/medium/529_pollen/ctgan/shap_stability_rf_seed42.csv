@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.8,0.0514,0.8,"RIDGE, WEIGHT, CRACK, NUB","RIDGE, WEIGHT, CRACK, NUB",42,529_pollen,rf

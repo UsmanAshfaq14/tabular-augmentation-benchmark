@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_RIDGE,ks_NUB,ks_CRACK,ks_WEIGHT,seed,dataset,kl_RIDGE,kl_NUB,kl_CRACK,kl_WEIGHT
+smogn,0.0628,0.0641,0.1125,4,0.0625,0.0641,0.0617,0.063,999,529_pollen,0.017,0.0158,0.0118,0.0145

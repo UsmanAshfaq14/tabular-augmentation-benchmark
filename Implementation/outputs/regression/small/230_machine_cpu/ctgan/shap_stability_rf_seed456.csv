@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.8286,0.0415,1.0,"CHMAX, CHMIN, MMAX, CACH, MMIN","CHMAX, MMAX, CHMIN, CACH, MMIN",456,230_machine_cpu,rf

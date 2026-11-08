@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tvae,0.9253,0.0186,0.8,"BEL, month, DUB, year, CLO","BEL, month, year, MUL, CLO",42,503_wind,xgb

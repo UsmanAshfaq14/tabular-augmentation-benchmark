@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,ctgan,0.3995,0.7344,0.8883,15.18,0.7344,0.3995,0.8883,1287,,,,0,0.7344,0.3995,0.8883,1287,999,294_satellite_image

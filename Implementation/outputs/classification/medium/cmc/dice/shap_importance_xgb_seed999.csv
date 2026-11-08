@@ -1,0 +1,10 @@
+,mean_abs_shap_xgb
+Wifes_age,0.52540267
+Number_of_children_ever_born,0.5073255
+Wifes_education,0.50373757
+Standard-of-living_index,0.29946816
+Husbands_occupation,0.22785744
+Husbands_education,0.15926696
+Wifes_religion,0.100555666
+Wifes_now_working?,0.086904176
+Media_exposure,0.025861008

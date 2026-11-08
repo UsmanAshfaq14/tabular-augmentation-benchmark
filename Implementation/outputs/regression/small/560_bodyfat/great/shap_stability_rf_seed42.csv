@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+great,0.4505,0.0488,0.4,"Thigh, Density, Knee, Abdomen, Height","Density, Forearm, Neck, Hip, Abdomen",42,560_bodyfat,rf

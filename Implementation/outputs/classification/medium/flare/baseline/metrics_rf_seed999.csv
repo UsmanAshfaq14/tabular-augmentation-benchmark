@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,baseline,0.8271,0.6804,0.6069,0.6256,0.2777,0.7032,999,flare

@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,smote_nc,0.539,0.5152,0.5153,0.5151,0.2898,0.7145,456,cmc

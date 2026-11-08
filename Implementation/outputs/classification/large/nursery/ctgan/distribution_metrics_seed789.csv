@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_parents,ks_has_nurs,ks_form,ks_children,ks_housing,ks_finance,ks_social,ks_health,seed,dataset,kl_parents,kl_has_nurs,kl_form,kl_children,kl_housing,kl_finance,kl_social,kl_health
+ctgan,0.0244,0.0351,0.0915,8,0.019,0.0313,0.0327,0.0351,0.0056,0.0263,0.0259,0.0191,789,nursery,0.0011,0.0054,0.0034,0.0045,0.0001,0.0014,0.0015,0.0008

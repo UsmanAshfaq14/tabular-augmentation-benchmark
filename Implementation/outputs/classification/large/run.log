@@ -1,0 +1,932 @@
+2026-05-31 23:35:41  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-31 23:35:41  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-31 23:35:41  INFO  Datasets this session : ['mushroom', 'nursery']
+2026-05-31 23:35:41  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-31 23:35:41  INFO  Split                 : 80/20
+2026-05-31 23:35:41  INFO  GAN epochs            : 300
+2026-05-31 23:35:41  INFO  TabDDPM steps         : 15000
+2026-05-31 23:35:41  INFO  Subsample limit       : 15,000 rows
+2026-05-31 23:35:41  INFO  Session limit         : 6.5h
+2026-05-31 23:35:41  INFO  
+2026-05-31 23:35:41  INFO  Checkpoint status:
+2026-05-31 23:35:41  INFO    mushroom      :   0/25 complete (  0%)  ~2.0h remaining  [N/A: ['smote_nc']]
+2026-05-31 23:35:41  INFO    nursery       :   0/20 complete (  0%)  ~3.0h remaining  [N/A: ['smote_nc', 'dice']]
+2026-05-31 23:35:41  INFO  
+2026-05-31 23:35:41  INFO    mushroom      : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/mushroom.tsv
+2026-05-31 23:35:41  INFO    nursery       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/nursery.tsv
+2026-05-31 23:35:41  INFO  
+2026-05-31 23:35:41  INFO    N/A methods for mushroom: ['smote_nc']
+2026-05-31 23:35:41  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-05-31 23:35:43  INFO    [baseline] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:35:43  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:35:44  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:44  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:44  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:44  ERROR    [dice] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:44  INFO    Seed 42 complete. Dataset: 1/25. Session: 0.0h elapsed.
+2026-05-31 23:35:44  INFO    [baseline] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:35:44  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:35:45  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:45  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:45  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:45  ERROR    [dice] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:45  INFO    Seed 123 complete. Dataset: 2/25. Session: 0.0h elapsed.
+2026-05-31 23:35:45  INFO    [baseline] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:35:45  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:35:46  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:46  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:46  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:46  ERROR    [dice] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:46  INFO    Seed 456 complete. Dataset: 3/25. Session: 0.0h elapsed.
+2026-05-31 23:35:47  INFO    [baseline] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:35:47  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:35:48  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:48  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:48  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:48  ERROR    [dice] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:48  INFO    Seed 789 complete. Dataset: 4/25. Session: 0.0h elapsed.
+2026-05-31 23:35:48  INFO    [baseline] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:35:48  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:35:49  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:49  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:49  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:49  ERROR    [dice] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:49  INFO    Seed 999 complete. Dataset: 5/25. Session: 0.0h elapsed.
+2026-05-31 23:35:49  INFO    mushroom complete. 5/25 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-05-31 23:35:49  INFO    N/A methods for nursery: ['smote_nc', 'dice']
+2026-05-31 23:35:49  INFO    Multiclass: 4 classes — XGB uses multi:softprob
+2026-05-31 23:35:49  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-05-31 23:35:50  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 297, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+2026-05-31 23:35:50  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  INFO    Seed 42 complete. Dataset: 0/20. Session: 0.0h elapsed.
+2026-05-31 23:35:50  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 297, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+2026-05-31 23:35:50  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  INFO    Seed 123 complete. Dataset: 0/20. Session: 0.0h elapsed.
+2026-05-31 23:35:50  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 297, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+2026-05-31 23:35:50  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:50  INFO    Seed 456 complete. Dataset: 0/20. Session: 0.0h elapsed.
+2026-05-31 23:35:51  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 297, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+2026-05-31 23:35:51  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  INFO    Seed 789 complete. Dataset: 0/20. Session: 0.0h elapsed.
+2026-05-31 23:35:51  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 297, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2 3], got [0 1 3 4]
+2026-05-31 23:35:51  ERROR    [ctgan] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  ERROR    [tvae] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  ERROR    [tabddpm] Unexpected error: 'size'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 445, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_large.py", line 258, in run_one_method
+    X_aug_enc, y_aug, X_syn, y_syn = run_augmentation(
+                                     ^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/aug_methods.py", line 408, in run_augmentation
+    size   = cfg["size"]
+             ~~~^^^^^^^^
+KeyError: 'size'
+2026-05-31 23:35:51  INFO    Seed 999 complete. Dataset: 0/20. Session: 0.0h elapsed.
+2026-05-31 23:35:51  INFO    nursery complete. 0/20 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-05-31 23:35:51  INFO  Session ended after 0.00h
+2026-05-31 23:35:51  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-31 23:35:51  INFO  Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-05-31 23:41:40  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-31 23:41:40  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-31 23:41:40  INFO  Datasets this session : ['mushroom', 'nursery']
+2026-05-31 23:41:40  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-31 23:41:40  INFO  Split                 : 80/20
+2026-05-31 23:41:40  INFO  GAN epochs            : 300
+2026-05-31 23:41:40  INFO  TabDDPM steps         : 15000
+2026-05-31 23:41:40  INFO  Subsample limit       : 15,000 rows
+2026-05-31 23:41:40  INFO  Session limit         : 6.5h
+2026-05-31 23:41:40  INFO  
+2026-05-31 23:41:40  INFO  Checkpoint status:
+2026-05-31 23:41:40  INFO    mushroom      :   5/25 complete ( 20%)  ~2.0h remaining  [N/A: ['smote_nc']]
+2026-05-31 23:41:40  INFO    nursery       :   0/20 complete (  0%)  ~3.0h remaining  [N/A: ['smote_nc', 'dice']]
+2026-05-31 23:41:40  INFO  
+2026-05-31 23:41:40  INFO    mushroom      : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/mushroom.tsv
+2026-05-31 23:41:40  INFO    nursery       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/nursery.tsv
+2026-05-31 23:41:40  INFO  
+2026-05-31 23:41:40  INFO    N/A methods for mushroom: ['smote_nc']
+2026-05-31 23:41:40  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-05-31 23:41:41  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-05-31 23:42:53  INFO    [ctgan] Generated 233 rows in 72.2s
+2026-05-31 23:42:53  INFO    [ctgan] RF  F1=0.9994  AUC=1.0000
+2026-05-31 23:42:53  INFO    [ctgan] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:43:15  INFO    [tvae] Generated 233 rows in 18.5s
+2026-05-31 23:43:16  INFO    [tvae] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:43:16  INFO    [tvae] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:56:55  INFO    [tabddpm] Generated 233 rows in 815.1s
+2026-05-31 23:56:55  INFO    [tabddpm] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:56:55  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:57:16  WARNING    [dice] Augmentation failed — skipping.
+2026-05-31 23:57:16  INFO    Seed 42 complete. Dataset: 8/25. Session: 0.3h elapsed.
+2026-05-31 23:57:16  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-05-31 23:58:31  INFO    [ctgan] Generated 233 rows in 75.2s
+2026-05-31 23:58:32  INFO    [ctgan] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:58:32  INFO    [ctgan] XGB F1=1.0000  AUC=1.0000
+2026-05-31 23:58:56  INFO    [tvae] Generated 233 rows in 20.9s
+2026-05-31 23:58:57  INFO    [tvae] RF  F1=1.0000  AUC=1.0000
+2026-05-31 23:58:57  INFO    [tvae] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:11:43  INFO    [tabddpm] Generated 233 rows in 762.8s
+2026-06-01 00:11:44  INFO    [tabddpm] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:11:44  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:12:04  WARNING    [dice] Augmentation failed — skipping.
+2026-06-01 00:12:04  INFO    Seed 123 complete. Dataset: 11/25. Session: 0.5h elapsed.
+2026-06-01 00:12:04  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-01 00:13:13  INFO    [ctgan] Generated 233 rows in 69.6s
+2026-06-01 00:13:14  INFO    [ctgan] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:13:14  INFO    [ctgan] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:13:39  INFO    [tvae] Generated 233 rows in 21.0s
+2026-06-01 00:13:39  INFO    [tvae] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:13:39  INFO    [tvae] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:25:32  INFO    [tabddpm] Generated 233 rows in 708.8s
+2026-06-01 00:25:32  INFO    [tabddpm] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:25:32  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:25:51  WARNING    [dice] Augmentation failed — skipping.
+2026-06-01 00:25:51  INFO    Seed 456 complete. Dataset: 14/25. Session: 0.7h elapsed.
+2026-06-01 00:25:52  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-06-01 00:27:01  INFO    [ctgan] Generated 233 rows in 69.1s
+2026-06-01 00:27:01  INFO    [ctgan] RF  F1=0.9994  AUC=1.0000
+2026-06-01 00:27:01  INFO    [ctgan] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:27:25  INFO    [tvae] Generated 233 rows in 20.7s
+2026-06-01 00:27:26  INFO    [tvae] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:27:26  INFO    [tvae] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:39:18  INFO    [tabddpm] Generated 233 rows in 708.1s
+2026-06-01 00:39:18  INFO    [tabddpm] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:39:18  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:39:37  WARNING    [dice] Augmentation failed — skipping.
+2026-06-01 00:39:37  INFO    Seed 789 complete. Dataset: 17/25. Session: 1.0h elapsed.
+2026-06-01 00:39:37  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-06-01 00:40:48  INFO    [ctgan] Generated 233 rows in 70.2s
+2026-06-01 00:40:48  INFO    [ctgan] RF  F1=0.9994  AUC=1.0000
+2026-06-01 00:40:48  INFO    [ctgan] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:41:12  INFO    [tvae] Generated 233 rows in 20.6s
+2026-06-01 00:41:13  INFO    [tvae] RF  F1=0.9994  AUC=1.0000
+2026-06-01 00:41:13  INFO    [tvae] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:53:59  INFO    [tabddpm] Generated 233 rows in 762.2s
+2026-06-01 00:53:59  INFO    [tabddpm] RF  F1=1.0000  AUC=1.0000
+2026-06-01 00:53:59  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:54:19  WARNING    [dice] Augmentation failed — skipping.
+2026-06-01 00:54:19  INFO    Seed 999 complete. Dataset: 20/25. Session: 1.2h elapsed.
+2026-06-01 00:54:19  INFO    mushroom complete. 20/25 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 00:54:19  INFO    N/A methods for nursery: ['smote_nc', 'dice']
+2026-06-01 00:54:19  INFO    Multiclass: 4 classes — XGB uses multi:softprob
+2026-06-01 00:54:19  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-06-01 00:54:19  INFO    Labels normalised: [np.int64(0), np.int64(1), np.int64(3), np.int64(4)] → [0, 1, 2, 3] (0-indexed contiguous)
+2026-06-01 00:54:20  INFO    [baseline] RF  F1=0.9770  AUC=0.9995
+2026-06-01 00:54:20  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-06-01 00:55:43  INFO    [ctgan] Generated 3458 rows in 76.4s
+2026-06-01 00:55:44  INFO    [ctgan] RF  F1=0.8693  AUC=0.9869
+2026-06-01 00:55:44  INFO    [ctgan] XGB F1=0.9522  AUC=0.9989
+2026-06-01 00:56:24  INFO    [tvae] Generated 3458 rows in 25.5s
+2026-06-01 00:56:25  INFO    [tvae] RF  F1=0.8868  AUC=0.9940
+2026-06-01 00:56:25  INFO    [tvae] XGB F1=0.9663  AUC=0.9996
+2026-06-01 01:01:35  INFO    [tabddpm] Generated 3458 rows in 296.7s
+2026-06-01 01:01:35  INFO    [tabddpm] RF  F1=0.9826  AUC=0.9997
+2026-06-01 01:01:35  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:01:44  INFO    Seed 42 complete. Dataset: 4/20. Session: 1.3h elapsed.
+2026-06-01 01:01:44  INFO    Labels normalised: [np.int64(0), np.int64(1), np.int64(3), np.int64(4)] → [0, 1, 2, 3] (0-indexed contiguous)
+2026-06-01 01:01:44  INFO    [baseline] RF  F1=0.9592  AUC=0.9995
+2026-06-01 01:01:44  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:03:11  INFO    [ctgan] Generated 3458 rows in 79.4s
+2026-06-01 01:03:12  INFO    [ctgan] RF  F1=0.8242  AUC=0.9876
+2026-06-01 01:03:12  INFO    [ctgan] XGB F1=0.9411  AUC=0.9992
+2026-06-01 01:03:57  INFO    [tvae] Generated 3458 rows in 30.0s
+2026-06-01 01:03:57  INFO    [tvae] RF  F1=0.8344  AUC=0.9935
+2026-06-01 01:03:57  INFO    [tvae] XGB F1=0.9325  AUC=0.9995
+2026-06-01 01:09:03  INFO    [tabddpm] Generated 3458 rows in 291.6s
+2026-06-01 01:09:04  INFO    [tabddpm] RF  F1=0.9700  AUC=0.9997
+2026-06-01 01:09:04  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:09:12  INFO    Seed 123 complete. Dataset: 8/20. Session: 1.5h elapsed.
+2026-06-01 01:09:12  INFO    Labels normalised: [np.int64(0), np.int64(1), np.int64(3), np.int64(4)] → [0, 1, 2, 3] (0-indexed contiguous)
+2026-06-01 01:09:12  INFO    [baseline] RF  F1=0.9577  AUC=0.9994
+2026-06-01 01:09:12  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:10:28  INFO    [ctgan] Generated 3458 rows in 68.5s
+2026-06-01 01:10:28  INFO    [ctgan] RF  F1=0.8342  AUC=0.9893
+2026-06-01 01:10:28  INFO    [ctgan] XGB F1=0.9464  AUC=0.9996
+2026-06-01 01:11:14  INFO    [tvae] Generated 3458 rows in 29.9s
+2026-06-01 01:11:15  INFO    [tvae] RF  F1=0.8177  AUC=0.9872
+2026-06-01 01:11:15  INFO    [tvae] XGB F1=0.9156  AUC=0.9990
+2026-06-01 01:16:28  INFO    [tabddpm] Generated 3458 rows in 296.8s
+2026-06-01 01:16:29  INFO    [tabddpm] RF  F1=0.9700  AUC=0.9997
+2026-06-01 01:16:29  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:16:37  INFO    Seed 456 complete. Dataset: 12/20. Session: 1.6h elapsed.
+2026-06-01 01:16:37  INFO    Labels normalised: [np.int64(0), np.int64(1), np.int64(3), np.int64(4)] → [0, 1, 2, 3] (0-indexed contiguous)
+2026-06-01 01:16:38  INFO    [baseline] RF  F1=0.9624  AUC=0.9996
+2026-06-01 01:16:38  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:18:09  INFO    [ctgan] Generated 3458 rows in 84.0s
+2026-06-01 01:18:10  INFO    [ctgan] RF  F1=0.8282  AUC=0.9896
+2026-06-01 01:18:10  INFO    [ctgan] XGB F1=0.9438  AUC=0.9992
+2026-06-01 01:18:58  INFO    [tvae] Generated 3458 rows in 33.6s
+2026-06-01 01:18:59  INFO    [tvae] RF  F1=0.8911  AUC=0.9924
+2026-06-01 01:18:59  INFO    [tvae] XGB F1=0.9571  AUC=0.9996
+2026-06-01 01:24:13  INFO    [tabddpm] Generated 3458 rows in 300.6s
+2026-06-01 01:24:13  INFO    [tabddpm] RF  F1=0.9781  AUC=0.9998
+2026-06-01 01:24:13  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:24:21  INFO    Seed 789 complete. Dataset: 16/20. Session: 1.7h elapsed.
+2026-06-01 01:24:21  INFO    Labels normalised: [np.int64(0), np.int64(1), np.int64(3), np.int64(4)] → [0, 1, 2, 3] (0-indexed contiguous)
+2026-06-01 01:24:22  INFO    [baseline] RF  F1=0.9667  AUC=0.9995
+2026-06-01 01:24:22  INFO    [baseline] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:25:47  INFO    [ctgan] Generated 3458 rows in 78.4s
+2026-06-01 01:25:48  INFO    [ctgan] RF  F1=0.8157  AUC=0.9868
+2026-06-01 01:25:48  INFO    [ctgan] XGB F1=0.9276  AUC=0.9993
+2026-06-01 01:26:37  INFO    [tvae] Generated 3458 rows in 34.3s
+2026-06-01 01:26:38  INFO    [tvae] RF  F1=0.9099  AUC=0.9964
+2026-06-01 01:26:38  INFO    [tvae] XGB F1=0.9798  AUC=0.9999
+2026-06-01 01:32:11  INFO    [tabddpm] Generated 3458 rows in 321.0s
+2026-06-01 01:32:12  INFO    [tabddpm] RF  F1=0.9788  AUC=0.9998
+2026-06-01 01:32:12  INFO    [tabddpm] XGB F1=1.0000  AUC=1.0000
+2026-06-01 01:32:20  INFO    Seed 999 complete. Dataset: 20/20. Session: 1.8h elapsed.
+2026-06-01 01:32:21  INFO    nursery complete. 20/20 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 01:32:21  INFO  Session ended after 1.84h
+2026-06-01 01:32:21  INFO  Re-run with same command to resume any incomplete datasets.
+2026-06-01 01:32:21  INFO  Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 02:07:14  INFO  GPU DETECTED: NVIDIA L40S
+2026-06-01 02:07:14  INFO  XGBoost: tree_method=hist + device=cuda
+2026-06-01 02:07:14  INFO  Datasets this session : ['adult']
+2026-06-01 02:07:14  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-06-01 02:07:14  INFO  Split                 : 80/20
+2026-06-01 02:07:14  INFO  GAN epochs            : 300
+2026-06-01 02:07:14  INFO  TabDDPM steps         : 15000
+2026-06-01 02:07:14  INFO  Subsample limit       : 15,000 rows
+2026-06-01 02:07:14  INFO  Session limit         : 6.5h
+2026-06-01 02:07:14  INFO  
+2026-06-01 02:07:14  INFO  Checkpoint status:
+2026-06-01 02:07:14  INFO    adult         :   0/30 complete (  0%)  ~4.5h remaining
+2026-06-01 02:07:14  INFO  
+2026-06-01 02:07:14  INFO    adult         : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/adult.tsv
+2026-06-01 02:07:14  INFO  
+2026-06-01 02:07:14  INFO    Subsampled training data: 39,073 → 15,000 rows (stratified, seed=42)
+2026-06-01 02:07:14  INFO    [baseline] RF  F1=0.7958  AUC=0.9061
+2026-06-01 02:07:14  INFO    [baseline] XGB F1=0.8151  AUC=0.9235
+2026-06-01 02:07:36  INFO    [smote_nc] Generated 7822 rows in 1.3s
+2026-06-01 02:07:37  INFO    [smote_nc] RF  F1=0.7928  AUC=0.9029
+2026-06-01 02:07:37  INFO    [smote_nc] XGB F1=0.8140  AUC=0.9206
+2026-06-01 02:10:30  INFO    [ctgan] Generated 7822 rows in 147.1s
+2026-06-01 02:10:31  INFO    [ctgan] RF  F1=0.7940  AUC=0.9043
+2026-06-01 02:10:31  INFO    [ctgan] XGB F1=0.8113  AUC=0.9211
+2026-06-01 02:12:14  INFO    [tvae] Generated 7822 rows in 69.9s
+2026-06-01 02:12:15  INFO    [tvae] RF  F1=0.7940  AUC=0.9032
+2026-06-01 02:12:15  INFO    [tvae] XGB F1=0.8107  AUC=0.9168
+2026-06-01 02:28:09  INFO    [tabddpm] Generated 7822 rows in 920.4s
+2026-06-01 02:28:10  INFO    [tabddpm] RF  F1=0.7974  AUC=0.9068
+2026-06-01 02:28:10  INFO    [tabddpm] XGB F1=0.8103  AUC=0.9220
+2026-06-01 02:29:05  INFO    [dice] Generated 300 rows in 24.4s
+2026-06-01 02:29:06  INFO    [dice] RF  F1=0.7990  AUC=0.9056
+2026-06-01 02:29:06  INFO    [dice] XGB F1=0.8138  AUC=0.9231
+2026-06-01 02:29:29  INFO    Seed 42 complete. Dataset: 6/30. Session: 0.4h elapsed.
+2026-06-01 02:29:29  INFO    Subsampled training data: 39,073 → 15,000 rows (stratified, seed=123)
+2026-06-01 02:29:30  INFO    [baseline] RF  F1=0.7935  AUC=0.9088
+2026-06-01 02:29:30  INFO    [baseline] XGB F1=0.8148  AUC=0.9281
+2026-06-01 02:29:52  INFO    [smote_nc] Generated 7822 rows in 1.1s
+2026-06-01 02:29:52  INFO    [smote_nc] RF  F1=0.7923  AUC=0.9062
+2026-06-01 02:29:52  INFO    [smote_nc] XGB F1=0.8126  AUC=0.9249
+2026-06-01 02:32:36  INFO    [ctgan] Generated 7822 rows in 137.5s
+2026-06-01 02:32:36  INFO    [ctgan] RF  F1=0.7871  AUC=0.9061
+2026-06-01 02:32:36  INFO    [ctgan] XGB F1=0.8100  AUC=0.9251
+2026-06-01 02:34:11  INFO    [tvae] Generated 7822 rows in 61.7s
+2026-06-01 02:34:12  INFO    [tvae] RF  F1=0.7900  AUC=0.9080
+2026-06-01 02:34:12  INFO    [tvae] XGB F1=0.8066  AUC=0.9238
+2026-06-01 02:48:55  INFO    [tabddpm] Generated 7822 rows in 850.0s
+2026-06-01 02:48:56  INFO    [tabddpm] RF  F1=0.7911  AUC=0.9086
+2026-06-01 02:48:56  INFO    [tabddpm] XGB F1=0.8119  AUC=0.9272
+2026-06-01 02:49:51  INFO    [dice] Generated 300 rows in 24.6s
+2026-06-01 02:49:52  INFO    [dice] RF  F1=0.7943  AUC=0.9100
+2026-06-01 02:49:52  INFO    [dice] XGB F1=0.8173  AUC=0.9284
+2026-06-01 02:50:15  INFO    Seed 123 complete. Dataset: 12/30. Session: 0.7h elapsed.
+2026-06-01 02:50:15  INFO    Subsampled training data: 39,073 → 15,000 rows (stratified, seed=456)
+2026-06-01 02:50:15  INFO    [baseline] RF  F1=0.7976  AUC=0.9090
+2026-06-01 02:50:15  INFO    [baseline] XGB F1=0.8155  AUC=0.9237
+2026-06-01 02:50:38  INFO    [smote_nc] Generated 7822 rows in 1.1s
+2026-06-01 02:50:38  INFO    [smote_nc] RF  F1=0.7939  AUC=0.9048
+2026-06-01 02:50:38  INFO    [smote_nc] XGB F1=0.8115  AUC=0.9219
+2026-06-01 02:53:17  INFO    [ctgan] Generated 7822 rows in 132.1s
+2026-06-01 02:53:17  INFO    [ctgan] RF  F1=0.7968  AUC=0.9065
+2026-06-01 02:53:17  INFO    [ctgan] XGB F1=0.8070  AUC=0.9201
+2026-06-01 02:54:58  INFO    [tvae] Generated 7822 rows in 67.8s
+2026-06-01 02:54:59  INFO    [tvae] RF  F1=0.7890  AUC=0.9024
+2026-06-01 02:54:59  INFO    [tvae] XGB F1=0.8030  AUC=0.9173
+2026-06-01 03:10:28  INFO    [tabddpm] Generated 7822 rows in 896.8s
+2026-06-01 03:10:28  INFO    [tabddpm] RF  F1=0.7973  AUC=0.9073
+2026-06-01 03:10:28  INFO    [tabddpm] XGB F1=0.8118  AUC=0.9220
+2026-06-01 03:11:42  INFO    [dice] Generated 298 rows in 43.4s
+2026-06-01 03:11:42  INFO    [dice] RF  F1=0.7963  AUC=0.9084
+2026-06-01 03:11:42  INFO    [dice] XGB F1=0.8134  AUC=0.9229
+2026-06-01 03:12:06  INFO    Seed 456 complete. Dataset: 18/30. Session: 1.1h elapsed.
+2026-06-01 03:12:06  INFO    Subsampled training data: 39,073 → 15,000 rows (stratified, seed=789)
+2026-06-01 03:12:07  INFO    [baseline] RF  F1=0.7894  AUC=0.9040
+2026-06-01 03:12:07  INFO    [baseline] XGB F1=0.8102  AUC=0.9238
+2026-06-01 03:12:29  INFO    [smote_nc] Generated 7822 rows in 1.1s
+2026-06-01 03:12:29  INFO    [smote_nc] RF  F1=0.7900  AUC=0.9023
+2026-06-01 03:12:29  INFO    [smote_nc] XGB F1=0.8108  AUC=0.9206
+2026-06-01 03:15:11  INFO    [ctgan] Generated 7822 rows in 135.8s
+2026-06-01 03:15:12  INFO    [ctgan] RF  F1=0.7900  AUC=0.9032
+2026-06-01 03:15:12  INFO    [ctgan] XGB F1=0.8071  AUC=0.9212
+2026-06-01 03:16:47  INFO    [tvae] Generated 7822 rows in 61.2s
+2026-06-01 03:16:47  INFO    [tvae] RF  F1=0.7878  AUC=0.9019
+2026-06-01 03:16:47  INFO    [tvae] XGB F1=0.8061  AUC=0.9196
+2026-06-01 03:31:54  INFO    [tabddpm] Generated 7822 rows in 874.1s
+2026-06-01 03:31:55  INFO    [tabddpm] RF  F1=0.7901  AUC=0.9046
+2026-06-01 03:31:55  INFO    [tabddpm] XGB F1=0.8105  AUC=0.9242
+2026-06-01 03:32:59  INFO    [dice] Generated 299 rows in 34.3s
+2026-06-01 03:33:00  INFO    [dice] RF  F1=0.7931  AUC=0.9049
+2026-06-01 03:33:00  INFO    [dice] XGB F1=0.8101  AUC=0.9237
+2026-06-01 03:33:24  INFO    Seed 789 complete. Dataset: 24/30. Session: 1.4h elapsed.
+2026-06-01 03:33:24  INFO    Subsampled training data: 39,073 → 15,000 rows (stratified, seed=999)
+2026-06-01 03:33:24  INFO    [baseline] RF  F1=0.7898  AUC=0.9077
+2026-06-01 03:33:24  INFO    [baseline] XGB F1=0.8049  AUC=0.9204
+2026-06-01 03:33:46  INFO    [smote_nc] Generated 7822 rows in 1.1s
+2026-06-01 03:33:47  INFO    [smote_nc] RF  F1=0.7918  AUC=0.9028
+2026-06-01 03:33:47  INFO    [smote_nc] XGB F1=0.8126  AUC=0.9222
+2026-06-01 03:36:37  INFO    [ctgan] Generated 7822 rows in 143.3s
+2026-06-01 03:36:37  INFO    [ctgan] RF  F1=0.7888  AUC=0.9041
+2026-06-01 03:36:37  INFO    [ctgan] XGB F1=0.8118  AUC=0.9200
+2026-06-01 03:38:21  INFO    [tvae] Generated 7822 rows in 67.8s
+2026-06-01 03:38:21  INFO    [tvae] RF  F1=0.7922  AUC=0.9061
+2026-06-01 03:38:21  INFO    [tvae] XGB F1=0.8038  AUC=0.9205
+2026-06-01 03:53:20  INFO    [tabddpm] Generated 7822 rows in 865.6s
+2026-06-01 03:53:20  INFO    [tabddpm] RF  F1=0.7922  AUC=0.9063
+2026-06-01 03:53:20  INFO    [tabddpm] XGB F1=0.8113  AUC=0.9235
+2026-06-01 03:54:25  INFO    [dice] Generated 299 rows in 33.5s
+2026-06-01 03:54:25  INFO    [dice] RF  F1=0.7887  AUC=0.9068
+2026-06-01 03:54:25  INFO    [dice] XGB F1=0.8099  AUC=0.9210
+2026-06-01 03:54:49  INFO    Seed 999 complete. Dataset: 30/30. Session: 1.8h elapsed.
+2026-06-01 03:54:50  INFO    adult complete. 30/30 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 03:54:50  INFO  Session ended after 1.79h
+2026-06-01 03:54:50  INFO  Re-run with same command to resume any incomplete datasets.
+2026-06-01 03:54:50  INFO  Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 03:54:50  INFO  GPU DETECTED: NVIDIA L40S
+2026-06-01 03:54:50  INFO  XGBoost: tree_method=hist + device=cuda
+2026-06-01 03:54:50  INFO  Datasets this session : ['connect_4']
+2026-06-01 03:54:50  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-06-01 03:54:50  INFO  Split                 : 80/20
+2026-06-01 03:54:50  INFO  GAN epochs            : 300
+2026-06-01 03:54:50  INFO  TabDDPM steps         : 15000
+2026-06-01 03:54:50  INFO  Subsample limit       : 15,000 rows
+2026-06-01 03:54:50  INFO  Session limit         : 6.5h
+2026-06-01 03:54:50  INFO  
+2026-06-01 03:54:50  INFO  Checkpoint status:
+2026-06-01 03:54:50  INFO    connect_4     :   0/20 complete (  0%)  ~5.5h remaining  [N/A: ['smote_nc', 'dice']]
+2026-06-01 03:54:50  INFO  
+2026-06-01 03:54:50  INFO    connect_4     : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/connect-4.tsv
+2026-06-01 03:54:50  INFO  
+2026-06-01 03:54:50  INFO    N/A methods for connect_4: ['smote_nc', 'dice']
+2026-06-01 03:54:50  INFO    Multiclass: 3 classes — XGB uses multi:softprob
+2026-06-01 03:54:50  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-06-01 03:54:50  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=42)
+2026-06-01 03:54:51  INFO    [baseline] RF  F1=0.5521  AUC=0.8502
+2026-06-01 03:54:51  INFO    [baseline] XGB F1=0.6235  AUC=0.8987
+2026-06-01 03:59:58  INFO    [ctgan] Generated 14622 rows in 226.4s
+2026-06-01 03:59:59  INFO    [ctgan] RF  F1=0.5172  AUC=0.8114
+2026-06-01 03:59:59  INFO    [ctgan] XGB F1=0.5330  AUC=0.8524
+2026-06-01 04:06:22  INFO    [tvae] Generated 14622 rows in 59.0s
+2026-06-01 04:06:23  INFO    [tvae] RF  F1=0.5237  AUC=0.8206
+2026-06-01 04:06:23  INFO    [tvae] XGB F1=0.5596  AUC=0.8733
+2026-06-01 05:18:48  INFO    [tabddpm] Generated 14622 rows in 4146.1s
+2026-06-01 05:18:49  INFO    [tabddpm] RF  F1=0.5596  AUC=0.8534
+2026-06-01 05:18:49  INFO    [tabddpm] XGB F1=0.5762  AUC=0.8860
+2026-06-01 05:21:21  INFO    Seed 42 complete. Dataset: 4/20. Session: 1.4h elapsed.
+2026-06-01 05:21:21  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=123)
+2026-06-01 05:21:22  INFO    [baseline] RF  F1=0.5664  AUC=0.8542
+2026-06-01 05:21:22  INFO    [baseline] XGB F1=0.6221  AUC=0.8953
+2026-06-01 05:26:16  INFO    [ctgan] Generated 14622 rows in 214.0s
+2026-06-01 05:26:16  INFO    [ctgan] RF  F1=0.5044  AUC=0.8273
+2026-06-01 05:26:16  INFO    [ctgan] XGB F1=0.5210  AUC=0.8662
+2026-06-01 05:31:37  INFO    [tvae] Generated 14622 rows in 65.8s
+2026-06-01 05:31:37  INFO    [tvae] RF  F1=0.5289  AUC=0.8201
+2026-06-01 05:31:37  INFO    [tvae] XGB F1=0.5672  AUC=0.8655
+2026-06-01 06:39:22  INFO    [tabddpm] Generated 14622 rows in 3865.2s
+2026-06-01 06:39:23  INFO    [tabddpm] RF  F1=0.5702  AUC=0.8573
+2026-06-01 06:39:23  INFO    [tabddpm] XGB F1=0.5795  AUC=0.8843
+2026-06-01 06:41:56  INFO    Seed 123 complete. Dataset: 8/20. Session: 2.8h elapsed.
+2026-06-01 06:41:56  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=456)
+2026-06-01 06:41:57  INFO    [baseline] RF  F1=0.5632  AUC=0.8471
+2026-06-01 06:41:57  INFO    [baseline] XGB F1=0.6220  AUC=0.8933
+2026-06-01 06:47:11  INFO    [ctgan] Generated 14622 rows in 234.9s
+2026-06-01 06:47:12  INFO    [ctgan] RF  F1=0.4941  AUC=0.8236
+2026-06-01 06:47:12  INFO    [ctgan] XGB F1=0.5306  AUC=0.8642
+2026-06-01 06:51:53  INFO    [tvae] Generated 14622 rows in 59.0s
+2026-06-01 06:51:54  INFO    [tvae] RF  F1=0.5137  AUC=0.8104
+2026-06-01 06:51:54  INFO    [tvae] XGB F1=0.5645  AUC=0.8673
+2026-06-01 14:08:18  INFO  GPU DETECTED: Quadro RTX 8000
+2026-06-01 14:08:18  INFO  XGBoost: tree_method=hist + device=cuda
+2026-06-01 14:08:18  INFO  Datasets this session : ['mushroom', 'connect_4']
+2026-06-01 14:08:18  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-06-01 14:08:18  INFO  Split                 : 80/20
+2026-06-01 14:08:18  INFO  GAN epochs            : 300
+2026-06-01 14:08:18  INFO  TabDDPM steps         : 15000
+2026-06-01 14:08:18  INFO  Subsample limit       : 15,000 rows
+2026-06-01 14:08:18  INFO  Session limit         : 6.5h
+2026-06-01 14:08:18  INFO  
+2026-06-01 14:08:18  INFO  Checkpoint status:
+2026-06-01 14:08:18  INFO    mushroom      :  20/20 complete (100%)  ~2.0h remaining  [N/A: ['smote_nc', 'dice']]
+2026-06-01 14:08:18  INFO    connect_4     :  11/20 complete ( 55%)  ~5.5h remaining  [N/A: ['smote_nc', 'dice']]
+2026-06-01 14:08:18  INFO  
+2026-06-01 14:08:18  INFO    mushroom      : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/mushroom.tsv
+2026-06-01 14:08:18  INFO    connect_4     : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/connect-4.tsv
+2026-06-01 14:08:18  INFO  
+2026-06-01 14:08:18  INFO    mushroom: ALL 20 runs already complete. Skipping.
+2026-06-01 14:08:18  INFO    N/A methods for connect_4: ['smote_nc', 'dice']
+2026-06-01 14:08:18  INFO    Multiclass: 3 classes — XGB uses multi:softprob
+2026-06-01 14:08:18  INFO    All-categorical dataset — SMOTE-NC is N/A
+2026-06-01 14:08:18  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=456)
+2026-06-01 14:08:21  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-06-01 14:08:21  INFO    [ctgan] seed=456: checkpointed — skipping.
+2026-06-01 14:08:22  INFO    [tvae] seed=456: checkpointed — skipping.
+2026-06-01 16:08:00  INFO    [tabddpm] Generated 14622 rows in 7178.2s
+2026-06-01 16:08:02  INFO    [tabddpm] RF  F1=0.5616  AUC=0.8498
+2026-06-01 16:08:02  INFO    [tabddpm] XGB F1=0.5781  AUC=0.8834
+2026-06-01 16:11:26  INFO    Seed 456 complete. Dataset: 12/20. Session: 2.1h elapsed.
+2026-06-01 16:11:26  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=789)
+2026-06-01 16:11:28  INFO    [baseline] RF  F1=0.5554  AUC=0.8535
+2026-06-01 16:11:28  INFO    [baseline] XGB F1=0.6198  AUC=0.8960
+2026-06-01 16:20:30  INFO    [ctgan] Generated 14622 rows in 434.9s
+2026-06-01 16:20:31  INFO    [ctgan] RF  F1=0.5409  AUC=0.8034
+2026-06-01 16:20:31  INFO    [ctgan] XGB F1=0.5507  AUC=0.8317
+2026-06-01 16:29:54  INFO    [tvae] Generated 14622 rows in 99.3s
+2026-06-01 16:29:55  INFO    [tvae] RF  F1=0.5339  AUC=0.8164
+2026-06-01 16:29:55  INFO    [tvae] XGB F1=0.5680  AUC=0.8669
+2026-06-01 18:32:07  INFO    [tabddpm] Generated 14622 rows in 7078.1s
+2026-06-01 18:32:09  INFO    [tabddpm] RF  F1=0.5642  AUC=0.8543
+2026-06-01 18:32:09  INFO    [tabddpm] XGB F1=0.5794  AUC=0.8844
+2026-06-01 18:35:31  INFO    Seed 789 complete. Dataset: 16/20. Session: 4.5h elapsed.
+2026-06-01 18:35:31  INFO    Subsampled training data: 54,045 → 15,000 rows (stratified, seed=999)
+2026-06-01 18:35:32  INFO    [baseline] RF  F1=0.5532  AUC=0.8500
+2026-06-01 18:35:32  INFO    [baseline] XGB F1=0.6075  AUC=0.8911
+2026-06-01 18:44:11  INFO    [ctgan] Generated 14622 rows in 414.6s
+2026-06-01 18:44:12  INFO    [ctgan] RF  F1=0.5353  AUC=0.8156
+2026-06-01 18:44:12  INFO    [ctgan] XGB F1=0.5339  AUC=0.8512
+2026-06-01 18:52:51  INFO    [tvae] Generated 14622 rows in 99.8s
+2026-06-01 18:52:52  INFO    [tvae] RF  F1=0.5234  AUC=0.8160
+2026-06-01 18:52:52  INFO    [tvae] XGB F1=0.5611  AUC=0.8677
+2026-06-01 20:50:46  INFO    [tabddpm] Generated 14622 rows in 6813.5s
+2026-06-01 20:50:48  INFO    [tabddpm] RF  F1=0.5566  AUC=0.8479
+2026-06-01 20:50:48  INFO    [tabddpm] XGB F1=0.5750  AUC=0.8848
+2026-06-01 20:54:07  INFO    Seed 999 complete. Dataset: 20/20. Session: 6.8h elapsed.
+2026-06-01 20:54:08  INFO    connect_4 complete. 20/20 runs. Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-01 20:54:08  INFO  Session ended after 6.76h
+2026-06-01 20:54:08  INFO  Re-run with same command to resume any incomplete datasets.
+2026-06-01 20:54:08  INFO  Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large
+2026-06-02 21:38:06  INFO  GPU DETECTED: NVIDIA L40S
+2026-06-02 21:38:06  INFO  XGBoost: tree_method=hist + device=cuda
+2026-06-02 21:38:06  INFO  Datasets this session : ['mushroom', 'nursery']
+2026-06-02 21:38:06  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-06-02 21:38:06  INFO  Split                 : 80/20
+2026-06-02 21:38:06  INFO  GAN epochs            : 300
+2026-06-02 21:38:06  INFO  TabDDPM steps         : 15000
+2026-06-02 21:38:06  INFO  Subsample limit       : 15,000 rows
+2026-06-02 21:38:06  INFO  Session limit         : 6.5h
+2026-06-02 21:38:06  INFO  
+2026-06-02 21:38:06  INFO  Checkpoint status:
+2026-06-02 21:38:06  INFO    mushroom      :  20/20 complete (100%)  ~2.0h remaining  [N/A: ['smote_nc', 'dice']]
+2026-06-02 21:38:06  INFO    nursery       :  20/20 complete (100%)  ~3.0h remaining  [N/A: ['smote_nc', 'dice']]
+2026-06-02 21:38:06  INFO  
+2026-06-02 21:38:06  INFO    mushroom      : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/mushroom.tsv
+2026-06-02 21:38:06  INFO    nursery       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Large_Datasets/nursery.tsv
+2026-06-02 21:38:06  INFO  
+2026-06-02 21:38:06  INFO    mushroom: ALL 20 runs already complete. Skipping.
+2026-06-02 21:38:06  INFO    nursery: ALL 20 runs already complete. Skipping.
+2026-06-02 21:38:06  INFO  Session ended after 0.00h
+2026-06-02 21:38:06  INFO  Re-run with same command to resume any incomplete datasets.
+2026-06-02 21:38:06  INFO  Outputs → /projects/sig/usman.ashfaq/Implementation/outputs/classification/large

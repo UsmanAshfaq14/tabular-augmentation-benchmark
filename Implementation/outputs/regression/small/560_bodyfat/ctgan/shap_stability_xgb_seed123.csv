@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.4637,0.0469,0.6,"Density, Chest, Knee, Abdomen, Weight","Density, Ankle, Chest, Knee, Neck",123,560_bodyfat,xgb

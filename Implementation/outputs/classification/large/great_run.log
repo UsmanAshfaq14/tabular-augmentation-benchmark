@@ -1,0 +1,190 @@
+2026-06-01 22:19:30  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-01 22:19:30  INFO  Epochs    : 50
+2026-06-01 22:19:30  INFO  Subsample : 10,000 rows max per dataset
+2026-06-01 22:19:30  INFO  
+2026-06-01 22:19:30  INFO    mushroom      : 0/5 seeds done  (budget: 1.0h)
+2026-06-01 22:19:30  INFO    nursery       : 0/5 seeds done  (budget: 1.5h)
+2026-06-01 22:19:30  INFO    adult         : 0/5 seeds done  (budget: 3.0h)
+2026-06-01 22:19:30  INFO    connect_4     : 0/5 seeds done  (budget: 3.5h)
+2026-06-01 22:19:30  INFO  
+2026-06-02 00:08:28  INFO    [great] Generated 233 rows in 6538.6s
+2026-06-02 00:08:29  INFO    [great] RF  F1=1.0000  AUC=1.0000
+2026-06-02 00:08:29  INFO    [great] XGB F1=1.0000  AUC=1.0000
+2026-06-02 00:08:31  INFO    [mushroom/great] 1/5 seeds complete
+2026-06-02 00:08:31  WARNING    mushroom/great: time budget (1.0h) exceeded. Re-run to resume from seed 123.
+2026-06-02 00:08:31  INFO    mushroom/great DONE: 1/5 seeds
+2026-06-02 01:10:32  INFO    [great] Generated 3336 rows in 3721.7s
+2026-06-02 01:10:33  INFO    [great] RF  F1=0.9316  AUC=0.9976
+2026-06-02 01:10:33  INFO    [great] XGB F1=0.9719  AUC=0.9999
+2026-06-02 01:10:43  INFO    [nursery/great] 1/5 seeds complete
+2026-06-02 02:12:52  INFO    [great] Generated 3336 rows in 3729.3s
+2026-06-02 02:12:53  INFO    [great] RF  F1=0.9183  AUC=0.9962
+2026-06-02 02:12:53  INFO    [great] XGB F1=0.9690  AUC=0.9999
+2026-06-02 02:13:03  INFO    [nursery/great] 2/5 seeds complete
+2026-06-02 02:13:03  WARNING    nursery/great: time budget (1.5h) exceeded. Re-run to resume from seed 456.
+2026-06-02 02:13:03  INFO    nursery/great DONE: 2/5 seeds
+2026-06-02 04:07:06  INFO    [great] Generated 5214 rows in 6843.4s
+2026-06-02 04:07:07  INFO    [great] RF  F1=0.7914  AUC=0.9039
+2026-06-02 04:07:07  INFO    [great] XGB F1=0.8057  AUC=0.9184
+2026-06-02 04:07:31  INFO    [adult/great] 1/5 seeds complete
+2026-06-02 06:01:27  INFO    [great] Generated 5214 rows in 6835.4s
+2026-06-02 06:01:27  WARNING    [great] seed=123: removed 1 rows with invalid y values [4]
+2026-06-02 06:01:28  INFO    [great] RF  F1=0.7957  AUC=0.9092
+2026-06-02 06:01:28  INFO    [great] XGB F1=0.8135  AUC=0.9231
+2026-06-02 06:01:52  INFO    [adult/great] 2/5 seeds complete
+2026-06-02 06:01:52  WARNING    adult/great: time budget (3.0h) exceeded. Re-run to resume from seed 456.
+2026-06-02 06:01:52  INFO    adult/great DONE: 2/5 seeds
+2026-06-02 13:06:29  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-02 13:06:29  INFO  Epochs    : 50
+2026-06-02 13:06:29  INFO  Subsample : 10,000 rows max per dataset
+2026-06-02 13:06:29  INFO  
+2026-06-02 13:06:29  INFO    mushroom      : 1/5 seeds done  (budget: 1.0h)
+2026-06-02 13:06:29  INFO    nursery       : 2/5 seeds done  (budget: 1.5h)
+2026-06-02 13:06:29  INFO    adult         : 2/5 seeds done  (budget: 3.0h)
+2026-06-02 13:06:29  INFO    connect_4     : 0/5 seeds done  (budget: 3.5h)
+2026-06-02 13:06:29  INFO  
+2026-06-02 13:06:29  INFO    seed=42: already done. Skipping.
+2026-06-02 13:40:50  INFO    [great] Generated 233 rows in 2060.8s
+2026-06-02 13:40:51  INFO    [great] RF  F1=0.9994  AUC=1.0000
+2026-06-02 13:40:51  INFO    [great] XGB F1=1.0000  AUC=1.0000
+2026-06-02 13:40:52  INFO    [mushroom/great] 2/5 seeds complete
+2026-06-02 14:14:57  INFO    [great] Generated 233 rows in 2045.0s
+2026-06-02 14:14:57  INFO    [great] RF  F1=1.0000  AUC=1.0000
+2026-06-02 14:14:57  INFO    [great] XGB F1=1.0000  AUC=1.0000
+2026-06-02 14:14:58  INFO    [mushroom/great] 3/5 seeds complete
+2026-06-02 14:14:58  WARNING    mushroom/great: time budget (1.0h) exceeded. Re-run to resume from seed 789.
+2026-06-02 14:14:58  INFO    mushroom/great DONE: 3/5 seeds
+2026-06-02 14:14:58  INFO    seed=42: already done. Skipping.
+2026-06-02 14:14:58  INFO    seed=123: already done. Skipping.
+2026-06-02 14:36:09  INFO    [great] Generated 3336 rows in 1271.2s
+2026-06-02 14:36:11  INFO    [great] RF  F1=0.9312  AUC=0.9978
+2026-06-02 14:36:11  INFO    [great] XGB F1=0.9768  AUC=0.9999
+2026-06-02 14:36:20  INFO    [nursery/great] 3/5 seeds complete
+2026-06-02 14:57:39  INFO    [great] Generated 3336 rows in 1279.3s
+2026-06-02 14:57:40  INFO    [great] RF  F1=0.9459  AUC=0.9982
+2026-06-02 14:57:40  INFO    [great] XGB F1=0.9886  AUC=0.9999
+2026-06-02 14:57:47  INFO    [nursery/great] 4/5 seeds complete
+2026-06-02 15:19:13  INFO    [great] Generated 3336 rows in 1286.8s
+2026-06-02 15:19:14  INFO    [great] RF  F1=0.9363  AUC=0.9982
+2026-06-02 15:19:14  INFO    [great] XGB F1=0.9860  AUC=0.9999
+2026-06-02 15:19:21  INFO    [nursery/great] 5/5 seeds complete
+2026-06-02 15:19:21  INFO    nursery/great DONE: 5/5 seeds
+2026-06-02 15:19:21  INFO    seed=42: already done. Skipping.
+2026-06-02 15:19:21  INFO    seed=123: already done. Skipping.
+2026-06-02 15:56:11  INFO    [great] Generated 5214 rows in 2209.6s
+2026-06-02 15:56:12  INFO    [great] RF  F1=0.7988  AUC=0.9077
+2026-06-02 15:56:12  INFO    [great] XGB F1=0.8065  AUC=0.9194
+2026-06-02 15:56:29  INFO    [adult/great] 3/5 seeds complete
+2026-06-02 16:33:12  INFO    [great] Generated 5214 rows in 2203.4s
+2026-06-02 16:33:13  INFO    [great] RF  F1=0.7936  AUC=0.9062
+2026-06-02 16:33:13  INFO    [great] XGB F1=0.8115  AUC=0.9208
+2026-06-02 16:33:29  INFO    [adult/great] 4/5 seeds complete
+2026-06-02 17:09:58  INFO    [great] Generated 5214 rows in 2188.8s
+2026-06-02 17:09:59  INFO    [great] RF  F1=0.7925  AUC=0.9086
+2026-06-02 17:09:59  INFO    [great] XGB F1=0.8020  AUC=0.9177
+2026-06-02 17:10:16  INFO    [adult/great] 5/5 seeds complete
+2026-06-02 17:10:16  INFO    adult/great DONE: 5/5 seeds
+2026-06-02 17:59:23  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-02 17:59:23  INFO  Epochs    : 50
+2026-06-02 17:59:23  INFO  Subsample : 10,000 rows max per dataset
+2026-06-02 17:59:23  INFO  
+2026-06-02 17:59:23  INFO    mushroom      : 3/5 seeds done  (budget: 1.0h)
+2026-06-02 17:59:23  INFO    nursery       : 5/5 seeds done  (budget: 1.5h)
+2026-06-02 17:59:23  INFO    adult         : 5/5 seeds done  (budget: 3.0h)
+2026-06-02 17:59:23  INFO    connect_4     : 0/5 seeds done  (budget: 3.5h)
+2026-06-02 17:59:23  INFO  
+2026-06-02 17:59:23  INFO    seed=42: already done. Skipping.
+2026-06-02 17:59:23  INFO    seed=123: already done. Skipping.
+2026-06-02 17:59:23  INFO    seed=456: already done. Skipping.
+2026-06-02 18:33:23  INFO    [great] Generated 233 rows in 2040.3s
+2026-06-02 18:33:24  INFO    [great] RF  F1=1.0000  AUC=1.0000
+2026-06-02 18:33:24  INFO    [great] XGB F1=1.0000  AUC=1.0000
+2026-06-02 18:33:25  INFO    [mushroom/great] 4/5 seeds complete
+2026-06-02 19:07:12  INFO    [great] Generated 233 rows in 2027.4s
+2026-06-02 19:07:13  INFO    [great] RF  F1=1.0000  AUC=1.0000
+2026-06-02 19:07:13  INFO    [great] XGB F1=1.0000  AUC=1.0000
+2026-06-02 19:07:14  INFO    [mushroom/great] 5/5 seeds complete
+2026-06-02 19:07:14  INFO    mushroom/great DONE: 5/5 seeds
+2026-06-02 19:07:14  INFO    nursery/great: all 5 seeds complete. Skipping.
+2026-06-02 19:07:14  INFO    adult/great: all 5 seeds complete. Skipping.
+2026-06-02 20:54:13  INFO    [great] Generated 9749 rows in 6418.6s
+2026-06-02 20:54:14  INFO    [great] RF  F1=0.4697  AUC=0.7799
+2026-06-02 20:54:14  INFO    [great] XGB F1=0.5196  AUC=0.8542
+2026-06-02 20:55:56  INFO    [connect_4/great] 1/5 seeds complete
+2026-06-02 21:38:15  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-02 21:38:15  INFO  Epochs    : 50
+2026-06-02 21:38:15  INFO  Subsample : 10,000 rows max per dataset
+2026-06-02 21:38:15  INFO  
+2026-06-02 21:38:15  INFO    mushroom      : 5/5 seeds done  (budget: 1.0h)
+2026-06-02 21:38:15  INFO    nursery       : 5/5 seeds done  (budget: 1.5h)
+2026-06-02 21:38:15  INFO    adult         : 5/5 seeds done  (budget: 3.0h)
+2026-06-02 21:38:15  INFO    connect_4     : 1/5 seeds done  (budget: 3.5h)
+2026-06-02 21:38:15  INFO  
+2026-06-02 21:38:15  INFO    mushroom/great: all 5 seeds complete. Skipping.
+2026-06-02 21:38:15  INFO    nursery/great: all 5 seeds complete. Skipping.
+2026-06-02 21:38:15  INFO    adult/great: all 5 seeds complete. Skipping.
+2026-06-02 21:38:16  INFO    seed=42: already done. Skipping.
+2026-06-02 23:23:27  INFO    [great] Generated 9749 rows in 6311.5s
+2026-06-02 23:23:29  INFO    [great] RF  F1=0.4798  AUC=0.7975
+2026-06-02 23:23:29  INFO    [great] XGB F1=0.5347  AUC=0.8555
+2026-06-02 23:25:29  INFO    [connect_4/great] 2/5 seeds complete
+2026-06-03 01:10:54  INFO    [great] Generated 9749 rows in 6325.0s
+2026-06-03 01:10:55  INFO    [great] RF  F1=0.4897  AUC=0.7965
+2026-06-03 01:10:55  INFO    [great] XGB F1=0.5397  AUC=0.8576
+2026-06-03 01:12:52  INFO    [connect_4/great] 3/5 seeds complete
+2026-06-03 01:12:52  WARNING    connect_4/great: time budget (3.5h) exceeded. Re-run to resume from seed 789.
+2026-06-03 01:12:52  INFO    connect_4/great DONE: 3/5 seeds
+2026-06-03 01:12:52  INFO  Done. Outputs merged with clf_large.py results.
+2026-06-03 01:12:52  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-03 01:12:52  INFO  Epochs    : 50
+2026-06-03 01:12:52  INFO  Subsample : 10,000 rows max per dataset
+2026-06-03 01:12:52  INFO  
+2026-06-03 01:12:52  INFO    mushroom      : 5/5 seeds done  (budget: 1.0h)
+2026-06-03 01:12:52  INFO    nursery       : 5/5 seeds done  (budget: 1.5h)
+2026-06-03 01:12:52  INFO    adult         : 5/5 seeds done  (budget: 3.0h)
+2026-06-03 01:12:52  INFO    connect_4     : 3/5 seeds done  (budget: 3.5h)
+2026-06-03 01:12:52  INFO  
+2026-06-03 01:12:52  INFO    mushroom/great: all 5 seeds complete. Skipping.
+2026-06-03 01:12:52  INFO    nursery/great: all 5 seeds complete. Skipping.
+2026-06-03 01:12:52  INFO    adult/great: all 5 seeds complete. Skipping.
+2026-06-03 01:12:52  INFO    seed=42: already done. Skipping.
+2026-06-03 01:12:52  INFO    seed=123: already done. Skipping.
+2026-06-03 01:12:52  INFO    seed=456: already done. Skipping.
+2026-06-03 02:58:15  INFO    [great] Generated 9749 rows in 6323.1s
+2026-06-03 02:58:17  INFO    [great] RF  F1=0.4782  AUC=0.7941
+2026-06-03 02:58:17  INFO    [great] XGB F1=0.5292  AUC=0.8578
+2026-06-03 03:00:17  INFO    [connect_4/great] 4/5 seeds complete
+2026-06-03 04:45:43  INFO    [great] Generated 9749 rows in 6325.5s
+2026-06-03 04:45:44  INFO    [great] RF  F1=0.4814  AUC=0.7937
+2026-06-03 04:45:44  INFO    [great] XGB F1=0.5311  AUC=0.8536
+2026-06-03 04:47:36  INFO    [connect_4/great] 5/5 seeds complete
+2026-06-03 04:47:36  INFO    connect_4/great DONE: 5/5 seeds
+2026-06-03 04:47:36  INFO  Done. Outputs merged with clf_large.py results.
+2026-06-03 04:47:36  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-03 04:47:36  INFO  Epochs    : 50
+2026-06-03 04:47:36  INFO  Subsample : 10,000 rows max per dataset
+2026-06-03 04:47:36  INFO  
+2026-06-03 04:47:36  INFO    mushroom      : 5/5 seeds done  (budget: 1.0h)
+2026-06-03 04:47:36  INFO    nursery       : 5/5 seeds done  (budget: 1.5h)
+2026-06-03 04:47:36  INFO    adult         : 5/5 seeds done  (budget: 3.0h)
+2026-06-03 04:47:36  INFO    connect_4     : 5/5 seeds done  (budget: 3.5h)
+2026-06-03 04:47:36  INFO  
+2026-06-03 04:47:36  INFO    mushroom/great: all 5 seeds complete. Skipping.
+2026-06-03 04:47:36  INFO    nursery/great: all 5 seeds complete. Skipping.
+2026-06-03 04:47:36  INFO    adult/great: all 5 seeds complete. Skipping.
+2026-06-03 04:47:36  INFO    connect_4/great: all 5 seeds complete. Skipping.
+2026-06-03 04:47:36  INFO  Done. Outputs merged with clf_large.py results.
+2026-06-03 16:02:54  INFO  Datasets  : ['mushroom', 'nursery', 'adult', 'connect_4']
+2026-06-03 16:02:54  INFO  Epochs    : 50
+2026-06-03 16:02:54  INFO  Subsample : 10,000 rows max per dataset
+2026-06-03 16:02:54  INFO  
+2026-06-03 16:02:54  INFO    mushroom      : 5/5 seeds done  (budget: 1.0h)
+2026-06-03 16:02:54  INFO    nursery       : 5/5 seeds done  (budget: 1.5h)
+2026-06-03 16:02:54  INFO    adult         : 5/5 seeds done  (budget: 3.0h)
+2026-06-03 16:02:54  INFO    connect_4     : 5/5 seeds done  (budget: 3.5h)
+2026-06-03 16:02:54  INFO  
+2026-06-03 16:02:54  INFO    mushroom/great: all 5 seeds complete. Skipping.
+2026-06-03 16:02:54  INFO    nursery/great: all 5 seeds complete. Skipping.
+2026-06-03 16:02:54  INFO    adult/great: all 5 seeds complete. Skipping.
+2026-06-03 16:02:54  INFO    connect_4/great: all 5 seeds complete. Skipping.
+2026-06-03 16:02:54  INFO  Done. Outputs merged with clf_large.py results.

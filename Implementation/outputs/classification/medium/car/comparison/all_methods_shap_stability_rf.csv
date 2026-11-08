@@ -1,0 +1,16 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,1.0,0.0363,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",42,car,rf
+tvae,1.0,0.0115,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",42,car,rf
+tabddpm,1.0,0.0032,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",42,car,rf
+ctgan,0.9429,0.0473,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",123,car,rf
+tvae,1.0,0.0091,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",123,car,rf
+tabddpm,1.0,0.0026,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",123,car,rf
+ctgan,0.8857,0.0428,0.8,"persons, buying, safety, lug_boot, maint","persons, buying, safety, maint, doors",456,car,rf
+tvae,0.9429,0.0109,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",456,car,rf
+tabddpm,1.0,0.0035,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",456,car,rf
+ctgan,0.8857,0.0321,0.8,"persons, buying, safety, lug_boot, maint","persons, buying, safety, maint, doors",789,car,rf
+tvae,0.8857,0.0168,0.8,"persons, buying, safety, lug_boot, maint","persons, buying, safety, maint, doors",789,car,rf
+tabddpm,1.0,0.0025,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",789,car,rf
+ctgan,1.0,0.0471,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",999,car,rf
+tvae,1.0,0.0083,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",999,car,rf
+tabddpm,1.0,0.0024,1.0,"persons, buying, safety, lug_boot, maint","persons, buying, safety, lug_boot, maint",999,car,rf

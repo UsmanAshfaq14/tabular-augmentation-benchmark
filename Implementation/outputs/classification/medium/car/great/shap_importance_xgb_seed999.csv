@@ -1,0 +1,7 @@
+,mean_abs_shap_xgb
+buying,0.860435
+persons,0.7951256
+maint,0.7694849
+safety,0.44971782
+lug_boot,0.3444238
+doors,0.27309114

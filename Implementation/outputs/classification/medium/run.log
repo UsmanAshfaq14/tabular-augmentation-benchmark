@@ -1,0 +1,1301 @@
+2026-05-29 21:25:55  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-29 21:25:55  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-29 21:25:55  INFO  GReaT: ENABLED
+2026-05-29 21:25:55  INFO  Datasets this session : ['flare', 'cmc']
+2026-05-29 21:25:55  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-29 21:25:55  INFO  Split                 : 80/20
+2026-05-29 21:25:55  INFO  GAN epochs            : 300
+2026-05-29 21:25:55  INFO  TabDDPM steps         : 15000
+2026-05-29 21:25:55  INFO  Session limit         : 6.5h
+2026-05-29 21:25:55  INFO  
+2026-05-29 21:25:55  INFO  Checkpoint status:
+2026-05-29 21:25:55  INFO    flare       :   0/35 complete (  0%)  ~1.4h remaining
+2026-05-29 21:25:55  INFO    cmc         :   0/35 complete (  0%)  ~1.9h remaining
+2026-05-29 21:25:55  INFO  
+2026-05-29 21:25:55  ERROR  Dataset flare failed: File not found: /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/flare.tsv
+Make sure the .tsv file is in the correct folder.
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 615, in main
+    run_dataset(dataset, logger)
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 376, in run_dataset
+    df   = load_dataset(dataset)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/data_utils.py", line 42, in load_dataset
+    raise FileNotFoundError(
+FileNotFoundError: File not found: /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/flare.tsv
+Make sure the .tsv file is in the correct folder.
+2026-05-29 21:25:55  ERROR  Dataset cmc failed: File not found: /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/cmc.tsv
+Make sure the .tsv file is in the correct folder.
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 615, in main
+    run_dataset(dataset, logger)
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 376, in run_dataset
+    df   = load_dataset(dataset)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/utils/data_utils.py", line 42, in load_dataset
+    raise FileNotFoundError(
+FileNotFoundError: File not found: /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/cmc.tsv
+Make sure the .tsv file is in the correct folder.
+2026-05-29 21:25:55  INFO  Session ended after 0.00h
+2026-05-29 21:25:55  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-29 21:25:55  INFO  Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium
+2026-05-29 21:29:30  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-29 21:29:30  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-29 21:29:30  INFO  GReaT: ENABLED
+2026-05-29 21:29:30  INFO  Datasets this session : ['flare', 'cmc']
+2026-05-29 21:29:30  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-29 21:29:30  INFO  Split                 : 80/20
+2026-05-29 21:29:30  INFO  GAN epochs            : 300
+2026-05-29 21:29:30  INFO  TabDDPM steps         : 15000
+2026-05-29 21:29:30  INFO  Session limit         : 6.5h
+2026-05-29 21:29:30  INFO  
+2026-05-29 21:29:30  INFO  Checkpoint status:
+2026-05-29 21:29:30  INFO    flare       :   0/35 complete (  0%)  ~1.4h remaining
+2026-05-29 21:29:30  INFO    cmc         :   0/35 complete (  0%)  ~1.9h remaining
+2026-05-29 21:29:30  INFO  
+2026-05-29 21:29:32  INFO    [baseline] RF  F1=0.5841  AUC=0.7066
+2026-05-29 21:29:32  INFO    [baseline] XGB F1=0.5859  AUC=0.6909
+2026-05-29 21:29:34  INFO    [smote_nc] Generated 562 rows in 0.5s
+2026-05-29 21:29:34  INFO    [smote_nc] RF  F1=0.5883  AUC=0.682
+2026-05-29 21:29:34  INFO    [smote_nc] XGB F1=0.6022  AUC=0.6562
+2026-05-29 21:29:47  INFO    [ctgan] Generated 562 rows in 9.2s
+2026-05-29 21:29:47  INFO    [ctgan] RF  F1=0.5506  AUC=0.7023
+2026-05-29 21:29:47  INFO    [ctgan] XGB F1=0.5817  AUC=0.6797
+2026-05-29 21:29:53  INFO    [tvae] Generated 562 rows in 2.5s
+2026-05-29 21:29:54  INFO    [tvae] RF  F1=0.6104  AUC=0.6933
+2026-05-29 21:29:54  INFO    [tvae] XGB F1=0.5217  AUC=0.688
+2026-05-29 21:30:41  INFO    [tabddpm] Generated 562 rows in 44.3s
+2026-05-29 21:30:41  INFO    [tabddpm] RF  F1=0.5841  AUC=0.7126
+2026-05-29 21:30:41  INFO    [tabddpm] XGB F1=0.5217  AUC=0.7075
+2026-05-30 02:18:15  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 02:18:15  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 02:18:15  INFO  GReaT: ENABLED
+2026-05-30 02:18:15  INFO  Datasets this session : ['flare', 'cmc']
+2026-05-30 02:18:15  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-30 02:18:15  INFO  Split                 : 80/20
+2026-05-30 02:18:15  INFO  GAN epochs            : 300
+2026-05-30 02:18:15  INFO  TabDDPM steps         : 15000
+2026-05-30 02:18:15  INFO  Session limit         : 6.5h
+2026-05-30 02:18:15  INFO  
+2026-05-30 02:18:15  INFO  Checkpoint status:
+2026-05-30 02:18:15  INFO    flare       :   5/35 complete ( 14%)  ~1.4h remaining
+2026-05-30 02:18:15  INFO    cmc         :   0/35 complete (  0%)  ~1.9h remaining
+2026-05-30 02:18:15  INFO  
+2026-05-30 02:18:15  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-05-30 02:18:15  INFO    [smote_nc] seed=42: checkpointed — skipping.
+2026-05-30 02:18:15  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-05-30 02:18:15  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-05-30 02:18:15  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-05-30 02:18:41  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 02:18:41  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 02:18:41  INFO  GReaT: ENABLED
+2026-05-30 02:18:41  INFO  Datasets this session : ['flare', 'cmc']
+2026-05-30 02:18:41  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-30 02:18:41  INFO  Split                 : 80/20
+2026-05-30 02:18:41  INFO  GAN epochs            : 300
+2026-05-30 02:18:41  INFO  TabDDPM steps         : 15000
+2026-05-30 02:18:41  INFO  Session limit         : 6.5h
+2026-05-30 02:18:41  INFO  
+2026-05-30 02:18:41  INFO  Checkpoint status:
+2026-05-30 02:18:41  INFO    flare       :   5/35 complete ( 14%)  ~1.4h remaining
+2026-05-30 02:18:41  INFO    cmc         :   0/35 complete (  0%)  ~1.9h remaining
+2026-05-30 02:18:41  INFO  
+2026-05-30 02:18:42  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-05-30 02:18:42  INFO    [smote_nc] seed=42: checkpointed — skipping.
+2026-05-30 02:18:42  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-05-30 02:18:42  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-05-30 02:18:42  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-05-30 02:27:01  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 02:27:01  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 02:27:01  INFO  GReaT: ENABLED
+2026-05-30 02:27:01  INFO  Datasets this session : ['flare', 'cmc']
+2026-05-30 02:27:01  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-30 02:27:01  INFO  Split                 : 80/20
+2026-05-30 02:27:01  INFO  GAN epochs            : 300
+2026-05-30 02:27:01  INFO  TabDDPM steps         : 15000
+2026-05-30 02:27:01  INFO  Session limit         : 6.5h
+2026-05-30 02:27:01  INFO  
+2026-05-30 02:27:01  INFO  Checkpoint status:
+2026-05-30 02:27:01  INFO    flare       :   5/30 complete ( 16%)  ~1.4h remaining
+2026-05-30 02:27:01  INFO    cmc         :   0/30 complete (  0%)  ~1.9h remaining
+2026-05-30 02:27:01  INFO  
+2026-05-30 02:27:01  INFO  Running startup diagnostics...
+2026-05-30 02:27:01  INFO    flare       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/flare.tsv
+2026-05-30 02:27:01  INFO    cmc         : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/cmc.tsv
+2026-05-30 02:27:01  INFO    Output root: /projects/sig/usman.ashfaq/Implementation/outputs
+2026-05-30 02:27:01  INFO  
+2026-05-30 02:27:02  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-05-30 02:27:02  INFO    [smote_nc] seed=42: checkpointed — skipping.
+2026-05-30 02:27:02  INFO    [ctgan] seed=42: checkpointed — skipping.
+2026-05-30 02:27:02  INFO    [tvae] seed=42: checkpointed — skipping.
+2026-05-30 02:27:02  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-05-30 02:28:28  INFO    [dice] Generated 293 rows in 86.0s
+2026-05-30 02:28:29  INFO    [dice] RF  F1=0.5970  AUC=0.7176
+2026-05-30 02:28:29  INFO    [dice] XGB F1=0.6302  AUC=0.7055
+2026-05-30 02:28:32  INFO    Seed 42 complete. Dataset progress: 6/30. Session: 0.0h elapsed.
+2026-05-30 02:28:32  INFO    [baseline] RF  F1=0.5480  AUC=0.7445
+2026-05-30 02:28:32  INFO    [baseline] XGB F1=0.5437  AUC=0.7414
+2026-05-30 02:28:33  INFO    [smote_nc] Generated 562 rows in 0.2s
+2026-05-30 02:28:34  INFO    [smote_nc] RF  F1=0.5920  AUC=0.6707
+2026-05-30 02:28:34  INFO    [smote_nc] XGB F1=0.6201  AUC=0.7029
+2026-05-30 02:28:46  INFO    [ctgan] Generated 562 rows in 8.6s
+2026-05-30 02:28:46  INFO    [ctgan] RF  F1=0.5480  AUC=0.6861
+2026-05-30 02:28:46  INFO    [ctgan] XGB F1=0.6140  AUC=0.7191
+2026-05-30 02:28:53  INFO    [tvae] Generated 562 rows in 2.5s
+2026-05-30 02:28:53  INFO    [tvae] RF  F1=0.5891  AUC=0.7377
+2026-05-30 02:28:53  INFO    [tvae] XGB F1=0.5622  AUC=0.7306
+2026-05-30 02:29:42  INFO    [tabddpm] Generated 562 rows in 45.4s
+2026-05-30 02:29:42  INFO    [tabddpm] RF  F1=0.5762  AUC=0.7465
+2026-05-30 02:29:42  INFO    [tabddpm] XGB F1=0.5622  AUC=0.7498
+2026-05-30 02:30:30  INFO    [dice] Generated 298 rows in 43.8s
+2026-05-30 02:30:30  INFO    [dice] RF  F1=0.5515  AUC=0.7475
+2026-05-30 02:30:30  INFO    [dice] XGB F1=0.5306  AUC=0.7335
+2026-05-30 02:30:33  INFO    Seed 123 complete. Dataset progress: 12/30. Session: 0.1h elapsed.
+2026-05-30 02:30:34  INFO    [baseline] RF  F1=0.5507  AUC=0.7545
+2026-05-30 02:30:34  INFO    [baseline] XGB F1=0.5773  AUC=0.7408
+2026-05-30 02:30:35  INFO    [smote_nc] Generated 562 rows in 0.1s
+2026-05-30 02:30:35  INFO    [smote_nc] RF  F1=0.6189  AUC=0.6953
+2026-05-30 02:30:35  INFO    [smote_nc] XGB F1=0.5992  AUC=0.6965
+2026-05-30 02:30:43  INFO    [ctgan] Generated 562 rows in 4.1s
+2026-05-30 02:30:43  INFO    [ctgan] RF  F1=0.6011  AUC=0.7105
+2026-05-30 02:30:43  INFO    [ctgan] XGB F1=0.5659  AUC=0.6982
+2026-05-30 02:30:49  INFO    [tvae] Generated 562 rows in 2.8s
+2026-05-30 02:30:50  INFO    [tvae] RF  F1=0.5685  AUC=0.7366
+2026-05-30 02:30:50  INFO    [tvae] XGB F1=0.5973  AUC=0.7344
+2026-05-30 02:31:37  INFO    [tabddpm] Generated 562 rows in 43.5s
+2026-05-30 02:31:37  INFO    [tabddpm] RF  F1=0.5736  AUC=0.741
+2026-05-30 02:31:37  INFO    [tabddpm] XGB F1=0.5723  AUC=0.7434
+2026-05-30 02:33:26  INFO    [dice] Generated 291 rows in 105.2s
+2026-05-30 02:33:26  INFO    [dice] RF  F1=0.5929  AUC=0.7513
+2026-05-30 02:33:26  INFO    [dice] XGB F1=0.5773  AUC=0.7199
+2026-05-30 02:33:30  INFO    Seed 456 complete. Dataset progress: 18/30. Session: 0.1h elapsed.
+2026-05-30 02:33:30  INFO    [baseline] RF  F1=0.5307  AUC=0.6525
+2026-05-30 02:33:30  INFO    [baseline] XGB F1=0.5471  AUC=0.6311
+2026-05-30 02:33:31  INFO    [smote_nc] Generated 562 rows in 0.1s
+2026-05-30 02:33:31  INFO    [smote_nc] RF  F1=0.5947  AUC=0.637
+2026-05-30 02:33:31  INFO    [smote_nc] XGB F1=0.5779  AUC=0.628
+2026-05-30 02:33:38  INFO    [ctgan] Generated 562 rows in 3.7s
+2026-05-30 02:33:39  INFO    [ctgan] RF  F1=0.4814  AUC=0.6366
+2026-05-30 02:33:39  INFO    [ctgan] XGB F1=0.5542  AUC=0.6421
+2026-05-30 02:33:45  INFO    [tvae] Generated 562 rows in 2.9s
+2026-05-30 02:33:46  INFO    [tvae] RF  F1=0.5100  AUC=0.658
+2026-05-30 02:33:46  INFO    [tvae] XGB F1=0.5244  AUC=0.6409
+2026-05-30 02:34:32  INFO    [tabddpm] Generated 562 rows in 43.3s
+2026-05-30 02:34:33  INFO    [tabddpm] RF  F1=0.5244  AUC=0.6602
+2026-05-30 02:34:33  INFO    [tabddpm] XGB F1=0.5817  AUC=0.6624
+2026-05-30 02:35:44  INFO    [dice] Generated 296 rows in 67.8s
+2026-05-30 02:35:44  INFO    [dice] RF  F1=0.5585  AUC=0.655
+2026-05-30 02:35:44  INFO    [dice] XGB F1=0.5437  AUC=0.6476
+2026-05-30 02:35:47  INFO    Seed 789 complete. Dataset progress: 24/30. Session: 0.1h elapsed.
+2026-05-30 02:35:48  INFO    [baseline] RF  F1=0.6256  AUC=0.7032
+2026-05-30 02:35:48  INFO    [baseline] XGB F1=0.5577  AUC=0.6756
+2026-05-30 02:35:49  INFO    [smote_nc] Generated 562 rows in 0.1s
+2026-05-30 02:35:49  INFO    [smote_nc] RF  F1=0.6362  AUC=0.6864
+2026-05-30 02:35:49  INFO    [smote_nc] XGB F1=0.6177  AUC=0.6585
+2026-05-30 02:35:56  INFO    [ctgan] Generated 562 rows in 3.8s
+2026-05-30 02:35:56  INFO    [ctgan] RF  F1=0.6166  AUC=0.6746
+2026-05-30 02:35:56  INFO    [ctgan] XGB F1=0.5697  AUC=0.6696
+2026-05-30 02:36:03  INFO    [tvae] Generated 562 rows in 2.5s
+2026-05-30 02:36:03  INFO    [tvae] RF  F1=0.5851  AUC=0.6868
+2026-05-30 02:36:03  INFO    [tvae] XGB F1=0.5649  AUC=0.6842
+2026-05-30 02:36:49  INFO    [tabddpm] Generated 562 rows in 42.7s
+2026-05-30 02:36:49  INFO    [tabddpm] RF  F1=0.6096  AUC=0.7045
+2026-05-30 02:36:49  INFO    [tabddpm] XGB F1=0.5891  AUC=0.7006
+2026-05-30 02:39:15  INFO    [dice] Generated 288 rows in 141.9s
+2026-05-30 02:39:15  INFO    [dice] RF  F1=0.6011  AUC=0.6972
+2026-05-30 02:39:15  INFO    [dice] XGB F1=0.5773  AUC=0.677
+2026-05-30 02:39:18  INFO    Seed 999 complete. Dataset progress: 30/30. Session: 0.2h elapsed.
+2026-05-30 02:39:19  INFO    flare complete. 30/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/flare
+2026-05-30 02:39:19  INFO    Multiclass: 3 classes — XGB uses multi:softprob, DiCE targets majority class
+2026-05-30 02:39:20  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:39:20  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 02:39:20  ERROR    [smote_nc] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:39:28  INFO    [ctgan] Generated 331 rows in 8.4s
+2026-05-30 02:39:28  ERROR    [ctgan] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:39:33  INFO    [tvae] Generated 331 rows in 4.8s
+2026-05-30 02:39:33  ERROR    [tvae] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:40:18  INFO    [tabddpm] Generated 331 rows in 44.4s
+2026-05-30 02:40:18  ERROR    [tabddpm] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:41:10  INFO    [dice] Generated 296 rows in 52.7s
+2026-05-30 02:41:11  ERROR    [dice] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:41:11  INFO    Seed 42 complete. Dataset progress: 0/30. Session: 0.2h elapsed.
+2026-05-30 02:41:11  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:41:11  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 02:41:11  ERROR    [smote_nc] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:41:19  INFO    [ctgan] Generated 331 rows in 8.4s
+2026-05-30 02:41:20  ERROR    [ctgan] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:41:24  INFO    [tvae] Generated 331 rows in 4.8s
+2026-05-30 02:41:24  ERROR    [tvae] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:42:10  INFO    [tabddpm] Generated 331 rows in 45.7s
+2026-05-30 02:42:10  ERROR    [tabddpm] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:43:03  INFO    [dice] Generated 296 rows in 52.8s
+2026-05-30 02:43:03  ERROR    [dice] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:43:03  INFO    Seed 123 complete. Dataset progress: 0/30. Session: 0.3h elapsed.
+2026-05-30 02:43:03  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:43:03  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 02:43:04  ERROR    [smote_nc] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:43:12  INFO    [ctgan] Generated 331 rows in 8.4s
+2026-05-30 02:43:12  ERROR    [ctgan] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:43:17  INFO    [tvae] Generated 331 rows in 4.7s
+2026-05-30 02:43:17  ERROR    [tvae] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:44:02  INFO    [tabddpm] Generated 331 rows in 44.6s
+2026-05-30 02:44:02  ERROR    [tabddpm] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:45:04  INFO    [dice] Generated 295 rows in 62.0s
+2026-05-30 02:45:04  ERROR    [dice] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:45:04  INFO    Seed 456 complete. Dataset progress: 0/30. Session: 0.3h elapsed.
+2026-05-30 02:45:04  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:45:04  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 02:45:04  ERROR    [smote_nc] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:45:13  INFO    [ctgan] Generated 331 rows in 8.4s
+2026-05-30 02:45:13  ERROR    [ctgan] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:45:18  INFO    [tvae] Generated 331 rows in 4.8s
+2026-05-30 02:45:18  ERROR    [tvae] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:03  INFO    [tabddpm] Generated 331 rows in 44.7s
+2026-05-30 02:46:03  ERROR    [tabddpm] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:39  INFO    [dice] Generated 298 rows in 36.4s
+2026-05-30 02:46:39  ERROR    [dice] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:39  INFO    Seed 789 complete. Dataset progress: 0/30. Session: 0.3h elapsed.
+2026-05-30 02:46:39  ERROR    [baseline] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:39  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 02:46:40  ERROR    [smote_nc] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:48  INFO    [ctgan] Generated 331 rows in 8.4s
+2026-05-30 02:46:48  ERROR    [ctgan] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:46:53  INFO    [tvae] Generated 331 rows in 4.8s
+2026-05-30 02:46:53  ERROR    [tvae] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:47:38  INFO    [tabddpm] Generated 331 rows in 44.6s
+2026-05-30 02:47:38  ERROR    [tabddpm] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:48:57  INFO    [dice] Generated 293 rows in 78.7s
+2026-05-30 02:48:57  ERROR    [dice] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 299, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [1 2 3]
+2026-05-30 02:48:57  INFO    Seed 999 complete. Dataset progress: 0/30. Session: 0.4h elapsed.
+2026-05-30 02:48:57  INFO    cmc complete. 0/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/cmc
+2026-05-30 02:48:57  INFO  Session ended after 0.37h
+2026-05-30 02:48:57  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-30 02:48:57  INFO  Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium
+2026-05-30 09:36:07  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 09:36:07  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 09:36:07  INFO  GReaT: ENABLED
+2026-05-30 09:36:07  INFO  Datasets this session : ['car', 'churn']
+2026-05-30 09:36:07  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-30 09:36:07  INFO  Split                 : 80/20
+2026-05-30 09:36:07  INFO  GAN epochs            : 300
+2026-05-30 09:36:07  INFO  TabDDPM steps         : 15000
+2026-05-30 09:36:07  INFO  Session limit         : 6.5h
+2026-05-30 09:36:07  INFO  
+2026-05-30 09:36:07  INFO  Checkpoint status:
+2026-05-30 09:36:07  INFO    car         :   0/30 complete (  0%)  ~2.2h remaining
+2026-05-30 09:36:07  INFO    churn       :   0/30 complete (  0%)  ~5.6h remaining
+2026-05-30 09:36:07  INFO  
+2026-05-30 09:36:07  INFO  Running startup diagnostics...
+2026-05-30 09:36:07  INFO    car         : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/car.tsv
+2026-05-30 09:36:07  INFO    churn       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/churn.tsv
+2026-05-30 09:36:07  INFO    Output root: /projects/sig/usman.ashfaq/Implementation/outputs
+2026-05-30 09:36:07  INFO  
+2026-05-30 09:36:07  INFO    Multiclass: 4 classes — XGB uses multi:softprob, DiCE targets majority class
+2026-05-30 09:36:09  INFO    [baseline] RF  F1=0.9631  AUC=0.9984
+2026-05-30 09:36:09  INFO    [baseline] XGB F1=0.9979  AUC=1.0
+2026-05-30 09:36:10  WARNING    [smote_nc] Augmentation failed - skipping.
+2026-05-30 09:36:22  INFO    [ctgan] Generated 2490 rows in 11.5s
+2026-05-30 09:36:22  INFO    [ctgan] RF  F1=0.4298  AUC=0.8128
+2026-05-30 09:36:22  INFO    [ctgan] XGB F1=0.5212  AUC=0.9148
+2026-05-30 09:36:34  INFO    [tvae] Generated 2490 rows in 6.0s
+2026-05-30 09:36:34  INFO    [tvae] RF  F1=0.7175  AUC=0.9756
+2026-05-30 09:36:34  INFO    [tvae] XGB F1=0.7487  AUC=0.9854
+2026-05-30 09:37:09  INFO    [tabddpm] Generated 2490 rows in 31.3s
+2026-05-30 09:37:09  INFO    [tabddpm] RF  F1=0.9656  AUC=0.9992
+2026-05-30 09:37:09  INFO    [tabddpm] XGB F1=0.9786  AUC=0.9998
+2026-05-30 09:37:16  WARNING    [dice] Augmentation failed - skipping.
+2026-05-30 09:37:16  INFO    Seed 42 complete. Dataset progress: 4/30. Session: 0.0h elapsed.
+2026-05-30 09:37:16  INFO    [baseline] RF  F1=0.8968  AUC=0.9984
+2026-05-30 09:37:16  INFO    [baseline] XGB F1=0.9734  AUC=1.0
+2026-05-30 09:37:18  WARNING    [smote_nc] Augmentation failed - skipping.
+2026-05-30 09:37:25  INFO    [ctgan] Generated 2490 rows in 6.9s
+2026-05-30 09:37:25  INFO    [ctgan] RF  F1=0.3606  AUC=0.7417
+2026-05-30 09:37:25  INFO    [ctgan] XGB F1=0.3936  AUC=0.8691
+2026-05-30 09:37:34  INFO    [tvae] Generated 2490 rows in 3.4s
+2026-05-30 09:37:34  INFO    [tvae] RF  F1=0.5677  AUC=0.9731
+2026-05-30 09:37:34  INFO    [tvae] XGB F1=0.6691  AUC=0.9821
+2026-05-30 09:38:07  INFO    [tabddpm] Generated 2490 rows in 29.2s
+2026-05-30 09:38:08  INFO    [tabddpm] RF  F1=0.9109  AUC=0.9998
+2026-05-30 09:38:08  INFO    [tabddpm] XGB F1=0.9849  AUC=0.9998
+2026-05-30 09:38:13  WARNING    [dice] Augmentation failed - skipping.
+2026-05-30 09:38:13  INFO    Seed 123 complete. Dataset progress: 8/30. Session: 0.0h elapsed.
+2026-05-30 09:38:13  INFO    [baseline] RF  F1=0.9766  AUC=0.999
+2026-05-30 09:38:13  INFO    [baseline] XGB F1=0.9937  AUC=0.9996
+2026-05-30 09:38:15  WARNING    [smote_nc] Augmentation failed - skipping.
+2026-05-30 09:38:21  INFO    [ctgan] Generated 2490 rows in 6.3s
+2026-05-30 09:38:22  INFO    [ctgan] RF  F1=0.4536  AUC=0.8172
+2026-05-30 09:38:22  INFO    [ctgan] XGB F1=0.4959  AUC=0.9154
+2026-05-30 09:38:30  INFO    [tvae] Generated 2490 rows in 3.3s
+2026-05-30 09:38:30  INFO    [tvae] RF  F1=0.7973  AUC=0.9739
+2026-05-30 09:38:30  INFO    [tvae] XGB F1=0.7996  AUC=0.9868
+2026-05-30 09:39:03  INFO    [tabddpm] Generated 2490 rows in 28.9s
+2026-05-30 09:39:03  INFO    [tabddpm] RF  F1=0.9657  AUC=0.9991
+2026-05-30 09:39:03  INFO    [tabddpm] XGB F1=0.9895  AUC=0.9998
+2026-05-30 09:39:08  WARNING    [dice] Augmentation failed - skipping.
+2026-05-30 09:39:08  INFO    Seed 456 complete. Dataset progress: 12/30. Session: 0.1h elapsed.
+2026-05-30 09:39:09  INFO    [baseline] RF  F1=0.9786  AUC=0.9996
+2026-05-30 09:39:09  INFO    [baseline] XGB F1=0.9958  AUC=0.9998
+2026-05-30 09:39:10  WARNING    [smote_nc] Augmentation failed - skipping.
+2026-05-30 09:39:17  INFO    [ctgan] Generated 2490 rows in 6.9s
+2026-05-30 09:39:18  INFO    [ctgan] RF  F1=0.4471  AUC=0.7856
+2026-05-30 09:39:18  INFO    [ctgan] XGB F1=0.5098  AUC=0.8967
+2026-05-30 09:39:26  INFO    [tvae] Generated 2490 rows in 3.3s
+2026-05-30 09:39:27  INFO    [tvae] RF  F1=0.5821  AUC=0.9732
+2026-05-30 09:39:27  INFO    [tvae] XGB F1=0.6800  AUC=0.9852
+2026-05-30 09:40:00  INFO    [tabddpm] Generated 2490 rows in 29.1s
+2026-05-30 09:40:00  INFO    [tabddpm] RF  F1=0.9692  AUC=0.9993
+2026-05-30 09:40:00  INFO    [tabddpm] XGB F1=0.9642  AUC=0.9995
+2026-05-30 09:40:05  WARNING    [dice] Augmentation failed - skipping.
+2026-05-30 09:40:06  INFO    Seed 789 complete. Dataset progress: 16/30. Session: 0.1h elapsed.
+2026-05-30 09:40:06  INFO    [baseline] RF  F1=0.9299  AUC=0.997
+2026-05-30 09:40:06  INFO    [baseline] XGB F1=0.9537  AUC=0.9935
+2026-05-30 09:40:07  WARNING    [smote_nc] Augmentation failed - skipping.
+2026-05-30 09:40:15  INFO    [ctgan] Generated 2490 rows in 7.2s
+2026-05-30 09:40:15  INFO    [ctgan] RF  F1=0.3234  AUC=0.71
+2026-05-30 09:40:15  INFO    [ctgan] XGB F1=0.3594  AUC=0.8598
+2026-05-30 09:40:24  INFO    [tvae] Generated 2490 rows in 3.8s
+2026-05-30 09:40:25  INFO    [tvae] RF  F1=0.7610  AUC=0.9803
+2026-05-30 09:40:25  INFO    [tvae] XGB F1=0.7869  AUC=0.9859
+2026-05-30 09:40:58  INFO    [tabddpm] Generated 2490 rows in 29.3s
+2026-05-30 09:40:58  INFO    [tabddpm] RF  F1=0.9264  AUC=0.9972
+2026-05-30 09:40:58  INFO    [tabddpm] XGB F1=0.9632  AUC=0.9987
+2026-05-30 09:41:03  WARNING    [dice] Augmentation failed - skipping.
+2026-05-30 09:41:03  INFO    Seed 999 complete. Dataset progress: 20/30. Session: 0.1h elapsed.
+2026-05-30 09:41:05  INFO    car complete. 20/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/car
+2026-05-30 09:41:05  INFO    [baseline] RF  F1=0.9040  AUC=0.9098
+2026-05-30 09:41:05  INFO    [baseline] XGB F1=0.9046  AUC=0.9312
+2026-05-30 09:41:08  INFO    [smote_nc] Generated 2868 rows in 0.2s
+2026-05-30 09:41:08  INFO    [smote_nc] RF  F1=0.8523  AUC=0.8987
+2026-05-30 09:41:08  INFO    [smote_nc] XGB F1=0.9046  AUC=0.9269
+2026-05-30 09:42:11  INFO    [ctgan] Generated 2868 rows in 53.0s
+2026-05-30 09:42:11  ERROR    [ctgan] Unexpected error: could not convert string to float: 'New Hampshire'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'New Hampshire'
+2026-05-30 09:42:39  INFO    [tvae] Generated 2868 rows in 28.2s
+2026-05-30 09:42:39  ERROR    [tvae] Unexpected error: could not convert string to float: 'New Hampshire'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'New Hampshire'
+2026-05-30 09:49:29  INFO    [tabddpm] Generated 2868 rows in 409.7s
+2026-05-30 09:49:29  INFO    [tabddpm] RF  F1=0.9085  AUC=0.9078
+2026-05-30 09:49:29  INFO    [tabddpm] XGB F1=0.9072  AUC=0.924
+2026-05-30 09:49:51  INFO    [dice] Generated 299 rows in 13.8s
+2026-05-30 09:49:51  INFO    [dice] RF  F1=0.8978  AUC=0.9004
+2026-05-30 09:49:51  INFO    [dice] XGB F1=0.9127  AUC=0.9312
+2026-05-30 09:49:58  INFO    Seed 42 complete. Dataset progress: 4/30. Session: 0.2h elapsed.
+2026-05-30 09:49:59  INFO    [baseline] RF  F1=0.8937  AUC=0.9124
+2026-05-30 09:49:59  INFO    [baseline] XGB F1=0.9141  AUC=0.9266
+2026-05-30 09:50:01  INFO    [smote_nc] Generated 2868 rows in 0.2s
+2026-05-30 09:50:02  INFO    [smote_nc] RF  F1=0.8630  AUC=0.9204
+2026-05-30 09:50:02  INFO    [smote_nc] XGB F1=0.8996  AUC=0.9402
+2026-05-30 09:51:00  INFO    [ctgan] Generated 2868 rows in 49.6s
+2026-05-30 09:51:00  ERROR    [ctgan] Unexpected error: could not convert string to float: 'Connecticut'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Connecticut'
+2026-05-30 09:51:27  INFO    [tvae] Generated 2868 rows in 26.3s
+2026-05-30 09:51:27  ERROR    [tvae] Unexpected error: could not convert string to float: 'Connecticut'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Connecticut'
+2026-05-30 09:58:15  INFO    [tabddpm] Generated 2868 rows in 407.9s
+2026-05-30 09:58:15  INFO    [tabddpm] RF  F1=0.8913  AUC=0.9106
+2026-05-30 09:58:15  INFO    [tabddpm] XGB F1=0.8971  AUC=0.9327
+2026-05-30 09:58:34  INFO    [dice] Generated 300 rows in 11.2s
+2026-05-30 09:58:35  INFO    [dice] RF  F1=0.8937  AUC=0.9143
+2026-05-30 09:58:35  INFO    [dice] XGB F1=0.8971  AUC=0.934
+2026-05-30 09:58:41  INFO    Seed 123 complete. Dataset progress: 8/30. Session: 0.4h elapsed.
+2026-05-30 09:58:42  INFO    [baseline] RF  F1=0.9020  AUC=0.9238
+2026-05-30 09:58:42  INFO    [baseline] XGB F1=0.9021  AUC=0.9326
+2026-05-30 09:58:45  INFO    [smote_nc] Generated 2868 rows in 0.2s
+2026-05-30 09:58:45  INFO    [smote_nc] RF  F1=0.8771  AUC=0.9136
+2026-05-30 09:58:45  INFO    [smote_nc] XGB F1=0.8996  AUC=0.9216
+2026-05-30 09:59:35  INFO    [ctgan] Generated 2868 rows in 40.4s
+2026-05-30 09:59:35  ERROR    [ctgan] Unexpected error: could not convert string to float: 'Alabama'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Alabama'
+2026-05-30 10:00:03  INFO    [tvae] Generated 2868 rows in 28.2s
+2026-05-30 10:00:03  ERROR    [tvae] Unexpected error: could not convert string to float: 'Alabama'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Alabama'
+2026-05-30 10:06:37  INFO    [tabddpm] Generated 2868 rows in 393.7s
+2026-05-30 10:06:37  INFO    [tabddpm] RF  F1=0.8968  AUC=0.9136
+2026-05-30 10:06:37  INFO    [tabddpm] XGB F1=0.8989  AUC=0.9284
+2026-05-30 10:06:57  INFO    [dice] Generated 300 rows in 11.3s
+2026-05-30 10:06:57  INFO    [dice] RF  F1=0.8994  AUC=0.9274
+2026-05-30 10:06:57  INFO    [dice] XGB F1=0.8958  AUC=0.9283
+2026-05-30 10:07:04  INFO    Seed 456 complete. Dataset progress: 12/30. Session: 0.5h elapsed.
+2026-05-30 10:07:04  INFO    [baseline] RF  F1=0.9183  AUC=0.915
+2026-05-30 10:07:04  INFO    [baseline] XGB F1=0.9108  AUC=0.9225
+2026-05-30 10:07:07  INFO    [smote_nc] Generated 2868 rows in 0.2s
+2026-05-30 10:07:07  INFO    [smote_nc] RF  F1=0.8844  AUC=0.9091
+2026-05-30 10:07:07  INFO    [smote_nc] XGB F1=0.9046  AUC=0.9231
+2026-05-30 10:07:58  INFO    [ctgan] Generated 2868 rows in 41.2s
+2026-05-30 10:07:58  ERROR    [ctgan] Unexpected error: could not convert string to float: 'Nevada'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Nevada'
+2026-05-30 10:08:23  INFO    [tvae] Generated 2868 rows in 25.0s
+2026-05-30 10:08:23  ERROR    [tvae] Unexpected error: could not convert string to float: 'Nevada'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'Nevada'
+2026-05-30 10:14:53  INFO    [tabddpm] Generated 2868 rows in 390.0s
+2026-05-30 10:14:54  INFO    [tabddpm] RF  F1=0.9078  AUC=0.9118
+2026-05-30 10:14:54  INFO    [tabddpm] XGB F1=0.9065  AUC=0.9149
+2026-05-30 10:15:13  INFO    [dice] Generated 300 rows in 11.3s
+2026-05-30 10:15:13  INFO    [dice] RF  F1=0.9162  AUC=0.9146
+2026-05-30 10:15:13  INFO    [dice] XGB F1=0.9127  AUC=0.9152
+2026-05-30 10:15:20  INFO    Seed 789 complete. Dataset progress: 16/30. Session: 0.7h elapsed.
+2026-05-30 10:15:20  INFO    [baseline] RF  F1=0.9168  AUC=0.921
+2026-05-30 10:15:20  INFO    [baseline] XGB F1=0.9194  AUC=0.9338
+2026-05-30 10:15:23  INFO    [smote_nc] Generated 2868 rows in 0.2s
+2026-05-30 10:15:24  INFO    [smote_nc] RF  F1=0.9033  AUC=0.9287
+2026-05-30 10:15:24  INFO    [smote_nc] XGB F1=0.9220  AUC=0.9348
+2026-05-30 10:16:13  INFO    [ctgan] Generated 2868 rows in 39.7s
+2026-05-30 10:16:13  ERROR    [ctgan] Unexpected error: could not convert string to float: 'New Hampshire'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'New Hampshire'
+2026-05-30 10:16:36  INFO    [tvae] Generated 2868 rows in 23.2s
+2026-05-30 10:16:36  ERROR    [tvae] Unexpected error: could not convert string to float: 'New Hampshire'
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 467, in run_dataset
+    m_rf, m_xgb, dist_m, shap_d = run_one_method(
+                                  ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_medium.py", line 292, in run_one_method
+    rf.fit(X_aug_enc, y_aug)
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/base.py", line 1336, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/ensemble/_forest.py", line 359, in fit
+    X, y = validate_data(
+           ^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 2919, in validate_data
+    X, y = check_X_y(X, y, **check_params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1314, in check_X_y
+    X = check_array(
+        ^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/validation.py", line 1022, in check_array
+    array = _asarray_with_order(array, order=order, dtype=dtype, xp=xp)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/dist-packages/sklearn/utils/_array_api.py", line 878, in _asarray_with_order
+    array = numpy.asarray(array, order=order, dtype=dtype)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 2171, in __array__
+    arr = np.asarray(values, dtype=dtype)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: could not convert string to float: 'New Hampshire'
+2026-05-30 10:23:07  INFO    [tabddpm] Generated 2868 rows in 391.0s
+2026-05-30 10:23:07  INFO    [tabddpm] RF  F1=0.9174  AUC=0.9272
+2026-05-30 10:23:07  INFO    [tabddpm] XGB F1=0.9188  AUC=0.9326
+2026-05-30 10:23:32  INFO    [dice] Generated 298 rows in 16.3s
+2026-05-30 10:23:32  INFO    [dice] RF  F1=0.9185  AUC=0.927
+2026-05-30 10:23:32  INFO    [dice] XGB F1=0.9199  AUC=0.9288
+2026-05-30 10:23:39  INFO    Seed 999 complete. Dataset progress: 20/30. Session: 0.8h elapsed.
+2026-05-30 10:23:40  INFO    churn complete. 20/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/churn
+2026-05-30 10:23:40  INFO  Session ended after 0.79h
+2026-05-30 10:23:40  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-30 10:23:40  INFO  Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium
+2026-05-30 20:39:24  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 20:39:24  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 20:39:24  INFO  GReaT: ENABLED
+2026-05-30 20:39:24  INFO  Datasets this session : ['cmc']
+2026-05-30 20:39:24  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-30 20:39:24  INFO  Split                 : 80/20
+2026-05-30 20:39:24  INFO  GAN epochs            : 300
+2026-05-30 20:39:24  INFO  TabDDPM steps         : 15000
+2026-05-30 20:39:24  INFO  Session limit         : 6.5h
+2026-05-30 20:39:24  INFO  
+2026-05-30 20:39:24  INFO  Checkpoint status:
+2026-05-30 20:39:24  INFO    cmc         :   0/30 complete (  0%)  ~1.9h remaining
+2026-05-30 20:39:24  INFO  
+2026-05-30 20:39:24  INFO  Running startup diagnostics...
+2026-05-30 20:39:24  INFO    cmc         : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/cmc.tsv
+2026-05-30 20:39:24  INFO    Output root: /projects/sig/usman.ashfaq/Implementation/outputs
+2026-05-30 20:39:24  INFO  
+2026-05-30 20:39:24  INFO    Multiclass: 3 classes — XGB uses multi:softprob, DiCE targets majority class
+2026-05-30 20:39:24  INFO    Labels normalised: [np.int64(1), np.int64(2), np.int64(3)] -> 0-indexed
+2026-05-30 20:39:25  INFO    [baseline] RF  F1=0.4725  AUC=0.6932
+2026-05-30 20:39:25  INFO    [baseline] XGB F1=0.4818  AUC=0.7053
+2026-05-30 20:39:28  INFO    [smote_nc] Generated 331 rows in 0.3s
+2026-05-30 20:39:29  INFO    [smote_nc] RF  F1=0.5111  AUC=0.7089
+2026-05-30 20:39:29  INFO    [smote_nc] XGB F1=0.4913  AUC=0.7006
+2026-05-30 20:40:15  INFO    [ctgan] Generated 331 rows in 41.5s
+2026-05-30 20:40:18  INFO    [ctgan] RF  F1=0.4915  AUC=0.6819
+2026-05-30 20:40:18  INFO    [ctgan] XGB F1=0.4955  AUC=0.7108
+2026-05-30 20:40:29  INFO    [tvae] Generated 331 rows in 5.2s
+2026-05-30 20:40:32  INFO    [tvae] RF  F1=0.5171  AUC=0.7195
+2026-05-30 20:40:32  INFO    [tvae] XGB F1=0.4733  AUC=0.7062
+2026-05-30 20:41:31  INFO    [tabddpm] Generated 331 rows in 54.1s
+2026-05-30 20:41:35  INFO    [tabddpm] RF  F1=0.4808  AUC=0.6911
+2026-05-30 20:41:35  INFO    [tabddpm] XGB F1=0.4931  AUC=0.7032
+2026-05-30 20:42:05  INFO    [dice] Generated 299 rows in 25.2s
+2026-05-30 20:42:08  INFO    [dice] RF  F1=0.4299  AUC=0.6742
+2026-05-30 20:42:08  INFO    [dice] XGB F1=0.4543  AUC=0.6906
+2026-05-30 20:42:13  INFO    Seed 42 complete. Dataset progress: 6/30. Session: 0.0h elapsed.
+2026-05-30 20:42:13  INFO    Labels normalised: [np.int64(1), np.int64(2), np.int64(3)] -> 0-indexed
+2026-05-30 20:42:17  INFO    [baseline] RF  F1=0.4934  AUC=0.7062
+2026-05-30 20:42:17  INFO    [baseline] XGB F1=0.4976  AUC=0.7079
+2026-05-30 20:42:19  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 20:42:22  INFO    [smote_nc] RF  F1=0.5000  AUC=0.6983
+2026-05-30 20:42:22  INFO    [smote_nc] XGB F1=0.4916  AUC=0.7001
+2026-05-30 20:43:05  INFO    [ctgan] Generated 331 rows in 37.1s
+2026-05-30 20:43:08  INFO    [ctgan] RF  F1=0.4800  AUC=0.678
+2026-05-30 20:43:08  INFO    [ctgan] XGB F1=0.4783  AUC=0.6896
+2026-05-30 20:43:19  INFO    [tvae] Generated 331 rows in 5.7s
+2026-05-30 20:43:22  INFO    [tvae] RF  F1=0.5066  AUC=0.7048
+2026-05-30 20:43:22  INFO    [tvae] XGB F1=0.4989  AUC=0.7036
+2026-05-30 20:44:18  INFO    [tabddpm] Generated 331 rows in 50.4s
+2026-05-30 20:44:25  INFO    [tabddpm] RF  F1=0.4865  AUC=0.7099
+2026-05-30 20:44:25  INFO    [tabddpm] XGB F1=0.5263  AUC=0.7143
+2026-05-30 20:45:10  INFO    [dice] Generated 297 rows in 40.4s
+2026-05-30 20:45:13  INFO    [dice] RF  F1=0.4797  AUC=0.6963
+2026-05-30 20:45:13  INFO    [dice] XGB F1=0.4843  AUC=0.6958
+2026-05-30 20:45:18  INFO    Seed 123 complete. Dataset progress: 12/30. Session: 0.1h elapsed.
+2026-05-30 20:45:18  INFO    Labels normalised: [np.int64(1), np.int64(2), np.int64(3)] -> 0-indexed
+2026-05-30 20:45:21  INFO    [baseline] RF  F1=0.5196  AUC=0.7246
+2026-05-30 20:45:21  INFO    [baseline] XGB F1=0.5201  AUC=0.7214
+2026-05-30 20:45:24  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 20:45:27  INFO    [smote_nc] RF  F1=0.5151  AUC=0.7145
+2026-05-30 20:45:27  INFO    [smote_nc] XGB F1=0.5440  AUC=0.7305
+2026-05-30 20:46:09  INFO    [ctgan] Generated 331 rows in 37.0s
+2026-05-30 20:46:12  INFO    [ctgan] RF  F1=0.5336  AUC=0.7161
+2026-05-30 20:46:12  INFO    [ctgan] XGB F1=0.4989  AUC=0.7135
+2026-05-30 20:46:23  INFO    [tvae] Generated 331 rows in 5.4s
+2026-05-30 20:46:26  INFO    [tvae] RF  F1=0.5151  AUC=0.7262
+2026-05-30 20:46:26  INFO    [tvae] XGB F1=0.5231  AUC=0.7403
+2026-05-30 20:47:22  INFO    [tabddpm] Generated 331 rows in 50.3s
+2026-05-30 20:47:25  INFO    [tabddpm] RF  F1=0.5380  AUC=0.7201
+2026-05-30 20:47:25  INFO    [tabddpm] XGB F1=0.5447  AUC=0.7318
+2026-05-30 20:48:19  INFO    [dice] Generated 296 rows in 48.5s
+2026-05-30 20:48:22  INFO    [dice] RF  F1=0.4837  AUC=0.712
+2026-05-30 20:48:22  INFO    [dice] XGB F1=0.5052  AUC=0.714
+2026-05-30 20:48:27  INFO    Seed 456 complete. Dataset progress: 18/30. Session: 0.2h elapsed.
+2026-05-30 20:48:27  INFO    Labels normalised: [np.int64(1), np.int64(2), np.int64(3)] -> 0-indexed
+2026-05-30 20:48:30  INFO    [baseline] RF  F1=0.4916  AUC=0.7052
+2026-05-30 20:48:30  INFO    [baseline] XGB F1=0.5068  AUC=0.7054
+2026-05-30 20:48:32  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 20:48:36  INFO    [smote_nc] RF  F1=0.4755  AUC=0.6927
+2026-05-30 20:48:36  INFO    [smote_nc] XGB F1=0.4553  AUC=0.6933
+2026-05-30 20:49:14  INFO    [ctgan] Generated 331 rows in 33.8s
+2026-05-30 20:49:23  INFO    [ctgan] RF  F1=0.4803  AUC=0.6827
+2026-05-30 20:49:23  INFO    [ctgan] XGB F1=0.4710  AUC=0.6871
+2026-05-30 20:49:35  INFO    [tvae] Generated 331 rows in 5.5s
+2026-05-30 20:49:42  INFO    [tvae] RF  F1=0.4978  AUC=0.7088
+2026-05-30 20:49:42  INFO    [tvae] XGB F1=0.5207  AUC=0.7082
+2026-05-30 20:50:37  INFO    [tabddpm] Generated 331 rows in 49.9s
+2026-05-30 20:50:41  INFO    [tabddpm] RF  F1=0.4788  AUC=0.7071
+2026-05-30 20:50:41  INFO    [tabddpm] XGB F1=0.4970  AUC=0.7187
+2026-05-30 20:51:18  INFO    [dice] Generated 298 rows in 32.2s
+2026-05-30 20:51:21  INFO    [dice] RF  F1=0.4748  AUC=0.6958
+2026-05-30 20:51:21  INFO    [dice] XGB F1=0.4605  AUC=0.7117
+2026-05-30 20:51:26  INFO    Seed 789 complete. Dataset progress: 24/30. Session: 0.2h elapsed.
+2026-05-30 20:51:26  INFO    Labels normalised: [np.int64(1), np.int64(2), np.int64(3)] -> 0-indexed
+2026-05-30 20:51:29  INFO    [baseline] RF  F1=0.4561  AUC=0.6785
+2026-05-30 20:51:29  INFO    [baseline] XGB F1=0.5010  AUC=0.6874
+2026-05-30 20:51:32  INFO    [smote_nc] Generated 331 rows in 0.1s
+2026-05-30 20:51:35  INFO    [smote_nc] RF  F1=0.4561  AUC=0.6662
+2026-05-30 20:51:35  INFO    [smote_nc] XGB F1=0.4703  AUC=0.6758
+2026-05-30 20:52:18  INFO    [ctgan] Generated 331 rows in 37.3s
+2026-05-30 20:52:21  INFO    [ctgan] RF  F1=0.4465  AUC=0.662
+2026-05-30 20:52:21  INFO    [ctgan] XGB F1=0.4394  AUC=0.6626
+2026-05-30 20:52:32  INFO    [tvae] Generated 331 rows in 5.2s
+2026-05-30 20:52:35  INFO    [tvae] RF  F1=0.4832  AUC=0.688
+2026-05-30 20:52:35  INFO    [tvae] XGB F1=0.4603  AUC=0.6852
+2026-05-30 20:53:30  INFO    [tabddpm] Generated 331 rows in 50.2s
+2026-05-30 20:53:34  INFO    [tabddpm] RF  F1=0.4605  AUC=0.6749
+2026-05-30 20:53:34  INFO    [tabddpm] XGB F1=0.4795  AUC=0.6747
+2026-05-30 20:54:19  INFO    [dice] Generated 297 rows in 40.3s
+2026-05-30 20:54:28  INFO    [dice] RF  F1=0.4537  AUC=0.6725
+2026-05-30 20:54:28  INFO    [dice] XGB F1=0.4316  AUC=0.669
+2026-05-30 20:54:33  INFO    Seed 999 complete. Dataset progress: 30/30. Session: 0.3h elapsed.
+2026-05-30 20:54:34  INFO    cmc complete. 30/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/cmc
+2026-05-30 20:54:34  INFO  Session ended after 0.25h
+2026-05-30 20:54:34  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-30 20:54:34  INFO  Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium
+2026-05-30 21:24:40  INFO  GPU DETECTED: NVIDIA L40S
+2026-05-30 21:24:40  INFO  XGBoost: tree_method=hist + device=cuda
+2026-05-30 21:24:40  INFO  GReaT: ENABLED
+2026-05-30 21:24:40  INFO  Datasets this session : ['churn']
+2026-05-30 21:24:40  INFO  Methods               : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'dice']
+2026-05-30 21:24:40  INFO  Split                 : 80/20
+2026-05-30 21:24:40  INFO  GAN epochs            : 300
+2026-05-30 21:24:40  INFO  TabDDPM steps         : 15000
+2026-05-30 21:24:40  INFO  Session limit         : 6.5h
+2026-05-30 21:24:40  INFO  
+2026-05-30 21:24:40  INFO  Checkpoint status:
+2026-05-30 21:24:40  INFO    churn       :  20/30 complete ( 66%)  ~5.6h remaining
+2026-05-30 21:24:40  INFO  
+2026-05-30 21:24:40  INFO  Running startup diagnostics...
+2026-05-30 21:24:40  INFO    churn       : [OK] /projects/sig/usman.ashfaq/Implementation/Classification/Datasets/Medium_Datasets/churn.tsv
+2026-05-30 21:24:40  INFO    Output root: /projects/sig/usman.ashfaq/Implementation/outputs
+2026-05-30 21:24:40  INFO  
+2026-05-30 21:24:40  INFO    [baseline] seed=42: checkpointed — skipping.
+2026-05-30 21:24:40  INFO    [smote_nc] seed=42: checkpointed — skipping.
+2026-05-30 21:25:33  INFO    [ctgan] Generated 2868 rows in 53.3s
+2026-05-30 21:25:33  WARNING    [ctgan] Coerced string→numeric in column 'state'
+2026-05-30 21:25:33  WARNING    [ctgan] Coerced string→numeric in column 'phone number'
+2026-05-30 21:25:33  INFO    [ctgan] RF  F1=0.9072  AUC=0.9144
+2026-05-30 21:25:33  INFO    [ctgan] XGB F1=0.8827  AUC=0.9197
+2026-05-30 21:26:09  INFO    [tvae] Generated 2868 rows in 24.5s
+2026-05-30 21:26:09  WARNING    [tvae] Coerced string→numeric in column 'state'
+2026-05-30 21:26:09  WARNING    [tvae] Coerced string→numeric in column 'phone number'
+2026-05-30 21:26:10  INFO    [tvae] RF  F1=0.8884  AUC=0.9084
+2026-05-30 21:26:10  INFO    [tvae] XGB F1=0.8944  AUC=0.9084
+2026-05-30 21:26:18  INFO    [tabddpm] seed=42: checkpointed — skipping.
+2026-05-30 21:26:18  INFO    [dice] seed=42: checkpointed — skipping.
+2026-05-30 21:26:18  INFO    Seed 42 complete. Dataset progress: 22/30. Session: 0.0h elapsed.
+2026-05-30 21:26:18  INFO    [baseline] seed=123: checkpointed — skipping.
+2026-05-30 21:26:18  INFO    [smote_nc] seed=123: checkpointed — skipping.
+2026-05-30 21:26:59  INFO    [ctgan] Generated 2868 rows in 41.1s
+2026-05-30 21:26:59  WARNING    [ctgan] Coerced string→numeric in column 'state'
+2026-05-30 21:26:59  WARNING    [ctgan] Coerced string→numeric in column 'phone number'
+2026-05-30 21:26:59  INFO    [ctgan] RF  F1=0.8841  AUC=0.9141
+2026-05-30 21:26:59  INFO    [ctgan] XGB F1=0.8854  AUC=0.9187
+2026-05-30 21:27:35  INFO    [tvae] Generated 2868 rows in 25.0s
+2026-05-30 21:27:35  WARNING    [tvae] Coerced string→numeric in column 'state'
+2026-05-30 21:27:35  WARNING    [tvae] Coerced string→numeric in column 'phone number'
+2026-05-30 21:27:36  INFO    [tvae] RF  F1=0.8891  AUC=0.9256
+2026-05-30 21:27:36  INFO    [tvae] XGB F1=0.9015  AUC=0.9349
+2026-05-30 21:27:42  INFO    [tabddpm] seed=123: checkpointed — skipping.
+2026-05-30 21:27:42  INFO    [dice] seed=123: checkpointed — skipping.
+2026-05-30 21:27:42  INFO    Seed 123 complete. Dataset progress: 24/30. Session: 0.1h elapsed.
+2026-05-30 21:27:43  INFO    [baseline] seed=456: checkpointed — skipping.
+2026-05-30 21:27:43  INFO    [smote_nc] seed=456: checkpointed — skipping.
+2026-05-30 21:28:22  INFO    [ctgan] Generated 2868 rows in 39.9s
+2026-05-30 21:28:22  WARNING    [ctgan] Coerced string→numeric in column 'state'
+2026-05-30 21:28:22  WARNING    [ctgan] Coerced string→numeric in column 'phone number'
+2026-05-30 21:28:23  INFO    [ctgan] RF  F1=0.8883  AUC=0.9164
+2026-05-30 21:28:23  INFO    [ctgan] XGB F1=0.8987  AUC=0.9193
+2026-05-30 21:28:58  INFO    [tvae] Generated 2868 rows in 24.8s
+2026-05-30 21:28:58  WARNING    [tvae] Coerced string→numeric in column 'state'
+2026-05-30 21:28:58  WARNING    [tvae] Coerced string→numeric in column 'phone number'
+2026-05-30 21:28:59  INFO    [tvae] RF  F1=0.9027  AUC=0.929
+2026-05-30 21:28:59  INFO    [tvae] XGB F1=0.8939  AUC=0.9242
+2026-05-30 21:29:06  INFO    [tabddpm] seed=456: checkpointed — skipping.
+2026-05-30 21:29:06  INFO    [dice] seed=456: checkpointed — skipping.
+2026-05-30 21:29:06  INFO    Seed 456 complete. Dataset progress: 26/30. Session: 0.1h elapsed.
+2026-05-30 21:29:06  INFO    [baseline] seed=789: checkpointed — skipping.
+2026-05-30 21:29:06  INFO    [smote_nc] seed=789: checkpointed — skipping.
+2026-05-30 21:29:48  INFO    [ctgan] Generated 2868 rows in 41.6s
+2026-05-30 21:29:48  WARNING    [ctgan] Coerced string→numeric in column 'state'
+2026-05-30 21:29:48  WARNING    [ctgan] Coerced string→numeric in column 'phone number'
+2026-05-30 21:29:48  INFO    [ctgan] RF  F1=0.9079  AUC=0.9172
+2026-05-30 21:29:48  INFO    [ctgan] XGB F1=0.9122  AUC=0.9223
+2026-05-30 21:30:22  INFO    [tvae] Generated 2868 rows in 23.0s
+2026-05-30 21:30:22  WARNING    [tvae] Coerced string→numeric in column 'state'
+2026-05-30 21:30:22  WARNING    [tvae] Coerced string→numeric in column 'phone number'
+2026-05-30 21:30:22  INFO    [tvae] RF  F1=0.9118  AUC=0.9145
+2026-05-30 21:30:22  INFO    [tvae] XGB F1=0.9229  AUC=0.9207
+2026-05-30 21:30:29  INFO    [tabddpm] seed=789: checkpointed — skipping.
+2026-05-30 21:30:29  INFO    [dice] seed=789: checkpointed — skipping.
+2026-05-30 21:30:29  INFO    Seed 789 complete. Dataset progress: 28/30. Session: 0.1h elapsed.
+2026-05-30 21:30:29  INFO    [baseline] seed=999: checkpointed — skipping.
+2026-05-30 21:30:29  INFO    [smote_nc] seed=999: checkpointed — skipping.
+2026-05-30 21:31:09  INFO    [ctgan] Generated 2868 rows in 40.2s
+2026-05-30 21:31:09  WARNING    [ctgan] Coerced string→numeric in column 'state'
+2026-05-30 21:31:09  WARNING    [ctgan] Coerced string→numeric in column 'phone number'
+2026-05-30 21:31:10  INFO    [ctgan] RF  F1=0.8949  AUC=0.9249
+2026-05-30 21:31:10  INFO    [ctgan] XGB F1=0.8895  AUC=0.929
+2026-05-30 21:31:46  INFO    [tvae] Generated 2868 rows in 25.4s
+2026-05-30 21:31:46  WARNING    [tvae] Coerced string→numeric in column 'state'
+2026-05-30 21:31:46  WARNING    [tvae] Coerced string→numeric in column 'phone number'
+2026-05-30 21:31:46  INFO    [tvae] RF  F1=0.9163  AUC=0.9245
+2026-05-30 21:31:46  INFO    [tvae] XGB F1=0.9165  AUC=0.9459
+2026-05-30 21:31:53  INFO    [tabddpm] seed=999: checkpointed — skipping.
+2026-05-30 21:31:53  INFO    [dice] seed=999: checkpointed — skipping.
+2026-05-30 21:31:53  INFO    Seed 999 complete. Dataset progress: 30/30. Session: 0.1h elapsed.
+2026-05-30 21:31:54  INFO    churn complete. 30/30 runs. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium/churn
+2026-05-30 21:31:54  INFO  Session ended after 0.12h
+2026-05-30 21:31:54  INFO  Re-run with same command to resume any incomplete datasets.
+2026-05-30 21:31:54  INFO  Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/medium

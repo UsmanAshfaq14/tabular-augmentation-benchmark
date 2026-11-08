@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,great,0.8164,0.814,0.8163,0.8149,0.6303,0.9024,123,australian

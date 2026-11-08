@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tvae,0.9091,0.0157,0.8,"freemem, scall, freeswap, vflt, runqsz","scall, swrite, freeswap, vflt, runqsz",999,197_cpu_act,xgb

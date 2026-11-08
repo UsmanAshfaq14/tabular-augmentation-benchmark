@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,smote_nc,0.7196,0.5732,0.5954,0.5779,0.1671,0.628,789,flare

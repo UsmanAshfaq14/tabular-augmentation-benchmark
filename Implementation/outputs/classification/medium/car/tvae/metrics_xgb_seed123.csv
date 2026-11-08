@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,tvae,0.8728,0.8043,0.6133,0.6691,0.7096,0.9821,123,car

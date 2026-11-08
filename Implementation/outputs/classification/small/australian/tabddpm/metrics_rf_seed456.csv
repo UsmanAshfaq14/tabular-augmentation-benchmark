@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,tabddpm,0.8792,0.8789,0.8761,0.8773,0.755,0.9403,456,australian

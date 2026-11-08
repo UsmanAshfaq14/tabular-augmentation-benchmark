@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,smogn,1.267,1.6225,0.7176,225.54,1.6225,1.267,0.7176,770,2.0397,1.665,0.866,154,1.5001,1.1675,0.4212,616,456,529_pollen

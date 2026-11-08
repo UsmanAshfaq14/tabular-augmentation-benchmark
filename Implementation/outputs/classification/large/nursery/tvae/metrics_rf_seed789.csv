@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,tvae,0.9333,0.8753,0.9138,0.8911,0.9037,0.9924,789,nursery

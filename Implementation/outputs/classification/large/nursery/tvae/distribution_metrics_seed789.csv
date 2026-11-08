@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_parents,ks_has_nurs,ks_form,ks_children,ks_housing,ks_finance,ks_social,ks_health,seed,dataset,kl_parents,kl_has_nurs,kl_form,kl_children,kl_housing,kl_finance,kl_social,kl_health
+tvae,0.0154,0.0499,0.027,8,0.0062,0.0499,0.0071,0.0033,0.0226,0.008,0.0196,0.0063,789,nursery,0.0002,0.0116,0.0002,0.0001,0.0011,0.0001,0.0009,0.0002

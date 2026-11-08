@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,0.8022,0.0054,0.8,"Density, Age, Wrist, Abdomen, Weight","Density, Age, Hip, Abdomen, Weight",789,560_bodyfat,xgb

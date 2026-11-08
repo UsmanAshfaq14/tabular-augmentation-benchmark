@@ -1,0 +1,7 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.9532,0.0074,0.6,"g1, a1, d1, c2, b1","f1, a1, d2, d1, c2",789,connect_4,rf
+tvae,0.9948,0.0022,1.0,"g1, a1, d1, c2, b1","g1, a1, d1, c2, b1",789,connect_4,rf
+tabddpm,0.9984,0.0019,1.0,"g1, a1, d1, c2, b1","g1, a1, d1, c2, b1",789,connect_4,rf
+ctgan,0.9632,0.0049,0.8,"g1, a1, d2, d1, b1","g1, a1, d2, d1, c2",999,connect_4,rf
+tvae,0.9968,0.0018,0.8,"g1, a1, d2, d1, b1","g1, a1, d1, c2, b1",999,connect_4,rf
+tabddpm,0.9877,0.0018,0.8,"g1, a1, d2, d1, b1","g1, a1, d1, c2, b1",999,connect_4,rf

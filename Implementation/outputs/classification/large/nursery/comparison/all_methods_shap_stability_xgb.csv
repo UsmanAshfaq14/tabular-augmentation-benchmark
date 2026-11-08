@@ -1,0 +1,16 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.9762,0.0124,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,xgb
+tvae,0.9762,0.0186,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,xgb
+tabddpm,0.9762,0.0069,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,xgb
+ctgan,0.9762,0.0203,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",123,nursery,xgb
+tvae,0.8095,0.0313,0.6,"has_nurs, children, parents, housing, health","has_nurs, form, parents, health, social",123,nursery,xgb
+tabddpm,0.9762,0.0106,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",123,nursery,xgb
+ctgan,0.9524,0.0138,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",456,nursery,xgb
+tvae,0.9762,0.0149,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",456,nursery,xgb
+tabddpm,0.9762,0.0074,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",456,nursery,xgb
+ctgan,0.9286,0.0185,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",789,nursery,xgb
+tvae,0.9762,0.0222,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",789,nursery,xgb
+tabddpm,0.9286,0.0121,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",789,nursery,xgb
+ctgan,0.8333,0.0131,0.8,"has_nurs, children, parents, housing, health","has_nurs, children, parents, health, social",999,nursery,xgb
+tvae,0.9762,0.0077,1.0,"has_nurs, children, parents, housing, health","has_nurs, children, parents, housing, health",999,nursery,xgb
+tabddpm,0.9286,0.0087,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",999,nursery,xgb

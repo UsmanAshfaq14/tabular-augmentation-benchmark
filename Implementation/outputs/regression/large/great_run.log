@@ -1,0 +1,108 @@
+2026-06-13 16:09:05  INFO  Datasets : ['225_puma8NH', '197_cpu_act', '537_houses', '344_mv']
+2026-06-13 16:09:05  INFO  Epochs   : 50
+2026-06-13 16:09:05  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-13 16:30:56  INFO    [great] Generated 1311 rows in 1310.4s
+2026-06-13 16:30:56  INFO    [great] RF  RMSE=3.4420  R2=0.6179
+2026-06-13 16:30:56  INFO    [great] XGB RMSE=3.5643  R2=0.5903
+2026-06-13 16:31:18  INFO    [225_puma8NH/great] 1/5 seeds complete
+2026-06-13 16:53:05  INFO    [great] Generated 1311 rows in 1307.9s
+2026-06-13 16:53:06  INFO    [great] RF  RMSE=3.3825  R2=0.6350
+2026-06-13 16:53:06  INFO    [great] XGB RMSE=3.4227  R2=0.6262
+2026-06-13 16:53:28  INFO    [225_puma8NH/great] 2/5 seeds complete
+2026-06-13 17:15:28  INFO    [great] Generated 1311 rows in 1320.5s
+2026-06-13 17:15:29  INFO    [great] RF  RMSE=3.3840  R2=0.6327
+2026-06-13 17:15:29  INFO    [great] XGB RMSE=3.5348  R2=0.5992
+2026-06-13 17:15:51  INFO    [225_puma8NH/great] 3/5 seeds complete
+2026-06-13 17:37:39  INFO    [great] Generated 1311 rows in 1307.7s
+2026-06-13 17:37:40  INFO    [great] RF  RMSE=3.3870  R2=0.6267
+2026-06-13 17:37:40  INFO    [great] XGB RMSE=3.5338  R2=0.5937
+2026-06-13 17:38:02  INFO    [225_puma8NH/great] 4/5 seeds complete
+2026-06-13 17:59:50  INFO    [great] Generated 1311 rows in 1307.8s
+2026-06-13 17:59:50  INFO    [great] RF  RMSE=3.3079  R2=0.6515
+2026-06-13 17:59:50  INFO    [great] XGB RMSE=3.4100  R2=0.6296
+2026-06-13 18:00:12  INFO    [225_puma8NH/great] 5/5 seeds complete
+2026-06-13 18:00:12  INFO    225_puma8NH/great DONE: 5/5 seeds
+2026-06-13 18:38:36  INFO    [great] Generated 1311 rows in 2303.9s
+2026-06-13 18:38:37  INFO    [great] RF  RMSE=2.4869  R2=0.9794
+2026-06-13 18:38:37  INFO    [great] XGB RMSE=2.4529  R2=0.9799
+2026-06-13 18:39:05  INFO    [197_cpu_act/great] 1/5 seeds complete
+2026-06-13 19:17:30  INFO    [great] Generated 1311 rows in 2305.3s
+2026-06-13 19:17:31  INFO    [great] RF  RMSE=2.6044  R2=0.9796
+2026-06-13 19:17:31  INFO    [great] XGB RMSE=2.5578  R2=0.9803
+2026-06-13 19:17:58  INFO    [197_cpu_act/great] 2/5 seeds complete
+2026-06-13 19:56:25  INFO    [great] Generated 1311 rows in 2306.6s
+2026-06-13 19:56:26  INFO    [great] RF  RMSE=2.5673  R2=0.9794
+2026-06-13 19:56:26  INFO    [great] XGB RMSE=2.4486  R2=0.9812
+2026-06-13 19:56:53  INFO    [197_cpu_act/great] 3/5 seeds complete
+2026-06-13 20:35:19  INFO    [great] Generated 1311 rows in 2306.7s
+2026-06-13 20:35:20  INFO    [great] RF  RMSE=2.8427  R2=0.9786
+2026-06-13 20:35:20  INFO    [great] XGB RMSE=2.2559  R2=0.9865
+2026-06-13 20:35:48  INFO    [197_cpu_act/great] 4/5 seeds complete
+2026-06-13 21:14:16  INFO    [great] Generated 1311 rows in 2308.4s
+2026-06-13 21:14:17  INFO    [great] RF  RMSE=2.5407  R2=0.9785
+2026-06-13 21:14:17  INFO    [great] XGB RMSE=3.1318  R2=0.9673
+2026-06-13 21:14:45  INFO    [197_cpu_act/great] 5/5 seeds complete
+2026-06-13 21:14:45  INFO    197_cpu_act/great DONE: 5/5 seeds
+2026-06-13 22:02:40  INFO  Datasets : ['225_puma8NH', '197_cpu_act', '537_houses', '344_mv']
+2026-06-13 22:02:40  INFO  Epochs   : 50
+2026-06-13 22:02:40  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-13 22:02:40  INFO    225_puma8NH/great: all 5 seeds complete. Skipping.
+2026-06-13 22:02:40  INFO    197_cpu_act/great: all 5 seeds complete. Skipping.
+2026-06-13 22:26:45  INFO    [great] Generated 2000 rows in 1444.5s
+2026-06-13 22:26:47  INFO    [great] RF  RMSE=52861.5398  R2=0.7868
+2026-06-13 22:26:47  INFO    [great] XGB RMSE=52147.7501  R2=0.7925
+2026-06-13 22:27:14  INFO    [537_houses/great] 1/5 seeds complete
+2026-06-13 22:51:07  INFO    [great] Generated 2000 rows in 1432.5s
+2026-06-13 22:51:08  INFO    [great] RF  RMSE=51702.2810  R2=0.7990
+2026-06-13 22:51:08  INFO    [great] XGB RMSE=50104.7309  R2=0.8112
+2026-06-13 22:51:35  INFO    [537_houses/great] 2/5 seeds complete
+2026-06-13 23:15:27  INFO    [great] Generated 2000 rows in 1432.2s
+2026-06-13 23:15:28  INFO    [great] RF  RMSE=52191.0493  R2=0.8011
+2026-06-13 23:15:28  INFO    [great] XGB RMSE=50775.6669  R2=0.8118
+2026-06-13 23:15:53  INFO    [537_houses/great] 3/5 seeds complete
+2026-06-13 23:39:40  INFO    [great] Generated 2000 rows in 1427.0s
+2026-06-13 23:39:42  INFO    [great] RF  RMSE=52372.3731  R2=0.7945
+2026-06-13 23:39:42  INFO    [great] XGB RMSE=50795.2928  R2=0.8067
+2026-06-13 23:40:09  INFO    [537_houses/great] 4/5 seeds complete
+2026-06-14 00:04:11  INFO    [great] Generated 2000 rows in 1442.2s
+2026-06-14 00:04:12  INFO    [great] RF  RMSE=53141.7870  R2=0.7979
+2026-06-14 00:04:12  INFO    [great] XGB RMSE=52943.2946  R2=0.7994
+2026-06-14 00:04:40  INFO    [537_houses/great] 5/5 seeds complete
+2026-06-14 00:04:40  INFO    537_houses/great DONE: 5/5 seeds
+2026-06-14 00:35:56  INFO    [great] Generated 2000 rows in 1876.5s
+2026-06-14 00:35:58  INFO    [great] RF  RMSE=0.3620  R2=0.9988
+2026-06-14 00:35:58  INFO    [great] XGB RMSE=0.5208  R2=0.9975
+2026-06-14 00:36:19  INFO    [344_mv/great] 1/5 seeds complete
+2026-06-14 00:58:30  INFO  Datasets : ['225_puma8NH', '197_cpu_act', '537_houses', '344_mv']
+2026-06-14 00:58:30  INFO  Epochs   : 50
+2026-06-14 00:58:30  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-14 00:58:30  INFO    225_puma8NH/great: all 5 seeds complete. Skipping.
+2026-06-14 00:58:30  INFO    197_cpu_act/great: all 5 seeds complete. Skipping.
+2026-06-14 00:58:30  INFO    537_houses/great: all 5 seeds complete. Skipping.
+2026-06-14 00:58:30  INFO    seed=42: already done. Skipping.
+2026-06-14 01:29:37  INFO    [great] Generated 2000 rows in 1867.4s
+2026-06-14 01:29:39  INFO    [great] RF  RMSE=0.3365  R2=0.9990
+2026-06-14 01:29:39  INFO    [great] XGB RMSE=0.3978  R2=0.9986
+2026-06-14 01:30:01  INFO    [344_mv/great] 2/5 seeds complete
+2026-06-14 02:01:23  INFO    [great] Generated 2000 rows in 1882.0s
+2026-06-14 02:01:24  INFO    [great] RF  RMSE=0.4497  R2=0.9982
+2026-06-14 02:01:24  INFO    [great] XGB RMSE=0.5152  R2=0.9976
+2026-06-14 02:01:46  INFO    [344_mv/great] 3/5 seeds complete
+2026-06-14 02:33:08  INFO    [great] Generated 2000 rows in 1881.9s
+2026-06-14 02:33:10  INFO    [great] RF  RMSE=0.3432  R2=0.9989
+2026-06-14 02:33:10  INFO    [great] XGB RMSE=0.4203  R2=0.9983
+2026-06-14 02:33:32  INFO    [344_mv/great] 4/5 seeds complete
+2026-06-14 03:04:55  INFO    [great] Generated 2000 rows in 1883.8s
+2026-06-14 03:04:57  INFO    [great] RF  RMSE=0.4335  R2=0.9983
+2026-06-14 03:04:57  INFO    [great] XGB RMSE=0.4929  R2=0.9977
+2026-06-14 03:05:19  INFO    [344_mv/great] 5/5 seeds complete
+2026-06-14 03:05:19  INFO    344_mv/great DONE: 5/5 seeds
+2026-06-14 03:05:19  INFO  Done. Re-run reg_large.py once to fold great into the comparison summaries.
+2026-06-14 03:24:12  INFO  Datasets : ['225_puma8NH', '197_cpu_act', '537_houses', '344_mv']
+2026-06-14 03:24:12  INFO  Epochs   : 50
+2026-06-14 03:24:12  INFO  Time limit per dataset: 3.0h (session guard 6.5h)
+2026-06-14 03:24:12  INFO    225_puma8NH/great: all 5 seeds complete. Skipping.
+2026-06-14 03:24:12  INFO    197_cpu_act/great: all 5 seeds complete. Skipping.
+2026-06-14 03:24:12  INFO    537_houses/great: all 5 seeds complete. Skipping.
+2026-06-14 03:24:12  INFO    344_mv/great: all 5 seeds complete. Skipping.
+2026-06-14 03:24:12  INFO  Done. Re-run reg_large.py once to fold great into the comparison summaries.

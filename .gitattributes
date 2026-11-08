@@ -1,0 +1,14 @@
+# Code: normalise line endings so Windows and Linux checkouts agree
+*.py    text eol=lf
+*.md    text
+*.ipynb text
+requirements.txt text
+
+# Data and results: stored byte for byte, never rewritten
+*_report_*.txt -text
+*.csv   -text
+*.tsv   -text
+*.json  -text
+*.log   -text
+*.png   binary
+*.pdf   binary

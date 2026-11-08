@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_year,ks_month,ks_day,ks_RPT,ks_VAL,ks_ROS,ks_KIL,ks_SHA,ks_BIR,ks_DUB,ks_CLA,ks_MUL,ks_CLO,ks_BEL,seed,dataset,kl_year,kl_month,kl_day,kl_RPT,kl_VAL,kl_ROS,kl_KIL,kl_SHA,kl_BIR,kl_DUB,kl_CLA,kl_MUL,kl_CLO,kl_BEL
+tabddpm,0.0054,0.0104,0.0559,14,0.0077,0.0104,0.0085,0.0045,0.0052,0.0035,0.0038,0.0042,0.0041,0.0052,0.005,0.0038,0.0036,0.0058,999,503_wind,0.0247,0.0238,0.0006,0.0005,0.0004,0.0004,0.0004,0.0005,0.0004,0.0006,0.0004,0.0004,0.0005,0.0003

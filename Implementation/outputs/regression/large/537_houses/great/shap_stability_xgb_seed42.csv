@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+great,0.7619,0.0212,0.8,"latitude, population, median_income, longitude, total_rooms","latitude, population, median_income, longitude, total_bedrooms",42,537_houses,xgb

@@ -1,0 +1,55 @@
+{
+  "size": "medium",
+  "task": "classification",
+  "test_size": 0.2,
+  "datasets": [
+    "flare",
+    "cmc",
+    "car",
+    "churn"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice"
+  ],
+  "gpu": "NVIDIA L40S",
+  "gan_epochs": 300,
+  "great_epochs": 75,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "dataset": "flare",
+  "n_classes": 2,
+  "info": {
+    "name": "flare",
+    "n_samples": 1066,
+    "n_features": 10,
+    "binary_cols": [
+      "Activity",
+      "Historically-complex",
+      "become complex",
+      "Area"
+    ],
+    "cat_cols": [
+      "class code",
+      "largest spot code",
+      "spot dist code",
+      "Area of the largest spot"
+    ],
+    "cont_cols": [
+      "Evolution",
+      "Previous 24 hour code"
+    ],
+    "n_classes": 2,
+    "missing": 0
+  }
+}

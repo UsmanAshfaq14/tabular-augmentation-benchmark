@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,0.9912,0.0028,1.0,"BEL, DUB, year, MUL, CLO","BEL, DUB, year, MUL, CLO",789,503_wind,rf

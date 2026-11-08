@@ -1,0 +1,54 @@
+{
+  "size": "medium",
+  "task": "classification",
+  "test_size": 0.2,
+  "datasets": [
+    "flare",
+    "cmc",
+    "car",
+    "churn"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice"
+  ],
+  "gpu": "NVIDIA L40S",
+  "gan_epochs": 300,
+  "great_epochs": 75,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "dataset": "cmc",
+  "n_classes": 3,
+  "info": {
+    "name": "cmc",
+    "n_samples": 1473,
+    "n_features": 9,
+    "binary_cols": [
+      "Wifes_religion",
+      "Wifes_now_working?",
+      "Media_exposure"
+    ],
+    "cat_cols": [
+      "Wifes_education",
+      "Husbands_education",
+      "Husbands_occupation",
+      "Standard-of-living_index"
+    ],
+    "cont_cols": [
+      "Wifes_age",
+      "Number_of_children_ever_born"
+    ],
+    "n_classes": 3,
+    "missing": 0
+  }
+}

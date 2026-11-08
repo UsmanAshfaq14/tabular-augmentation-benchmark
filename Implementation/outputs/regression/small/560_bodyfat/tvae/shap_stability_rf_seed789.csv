@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tvae,0.5473,0.0123,0.8,"Density, Chest, Knee, Abdomen, Height","Density, Chest, Abdomen, Weight, Height",789,560_bodyfat,rf

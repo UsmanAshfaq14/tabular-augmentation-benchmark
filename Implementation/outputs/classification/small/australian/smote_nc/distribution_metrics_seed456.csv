@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_A1,ks_A2,ks_A3,ks_A4,ks_A5,ks_A6,ks_A7,ks_A8,ks_A9,ks_A10,ks_A11,ks_A12,ks_A13,ks_A14,seed,dataset,kl_A1,kl_A2,kl_A3,kl_A4,kl_A5,kl_A6,kl_A7,kl_A8,kl_A9,kl_A10,kl_A11,kl_A12,kl_A13,kl_A14
+smote_nc,0.0179,0.0365,0.2041,14,0.0087,0.0108,0.0215,0.0146,0.0311,0.0106,0.0333,0.0365,0.0221,0.0258,0.0012,0.0036,0.0131,0.0178,456,australian,0.0002,0.0029,0.0046,0.0006,0.0028,0.0009,0.0044,0.0027,0.001,0.0019,0.0,0.0001,0.0009,0.0047

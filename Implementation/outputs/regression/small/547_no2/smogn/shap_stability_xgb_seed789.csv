@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,1.0,0.008,1.0,"cars_per_hour, temperature_diff_2m_25m, wind_direction, temperature_at_2m, wind_speed","cars_per_hour, temperature_diff_2m_25m, wind_direction, temperature_at_2m, wind_speed",789,547_no2,xgb

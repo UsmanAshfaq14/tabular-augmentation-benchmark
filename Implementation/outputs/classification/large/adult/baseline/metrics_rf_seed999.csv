@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,baseline,0.856,0.812,0.7737,0.7898,0.5845,0.9077,999,adult

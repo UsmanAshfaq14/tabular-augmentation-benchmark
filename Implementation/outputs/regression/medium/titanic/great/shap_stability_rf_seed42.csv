@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+great,0.9762,0.0103,0.8,"gender, country, age, class, fare","embarked, gender, age, class, fare",42,titanic,rf

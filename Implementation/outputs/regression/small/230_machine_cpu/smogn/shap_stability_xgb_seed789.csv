@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,0.6571,0.0604,0.8,"CHMAX, MMAX, CACH, MMIN, MYCT","CHMAX, CHMIN, MMAX, CACH, MYCT",789,230_machine_cpu,xgb

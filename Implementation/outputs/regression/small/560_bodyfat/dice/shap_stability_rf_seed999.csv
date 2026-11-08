@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+dice,0.8374,0.0009,0.8,"Thigh, Density, Age, Chest, Abdomen","Thigh, Density, Age, Abdomen, Height",999,560_bodyfat,rf

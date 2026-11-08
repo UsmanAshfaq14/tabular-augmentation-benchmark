@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_median_income,ks_housing_median_age,ks_total_rooms,ks_total_bedrooms,ks_population,ks_households,ks_latitude,ks_longitude,seed,dataset,kl_median_income,kl_housing_median_age,kl_total_rooms,kl_total_bedrooms,kl_population,kl_households,kl_latitude,kl_longitude
+great,0.0505,0.0867,0.1293,8,0.0176,0.0048,0.0733,0.0841,0.0718,0.0867,0.0343,0.0314,123,537_houses,0.0023,0.0002,0.0123,0.0149,0.0089,0.0153,0.0027,0.0028

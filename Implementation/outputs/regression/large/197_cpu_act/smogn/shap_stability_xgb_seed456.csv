@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smogn,0.8766,0.0129,1.0,"freemem, scall, pflt, vflt, runqsz","freemem, scall, pflt, vflt, runqsz",456,197_cpu_act,xgb

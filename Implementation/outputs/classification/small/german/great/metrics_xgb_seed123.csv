@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,great,0.75,0.7059,0.6468,0.659,0.3478,0.7551,123,german

@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,dice,0.1322,0.1876,0.9997,12.23,0.1876,0.1322,0.9997,8154,0.2055,0.135,0.9998,1632,0.1829,0.1314,0.9995,6522,456,344_mv

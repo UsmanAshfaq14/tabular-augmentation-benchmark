@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_theta1,ks_theta2,ks_theta3,ks_thetad1,ks_thetad2,ks_thetad3,ks_tau1,ks_tau2,seed,dataset,kl_theta1,kl_theta2,kl_theta3,kl_thetad1,kl_thetad2,kl_thetad3,kl_tau1,kl_tau2
+dice,0.0076,0.0094,0.0623,8,0.0094,0.0091,0.0091,0.006,0.006,0.0047,0.0078,0.009,789,225_puma8NH,0.0015,0.0013,0.0009,0.0008,0.0006,0.0004,0.0014,0.0008

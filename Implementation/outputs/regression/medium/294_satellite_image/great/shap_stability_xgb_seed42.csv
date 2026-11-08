@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+great,0.7591,0.0065,0.8,"attr33, attr20, attr16, attr21, attr17","attr18, attr20, attr16, attr21, attr17",42,294_satellite_image,xgb

@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,great,0.949,0.9418,0.8399,0.8814,0.775,0.9211,999,churn

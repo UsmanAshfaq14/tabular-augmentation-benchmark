@@ -1,0 +1,10 @@
+,mean_abs_shap_xgb
+Age,1.5941525
+Typea,0.8083073
+Famhist,0.6630056
+Adiposity,0.63501894
+Tobacco,0.6264112
+Obesity,0.6052281
+Alcohol,0.5085764
+Ldl,0.44709727
+Sbp,0.22022733

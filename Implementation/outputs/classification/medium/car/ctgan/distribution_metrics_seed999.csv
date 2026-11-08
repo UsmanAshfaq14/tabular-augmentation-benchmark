@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_buying,ks_maint,ks_doors,ks_persons,ks_lug_boot,ks_safety,seed,dataset,kl_buying,kl_maint,kl_doors,kl_persons,kl_lug_boot,kl_safety
+ctgan,0.0392,0.0637,0.1754,6,0.0637,0.0183,0.0362,0.0161,0.0378,0.0628,999,car,0.0131,0.0031,0.0106,0.0012,0.0039,0.0115

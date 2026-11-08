@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+rf,baseline,2.4641,3.2158,0.6706,166.43,3.2158,2.4641,0.6706,1639,3.6238,2.8113,0.8324,319,3.1091,2.3802,0.5084,1320,999,225_puma8NH

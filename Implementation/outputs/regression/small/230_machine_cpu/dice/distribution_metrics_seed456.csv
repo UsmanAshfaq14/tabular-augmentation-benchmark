@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_MYCT,ks_MMIN,ks_MMAX,ks_CACH,ks_CHMIN,ks_CHMAX,seed,dataset,kl_MYCT,kl_MMIN,kl_MMAX,kl_CACH,kl_CHMIN,kl_CHMAX
+dice,0.0253,0.0415,0.0848,6,0.0381,0.0121,0.0138,0.0415,0.0235,0.0226,456,230_machine_cpu,0.0051,0.0026,0.0034,0.004,0.0025,0.0044

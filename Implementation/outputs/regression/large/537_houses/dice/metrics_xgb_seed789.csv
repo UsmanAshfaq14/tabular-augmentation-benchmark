@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,dice,32068.1907,47653.6787,0.8299,18.1,47653.6787,32068.1907,0.8299,4128,97195.1944,68159.2548,-1927.2054,223,43140.1971,30007.1645,0.7924,3905,789,537_houses

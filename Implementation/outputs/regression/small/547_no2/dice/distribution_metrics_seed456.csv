@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_cars_per_hour,ks_temperature_at_2m,ks_wind_speed,ks_temperature_diff_2m_25m,ks_wind_direction,ks_hour_of_day,ks_day,seed,dataset,kl_cars_per_hour,kl_temperature_at_2m,kl_wind_speed,kl_temperature_diff_2m_25m,kl_wind_direction,kl_hour_of_day,kl_day
+dice,0.0207,0.0313,0.1763,7,0.0177,0.0216,0.0313,0.0216,0.0173,0.0149,0.0204,456,547_no2,0.0127,0.0093,0.0062,0.0041,0.0071,0.0075,0.0063

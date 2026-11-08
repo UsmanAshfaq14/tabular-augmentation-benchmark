@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_Sbp,ks_Tobacco,ks_Ldl,ks_Adiposity,ks_Famhist,ks_Typea,ks_Obesity,ks_Alcohol,ks_Age,seed,dataset,kl_Sbp,kl_Tobacco,kl_Ldl,kl_Adiposity,kl_Famhist,kl_Typea,kl_Obesity,kl_Alcohol,kl_Age
+great,0.0318,0.066,0.4101,9,0.0107,0.066,0.0226,0.0255,0.0067,0.0183,0.0483,0.0569,0.0309,789,saheart,0.0055,0.0078,0.0053,0.0126,0.0001,0.014,0.0202,0.0054,0.0223

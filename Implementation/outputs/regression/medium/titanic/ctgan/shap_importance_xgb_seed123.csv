@@ -1,0 +1,9 @@
+,mean_abs_shap_xgb
+gender,0.19411932
+age,0.06981168
+class,0.0587729
+fare,0.05597729
+country,0.030897534
+embarked,0.018963914
+parch,0.01622375
+sibsp,0.015366967

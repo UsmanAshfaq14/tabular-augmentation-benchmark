@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+rf,baseline,0.3825,0.4847,0.5664,11.25,0.4847,0.3825,0.5664,150,0.6083,0.5194,0.731,40,0.431,0.3327,0.153,110,123,547_no2

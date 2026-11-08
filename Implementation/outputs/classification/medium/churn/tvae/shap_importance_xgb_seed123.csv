@@ -1,0 +1,21 @@
+,mean_abs_shap_xgb
+total day minutes,0.926338
+number customer service calls,0.839402
+total day charge,0.6755022
+total eve charge,0.6234579
+international plan,0.5756888
+total intl minutes,0.4580658
+number vmail messages,0.38794366
+total intl calls,0.34168887
+total night calls,0.3064698
+total eve minutes,0.29877332
+account length,0.2813413
+total night minutes,0.27099812
+state,0.23504958
+phone number,0.2149769
+total night charge,0.20747116
+total day calls,0.19618613
+total intl charge,0.16377403
+total eve calls,0.14931837
+voice mail plan,0.12836787
+area code,0.10386334

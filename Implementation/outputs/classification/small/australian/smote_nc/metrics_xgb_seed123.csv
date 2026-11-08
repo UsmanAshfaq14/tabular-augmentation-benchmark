@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,smote_nc,0.8551,0.8536,0.8576,0.8543,0.7112,0.9093,123,australian

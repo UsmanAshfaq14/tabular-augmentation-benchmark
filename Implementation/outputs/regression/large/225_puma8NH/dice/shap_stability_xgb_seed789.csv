@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+dice,0.5952,0.0051,0.6,"theta2, thetad3, thetad2, thetad1, theta3","theta2, tau1, theta1, thetad2, theta3",789,225_puma8NH,xgb

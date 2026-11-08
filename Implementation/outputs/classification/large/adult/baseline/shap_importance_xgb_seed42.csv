@@ -1,0 +1,15 @@
+,mean_abs_shap_xgb
+age,0.84584296
+marital-status,0.7911261
+relationship,0.5958131
+education-num,0.56905603
+capital-gain,0.45521173
+occupation,0.40502673
+hours-per-week,0.36582157
+fnlwgt,0.20881906
+capital-loss,0.16816105
+workclass,0.14812274
+sex,0.09240368
+education,0.06769171
+native-country,0.057794362
+race,0.045408398

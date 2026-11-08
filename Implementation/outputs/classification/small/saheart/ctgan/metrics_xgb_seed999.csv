@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,ctgan,0.6259,0.5863,0.5863,0.5863,0.1726,0.6593,999,saheart

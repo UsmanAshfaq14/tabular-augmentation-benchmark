@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tabddpm,0.4286,0.0037,0.6,"Density, Age, Forearm, Abdomen, Biceps","Thigh, Density, Age, Knee, Abdomen",999,560_bodyfat,xgb

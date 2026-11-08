@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_age,ks_sex,ks_cp,ks_trestbps,ks_chol,ks_fbs,ks_restecg,ks_thalach,ks_exang,ks_oldpeak,ks_slope,ks_ca,ks_thal,seed,dataset,kl_age,kl_sex,kl_cp,kl_trestbps,kl_chol,kl_fbs,kl_restecg,kl_thalach,kl_exang,kl_oldpeak,kl_slope,kl_ca,kl_thal
+dice,0.0568,0.1193,1.5927,13,0.0763,0.0473,0.0573,0.0471,0.069,0.0334,0.0218,0.0795,0.0484,0.1193,0.0476,0.0348,0.0569,456,heart_c,0.0876,0.0054,0.0159,0.0674,0.0871,0.005,0.0028,0.0853,0.0058,0.0789,0.0046,0.0059,0.0278

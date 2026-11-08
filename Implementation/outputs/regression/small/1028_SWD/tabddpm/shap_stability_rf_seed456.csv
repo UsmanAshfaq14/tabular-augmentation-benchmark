@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tabddpm,0.9515,0.0072,1.0,"In3, In10, In5, In4, In9","In3, In10, In5, In4, In9",456,1028_SWD,rf

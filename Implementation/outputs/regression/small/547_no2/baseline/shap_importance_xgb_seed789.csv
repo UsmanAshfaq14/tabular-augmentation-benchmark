@@ -1,0 +1,8 @@
+,mean_abs_shap_xgb
+cars_per_hour,0.41408414
+wind_speed,0.22240578
+temperature_diff_2m_25m,0.123868115
+temperature_at_2m,0.09116293
+wind_direction,0.0816623
+hour_of_day,0.0747547
+day,0.05191015

@@ -1,0 +1,16 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.9762,0.0024,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,rf
+tvae,1.0,0.0012,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,rf
+tabddpm,0.9762,0.0015,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",42,nursery,rf
+ctgan,0.9524,0.0031,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",123,nursery,rf
+tvae,0.9762,0.006,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",123,nursery,rf
+tabddpm,0.9524,0.002,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",123,nursery,rf
+ctgan,1.0,0.0029,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",456,nursery,rf
+tvae,0.9286,0.0081,0.8,"has_nurs, parents, housing, health, social","has_nurs, children, parents, housing, health",456,nursery,rf
+tabddpm,1.0,0.0013,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",456,nursery,rf
+ctgan,1.0,0.0023,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",789,nursery,rf
+tvae,0.9762,0.0024,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",789,nursery,rf
+tabddpm,1.0,0.0013,1.0,"has_nurs, parents, housing, health, social","has_nurs, parents, housing, health, social",789,nursery,rf
+ctgan,0.9762,0.0041,0.8,"has_nurs, children, parents, housing, health","has_nurs, parents, housing, health, social",999,nursery,rf
+tvae,0.9762,0.0037,1.0,"has_nurs, children, parents, housing, health","has_nurs, children, parents, housing, health",999,nursery,rf
+tabddpm,1.0,0.0015,1.0,"has_nurs, children, parents, housing, health","has_nurs, children, parents, housing, health",999,nursery,rf

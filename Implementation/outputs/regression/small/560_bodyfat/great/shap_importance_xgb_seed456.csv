@@ -1,0 +1,15 @@
+,mean_abs_shap_xgb
+Density,4.210045
+Abdomen,1.5624826
+Knee,0.38731444
+Chest,0.35437846
+Hip,0.29135314
+Weight,0.26115087
+Ankle,0.1863111
+Forearm,0.17392068
+Wrist,0.162391
+Biceps,0.13734315
+Age,0.09752216
+Height,0.072135285
+Thigh,0.070497304
+Neck,0.041364778

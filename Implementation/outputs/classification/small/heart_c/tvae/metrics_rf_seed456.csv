@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,tvae,0.7802,0.7797,0.7824,0.7796,0.5621,0.882,456,heart_c

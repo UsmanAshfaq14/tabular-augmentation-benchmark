@@ -1,0 +1,21 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smote_nc,0.9879,0.0161,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",123,flare,xgb
+ctgan,0.9879,0.0324,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",123,flare,xgb
+tvae,0.8424,0.0277,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Activity, largest spot code, Evolution",123,flare,xgb
+tabddpm,0.9636,0.0292,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",123,flare,xgb
+dice,0.8788,0.0565,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Activity, largest spot code, Evolution",123,flare,xgb
+smote_nc,0.9152,0.0351,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",456,flare,xgb
+ctgan,0.9515,0.0161,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",456,flare,xgb
+tvae,0.9879,0.0164,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Activity, largest spot code, Evolution",456,flare,xgb
+tabddpm,0.9515,0.024,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",456,flare,xgb
+dice,0.9273,0.0592,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",456,flare,xgb
+smote_nc,0.9515,0.0239,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, become complex, spot dist code, largest spot code, Evolution",789,flare,xgb
+ctgan,0.9152,0.0295,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, become complex, spot dist code, largest spot code, Evolution",789,flare,xgb
+tvae,1.0,0.011,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",789,flare,xgb
+tabddpm,0.9879,0.0161,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",789,flare,xgb
+dice,0.9758,0.0638,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",789,flare,xgb
+smote_nc,0.9515,0.0252,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, become complex, spot dist code, largest spot code, Evolution",999,flare,xgb
+ctgan,0.9152,0.029,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, become complex, spot dist code, largest spot code, Evolution",999,flare,xgb
+tvae,0.9636,0.0184,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Activity, largest spot code, Evolution",999,flare,xgb
+tabddpm,0.9515,0.0128,1.0,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, largest spot code, Evolution",999,flare,xgb
+dice,0.9636,0.0451,0.8,"class code, spot dist code, Historically-complex, largest spot code, Evolution","class code, spot dist code, Historically-complex, Activity, largest spot code",999,flare,xgb

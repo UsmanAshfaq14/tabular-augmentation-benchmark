@@ -1,0 +1,9 @@
+,mean_abs_shap_xgb
+health,3.0425928
+has_nurs,1.4975252
+parents,0.9058776
+housing,0.85050607
+children,0.7918268
+social,0.7456882
+form,0.6497405
+finance,0.41663548

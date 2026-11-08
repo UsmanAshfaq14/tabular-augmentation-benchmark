@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,ctgan,0.929,0.8802,0.7987,0.8242,0.8957,0.9876,123,nursery

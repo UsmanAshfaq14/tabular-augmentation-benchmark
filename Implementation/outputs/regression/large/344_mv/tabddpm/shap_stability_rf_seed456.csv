@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+tabddpm,0.9515,0.0296,1.0,"x5, x1, x8, x7, x6","x5, x1, x8, x7, x6",456,344_mv,rf

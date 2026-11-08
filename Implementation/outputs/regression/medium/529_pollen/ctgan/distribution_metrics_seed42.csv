@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_RIDGE,ks_NUB,ks_CRACK,ks_WEIGHT,seed,dataset,kl_RIDGE,kl_NUB,kl_CRACK,kl_WEIGHT
+ctgan,0.0228,0.0383,0.2103,4,0.0112,0.0165,0.0383,0.0251,42,529_pollen,0.001,0.0017,0.0053,0.0026

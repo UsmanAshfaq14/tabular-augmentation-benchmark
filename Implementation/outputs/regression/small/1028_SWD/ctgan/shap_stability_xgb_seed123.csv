@@ -1,0 +1,2 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+ctgan,0.8909,0.0226,1.0,"In3, In10, In5, In4, In2","In3, In10, In5, In4, In2",123,1028_SWD,xgb

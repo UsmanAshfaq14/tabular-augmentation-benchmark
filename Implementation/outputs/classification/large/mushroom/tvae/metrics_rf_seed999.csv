@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,tvae,0.9994,0.9994,0.9994,0.9994,0.9988,1.0,999,mushroom

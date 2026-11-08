@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_buying,ks_maint,ks_doors,ks_persons,ks_lug_boot,ks_safety,seed,dataset,kl_buying,kl_maint,kl_doors,kl_persons,kl_lug_boot,kl_safety
+tabddpm,0.1009,0.1185,0.089,6,0.0889,0.0855,0.0838,0.114,0.1148,0.1185,789,car,0.2173,0.2183,0.2137,0.1365,0.1385,0.1436

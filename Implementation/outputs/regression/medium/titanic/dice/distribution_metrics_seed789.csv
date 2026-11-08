@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_gender,ks_age,ks_class,ks_embarked,ks_country,ks_fare,ks_sibsp,ks_parch,seed,dataset,kl_gender,kl_age,kl_class,kl_embarked,kl_country,kl_fare,kl_sibsp,kl_parch
+dice,0.0146,0.0246,0.0931,8,0.0137,0.0098,0.0147,0.0149,0.0156,0.0246,0.0111,0.0122,789,titanic,0.0005,0.002,0.0006,0.0016,0.0018,0.0009,0.0005,0.0008

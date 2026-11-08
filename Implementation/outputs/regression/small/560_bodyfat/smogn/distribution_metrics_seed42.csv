@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_Density,ks_Age,ks_Weight,ks_Height,ks_Neck,ks_Chest,ks_Abdomen,ks_Hip,ks_Thigh,ks_Knee,ks_Ankle,ks_Biceps,ks_Forearm,ks_Wrist,seed,dataset,kl_Density,kl_Age,kl_Weight,kl_Height,kl_Neck,kl_Chest,kl_Abdomen,kl_Hip,kl_Thigh,kl_Knee,kl_Ankle,kl_Biceps,kl_Forearm,kl_Wrist
+smogn,0.0173,0.0303,0.1924,14,0.0303,0.0114,0.0208,0.0152,0.0145,0.0183,0.0158,0.0183,0.0133,0.0202,0.0177,0.0145,0.0196,0.012,42,560_bodyfat,0.0115,0.0094,0.0092,0.002,0.0038,0.0088,0.0077,0.0048,0.0085,0.0069,0.0078,0.0105,0.0056,0.0038

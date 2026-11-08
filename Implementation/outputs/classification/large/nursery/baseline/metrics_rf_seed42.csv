@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,baseline,0.9846,0.988,0.9671,0.977,0.9774,0.9995,42,nursery

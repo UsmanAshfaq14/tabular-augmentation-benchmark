@@ -1,0 +1,1405 @@
+2026-05-27 16:59:41  INFO  Starting classification/small experiment
+2026-05-27 16:59:41  INFO  Datasets : ['heart_c', 'saheart', 'australian', 'german']
+2026-05-27 16:59:41  INFO  Methods  : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-27 16:59:41  INFO  Split    : 70/30
+2026-05-27 16:59:42  INFO    [baseline] RF  F1=0.7875  AUC=0.868
+2026-05-27 16:59:42  INFO    [baseline] XGB F1=0.7547  AUC=0.8634
+2026-05-27 16:59:43  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-27 16:59:44  INFO    [smote_nc] RF  F1=0.7861  AUC=0.8766
+2026-05-27 16:59:44  INFO    [smote_nc] XGB F1=0.7664  AUC=0.8668
+2026-05-27 16:59:53  WARNING    [ctgan] Augmentation failed - skipping.
+2026-05-27 16:59:54  WARNING    [tvae] Augmentation failed - skipping.
+2026-05-27 16:59:54  WARNING    [tabddpm] Augmentation failed - skipping.
+2026-05-27 17:00:12  WARNING    [great] Augmentation failed - skipping.
+2026-05-27 17:00:13  WARNING    [dice] Augmentation failed - skipping.
+2026-05-27 17:00:13  INFO    [baseline] RF  F1=0.8331  AUC=0.9005
+2026-05-27 17:00:13  INFO    [baseline] XGB F1=0.8537  AUC=0.918
+2026-05-27 17:00:14  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-27 17:00:15  INFO    [smote_nc] RF  F1=0.8662  AUC=0.9083
+2026-05-27 17:00:15  INFO    [smote_nc] XGB F1=0.8312  AUC=0.9044
+2026-05-27 17:00:22  WARNING    [ctgan] Augmentation failed - skipping.
+2026-05-27 17:00:23  WARNING    [tvae] Augmentation failed - skipping.
+2026-05-27 17:00:23  WARNING    [tabddpm] Augmentation failed - skipping.
+2026-05-27 17:00:25  WARNING    [great] Augmentation failed - skipping.
+2026-05-27 17:00:25  WARNING    [dice] Augmentation failed - skipping.
+2026-05-27 17:00:26  INFO    [baseline] RF  F1=0.8348  AUC=0.9051
+2026-05-27 17:00:26  INFO    [baseline] XGB F1=0.7903  AUC=0.8927
+2026-05-27 17:00:27  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-27 17:00:28  INFO    [smote_nc] RF  F1=0.8128  AUC=0.9034
+2026-05-27 17:00:28  INFO    [smote_nc] XGB F1=0.7468  AUC=0.8771
+2026-05-27 17:00:34  WARNING    [ctgan] Augmentation failed - skipping.
+2026-05-27 17:00:35  WARNING    [tvae] Augmentation failed - skipping.
+2026-05-27 17:00:35  WARNING    [tabddpm] Augmentation failed - skipping.
+2026-05-27 17:00:37  WARNING    [great] Augmentation failed - skipping.
+2026-05-27 17:00:38  WARNING    [dice] Augmentation failed - skipping.
+2026-05-27 17:00:38  INFO    [baseline] RF  F1=0.8312  AUC=0.9124
+2026-05-27 17:00:38  INFO    [baseline] XGB F1=0.8193  AUC=0.8888
+2026-05-27 17:00:40  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-27 17:00:40  INFO    [smote_nc] RF  F1=0.8099  AUC=0.9049
+2026-05-27 17:00:40  INFO    [smote_nc] XGB F1=0.8099  AUC=0.9034
+2026-05-27 17:00:47  WARNING    [ctgan] Augmentation failed - skipping.
+2026-05-27 17:00:48  WARNING    [tvae] Augmentation failed - skipping.
+2026-05-27 17:00:48  WARNING    [tabddpm] Augmentation failed - skipping.
+2026-05-27 17:00:50  WARNING    [great] Augmentation failed - skipping.
+2026-05-27 17:00:50  WARNING    [dice] Augmentation failed - skipping.
+2026-05-27 17:00:51  INFO    [baseline] RF  F1=0.7861  AUC=0.8754
+2026-05-27 17:00:51  INFO    [baseline] XGB F1=0.7827  AUC=0.8395
+2026-05-27 17:00:52  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-27 17:00:52  INFO    [smote_nc] RF  F1=0.7967  AUC=0.8827
+2026-05-27 17:00:52  INFO    [smote_nc] XGB F1=0.7827  AUC=0.8751
+2026-05-28 03:16:46  INFO  Starting classification/small experiment
+2026-05-28 03:16:46  INFO  Datasets : ['heart_c', 'saheart', 'australian', 'german']
+2026-05-28 03:16:46  INFO  Methods  : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-28 03:16:46  INFO  Split    : 70/30
+2026-05-28 03:16:47  INFO    [baseline] RF  F1=0.7875  AUC=0.868
+2026-05-28 03:16:47  INFO    [baseline] XGB F1=0.7547  AUC=0.8634
+2026-05-28 03:16:47  INFO    [smote_nc] Generated 18 synthetic rows in 0.1s
+2026-05-28 03:16:48  INFO    [smote_nc] RF  F1=0.7861  AUC=0.8766
+2026-05-28 03:16:48  INFO    [smote_nc] XGB F1=0.7664  AUC=0.8668
+2026-05-28 03:16:57  INFO    [ctgan] Generated 18 synthetic rows in 5.8s
+2026-05-28 03:16:58  INFO    [ctgan] RF  F1=0.8087  AUC=0.8561
+2026-05-28 03:16:58  INFO    [ctgan] XGB F1=0.7547  AUC=0.841
+2026-05-28 03:17:04  INFO    [tvae] Generated 18 synthetic rows in 2.4s
+2026-05-28 03:17:05  INFO    [tvae] RF  F1=0.7651  AUC=0.8666
+2026-05-28 03:17:05  INFO    [tvae] XGB F1=0.7337  AUC=0.8615
+2026-05-28 03:18:40  INFO    [tabddpm] Generated 18 synthetic rows in 92.4s
+2026-05-28 03:18:41  INFO    [tabddpm] RF  F1=0.7756  AUC=0.8724
+2026-05-28 03:18:41  INFO    [tabddpm] XGB F1=0.7411  AUC=0.8576
+2026-05-28 03:19:20  INFO    [great] Generated 18 synthetic rows in 36.1s
+2026-05-28 03:19:20  INFO    [great] RF  F1=0.7651  AUC=0.8739
+2026-05-28 03:19:20  INFO    [great] XGB F1=0.7796  AUC=0.8634
+2026-05-28 03:19:55  INFO    [dice] Generated 290 synthetic rows in 31.2s
+2026-05-28 03:19:55  INFO    [dice] RF  F1=0.7598  AUC=0.8937
+2026-05-28 03:19:55  INFO    [dice] XGB F1=0.7651  AUC=0.8756
+2026-05-28 03:19:59  INFO    Dataset heart_c complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/heart_c
+2026-05-28 03:19:59  INFO    [baseline] RF  F1=0.6242  AUC=0.716
+2026-05-28 03:19:59  INFO    [baseline] XGB F1=0.6279  AUC=0.6587
+2026-05-28 03:20:00  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 03:20:00  INFO    [smote_nc] RF  F1=0.6684  AUC=0.7246
+2026-05-28 03:20:00  INFO    [smote_nc] XGB F1=0.6860  AUC=0.7083
+2026-05-28 03:20:08  INFO    [ctgan] Generated 99 synthetic rows in 4.5s
+2026-05-28 03:20:08  INFO    [ctgan] RF  F1=0.6426  AUC=0.7046
+2026-05-28 03:20:08  INFO    [ctgan] XGB F1=0.6082  AUC=0.6751
+2026-05-28 03:20:14  INFO    [tvae] Generated 99 synthetic rows in 2.8s
+2026-05-28 03:20:15  INFO    [tvae] RF  F1=0.5892  AUC=0.7229
+2026-05-28 03:20:15  INFO    [tvae] XGB F1=0.6437  AUC=0.679
+2026-05-28 03:21:11  INFO    [tabddpm] Generated 99 synthetic rows in 53.5s
+2026-05-28 03:21:12  INFO    [tabddpm] RF  F1=0.6688  AUC=0.7271
+2026-05-28 03:21:12  INFO    [tabddpm] XGB F1=0.6000  AUC=0.6944
+2026-05-28 03:21:51  INFO    [great] Generated 99 synthetic rows in 36.6s
+2026-05-28 03:21:52  INFO    [great] RF  F1=0.6221  AUC=0.7285
+2026-05-28 03:21:52  INFO    [great] XGB F1=0.6142  AUC=0.7042
+2026-05-28 03:22:04  INFO    [dice] Generated 299 synthetic rows in 9.8s
+2026-05-28 03:22:05  INFO    [dice] RF  F1=0.6508  AUC=0.7355
+2026-05-28 03:22:05  INFO    [dice] XGB F1=0.6659  AUC=0.6786
+2026-05-28 03:22:09  INFO    Dataset saheart complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/saheart
+2026-05-28 03:22:10  INFO    [baseline] RF  F1=0.8878  AUC=0.9529
+2026-05-28 03:22:10  INFO    [baseline] XGB F1=0.8928  AUC=0.9417
+2026-05-28 03:22:11  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 03:22:12  INFO    [smote_nc] RF  F1=0.8878  AUC=0.9518
+2026-05-28 03:22:12  INFO    [smote_nc] XGB F1=0.8733  AUC=0.9417
+2026-05-28 03:22:21  INFO    [ctgan] Generated 53 synthetic rows in 5.0s
+2026-05-28 03:22:22  INFO    [ctgan] RF  F1=0.8826  AUC=0.9469
+2026-05-28 03:22:22  INFO    [ctgan] XGB F1=0.8488  AUC=0.9381
+2026-05-28 03:22:28  INFO    [tvae] Generated 53 synthetic rows in 2.7s
+2026-05-28 03:22:29  INFO    [tvae] RF  F1=0.8829  AUC=0.956
+2026-05-28 03:22:29  INFO    [tvae] XGB F1=0.8683  AUC=0.9402
+2026-05-28 03:24:44  INFO    [tabddpm] Generated 53 synthetic rows in 130.2s
+2026-05-28 03:24:44  INFO    [tabddpm] RF  F1=0.8926  AUC=0.9564
+2026-05-28 03:24:44  INFO    [tabddpm] XGB F1=0.8683  AUC=0.9434
+2026-05-28 03:25:42  INFO    [great] Generated 53 synthetic rows in 54.7s
+2026-05-28 03:25:43  INFO    [great] RF  F1=0.8728  AUC=0.9498
+2026-05-28 03:25:43  INFO    [great] XGB F1=0.8829  AUC=0.9409
+2026-05-28 03:26:09  INFO    [dice] Generated 300 synthetic rows in 22.4s
+2026-05-28 03:26:10  INFO    [dice] RF  F1=0.8826  AUC=0.9545
+2026-05-28 03:26:10  INFO    [dice] XGB F1=0.8588  AUC=0.9445
+2026-05-28 03:26:14  INFO    Dataset australian complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/australian
+2026-05-28 03:26:15  INFO    [baseline] RF  F1=0.6733  AUC=0.8096
+2026-05-28 03:26:15  INFO    [baseline] XGB F1=0.7086  AUC=0.7862
+2026-05-28 03:26:17  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 03:26:17  INFO    [smote_nc] RF  F1=0.6858  AUC=0.8184
+2026-05-28 03:26:17  INFO    [smote_nc] XGB F1=0.7106  AUC=0.7915
+2026-05-28 03:26:35  INFO    [ctgan] Generated 280 synthetic rows in 13.3s
+2026-05-28 03:26:36  INFO    [ctgan] RF  F1=0.6723  AUC=0.8052
+2026-05-28 03:26:36  INFO    [ctgan] XGB F1=0.6710  AUC=0.7766
+2026-05-28 03:26:47  INFO    [tvae] Generated 280 synthetic rows in 4.3s
+2026-05-28 03:26:48  INFO    [tvae] RF  F1=0.6737  AUC=0.8115
+2026-05-28 03:26:48  INFO    [tvae] XGB F1=0.6907  AUC=0.7769
+2026-05-28 03:31:46  INFO    [tabddpm] Generated 280 synthetic rows in 292.1s
+2026-05-28 03:31:47  INFO    [tabddpm] RF  F1=0.6770  AUC=0.8293
+2026-05-28 03:31:47  INFO    [tabddpm] XGB F1=0.7141  AUC=0.7918
+2026-05-28 03:33:52  INFO    [great] Generated 280 synthetic rows in 120.4s
+2026-05-28 03:33:53  INFO    [great] RF  F1=0.6283  AUC=0.8081
+2026-05-28 03:33:53  INFO    [great] XGB F1=0.6886  AUC=0.7296
+2026-05-28 03:35:24  INFO    [dice] Generated 298 synthetic rows in 86.3s
+2026-05-28 03:35:25  INFO    [dice] RF  F1=0.6738  AUC=0.8128
+2026-05-28 03:35:25  INFO    [dice] XGB F1=0.7137  AUC=0.7744
+2026-05-28 03:35:31  INFO    Dataset german complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/german
+2026-05-28 03:35:31  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/classification/small
+2026-05-28 03:41:45  INFO  Starting classification/small experiment
+2026-05-28 03:41:45  INFO  Datasets : ['heart_c', 'saheart', 'australian', 'german']
+2026-05-28 03:41:45  INFO  Methods  : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-28 03:41:45  INFO  Split    : 70/30
+2026-05-28 03:41:46  INFO    [baseline] RF  F1=0.7875  AUC=0.868
+2026-05-28 03:41:46  INFO    [baseline] XGB F1=0.7547  AUC=0.8634
+2026-05-28 03:41:47  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:41:48  INFO    [smote_nc] RF  F1=0.7861  AUC=0.8766
+2026-05-28 03:41:48  INFO    [smote_nc] XGB F1=0.7664  AUC=0.8668
+2026-05-28 03:41:56  INFO    [ctgan] Generated 18 synthetic rows in 4.8s
+2026-05-28 03:41:56  INFO    [ctgan] RF  F1=0.7619  AUC=0.8637
+2026-05-28 03:41:56  INFO    [ctgan] XGB F1=0.7442  AUC=0.8463
+2026-05-28 03:42:02  INFO    [tvae] Generated 18 synthetic rows in 2.3s
+2026-05-28 03:42:03  INFO    [tvae] RF  F1=0.7547  AUC=0.8539
+2026-05-28 03:42:03  INFO    [tvae] XGB F1=0.7231  AUC=0.8473
+2026-05-28 03:43:39  INFO    [tabddpm] Generated 18 synthetic rows in 92.6s
+2026-05-28 03:43:40  INFO    [tabddpm] RF  F1=0.7756  AUC=0.8724
+2026-05-28 03:43:40  INFO    [tabddpm] XGB F1=0.7411  AUC=0.8576
+2026-05-28 03:44:17  INFO    [great] Generated 18 synthetic rows in 34.4s
+2026-05-28 03:44:17  INFO    [great] RF  F1=0.7651  AUC=0.8739
+2026-05-28 03:44:17  INFO    [great] XGB F1=0.7796  AUC=0.8634
+2026-05-28 03:44:53  INFO    [dice] Generated 290 synthetic rows in 32.6s
+2026-05-28 03:44:54  INFO    [dice] RF  F1=0.7598  AUC=0.8937
+2026-05-28 03:44:54  INFO    [dice] XGB F1=0.7651  AUC=0.8756
+2026-05-28 03:44:57  INFO    [baseline] RF  F1=0.8331  AUC=0.9005
+2026-05-28 03:44:57  INFO    [baseline] XGB F1=0.8537  AUC=0.918
+2026-05-28 03:44:58  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:44:58  INFO    [smote_nc] RF  F1=0.8662  AUC=0.9083
+2026-05-28 03:44:58  INFO    [smote_nc] XGB F1=0.8312  AUC=0.9044
+2026-05-28 03:45:06  INFO    [ctgan] Generated 18 synthetic rows in 4.6s
+2026-05-28 03:45:06  INFO    [ctgan] RF  F1=0.8446  AUC=0.899
+2026-05-28 03:45:06  INFO    [ctgan] XGB F1=0.8216  AUC=0.9
+2026-05-28 03:45:12  INFO    [tvae] Generated 18 synthetic rows in 2.3s
+2026-05-28 03:45:13  INFO    [tvae] RF  F1=0.8446  AUC=0.9112
+2026-05-28 03:45:13  INFO    [tvae] XGB F1=0.8429  AUC=0.9005
+2026-05-28 03:46:43  INFO    [tabddpm] Generated 18 synthetic rows in 87.1s
+2026-05-28 03:46:44  INFO    [tabddpm] RF  F1=0.8331  AUC=0.9146
+2026-05-28 03:46:44  INFO    [tabddpm] XGB F1=0.8770  AUC=0.9156
+2026-05-28 03:47:20  INFO    [great] Generated 18 synthetic rows in 33.3s
+2026-05-28 03:47:20  INFO    [great] RF  F1=0.8216  AUC=0.9027
+2026-05-28 03:47:20  INFO    [great] XGB F1=0.8331  AUC=0.9039
+2026-05-28 03:47:55  INFO    [dice] Generated 290 synthetic rows in 31.2s
+2026-05-28 03:47:56  INFO    [dice] RF  F1=0.8205  AUC=0.8941
+2026-05-28 03:47:56  INFO    [dice] XGB F1=0.8419  AUC=0.9122
+2026-05-28 03:47:59  INFO    [baseline] RF  F1=0.8348  AUC=0.9051
+2026-05-28 03:47:59  INFO    [baseline] XGB F1=0.7903  AUC=0.8927
+2026-05-28 03:48:00  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:48:00  INFO    [smote_nc] RF  F1=0.8128  AUC=0.9034
+2026-05-28 03:48:00  INFO    [smote_nc] XGB F1=0.7468  AUC=0.8771
+2026-05-28 03:48:09  INFO    [ctgan] Generated 18 synthetic rows in 4.6s
+2026-05-28 03:48:09  INFO    [ctgan] RF  F1=0.8124  AUC=0.9056
+2026-05-28 03:48:09  INFO    [ctgan] XGB F1=0.7908  AUC=0.8878
+2026-05-28 03:48:15  INFO    [tvae] Generated 18 synthetic rows in 2.2s
+2026-05-28 03:48:16  INFO    [tvae] RF  F1=0.7796  AUC=0.882
+2026-05-28 03:48:16  INFO    [tvae] XGB F1=0.8240  AUC=0.9117
+2026-05-28 03:49:46  INFO    [tabddpm] Generated 18 synthetic rows in 87.1s
+2026-05-28 03:49:47  INFO    [tabddpm] RF  F1=0.8016  AUC=0.9027
+2026-05-28 03:49:47  INFO    [tabddpm] XGB F1=0.8231  AUC=0.8946
+2026-05-28 03:50:24  INFO    [great] Generated 18 synthetic rows in 34.3s
+2026-05-28 03:50:24  INFO    [great] RF  F1=0.8565  AUC=0.8959
+2026-05-28 03:50:24  INFO    [great] XGB F1=0.7796  AUC=0.9029
+2026-05-28 03:50:58  INFO    [dice] Generated 290 synthetic rows in 30.0s
+2026-05-28 03:50:58  INFO    [dice] RF  F1=0.7981  AUC=0.8839
+2026-05-28 03:50:58  INFO    [dice] XGB F1=0.7875  AUC=0.8805
+2026-05-28 03:51:02  INFO    [baseline] RF  F1=0.8312  AUC=0.9124
+2026-05-28 03:51:02  INFO    [baseline] XGB F1=0.8193  AUC=0.8888
+2026-05-28 03:51:02  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:51:03  INFO    [smote_nc] RF  F1=0.8099  AUC=0.9049
+2026-05-28 03:51:03  INFO    [smote_nc] XGB F1=0.8099  AUC=0.9034
+2026-05-28 03:51:11  INFO    [ctgan] Generated 18 synthetic rows in 4.8s
+2026-05-28 03:51:11  INFO    [ctgan] RF  F1=0.8285  AUC=0.9066
+2026-05-28 03:51:11  INFO    [ctgan] XGB F1=0.7861  AUC=0.8985
+2026-05-28 03:51:18  INFO    [tvae] Generated 18 synthetic rows in 2.3s
+2026-05-28 03:51:18  INFO    [tvae] RF  F1=0.8312  AUC=0.9161
+2026-05-28 03:51:18  INFO    [tvae] XGB F1=0.8193  AUC=0.9132
+2026-05-28 03:52:19  INFO  Starting classification/small experiment
+2026-05-28 03:52:19  INFO  Datasets : ['heart_c', 'saheart', 'australian', 'german']
+2026-05-28 03:52:19  INFO  Methods  : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-28 03:52:19  INFO  Split    : 70/30
+2026-05-28 03:52:59  INFO    [baseline] RF  F1=0.7875  AUC=0.868
+2026-05-28 03:52:59  INFO    [baseline] XGB F1=0.7547  AUC=0.8634
+2026-05-28 03:53:00  INFO    [smote_nc] Generated 18 synthetic rows in 0.2s
+2026-05-28 03:53:00  INFO    [tabddpm] Generated 18 synthetic rows in 98.3s
+2026-05-28 03:53:00  INFO    [smote_nc] RF  F1=0.7861  AUC=0.8766
+2026-05-28 03:53:00  INFO    [smote_nc] XGB F1=0.7664  AUC=0.8668
+2026-05-28 03:53:01  INFO    [tabddpm] RF  F1=0.8205  AUC=0.9088
+2026-05-28 03:53:01  INFO    [tabddpm] XGB F1=0.8087  AUC=0.8902
+2026-05-28 03:53:12  INFO    [ctgan] Generated 18 synthetic rows in 8.8s
+2026-05-28 03:53:18  INFO    [ctgan] RF  F1=0.7428  AUC=0.8493
+2026-05-28 03:53:18  INFO    [ctgan] XGB F1=0.7453  AUC=0.8454
+2026-05-28 03:53:24  INFO    [tvae] Generated 18 synthetic rows in 2.5s
+2026-05-28 03:53:25  INFO    [tvae] RF  F1=0.7515  AUC=0.8593
+2026-05-28 03:53:25  INFO    [tvae] XGB F1=0.7442  AUC=0.8488
+2026-05-28 03:53:38  INFO    [great] Generated 18 synthetic rows in 35.0s
+2026-05-28 03:53:39  INFO    [great] RF  F1=0.8419  AUC=0.9188
+2026-05-28 03:53:39  INFO    [great] XGB F1=0.8087  AUC=0.9063
+2026-05-28 03:54:03  INFO    [dice] Generated 291 synthetic rows in 18.1s
+2026-05-28 03:54:03  INFO    [dice] RF  F1=0.8178  AUC=0.8995
+2026-05-28 03:54:03  INFO    [dice] XGB F1=0.8193  AUC=0.8824
+2026-05-28 03:54:08  INFO    [baseline] RF  F1=0.7861  AUC=0.8754
+2026-05-28 03:54:08  INFO    [baseline] XGB F1=0.7827  AUC=0.8395
+2026-05-28 03:54:09  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:54:10  INFO    [smote_nc] RF  F1=0.7967  AUC=0.8827
+2026-05-28 03:54:10  INFO    [smote_nc] XGB F1=0.7827  AUC=0.8751
+2026-05-28 03:54:16  INFO    [ctgan] Generated 18 synthetic rows in 2.0s
+2026-05-28 03:54:17  INFO    [ctgan] RF  F1=0.8193  AUC=0.8951
+2026-05-28 03:54:17  INFO    [ctgan] XGB F1=0.7741  AUC=0.8741
+2026-05-28 03:54:24  INFO    [tvae] Generated 18 synthetic rows in 1.6s
+2026-05-28 03:54:24  INFO    [tvae] RF  F1=0.7547  AUC=0.8776
+2026-05-28 03:54:24  INFO    [tvae] XGB F1=0.7981  AUC=0.8434
+2026-05-28 03:55:47  INFO    [tabddpm] Generated 18 synthetic rows in 138.2s
+2026-05-28 03:55:48  INFO    [tabddpm] RF  F1=0.7756  AUC=0.8724
+2026-05-28 03:55:48  INFO    [tabddpm] XGB F1=0.7411  AUC=0.8576
+2026-05-28 03:55:59  WARNING    [great] Augmentation failed - skipping.
+2026-05-28 03:56:19  INFO    [dice] Generated 291 synthetic rows in 20.9s
+2026-05-28 03:56:20  INFO    [dice] RF  F1=0.7702  AUC=0.8771
+2026-05-28 03:56:20  INFO    [dice] XGB F1=0.7515  AUC=0.8712
+2026-05-28 03:56:25  INFO    [baseline] RF  F1=0.8331  AUC=0.9005
+2026-05-28 03:56:25  INFO    [baseline] XGB F1=0.8537  AUC=0.918
+2026-05-28 03:56:26  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:56:27  INFO    [smote_nc] RF  F1=0.8662  AUC=0.9083
+2026-05-28 03:56:27  INFO    [smote_nc] XGB F1=0.8312  AUC=0.9044
+2026-05-28 03:56:33  INFO    [ctgan] Generated 18 synthetic rows in 1.8s
+2026-05-28 03:56:33  INFO    [ctgan] RF  F1=0.8224  AUC=0.9039
+2026-05-28 03:56:33  INFO    [ctgan] XGB F1=0.8439  AUC=0.9137
+2026-05-28 03:56:40  INFO    [tvae] Generated 18 synthetic rows in 1.2s
+2026-05-28 03:56:41  INFO    [tvae] RF  F1=0.8331  AUC=0.9029
+2026-05-28 03:56:41  INFO    [tvae] XGB F1=0.8546  AUC=0.921
+2026-05-28 03:56:48  INFO    [tabddpm] Generated 18 synthetic rows in 139.9s
+2026-05-28 03:56:48  INFO    [tabddpm] RF  F1=0.8299  AUC=0.8951
+2026-05-28 03:56:48  INFO    [tabddpm] XGB F1=0.7950  AUC=0.8722
+2026-05-28 03:57:29  INFO    [great] Generated 18 synthetic rows in 36.5s
+2026-05-28 03:57:30  INFO    [great] RF  F1=0.8072  AUC=0.9041
+2026-05-28 03:57:30  INFO    [great] XGB F1=0.7636  AUC=0.8673
+2026-05-28 03:58:00  INFO    [dice] Generated 291 synthetic rows in 25.3s
+2026-05-28 03:58:00  INFO    [dice] RF  F1=0.7932  AUC=0.8766
+2026-05-28 03:58:00  INFO    [dice] XGB F1=0.7827  AUC=0.859
+2026-05-28 03:58:06  INFO    Dataset heart_c complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/heart_c
+2026-05-28 03:58:06  INFO    [baseline] RF  F1=0.6242  AUC=0.716
+2026-05-28 03:58:06  INFO    [baseline] XGB F1=0.6279  AUC=0.6587
+2026-05-28 03:58:08  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 03:58:08  INFO    [smote_nc] RF  F1=0.6684  AUC=0.7246
+2026-05-28 03:58:08  INFO    [smote_nc] XGB F1=0.6860  AUC=0.7083
+2026-05-28 03:58:14  INFO    [ctgan] Generated 99 synthetic rows in 2.3s
+2026-05-28 03:58:14  INFO    [ctgan] RF  F1=0.6203  AUC=0.7064
+2026-05-28 03:58:14  INFO    [ctgan] XGB F1=0.6082  AUC=0.668
+2026-05-28 03:58:20  INFO    [tvae] Generated 99 synthetic rows in 1.7s
+2026-05-28 03:58:21  INFO    [tvae] RF  F1=0.6221  AUC=0.7335
+2026-05-28 03:58:21  INFO    [tvae] XGB F1=0.6242  AUC=0.6838
+2026-05-28 03:58:29  INFO    [tabddpm] Generated 18 synthetic rows in 103.3s
+2026-05-28 03:58:29  INFO    [tabddpm] RF  F1=0.8331  AUC=0.9146
+2026-05-28 03:58:29  INFO    [tabddpm] XGB F1=0.8770  AUC=0.9156
+2026-05-28 03:59:09  INFO    [great] Generated 18 synthetic rows in 35.0s
+2026-05-28 03:59:09  INFO    [great] RF  F1=0.8216  AUC=0.9027
+2026-05-28 03:59:09  INFO    [great] XGB F1=0.8331  AUC=0.9039
+2026-05-28 03:59:27  INFO    [tabddpm] Generated 99 synthetic rows in 63.3s
+2026-05-28 03:59:28  INFO    [tabddpm] RF  F1=0.6688  AUC=0.7271
+2026-05-28 03:59:28  INFO    [tabddpm] XGB F1=0.6000  AUC=0.6944
+2026-05-28 03:59:42  INFO    [dice] Generated 290 synthetic rows in 29.5s
+2026-05-28 03:59:42  INFO    [dice] RF  F1=0.8205  AUC=0.8941
+2026-05-28 03:59:42  INFO    [dice] XGB F1=0.8419  AUC=0.9122
+2026-05-28 03:59:46  INFO    [baseline] RF  F1=0.8348  AUC=0.9051
+2026-05-28 03:59:46  INFO    [baseline] XGB F1=0.7903  AUC=0.8927
+2026-05-28 03:59:46  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 03:59:47  INFO    [smote_nc] RF  F1=0.8128  AUC=0.9034
+2026-05-28 03:59:47  INFO    [smote_nc] XGB F1=0.7468  AUC=0.8771
+2026-05-28 03:59:58  INFO    [ctgan] Generated 18 synthetic rows in 7.7s
+2026-05-28 03:59:59  INFO    [ctgan] RF  F1=0.8124  AUC=0.9056
+2026-05-28 03:59:59  INFO    [ctgan] XGB F1=0.7908  AUC=0.8878
+2026-05-28 04:00:05  INFO    [tvae] Generated 18 synthetic rows in 2.4s
+2026-05-28 04:00:06  INFO    [tvae] RF  F1=0.7796  AUC=0.882
+2026-05-28 04:00:06  INFO    [tvae] XGB F1=0.8240  AUC=0.9117
+2026-05-28 04:00:08  INFO    [great] Generated 99 synthetic rows in 37.8s
+2026-05-28 04:00:09  INFO    [great] RF  F1=0.6221  AUC=0.7285
+2026-05-28 04:00:09  INFO    [great] XGB F1=0.6142  AUC=0.7042
+2026-05-28 04:00:25  INFO    [dice] Generated 299 synthetic rows in 12.0s
+2026-05-28 04:00:25  INFO    [dice] RF  F1=0.6508  AUC=0.7355
+2026-05-28 04:00:25  INFO    [dice] XGB F1=0.6659  AUC=0.6786
+2026-05-28 04:00:30  INFO    [baseline] RF  F1=0.6372  AUC=0.7589
+2026-05-28 04:00:30  INFO    [baseline] XGB F1=0.6436  AUC=0.7388
+2026-05-28 04:00:31  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:00:31  INFO    [smote_nc] RF  F1=0.6603  AUC=0.7748
+2026-05-28 04:00:31  INFO    [smote_nc] XGB F1=0.6905  AUC=0.7768
+2026-05-28 04:00:37  INFO    [ctgan] Generated 99 synthetic rows in 2.4s
+2026-05-28 04:00:38  INFO    [ctgan] RF  F1=0.6181  AUC=0.7656
+2026-05-28 04:00:38  INFO    [ctgan] XGB F1=0.6552  AUC=0.7321
+2026-05-28 04:00:44  INFO    [tvae] Generated 99 synthetic rows in 1.7s
+2026-05-28 04:00:44  INFO    [tvae] RF  F1=0.5912  AUC=0.7542
+2026-05-28 04:00:44  INFO    [tvae] XGB F1=0.6133  AUC=0.7475
+2026-05-28 04:02:29  INFO    [tabddpm] Generated 99 synthetic rows in 101.1s
+2026-05-28 04:02:30  INFO    [tabddpm] RF  F1=0.6378  AUC=0.7403
+2026-05-28 04:02:30  INFO    [tabddpm] XGB F1=0.6375  AUC=0.7601
+2026-05-28 04:02:40  INFO    [tabddpm] Generated 18 synthetic rows in 150.3s
+2026-05-28 04:02:40  INFO    [tabddpm] RF  F1=0.8016  AUC=0.9027
+2026-05-28 04:02:40  INFO    [tabddpm] XGB F1=0.8231  AUC=0.8946
+2026-05-28 04:03:27  INFO    [great] Generated 99 synthetic rows in 53.4s
+2026-05-28 04:03:27  ERROR    [great] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [  0   1 100]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 311, in run_dataset
+    result = run_one_method(
+             ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 165, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [  0   1 100]
+2026-05-28 04:03:33  INFO    [great] Generated 18 synthetic rows in 50.1s
+2026-05-28 04:03:34  INFO    [great] RF  F1=0.8565  AUC=0.8959
+2026-05-28 04:03:34  INFO    [great] XGB F1=0.7796  AUC=0.9029
+2026-05-28 04:03:39  INFO    [dice] Generated 298 synthetic rows in 11.4s
+2026-05-28 04:03:39  INFO    [dice] RF  F1=0.6378  AUC=0.7794
+2026-05-28 04:03:39  INFO    [dice] XGB F1=0.6198  AUC=0.739
+2026-05-28 04:03:43  INFO    [baseline] RF  F1=0.7232  AUC=0.7944
+2026-05-28 04:03:43  INFO    [baseline] XGB F1=0.6318  AUC=0.7271
+2026-05-28 04:03:44  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:03:44  INFO    [smote_nc] RF  F1=0.7006  AUC=0.7695
+2026-05-28 04:03:44  INFO    [smote_nc] XGB F1=0.6977  AUC=0.745
+2026-05-28 04:03:53  INFO    [ctgan] Generated 99 synthetic rows in 4.9s
+2026-05-28 04:03:53  INFO    [ctgan] RF  F1=0.6257  AUC=0.7826
+2026-05-28 04:03:53  INFO    [ctgan] XGB F1=0.6079  AUC=0.6983
+2026-05-28 04:03:59  INFO    [tvae] Generated 99 synthetic rows in 2.9s
+2026-05-28 04:04:00  INFO    [tvae] RF  F1=0.5744  AUC=0.7645
+2026-05-28 04:04:00  INFO    [tvae] XGB F1=0.5545  AUC=0.6909
+2026-05-28 04:04:08  INFO    [dice] Generated 290 synthetic rows in 30.9s
+2026-05-28 04:04:08  INFO    [dice] RF  F1=0.7981  AUC=0.8839
+2026-05-28 04:04:08  INFO    [dice] XGB F1=0.7875  AUC=0.8805
+2026-05-28 04:04:14  INFO    [baseline] RF  F1=0.8312  AUC=0.9124
+2026-05-28 04:04:14  INFO    [baseline] XGB F1=0.8193  AUC=0.8888
+2026-05-28 04:04:15  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 04:04:16  INFO    [smote_nc] RF  F1=0.8099  AUC=0.9049
+2026-05-28 04:04:16  INFO    [smote_nc] XGB F1=0.8099  AUC=0.9034
+2026-05-28 04:04:23  INFO    [ctgan] Generated 18 synthetic rows in 2.6s
+2026-05-28 04:04:24  INFO    [ctgan] RF  F1=0.8285  AUC=0.9066
+2026-05-28 04:04:24  INFO    [ctgan] XGB F1=0.7861  AUC=0.8985
+2026-05-28 04:04:28  INFO    [tvae] Generated 18 synthetic rows in 1.0s
+2026-05-28 04:04:29  INFO    [tvae] RF  F1=0.8312  AUC=0.9161
+2026-05-28 04:04:29  INFO    [tvae] XGB F1=0.8193  AUC=0.9132
+2026-05-28 04:05:28  INFO    [tabddpm] Generated 99 synthetic rows in 85.0s
+2026-05-28 04:05:28  INFO    [tabddpm] RF  F1=0.6857  AUC=0.7831
+2026-05-28 04:05:28  INFO    [tabddpm] XGB F1=0.6429  AUC=0.7152
+2026-05-28 04:06:11  INFO    [great] Generated 99 synthetic rows in 39.1s
+2026-05-28 04:06:12  INFO    [great] RF  F1=0.7036  AUC=0.814
+2026-05-28 04:06:12  INFO    [great] XGB F1=0.6139  AUC=0.7507
+2026-05-28 04:06:32  INFO    [dice] Generated 296 synthetic rows in 16.7s
+2026-05-28 04:06:32  INFO    [dice] RF  F1=0.7306  AUC=0.8174
+2026-05-28 04:06:32  INFO    [dice] XGB F1=0.6951  AUC=0.7633
+2026-05-28 04:06:38  INFO    [baseline] RF  F1=0.5848  AUC=0.689
+2026-05-28 04:06:38  INFO    [baseline] XGB F1=0.5623  AUC=0.6106
+2026-05-28 04:06:38  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:06:39  INFO    [smote_nc] RF  F1=0.6101  AUC=0.7183
+2026-05-28 04:06:39  INFO    [smote_nc] XGB F1=0.5982  AUC=0.6339
+2026-05-28 04:06:40  INFO    [tabddpm] Generated 18 synthetic rows in 126.4s
+2026-05-28 04:06:40  INFO    [tabddpm] RF  F1=0.8205  AUC=0.9088
+2026-05-28 04:06:40  INFO    [tabddpm] XGB F1=0.8087  AUC=0.8902
+2026-05-28 04:06:45  INFO    [ctgan] Generated 99 synthetic rows in 4.6s
+2026-05-28 04:06:46  INFO    [ctgan] RF  F1=0.5779  AUC=0.6637
+2026-05-28 04:06:46  INFO    [ctgan] XGB F1=0.5567  AUC=0.5884
+2026-05-28 04:06:52  INFO    [tvae] Generated 99 synthetic rows in 3.0s
+2026-05-28 04:06:53  INFO    [tvae] RF  F1=0.6021  AUC=0.7438
+2026-05-28 04:06:53  INFO    [tvae] XGB F1=0.6195  AUC=0.666
+2026-05-28 04:07:19  INFO    [great] Generated 18 synthetic rows in 36.2s
+2026-05-28 04:07:19  INFO    [great] RF  F1=0.8419  AUC=0.9188
+2026-05-28 04:07:19  INFO    [great] XGB F1=0.8087  AUC=0.9063
+2026-05-28 04:07:44  INFO    [dice] Generated 291 synthetic rows in 20.6s
+2026-05-28 04:07:44  INFO    [dice] RF  F1=0.8178  AUC=0.8995
+2026-05-28 04:07:44  INFO    [dice] XGB F1=0.8193  AUC=0.8824
+2026-05-28 04:07:49  INFO    [baseline] RF  F1=0.7861  AUC=0.8754
+2026-05-28 04:07:49  INFO    [baseline] XGB F1=0.7827  AUC=0.8395
+2026-05-28 04:07:50  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 04:07:50  INFO    [smote_nc] RF  F1=0.7967  AUC=0.8827
+2026-05-28 04:07:50  INFO    [smote_nc] XGB F1=0.7827  AUC=0.8751
+2026-05-28 04:07:58  INFO    [ctgan] Generated 18 synthetic rows in 2.5s
+2026-05-28 04:07:58  INFO    [ctgan] RF  F1=0.8193  AUC=0.8951
+2026-05-28 04:07:58  INFO    [ctgan] XGB F1=0.7741  AUC=0.8741
+2026-05-28 04:08:03  INFO    [tabddpm] Generated 99 synthetic rows in 67.1s
+2026-05-28 04:08:04  INFO    [tabddpm] RF  F1=0.6010  AUC=0.6835
+2026-05-28 04:08:04  INFO    [tabddpm] XGB F1=0.5791  AUC=0.6282
+2026-05-28 04:08:04  INFO    [tvae] Generated 18 synthetic rows in 2.1s
+2026-05-28 04:08:05  INFO    [tvae] RF  F1=0.7547  AUC=0.8776
+2026-05-28 04:08:05  INFO    [tvae] XGB F1=0.7981  AUC=0.8434
+2026-05-28 04:08:46  INFO    [great] Generated 99 synthetic rows in 40.5s
+2026-05-28 04:08:47  INFO    [great] RF  F1=0.6074  AUC=0.7
+2026-05-28 04:08:47  INFO    [great] XGB F1=0.5557  AUC=0.5994
+2026-05-28 04:09:02  INFO    [dice] Generated 297 synthetic rows in 12.0s
+2026-05-28 04:09:02  INFO    [dice] RF  F1=0.6079  AUC=0.6893
+2026-05-28 04:09:02  INFO    [dice] XGB F1=0.5620  AUC=0.6596
+2026-05-28 04:09:06  INFO    [baseline] RF  F1=0.5734  AUC=0.7016
+2026-05-28 04:09:06  INFO    [baseline] XGB F1=0.5344  AUC=0.6651
+2026-05-28 04:09:07  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:09:08  INFO    [smote_nc] RF  F1=0.6252  AUC=0.6812
+2026-05-28 04:09:08  INFO    [smote_nc] XGB F1=0.6022  AUC=0.6774
+2026-05-28 04:09:13  INFO    [ctgan] Generated 99 synthetic rows in 2.5s
+2026-05-28 04:09:14  INFO    [ctgan] RF  F1=0.6068  AUC=0.7003
+2026-05-28 04:09:14  INFO    [ctgan] XGB F1=0.5863  AUC=0.6593
+2026-05-28 04:09:19  INFO    [tvae] Generated 99 synthetic rows in 1.6s
+2026-05-28 04:09:20  INFO    [tvae] RF  F1=0.5668  AUC=0.6852
+2026-05-28 04:09:20  INFO    [tvae] XGB F1=0.5511  AUC=0.6605
+2026-05-28 04:09:58  INFO    [tabddpm] Generated 18 synthetic rows in 110.8s
+2026-05-28 04:09:58  INFO    [tabddpm] RF  F1=0.8299  AUC=0.8951
+2026-05-28 04:09:58  INFO    [tabddpm] XGB F1=0.7950  AUC=0.8722
+2026-05-28 04:10:38  INFO    [great] Generated 18 synthetic rows in 35.4s
+2026-05-28 04:10:39  INFO    [great] RF  F1=0.8072  AUC=0.9041
+2026-05-28 04:10:39  INFO    [great] XGB F1=0.7636  AUC=0.8673
+2026-05-28 04:10:44  INFO    [tabddpm] Generated 99 synthetic rows in 81.0s
+2026-05-28 04:10:45  INFO    [tabddpm] RF  F1=0.5567  AUC=0.6814
+2026-05-28 04:10:45  INFO    [tabddpm] XGB F1=0.5344  AUC=0.6467
+2026-05-28 04:11:00  INFO    [dice] Generated 291 synthetic rows in 18.0s
+2026-05-28 04:11:01  INFO    [dice] RF  F1=0.7932  AUC=0.8766
+2026-05-28 04:11:01  INFO    [dice] XGB F1=0.7827  AUC=0.859
+2026-05-28 04:11:04  INFO    Dataset heart_c complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/heart_c
+2026-05-28 04:11:05  INFO    [baseline] RF  F1=0.6242  AUC=0.716
+2026-05-28 04:11:05  INFO    [baseline] XGB F1=0.6279  AUC=0.6587
+2026-05-28 04:11:06  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:11:07  INFO    [smote_nc] RF  F1=0.6684  AUC=0.7246
+2026-05-28 04:11:07  INFO    [smote_nc] XGB F1=0.6860  AUC=0.7083
+2026-05-28 04:11:18  INFO    [ctgan] Generated 99 synthetic rows in 7.5s
+2026-05-28 04:11:18  INFO    [ctgan] RF  F1=0.6203  AUC=0.7064
+2026-05-28 04:11:18  INFO    [ctgan] XGB F1=0.6082  AUC=0.668
+2026-05-28 04:11:25  INFO    [tvae] Generated 99 synthetic rows in 3.0s
+2026-05-28 04:11:25  INFO    [great] Generated 99 synthetic rows in 38.2s
+2026-05-28 04:11:25  INFO    [tvae] RF  F1=0.6221  AUC=0.7335
+2026-05-28 04:11:25  INFO    [tvae] XGB F1=0.6242  AUC=0.6838
+2026-05-28 04:11:25  INFO    [great] RF  F1=0.5963  AUC=0.7138
+2026-05-28 04:11:25  INFO    [great] XGB F1=0.6021  AUC=0.66
+2026-05-28 04:11:36  INFO    [dice] Generated 300 synthetic rows in 7.5s
+2026-05-28 04:11:36  INFO    [dice] RF  F1=0.6195  AUC=0.6972
+2026-05-28 04:11:36  INFO    [dice] XGB F1=0.5791  AUC=0.6781
+2026-05-28 04:11:43  INFO    Dataset saheart complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/saheart
+2026-05-28 04:11:44  INFO    [baseline] RF  F1=0.8878  AUC=0.9529
+2026-05-28 04:11:44  INFO    [baseline] XGB F1=0.8928  AUC=0.9417
+2026-05-28 04:11:45  INFO    [smote_nc] Generated 53 synthetic rows in 0.1s
+2026-05-28 04:11:46  INFO    [smote_nc] RF  F1=0.8878  AUC=0.9518
+2026-05-28 04:11:46  INFO    [smote_nc] XGB F1=0.8733  AUC=0.9417
+2026-05-28 04:11:53  INFO    [ctgan] Generated 53 synthetic rows in 2.4s
+2026-05-28 04:11:53  INFO    [ctgan] RF  F1=0.8826  AUC=0.9489
+2026-05-28 04:11:53  INFO    [ctgan] XGB F1=0.8388  AUC=0.9302
+2026-05-28 04:11:59  INFO    [tvae] Generated 53 synthetic rows in 1.8s
+2026-05-28 04:11:59  INFO    [tvae] RF  F1=0.8829  AUC=0.956
+2026-05-28 04:11:59  INFO    [tvae] XGB F1=0.8683  AUC=0.9402
+2026-05-28 04:12:55  INFO    [tabddpm] Generated 99 synthetic rows in 87.3s
+2026-05-28 04:12:56  INFO    [tabddpm] RF  F1=0.6688  AUC=0.7271
+2026-05-28 04:12:56  INFO    [tabddpm] XGB F1=0.6000  AUC=0.6944
+2026-05-28 04:13:42  INFO    [great] Generated 99 synthetic rows in 40.7s
+2026-05-28 04:13:43  INFO    [great] RF  F1=0.6221  AUC=0.7285
+2026-05-28 04:13:43  INFO    [great] XGB F1=0.6142  AUC=0.7042
+2026-05-28 04:13:58  INFO    [dice] Generated 299 synthetic rows in 11.4s
+2026-05-28 04:13:58  INFO    [dice] RF  F1=0.6508  AUC=0.7355
+2026-05-28 04:13:58  INFO    [dice] XGB F1=0.6659  AUC=0.6786
+2026-05-28 04:14:04  INFO    [baseline] RF  F1=0.6372  AUC=0.7589
+2026-05-28 04:14:04  INFO    [baseline] XGB F1=0.6436  AUC=0.7388
+2026-05-28 04:14:05  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:14:05  INFO    [smote_nc] RF  F1=0.6603  AUC=0.7748
+2026-05-28 04:14:05  INFO    [smote_nc] XGB F1=0.6905  AUC=0.7768
+2026-05-28 04:14:13  INFO    [ctgan] Generated 99 synthetic rows in 2.6s
+2026-05-28 04:14:14  INFO    [ctgan] RF  F1=0.6181  AUC=0.7656
+2026-05-28 04:14:14  INFO    [ctgan] XGB F1=0.6552  AUC=0.7321
+2026-05-28 04:14:19  INFO    [tvae] Generated 99 synthetic rows in 1.9s
+2026-05-28 04:14:20  INFO    [tvae] RF  F1=0.5912  AUC=0.7542
+2026-05-28 04:14:20  INFO    [tvae] XGB F1=0.6133  AUC=0.7475
+2026-05-28 04:15:16  INFO    [tabddpm] Generated 53 synthetic rows in 192.7s
+2026-05-28 04:15:17  INFO    [tabddpm] RF  F1=0.8926  AUC=0.9564
+2026-05-28 04:15:17  INFO    [tabddpm] XGB F1=0.8683  AUC=0.9434
+2026-05-28 04:15:46  INFO    [tabddpm] Generated 99 synthetic rows in 82.3s
+2026-05-28 04:15:47  INFO    [tabddpm] RF  F1=0.6378  AUC=0.7403
+2026-05-28 04:15:47  INFO    [tabddpm] XGB F1=0.6375  AUC=0.7601
+2026-05-28 04:16:26  WARNING    [great] Augmentation failed - skipping.
+2026-05-28 04:16:27  INFO    [great] Generated 53 synthetic rows in 65.4s
+2026-05-28 04:16:28  INFO    [great] RF  F1=0.8728  AUC=0.9498
+2026-05-28 04:16:28  INFO    [great] XGB F1=0.8829  AUC=0.9409
+2026-05-28 04:16:38  INFO    [dice] Generated 298 synthetic rows in 12.0s
+2026-05-28 04:16:38  INFO    [dice] RF  F1=0.6378  AUC=0.7794
+2026-05-28 04:16:38  INFO    [dice] XGB F1=0.6198  AUC=0.739
+2026-05-28 04:16:42  INFO    [baseline] RF  F1=0.7232  AUC=0.7944
+2026-05-28 04:16:42  INFO    [baseline] XGB F1=0.6318  AUC=0.7271
+2026-05-28 04:16:43  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:16:44  INFO    [smote_nc] RF  F1=0.7006  AUC=0.7695
+2026-05-28 04:16:44  INFO    [smote_nc] XGB F1=0.6977  AUC=0.745
+2026-05-28 04:16:50  INFO    [dice] Generated 300 synthetic rows in 19.3s
+2026-05-28 04:16:51  INFO    [dice] RF  F1=0.8826  AUC=0.9545
+2026-05-28 04:16:51  INFO    [dice] XGB F1=0.8588  AUC=0.9445
+2026-05-28 04:16:52  INFO    [ctgan] Generated 99 synthetic rows in 4.4s
+2026-05-28 04:16:52  INFO    [ctgan] RF  F1=0.6501  AUC=0.793
+2026-05-28 04:16:52  INFO    [ctgan] XGB F1=0.6368  AUC=0.6925
+2026-05-28 04:16:54  INFO    [baseline] RF  F1=0.8384  AUC=0.9181
+2026-05-28 04:16:54  INFO    [baseline] XGB F1=0.8394  AUC=0.909
+2026-05-28 04:16:55  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:16:56  INFO    [smote_nc] RF  F1=0.8485  AUC=0.9122
+2026-05-28 04:16:56  INFO    [smote_nc] XGB F1=0.8543  AUC=0.9093
+2026-05-28 04:16:58  INFO    [tvae] Generated 99 synthetic rows in 3.3s
+2026-05-28 04:16:59  INFO    [tvae] RF  F1=0.6740  AUC=0.7676
+2026-05-28 04:16:59  INFO    [tvae] XGB F1=0.5545  AUC=0.6852
+2026-05-28 04:17:04  INFO    [ctgan] Generated 53 synthetic rows in 3.6s
+2026-05-28 04:17:04  INFO    [ctgan] RF  F1=0.8396  AUC=0.9193
+2026-05-28 04:17:04  INFO    [ctgan] XGB F1=0.8299  AUC=0.9086
+2026-05-28 04:17:13  INFO    [tvae] Generated 53 synthetic rows in 2.4s
+2026-05-28 04:17:14  INFO    [tvae] RF  F1=0.8337  AUC=0.9148
+2026-05-28 04:17:14  INFO    [tvae] XGB F1=0.8394  AUC=0.9086
+2026-05-28 04:18:44  INFO    [tabddpm] Generated 99 synthetic rows in 102.2s
+2026-05-28 04:18:45  INFO    [tabddpm] RF  F1=0.6857  AUC=0.7831
+2026-05-28 04:18:45  INFO    [tabddpm] XGB F1=0.6429  AUC=0.7152
+2026-05-28 04:19:28  INFO    [great] Generated 99 synthetic rows in 38.7s
+2026-05-28 04:19:28  INFO    [great] RF  F1=0.7036  AUC=0.814
+2026-05-28 04:19:28  INFO    [great] XGB F1=0.6139  AUC=0.7507
+2026-05-28 04:19:48  INFO    [dice] Generated 296 synthetic rows in 16.4s
+2026-05-28 04:19:49  INFO    [dice] RF  F1=0.7306  AUC=0.8174
+2026-05-28 04:19:49  INFO    [dice] XGB F1=0.6951  AUC=0.7633
+2026-05-28 04:19:55  INFO    [baseline] RF  F1=0.5848  AUC=0.689
+2026-05-28 04:19:55  INFO    [baseline] XGB F1=0.5623  AUC=0.6106
+2026-05-28 04:19:56  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:19:56  INFO    [smote_nc] RF  F1=0.6101  AUC=0.7183
+2026-05-28 04:19:56  INFO    [smote_nc] XGB F1=0.5982  AUC=0.6339
+2026-05-28 04:20:03  INFO    [ctgan] Generated 99 synthetic rows in 2.1s
+2026-05-28 04:20:03  INFO    [ctgan] RF  F1=0.5779  AUC=0.6637
+2026-05-28 04:20:03  INFO    [ctgan] XGB F1=0.5567  AUC=0.5884
+2026-05-28 04:20:08  INFO    [tvae] Generated 99 synthetic rows in 1.6s
+2026-05-28 04:20:09  INFO    [tvae] RF  F1=0.6021  AUC=0.7438
+2026-05-28 04:20:09  INFO    [tvae] XGB F1=0.6195  AUC=0.666
+2026-05-28 04:20:32  INFO    [tabddpm] Generated 53 synthetic rows in 191.3s
+2026-05-28 04:20:33  INFO    [tabddpm] RF  F1=0.8536  AUC=0.9132
+2026-05-28 04:20:33  INFO    [tabddpm] XGB F1=0.8488  AUC=0.9123
+2026-05-28 04:21:22  INFO    [tabddpm] Generated 99 synthetic rows in 69.1s
+2026-05-28 04:21:22  INFO    [tabddpm] RF  F1=0.6010  AUC=0.6835
+2026-05-28 04:21:22  INFO    [tabddpm] XGB F1=0.5791  AUC=0.6282
+2026-05-28 04:21:38  INFO    [great] Generated 53 synthetic rows in 60.8s
+2026-05-28 04:21:39  INFO    [great] RF  F1=0.8384  AUC=0.9135
+2026-05-28 04:21:39  INFO    [great] XGB F1=0.8149  AUC=0.9024
+2026-05-28 04:22:06  INFO    [dice] Generated 300 synthetic rows in 23.7s
+2026-05-28 04:22:07  INFO    [dice] RF  F1=0.8580  AUC=0.9064
+2026-05-28 04:22:07  INFO    [dice] XGB F1=0.8286  AUC=0.8966
+2026-05-28 04:22:09  INFO    [great] Generated 99 synthetic rows in 44.7s
+2026-05-28 04:22:10  INFO    [great] RF  F1=0.6074  AUC=0.7
+2026-05-28 04:22:10  INFO    [great] XGB F1=0.5557  AUC=0.5994
+2026-05-28 04:22:11  INFO    [baseline] RF  F1=0.8728  AUC=0.9396
+2026-05-28 04:22:11  INFO    [baseline] XGB F1=0.8725  AUC=0.9356
+2026-05-28 04:22:12  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:22:12  INFO    [smote_nc] RF  F1=0.8683  AUC=0.94
+2026-05-28 04:22:12  INFO    [smote_nc] XGB F1=0.8826  AUC=0.9325
+2026-05-28 04:22:21  INFO    [ctgan] Generated 53 synthetic rows in 5.0s
+2026-05-28 04:22:22  INFO    [ctgan] RF  F1=0.8633  AUC=0.9382
+2026-05-28 04:22:22  INFO    [ctgan] XGB F1=0.8728  AUC=0.934
+2026-05-28 04:22:27  INFO    [dice] Generated 297 synthetic rows in 13.9s
+2026-05-28 04:22:27  INFO    [dice] RF  F1=0.6079  AUC=0.6893
+2026-05-28 04:22:27  INFO    [dice] XGB F1=0.5620  AUC=0.6596
+2026-05-28 04:22:29  INFO    [tvae] Generated 53 synthetic rows in 2.5s
+2026-05-28 04:22:29  INFO    [tvae] RF  F1=0.8776  AUC=0.9432
+2026-05-28 04:22:29  INFO    [tvae] XGB F1=0.8722  AUC=0.9336
+2026-05-28 04:22:32  INFO    [baseline] RF  F1=0.5734  AUC=0.7016
+2026-05-28 04:22:32  INFO    [baseline] XGB F1=0.5344  AUC=0.6651
+2026-05-28 04:22:32  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 04:22:33  INFO    [smote_nc] RF  F1=0.6252  AUC=0.6812
+2026-05-28 04:22:33  INFO    [smote_nc] XGB F1=0.6022  AUC=0.6774
+2026-05-28 04:22:41  INFO    [ctgan] Generated 99 synthetic rows in 2.9s
+2026-05-28 04:22:41  INFO    [ctgan] RF  F1=0.6068  AUC=0.7003
+2026-05-28 04:22:41  INFO    [ctgan] XGB F1=0.5863  AUC=0.6593
+2026-05-28 04:22:47  INFO    [tvae] Generated 99 synthetic rows in 2.1s
+2026-05-28 04:22:48  INFO    [tvae] RF  F1=0.5668  AUC=0.6852
+2026-05-28 04:22:48  INFO    [tvae] XGB F1=0.5511  AUC=0.6605
+2026-05-28 04:24:47  INFO    [tabddpm] Generated 99 synthetic rows in 113.8s
+2026-05-28 04:24:47  INFO    [tabddpm] RF  F1=0.5567  AUC=0.6814
+2026-05-28 04:24:47  INFO    [tabddpm] XGB F1=0.5344  AUC=0.6467
+2026-05-28 04:25:34  INFO    [great] Generated 99 synthetic rows in 43.4s
+2026-05-28 04:25:34  INFO    [great] RF  F1=0.5963  AUC=0.7138
+2026-05-28 04:25:34  INFO    [great] XGB F1=0.6021  AUC=0.66
+2026-05-28 04:25:47  INFO    [dice] Generated 300 synthetic rows in 8.8s
+2026-05-28 04:25:47  INFO    [dice] RF  F1=0.6195  AUC=0.6972
+2026-05-28 04:25:47  INFO    [dice] XGB F1=0.5791  AUC=0.6781
+2026-05-28 04:25:51  INFO    Dataset saheart complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/saheart
+2026-05-28 04:25:52  INFO    [baseline] RF  F1=0.8878  AUC=0.9529
+2026-05-28 04:25:52  INFO    [baseline] XGB F1=0.8928  AUC=0.9417
+2026-05-28 04:25:53  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:25:53  INFO    [smote_nc] RF  F1=0.8878  AUC=0.9518
+2026-05-28 04:25:53  INFO    [smote_nc] XGB F1=0.8733  AUC=0.9417
+2026-05-28 04:25:56  INFO    [tabddpm] Generated 53 synthetic rows in 201.8s
+2026-05-28 04:25:56  INFO    [tabddpm] RF  F1=0.8773  AUC=0.9403
+2026-05-28 04:25:56  INFO    [tabddpm] XGB F1=0.8776  AUC=0.9349
+2026-05-28 04:26:02  INFO    [ctgan] Generated 53 synthetic rows in 5.1s
+2026-05-28 04:26:02  INFO    [ctgan] RF  F1=0.8826  AUC=0.9489
+2026-05-28 04:26:02  INFO    [ctgan] XGB F1=0.8388  AUC=0.9302
+2026-05-28 04:26:10  INFO    [tvae] Generated 53 synthetic rows in 2.9s
+2026-05-28 04:26:11  INFO    [tvae] RF  F1=0.8829  AUC=0.956
+2026-05-28 04:26:11  INFO    [tvae] XGB F1=0.8683  AUC=0.9402
+2026-05-28 04:26:59  INFO    [great] Generated 53 synthetic rows in 59.3s
+2026-05-28 04:26:59  INFO    [great] RF  F1=0.8776  AUC=0.94
+2026-05-28 04:26:59  INFO    [great] XGB F1=0.8533  AUC=0.9301
+2026-05-28 04:27:44  INFO    [dice] Generated 299 synthetic rows in 40.9s
+2026-05-28 04:27:45  INFO    [dice] RF  F1=0.8624  AUC=0.9435
+2026-05-28 04:27:45  INFO    [dice] XGB F1=0.8616  AUC=0.9269
+2026-05-28 04:27:50  INFO    [baseline] RF  F1=0.9073  AUC=0.9511
+2026-05-28 04:27:50  INFO    [baseline] XGB F1=0.8972  AUC=0.9482
+2026-05-28 04:27:51  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:27:52  INFO    [smote_nc] RF  F1=0.9077  AUC=0.9479
+2026-05-28 04:27:52  INFO    [smote_nc] XGB F1=0.8974  AUC=0.9491
+2026-05-28 04:27:59  INFO    [ctgan] Generated 53 synthetic rows in 2.6s
+2026-05-28 04:28:00  INFO    [ctgan] RF  F1=0.8978  AUC=0.9472
+2026-05-28 04:28:00  INFO    [ctgan] XGB F1=0.8485  AUC=0.9292
+2026-05-28 04:28:06  INFO    [tvae] Generated 53 synthetic rows in 1.4s
+2026-05-28 04:28:07  INFO    [tvae] RF  F1=0.8924  AUC=0.9512
+2026-05-28 04:28:07  INFO    [tvae] XGB F1=0.9020  AUC=0.9554
+2026-05-28 04:29:17  INFO    [tabddpm] Generated 53 synthetic rows in 182.3s
+2026-05-28 04:29:17  INFO    [tabddpm] RF  F1=0.8926  AUC=0.9564
+2026-05-28 04:29:17  INFO    [tabddpm] XGB F1=0.8683  AUC=0.9434
+2026-05-28 04:30:22  INFO    [great] Generated 53 synthetic rows in 58.9s
+2026-05-28 04:30:22  INFO    [great] RF  F1=0.8728  AUC=0.9498
+2026-05-28 04:30:22  INFO    [great] XGB F1=0.8829  AUC=0.9409
+2026-05-28 04:30:57  INFO    [dice] Generated 300 synthetic rows in 30.1s
+2026-05-28 04:30:58  INFO    [dice] RF  F1=0.8826  AUC=0.9545
+2026-05-28 04:30:58  INFO    [dice] XGB F1=0.8588  AUC=0.9445
+2026-05-28 04:31:03  INFO    [baseline] RF  F1=0.8384  AUC=0.9181
+2026-05-28 04:31:03  INFO    [baseline] XGB F1=0.8394  AUC=0.909
+2026-05-28 04:31:05  INFO    [smote_nc] Generated 53 synthetic rows in 0.1s
+2026-05-28 04:31:05  INFO    [smote_nc] RF  F1=0.8485  AUC=0.9122
+2026-05-28 04:31:05  INFO    [smote_nc] XGB F1=0.8543  AUC=0.9093
+2026-05-28 04:31:13  INFO    [ctgan] Generated 53 synthetic rows in 2.7s
+2026-05-28 04:31:13  INFO    [ctgan] RF  F1=0.8396  AUC=0.9193
+2026-05-28 04:31:13  INFO    [ctgan] XGB F1=0.8299  AUC=0.9086
+2026-05-28 04:31:18  INFO    [tabddpm] Generated 53 synthetic rows in 186.8s
+2026-05-28 04:31:19  INFO    [tabddpm] RF  F1=0.9078  AUC=0.9515
+2026-05-28 04:31:19  INFO    [tabddpm] XGB F1=0.8731  AUC=0.9391
+2026-05-28 04:31:19  INFO    [tvae] Generated 53 synthetic rows in 2.4s
+2026-05-28 04:31:20  INFO    [tvae] RF  F1=0.8337  AUC=0.9148
+2026-05-28 04:31:20  INFO    [tvae] XGB F1=0.8394  AUC=0.9086
+2026-05-28 04:32:24  INFO    [great] Generated 53 synthetic rows in 62.1s
+2026-05-28 04:32:24  INFO    [great] RF  F1=0.9171  AUC=0.9523
+2026-05-28 04:32:24  INFO    [great] XGB F1=0.8829  AUC=0.9474
+2026-05-28 04:32:53  INFO    [dice] Generated 300 synthetic rows in 24.4s
+2026-05-28 04:32:54  INFO    [dice] RF  F1=0.8924  AUC=0.9574
+2026-05-28 04:32:54  INFO    [dice] XGB F1=0.8874  AUC=0.9547
+2026-05-28 04:32:59  INFO    [baseline] RF  F1=0.8536  AUC=0.9326
+2026-05-28 04:32:59  INFO    [baseline] XGB F1=0.8681  AUC=0.9419
+2026-05-28 04:33:02  INFO    [smote_nc] Generated 53 synthetic rows in 0.1s
+2026-05-28 04:33:02  INFO    [smote_nc] RF  F1=0.8636  AUC=0.927
+2026-05-28 04:33:02  INFO    [smote_nc] XGB F1=0.8728  AUC=0.9466
+2026-05-28 04:33:09  INFO    [ctgan] Generated 53 synthetic rows in 2.4s
+2026-05-28 04:33:10  INFO    [ctgan] RF  F1=0.8485  AUC=0.9304
+2026-05-28 04:33:10  INFO    [ctgan] XGB F1=0.8627  AUC=0.9267
+2026-05-28 04:33:16  INFO    [tvae] Generated 53 synthetic rows in 1.4s
+2026-05-28 04:33:17  INFO    [tvae] RF  F1=0.8488  AUC=0.9315
+2026-05-28 04:33:17  INFO    [tvae] XGB F1=0.8638  AUC=0.9344
+2026-05-28 04:34:18  INFO    [tabddpm] Generated 53 synthetic rows in 174.4s
+2026-05-28 04:34:18  INFO    [tabddpm] RF  F1=0.8536  AUC=0.9132
+2026-05-28 04:34:18  INFO    [tabddpm] XGB F1=0.8488  AUC=0.9123
+2026-05-28 04:35:21  INFO    [great] Generated 53 synthetic rows in 58.1s
+2026-05-28 04:35:21  INFO    [great] RF  F1=0.8384  AUC=0.9135
+2026-05-28 04:35:21  INFO    [great] XGB F1=0.8149  AUC=0.9024
+2026-05-28 04:35:58  INFO    [dice] Generated 300 synthetic rows in 31.9s
+2026-05-28 04:35:59  INFO    [dice] RF  F1=0.8580  AUC=0.9064
+2026-05-28 04:35:59  INFO    [dice] XGB F1=0.8286  AUC=0.8966
+2026-05-28 04:36:05  INFO    [baseline] RF  F1=0.8728  AUC=0.9396
+2026-05-28 04:36:05  INFO    [baseline] XGB F1=0.8725  AUC=0.9356
+2026-05-28 04:36:07  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:36:07  INFO    [smote_nc] RF  F1=0.8683  AUC=0.94
+2026-05-28 04:36:07  INFO    [smote_nc] XGB F1=0.8826  AUC=0.9325
+2026-05-28 04:36:14  INFO    [ctgan] Generated 53 synthetic rows in 2.8s
+2026-05-28 04:36:15  INFO    [ctgan] RF  F1=0.8633  AUC=0.9382
+2026-05-28 04:36:15  INFO    [ctgan] XGB F1=0.8728  AUC=0.934
+2026-05-28 04:36:21  INFO    [tabddpm] Generated 53 synthetic rows in 179.4s
+2026-05-28 04:36:22  INFO    [tabddpm] RF  F1=0.8588  AUC=0.9323
+2026-05-28 04:36:22  INFO    [tabddpm] XGB F1=0.8681  AUC=0.9419
+2026-05-28 04:36:22  INFO    [tvae] Generated 53 synthetic rows in 2.4s
+2026-05-28 04:36:23  INFO    [tvae] RF  F1=0.8776  AUC=0.9432
+2026-05-28 04:36:23  INFO    [tvae] XGB F1=0.8722  AUC=0.9336
+2026-05-28 04:37:26  INFO    [great] Generated 53 synthetic rows in 60.8s
+2026-05-28 04:37:26  INFO    [great] RF  F1=0.8686  AUC=0.9305
+2026-05-28 04:37:26  INFO    [great] XGB F1=0.8876  AUC=0.9367
+2026-05-28 04:38:28  INFO    [dice] Generated 298 synthetic rows in 56.8s
+2026-05-28 04:38:29  INFO    [dice] RF  F1=0.8781  AUC=0.9319
+2026-05-28 04:38:29  INFO    [dice] XGB F1=0.8376  AUC=0.9273
+2026-05-28 04:38:36  INFO    Dataset australian complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/australian
+2026-05-28 04:38:36  INFO    [baseline] RF  F1=0.6733  AUC=0.8096
+2026-05-28 04:38:36  INFO    [baseline] XGB F1=0.7086  AUC=0.7862
+2026-05-28 04:38:39  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 04:38:39  INFO    [smote_nc] RF  F1=0.6858  AUC=0.8184
+2026-05-28 04:38:39  INFO    [smote_nc] XGB F1=0.7106  AUC=0.7915
+2026-05-28 04:39:05  INFO    [ctgan] Generated 280 synthetic rows in 18.3s
+2026-05-28 04:39:05  INFO    [tabddpm] Generated 53 synthetic rows in 158.8s
+2026-05-28 04:39:05  INFO    [ctgan] RF  F1=0.6472  AUC=0.8022
+2026-05-28 04:39:05  INFO    [ctgan] XGB F1=0.6621  AUC=0.7433
+2026-05-28 04:39:06  INFO    [tabddpm] RF  F1=0.8773  AUC=0.9403
+2026-05-28 04:39:06  INFO    [tabddpm] XGB F1=0.8776  AUC=0.9349
+2026-05-28 04:39:14  INFO    [tvae] Generated 280 synthetic rows in 4.0s
+2026-05-28 04:39:15  INFO    [tvae] RF  F1=0.6607  AUC=0.8065
+2026-05-28 04:39:15  INFO    [tvae] XGB F1=0.7004  AUC=0.7996
+2026-05-28 04:40:11  INFO    [great] Generated 53 synthetic rows in 61.5s
+2026-05-28 04:40:11  INFO    [great] RF  F1=0.8776  AUC=0.94
+2026-05-28 04:40:11  INFO    [great] XGB F1=0.8533  AUC=0.9301
+2026-05-28 04:40:55  INFO    [dice] Generated 299 synthetic rows in 40.0s
+2026-05-28 04:40:55  INFO    [dice] RF  F1=0.8624  AUC=0.9435
+2026-05-28 04:40:55  INFO    [dice] XGB F1=0.8616  AUC=0.9269
+2026-05-28 04:41:01  INFO    [baseline] RF  F1=0.9073  AUC=0.9511
+2026-05-28 04:41:01  INFO    [baseline] XGB F1=0.8972  AUC=0.9482
+2026-05-28 04:41:03  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:41:04  INFO    [smote_nc] RF  F1=0.9077  AUC=0.9479
+2026-05-28 04:41:04  INFO    [smote_nc] XGB F1=0.8974  AUC=0.9491
+2026-05-28 04:41:11  INFO    [ctgan] Generated 53 synthetic rows in 2.6s
+2026-05-28 04:41:11  INFO    [ctgan] RF  F1=0.8978  AUC=0.9472
+2026-05-28 04:41:11  INFO    [ctgan] XGB F1=0.8485  AUC=0.9292
+2026-05-28 04:41:19  INFO    [tvae] Generated 53 synthetic rows in 2.0s
+2026-05-28 04:41:20  INFO    [tvae] RF  F1=0.8924  AUC=0.9512
+2026-05-28 04:41:20  INFO    [tvae] XGB F1=0.9020  AUC=0.9554
+2026-05-28 04:46:16  INFO    [tabddpm] Generated 53 synthetic rows in 291.1s
+2026-05-28 04:46:17  INFO    [tabddpm] RF  F1=0.9078  AUC=0.9515
+2026-05-28 04:46:17  INFO    [tabddpm] XGB F1=0.8731  AUC=0.9391
+2026-05-28 04:47:04  INFO    [tabddpm] Generated 280 synthetic rows in 462.5s
+2026-05-28 04:47:05  INFO    [tabddpm] RF  F1=0.6770  AUC=0.8293
+2026-05-28 04:47:05  INFO    [tabddpm] XGB F1=0.7141  AUC=0.7918
+2026-05-28 04:47:28  INFO    [great] Generated 53 synthetic rows in 65.7s
+2026-05-28 04:47:29  INFO    [great] RF  F1=0.9171  AUC=0.9523
+2026-05-28 04:47:29  INFO    [great] XGB F1=0.8829  AUC=0.9474
+2026-05-28 04:47:57  INFO    [dice] Generated 300 synthetic rows in 24.8s
+2026-05-28 04:47:58  INFO    [dice] RF  F1=0.8924  AUC=0.9574
+2026-05-28 04:47:58  INFO    [dice] XGB F1=0.8874  AUC=0.9547
+2026-05-28 04:48:02  INFO    [baseline] RF  F1=0.8536  AUC=0.9326
+2026-05-28 04:48:02  INFO    [baseline] XGB F1=0.8681  AUC=0.9419
+2026-05-28 04:48:04  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 04:48:05  INFO    [smote_nc] RF  F1=0.8636  AUC=0.927
+2026-05-28 04:48:05  INFO    [smote_nc] XGB F1=0.8728  AUC=0.9466
+2026-05-28 04:48:18  INFO    [ctgan] Generated 53 synthetic rows in 9.0s
+2026-05-28 04:48:18  INFO    [ctgan] RF  F1=0.8485  AUC=0.9304
+2026-05-28 04:48:18  INFO    [ctgan] XGB F1=0.8627  AUC=0.9267
+2026-05-28 04:48:26  INFO    [tvae] Generated 53 synthetic rows in 2.8s
+2026-05-28 04:48:26  INFO    [tvae] RF  F1=0.8488  AUC=0.9315
+2026-05-28 04:48:26  INFO    [tvae] XGB F1=0.8638  AUC=0.9344
+2026-05-28 04:49:21  INFO    [great] Generated 280 synthetic rows in 131.6s
+2026-05-28 04:49:22  INFO    [great] RF  F1=0.6396  AUC=0.785
+2026-05-28 04:49:22  INFO    [great] XGB F1=0.6830  AUC=0.7489
+2026-05-28 04:51:12  INFO    [dice] Generated 298 synthetic rows in 102.6s
+2026-05-28 04:51:12  INFO    [dice] RF  F1=0.6738  AUC=0.8128
+2026-05-28 04:51:12  INFO    [dice] XGB F1=0.7137  AUC=0.7744
+2026-05-28 04:51:18  INFO    [baseline] RF  F1=0.6832  AUC=0.7901
+2026-05-28 04:51:18  INFO    [baseline] XGB F1=0.7106  AUC=0.7823
+2026-05-28 04:51:19  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 04:51:19  INFO    [tabddpm] Generated 53 synthetic rows in 168.2s
+2026-05-28 04:51:20  INFO    [smote_nc] RF  F1=0.6445  AUC=0.7631
+2026-05-28 04:51:20  INFO    [smote_nc] XGB F1=0.7032  AUC=0.7837
+2026-05-28 04:51:20  INFO    [tabddpm] RF  F1=0.8588  AUC=0.9323
+2026-05-28 04:51:20  INFO    [tabddpm] XGB F1=0.8681  AUC=0.9419
+2026-05-28 04:51:43  INFO    [ctgan] Generated 280 synthetic rows in 18.0s
+2026-05-28 04:51:43  INFO    [ctgan] RF  F1=0.5894  AUC=0.7398
+2026-05-28 04:51:43  INFO    [ctgan] XGB F1=0.6649  AUC=0.7342
+2026-05-28 04:51:55  INFO    [tvae] Generated 280 synthetic rows in 4.7s
+2026-05-28 04:51:55  INFO    [tvae] RF  F1=0.6273  AUC=0.7698
+2026-05-28 04:51:55  INFO    [tvae] XGB F1=0.6795  AUC=0.7724
+2026-05-28 04:52:23  INFO    [great] Generated 53 synthetic rows in 59.4s
+2026-05-28 04:52:23  INFO    [great] RF  F1=0.8686  AUC=0.9305
+2026-05-28 04:52:23  INFO    [great] XGB F1=0.8876  AUC=0.9367
+2026-05-28 04:53:29  INFO    [dice] Generated 298 synthetic rows in 60.7s
+2026-05-28 04:53:30  INFO    [dice] RF  F1=0.8781  AUC=0.9319
+2026-05-28 04:53:30  INFO    [dice] XGB F1=0.8376  AUC=0.9273
+2026-05-28 04:53:37  INFO    Dataset australian complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/australian
+2026-05-28 04:53:38  INFO    [baseline] RF  F1=0.6733  AUC=0.8096
+2026-05-28 04:53:38  INFO    [baseline] XGB F1=0.7086  AUC=0.7862
+2026-05-28 04:53:40  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 04:53:40  INFO    [smote_nc] RF  F1=0.6858  AUC=0.8184
+2026-05-28 04:53:40  INFO    [smote_nc] XGB F1=0.7106  AUC=0.7915
+2026-05-28 04:54:06  INFO    [ctgan] Generated 280 synthetic rows in 16.7s
+2026-05-28 04:54:07  INFO    [ctgan] RF  F1=0.6472  AUC=0.8022
+2026-05-28 04:54:07  INFO    [ctgan] XGB F1=0.6621  AUC=0.7433
+2026-05-28 04:54:19  INFO    [tvae] Generated 280 synthetic rows in 2.5s
+2026-05-28 04:54:19  INFO    [tvae] RF  F1=0.6607  AUC=0.8065
+2026-05-28 04:54:19  INFO    [tvae] XGB F1=0.7004  AUC=0.7996
+2026-05-28 05:00:17  INFO    [tabddpm] Generated 280 synthetic rows in 495.3s
+2026-05-28 05:00:18  INFO    [tabddpm] RF  F1=0.6233  AUC=0.7837
+2026-05-28 05:00:18  INFO    [tabddpm] XGB F1=0.6912  AUC=0.7918
+2026-05-28 05:02:43  INFO    [great] Generated 280 synthetic rows in 137.3s
+2026-05-28 05:02:44  INFO    [great] RF  F1=0.6416  AUC=0.7623
+2026-05-28 05:02:44  INFO    [great] XGB F1=0.6198  AUC=0.7059
+2026-05-28 05:02:51  INFO    [tabddpm] Generated 280 synthetic rows in 503.0s
+2026-05-28 05:02:52  INFO    [tabddpm] RF  F1=0.6770  AUC=0.8293
+2026-05-28 05:02:52  INFO    [tabddpm] XGB F1=0.7141  AUC=0.7918
+2026-05-28 05:04:32  INFO    [dice] Generated 296 synthetic rows in 103.6s
+2026-05-28 05:04:33  INFO    [dice] RF  F1=0.6387  AUC=0.7584
+2026-05-28 05:04:33  INFO    [dice] XGB F1=0.6752  AUC=0.7549
+2026-05-28 05:04:40  INFO    [baseline] RF  F1=0.6920  AUC=0.7998
+2026-05-28 05:04:40  INFO    [baseline] XGB F1=0.7198  AUC=0.7869
+2026-05-28 05:04:41  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:04:42  INFO    [smote_nc] RF  F1=0.7347  AUC=0.7995
+2026-05-28 05:04:42  INFO    [smote_nc] XGB F1=0.7297  AUC=0.7897
+2026-05-28 05:05:01  INFO    [great] Generated 280 synthetic rows in 123.7s
+2026-05-28 05:05:01  INFO    [great] RF  F1=0.6226  AUC=0.7878
+2026-05-28 05:05:01  INFO    [great] XGB F1=0.6771  AUC=0.7613
+2026-05-28 05:05:04  INFO    [ctgan] Generated 280 synthetic rows in 15.4s
+2026-05-28 05:05:04  INFO    [ctgan] RF  F1=0.6502  AUC=0.8043
+2026-05-28 05:05:04  INFO    [ctgan] XGB F1=0.6945  AUC=0.7872
+2026-05-28 05:05:16  INFO    [tvae] Generated 280 synthetic rows in 4.2s
+2026-05-28 05:05:16  INFO    [tvae] RF  F1=0.6802  AUC=0.8049
+2026-05-28 05:05:16  INFO    [tvae] XGB F1=0.6606  AUC=0.7656
+2026-05-28 05:07:22  INFO    [dice] Generated 298 synthetic rows in 134.4s
+2026-05-28 05:07:23  INFO    [dice] RF  F1=0.6738  AUC=0.8128
+2026-05-28 05:07:23  INFO    [dice] XGB F1=0.7137  AUC=0.7744
+2026-05-28 05:07:33  INFO    [baseline] RF  F1=0.6832  AUC=0.7901
+2026-05-28 05:07:33  INFO    [baseline] XGB F1=0.7106  AUC=0.7823
+2026-05-28 05:07:36  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:07:36  INFO    [smote_nc] RF  F1=0.6445  AUC=0.7631
+2026-05-28 05:07:36  INFO    [smote_nc] XGB F1=0.7032  AUC=0.7837
+2026-05-28 05:07:59  INFO    [ctgan] Generated 280 synthetic rows in 13.6s
+2026-05-28 05:08:00  INFO    [ctgan] RF  F1=0.5894  AUC=0.7398
+2026-05-28 05:08:00  INFO    [ctgan] XGB F1=0.6649  AUC=0.7342
+2026-05-28 05:08:12  INFO    [tvae] Generated 280 synthetic rows in 2.4s
+2026-05-28 05:08:12  INFO    [tvae] RF  F1=0.6273  AUC=0.7698
+2026-05-28 05:08:12  INFO    [tvae] XGB F1=0.6795  AUC=0.7724
+2026-05-28 05:14:24  INFO    [tabddpm] Generated 280 synthetic rows in 541.8s
+2026-05-28 05:14:25  INFO    [tabddpm] RF  F1=0.7124  AUC=0.8056
+2026-05-28 05:14:25  INFO    [tabddpm] XGB F1=0.7229  AUC=0.7904
+2026-05-28 05:16:11  INFO    [tabddpm] Generated 280 synthetic rows in 470.4s
+2026-05-28 05:16:11  INFO    [tabddpm] RF  F1=0.6233  AUC=0.7837
+2026-05-28 05:16:11  INFO    [tabddpm] XGB F1=0.6912  AUC=0.7918
+2026-05-28 05:16:46  INFO    [great] Generated 280 synthetic rows in 134.9s
+2026-05-28 05:16:47  INFO    [great] RF  F1=0.6953  AUC=0.7946
+2026-05-28 05:16:47  INFO    [great] XGB F1=0.7063  AUC=0.7823
+2026-05-28 05:18:04  INFO    [dice] Generated 298 synthetic rows in 70.6s
+2026-05-28 05:18:05  INFO    [dice] RF  F1=0.6886  AUC=0.7698
+2026-05-28 05:18:05  INFO    [dice] XGB F1=0.7168  AUC=0.7831
+2026-05-28 05:18:10  INFO    [baseline] RF  F1=0.7133  AUC=0.8049
+2026-05-28 05:18:10  INFO    [baseline] XGB F1=0.7189  AUC=0.7626
+2026-05-28 05:18:12  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:18:12  INFO    [smote_nc] RF  F1=0.7197  AUC=0.7904
+2026-05-28 05:18:12  INFO    [smote_nc] XGB F1=0.7087  AUC=0.772
+2026-05-28 05:18:34  INFO    [great] Generated 280 synthetic rows in 135.9s
+2026-05-28 05:18:34  INFO    [great] RF  F1=0.6358  AUC=0.7798
+2026-05-28 05:18:34  INFO    [great] XGB F1=0.6620  AUC=0.7386
+2026-05-28 05:18:35  INFO    [ctgan] Generated 280 synthetic rows in 17.6s
+2026-05-28 05:18:35  INFO    [ctgan] RF  F1=0.6881  AUC=0.7746
+2026-05-28 05:18:35  INFO    [ctgan] XGB F1=0.7147  AUC=0.7615
+2026-05-28 05:18:44  INFO    [tvae] Generated 280 synthetic rows in 2.3s
+2026-05-28 05:18:45  INFO    [tvae] RF  F1=0.6802  AUC=0.7875
+2026-05-28 05:18:45  INFO    [tvae] XGB F1=0.6888  AUC=0.7524
+2026-05-28 05:21:13  INFO    [dice] Generated 296 synthetic rows in 152.7s
+2026-05-28 05:21:13  INFO    [dice] RF  F1=0.6387  AUC=0.7584
+2026-05-28 05:21:13  INFO    [dice] XGB F1=0.6752  AUC=0.7549
+2026-05-28 05:21:22  INFO    [baseline] RF  F1=0.6920  AUC=0.7998
+2026-05-28 05:21:22  INFO    [baseline] XGB F1=0.7198  AUC=0.7869
+2026-05-28 05:21:26  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:21:27  INFO    [smote_nc] RF  F1=0.7347  AUC=0.7995
+2026-05-28 05:21:27  INFO    [smote_nc] XGB F1=0.7297  AUC=0.7897
+2026-05-28 05:21:45  INFO    [ctgan] Generated 280 synthetic rows in 10.0s
+2026-05-28 05:21:46  INFO    [ctgan] RF  F1=0.6502  AUC=0.8043
+2026-05-28 05:21:46  INFO    [ctgan] XGB F1=0.6945  AUC=0.7872
+2026-05-28 05:21:58  INFO    [tvae] Generated 280 synthetic rows in 2.7s
+2026-05-28 05:21:59  INFO    [tvae] RF  F1=0.6802  AUC=0.8049
+2026-05-28 05:21:59  INFO    [tvae] XGB F1=0.6606  AUC=0.7656
+2026-05-28 05:27:15  INFO    [tabddpm] Generated 280 synthetic rows in 505.3s
+2026-05-28 05:27:16  INFO    [tabddpm] RF  F1=0.7102  AUC=0.796
+2026-05-28 05:27:16  INFO    [tabddpm] XGB F1=0.7360  AUC=0.7598
+2026-05-28 05:29:44  INFO    [tabddpm] Generated 280 synthetic rows in 456.7s
+2026-05-28 05:29:45  INFO    [tabddpm] RF  F1=0.7124  AUC=0.8056
+2026-05-28 05:29:45  INFO    [tabddpm] XGB F1=0.7229  AUC=0.7904
+2026-05-28 05:29:45  INFO    [great] Generated 280 synthetic rows in 141.1s
+2026-05-28 05:29:45  ERROR    [great] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [0 1 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 311, in run_dataset
+    result = run_one_method(
+             ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 165, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [0 1 3]
+2026-05-28 05:30:36  INFO    [dice] Generated 299 synthetic rows in 50.5s
+2026-05-28 05:30:36  INFO    [dice] RF  F1=0.7418  AUC=0.8038
+2026-05-28 05:30:36  INFO    [dice] XGB F1=0.7315  AUC=0.7869
+2026-05-28 05:30:44  INFO    [baseline] RF  F1=0.6706  AUC=0.8276
+2026-05-28 05:30:44  INFO    [baseline] XGB F1=0.7067  AUC=0.8259
+2026-05-28 05:30:46  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:30:47  INFO    [smote_nc] RF  F1=0.7315  AUC=0.8287
+2026-05-28 05:30:47  INFO    [smote_nc] XGB F1=0.7188  AUC=0.8246
+2026-05-28 05:31:10  INFO    [ctgan] Generated 280 synthetic rows in 16.6s
+2026-05-28 05:31:10  INFO    [ctgan] RF  F1=0.5782  AUC=0.7869
+2026-05-28 05:31:10  INFO    [ctgan] XGB F1=0.6739  AUC=0.7866
+2026-05-28 05:31:22  INFO    [tvae] Generated 280 synthetic rows in 5.0s
+2026-05-28 05:31:23  INFO    [tvae] RF  F1=0.6377  AUC=0.7996
+2026-05-28 05:31:23  INFO    [tvae] XGB F1=0.6798  AUC=0.8001
+2026-05-28 05:31:56  INFO    [great] Generated 280 synthetic rows in 126.1s
+2026-05-28 05:31:56  INFO    [great] RF  F1=0.6800  AUC=0.7958
+2026-05-28 05:31:56  INFO    [great] XGB F1=0.7045  AUC=0.7697
+2026-05-28 05:33:43  INFO    [dice] Generated 298 synthetic rows in 99.3s
+2026-05-28 05:33:44  INFO    [dice] RF  F1=0.6886  AUC=0.7698
+2026-05-28 05:33:44  INFO    [dice] XGB F1=0.7168  AUC=0.7831
+2026-05-28 05:33:53  INFO    [baseline] RF  F1=0.7133  AUC=0.8049
+2026-05-28 05:33:53  INFO    [baseline] XGB F1=0.7189  AUC=0.7626
+2026-05-28 05:33:56  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:33:57  INFO    [smote_nc] RF  F1=0.7197  AUC=0.7904
+2026-05-28 05:33:57  INFO    [smote_nc] XGB F1=0.7087  AUC=0.772
+2026-05-28 05:34:22  INFO    [ctgan] Generated 280 synthetic rows in 16.4s
+2026-05-28 05:34:23  INFO    [ctgan] RF  F1=0.6881  AUC=0.7746
+2026-05-28 05:34:23  INFO    [ctgan] XGB F1=0.7147  AUC=0.7615
+2026-05-28 05:34:34  INFO    [tvae] Generated 280 synthetic rows in 2.6s
+2026-05-28 05:34:34  INFO    [tvae] RF  F1=0.6802  AUC=0.7875
+2026-05-28 05:34:34  INFO    [tvae] XGB F1=0.6888  AUC=0.7524
+2026-05-28 05:39:26  INFO    [tabddpm] Generated 280 synthetic rows in 476.4s
+2026-05-28 05:39:26  INFO    [tabddpm] RF  F1=0.6416  AUC=0.8294
+2026-05-28 05:39:26  INFO    [tabddpm] XGB F1=0.7125  AUC=0.8208
+2026-05-28 05:41:48  INFO    [great] Generated 280 synthetic rows in 134.7s
+2026-05-28 05:41:49  INFO    [great] RF  F1=0.6099  AUC=0.8133
+2026-05-28 05:41:49  INFO    [great] XGB F1=0.7187  AUC=0.8217
+2026-05-28 05:42:30  INFO    [tabddpm] Generated 280 synthetic rows in 467.3s
+2026-05-28 05:42:31  INFO    [tabddpm] RF  F1=0.7102  AUC=0.796
+2026-05-28 05:42:31  INFO    [tabddpm] XGB F1=0.7360  AUC=0.7598
+2026-05-28 05:44:05  INFO    [dice] Generated 295 synthetic rows in 128.5s
+2026-05-28 05:44:05  INFO    [dice] RF  F1=0.6560  AUC=0.8064
+2026-05-28 05:44:05  INFO    [dice] XGB F1=0.7283  AUC=0.8193
+2026-05-28 05:44:13  INFO    Dataset german complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/german
+2026-05-28 05:44:13  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/classification/small
+2026-05-28 05:44:13  INFO  Starting classification/small experiment
+2026-05-28 05:44:13  INFO  Datasets : ['heart_c', 'saheart', 'australian', 'german']
+2026-05-28 05:44:13  INFO  Methods  : ['smote_nc', 'ctgan', 'tvae', 'tabddpm', 'great', 'dice']
+2026-05-28 05:44:13  INFO  Split    : 70/30
+2026-05-28 05:44:14  INFO    [baseline] RF  F1=0.7875  AUC=0.868
+2026-05-28 05:44:14  INFO    [baseline] XGB F1=0.7547  AUC=0.8634
+2026-05-28 05:44:15  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 05:44:15  INFO    [smote_nc] RF  F1=0.7861  AUC=0.8766
+2026-05-28 05:44:15  INFO    [smote_nc] XGB F1=0.7664  AUC=0.8668
+2026-05-28 05:44:28  INFO    [ctgan] Generated 18 synthetic rows in 9.1s
+2026-05-28 05:44:28  INFO    [ctgan] RF  F1=0.7981  AUC=0.8663
+2026-05-28 05:44:28  INFO    [ctgan] XGB F1=0.7770  AUC=0.8551
+2026-05-28 05:44:34  INFO    [tvae] Generated 18 synthetic rows in 1.8s
+2026-05-28 05:44:34  INFO    [tvae] RF  F1=0.7651  AUC=0.8549
+2026-05-28 05:44:34  INFO    [tvae] XGB F1=0.7453  AUC=0.8527
+2026-05-28 05:44:40  INFO    [great] Generated 280 synthetic rows in 123.9s
+2026-05-28 05:44:40  INFO    [great] RF  F1=0.7040  AUC=0.7911
+2026-05-28 05:44:40  INFO    [great] XGB F1=0.6746  AUC=0.7217
+2026-05-28 05:46:27  INFO    [dice] Generated 298 synthetic rows in 98.2s
+2026-05-28 05:46:27  INFO    [dice] RF  F1=0.7200  AUC=0.7975
+2026-05-28 05:46:27  INFO    [dice] XGB F1=0.7124  AUC=0.7829
+2026-05-28 05:46:29  INFO    [tabddpm] Generated 18 synthetic rows in 111.2s
+2026-05-28 05:46:30  INFO    [tabddpm] RF  F1=0.7756  AUC=0.8724
+2026-05-28 05:46:30  INFO    [tabddpm] XGB F1=0.7411  AUC=0.8576
+2026-05-28 05:46:33  INFO    [baseline] RF  F1=0.6706  AUC=0.8276
+2026-05-28 05:46:33  INFO    [baseline] XGB F1=0.7067  AUC=0.8259
+2026-05-28 05:46:35  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 05:46:36  INFO    [smote_nc] RF  F1=0.7315  AUC=0.8287
+2026-05-28 05:46:36  INFO    [smote_nc] XGB F1=0.7188  AUC=0.8246
+2026-05-28 05:46:58  INFO    [ctgan] Generated 280 synthetic rows in 17.4s
+2026-05-28 05:46:59  INFO    [ctgan] RF  F1=0.6170  AUC=0.8089
+2026-05-28 05:46:59  INFO    [ctgan] XGB F1=0.7086  AUC=0.8048
+2026-05-28 05:47:08  INFO    [great] Generated 18 synthetic rows in 36.0s
+2026-05-28 05:47:09  INFO    [great] RF  F1=0.7651  AUC=0.8739
+2026-05-28 05:47:09  INFO    [great] XGB F1=0.7796  AUC=0.8634
+2026-05-28 05:47:10  INFO    [tvae] Generated 280 synthetic rows in 4.0s
+2026-05-28 05:47:10  INFO    [tvae] RF  F1=0.6377  AUC=0.7996
+2026-05-28 05:47:10  INFO    [tvae] XGB F1=0.6798  AUC=0.8001
+2026-05-28 05:47:59  INFO    [dice] Generated 290 synthetic rows in 47.1s
+2026-05-28 05:48:00  INFO    [dice] RF  F1=0.7598  AUC=0.8937
+2026-05-28 05:48:00  INFO    [dice] XGB F1=0.7651  AUC=0.8756
+2026-05-28 05:48:05  INFO    [baseline] RF  F1=0.8331  AUC=0.9005
+2026-05-28 05:48:05  INFO    [baseline] XGB F1=0.8537  AUC=0.918
+2026-05-28 05:48:06  INFO    [smote_nc] Generated 18 synthetic rows in 0.1s
+2026-05-28 05:48:06  INFO    [smote_nc] RF  F1=0.8662  AUC=0.9083
+2026-05-28 05:48:06  INFO    [smote_nc] XGB F1=0.8312  AUC=0.9044
+2026-05-28 05:48:13  INFO    [ctgan] Generated 18 synthetic rows in 2.3s
+2026-05-28 05:48:14  INFO    [ctgan] RF  F1=0.8446  AUC=0.899
+2026-05-28 05:48:14  INFO    [ctgan] XGB F1=0.8216  AUC=0.9
+2026-05-28 05:48:20  INFO    [tvae] Generated 18 synthetic rows in 1.3s
+2026-05-28 05:48:20  INFO    [tvae] RF  F1=0.8446  AUC=0.9112
+2026-05-28 05:48:20  INFO    [tvae] XGB F1=0.8429  AUC=0.9005
+2026-05-28 05:52:38  INFO    [tabddpm] Generated 18 synthetic rows in 254.2s
+2026-05-28 05:52:39  INFO    [tabddpm] RF  F1=0.8331  AUC=0.9146
+2026-05-28 05:52:39  INFO    [tabddpm] XGB F1=0.8770  AUC=0.9156
+2026-05-28 05:53:25  INFO    [great] Generated 18 synthetic rows in 40.1s
+2026-05-28 05:53:25  INFO    [great] RF  F1=0.8216  AUC=0.9027
+2026-05-28 05:53:25  INFO    [great] XGB F1=0.8331  AUC=0.9039
+2026-05-28 05:54:11  INFO    [tabddpm] Generated 280 synthetic rows in 414.2s
+2026-05-28 05:54:11  INFO    [tabddpm] RF  F1=0.6416  AUC=0.8294
+2026-05-28 05:54:11  INFO    [tabddpm] XGB F1=0.7125  AUC=0.8208
+2026-05-28 05:54:12  INFO    [dice] Generated 290 synthetic rows in 42.2s
+2026-05-28 05:54:12  INFO    [dice] RF  F1=0.8205  AUC=0.8941
+2026-05-28 05:54:12  INFO    [dice] XGB F1=0.8419  AUC=0.9122
+2026-05-28 05:54:15  INFO    [baseline] RF  F1=0.8348  AUC=0.9051
+2026-05-28 05:54:15  INFO    [baseline] XGB F1=0.7903  AUC=0.8927
+2026-05-28 05:54:16  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 05:54:17  INFO    [smote_nc] RF  F1=0.8128  AUC=0.9034
+2026-05-28 05:54:17  INFO    [smote_nc] XGB F1=0.7468  AUC=0.8771
+2026-05-28 05:54:29  INFO    [ctgan] Generated 18 synthetic rows in 9.2s
+2026-05-28 05:54:30  INFO    [ctgan] RF  F1=0.8124  AUC=0.9056
+2026-05-28 05:54:30  INFO    [ctgan] XGB F1=0.7908  AUC=0.8878
+2026-05-28 05:54:36  INFO    [tvae] Generated 18 synthetic rows in 2.3s
+2026-05-28 05:54:37  INFO    [tvae] RF  F1=0.7796  AUC=0.882
+2026-05-28 05:54:37  INFO    [tvae] XGB F1=0.8240  AUC=0.9117
+2026-05-28 05:56:27  INFO    [tabddpm] Generated 18 synthetic rows in 107.0s
+2026-05-28 05:56:28  INFO    [tabddpm] RF  F1=0.8016  AUC=0.9027
+2026-05-28 05:56:28  INFO    [tabddpm] XGB F1=0.8231  AUC=0.8946
+2026-05-28 05:56:30  INFO    [great] Generated 280 synthetic rows in 133.1s
+2026-05-28 05:56:31  INFO    [great] RF  F1=0.6240  AUC=0.8252
+2026-05-28 05:56:31  INFO    [great] XGB F1=0.6937  AUC=0.7954
+2026-05-28 05:57:05  INFO    [great] Generated 18 synthetic rows in 34.1s
+2026-05-28 05:57:05  INFO    [great] RF  F1=0.8565  AUC=0.8959
+2026-05-28 05:57:05  INFO    [great] XGB F1=0.7796  AUC=0.9029
+2026-05-28 05:57:41  INFO    [dice] Generated 290 synthetic rows in 32.0s
+2026-05-28 05:57:41  INFO    [dice] RF  F1=0.7981  AUC=0.8839
+2026-05-28 05:57:41  INFO    [dice] XGB F1=0.7875  AUC=0.8805
+2026-05-28 05:57:45  INFO    [baseline] RF  F1=0.8312  AUC=0.9124
+2026-05-28 05:57:45  INFO    [baseline] XGB F1=0.8193  AUC=0.8888
+2026-05-28 05:57:46  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 05:57:47  INFO    [smote_nc] RF  F1=0.8099  AUC=0.9049
+2026-05-28 05:57:47  INFO    [smote_nc] XGB F1=0.8099  AUC=0.9034
+2026-05-28 05:57:54  INFO    [ctgan] Generated 18 synthetic rows in 4.6s
+2026-05-28 05:57:55  INFO    [ctgan] RF  F1=0.8285  AUC=0.9066
+2026-05-28 05:57:55  INFO    [ctgan] XGB F1=0.7861  AUC=0.8985
+2026-05-28 05:58:01  INFO    [tvae] Generated 18 synthetic rows in 2.2s
+2026-05-28 05:58:01  INFO    [tvae] RF  F1=0.8312  AUC=0.9161
+2026-05-28 05:58:01  INFO    [tvae] XGB F1=0.8193  AUC=0.9132
+2026-05-28 05:58:34  INFO    [dice] Generated 295 synthetic rows in 118.2s
+2026-05-28 05:58:35  INFO    [dice] RF  F1=0.6560  AUC=0.8064
+2026-05-28 05:58:35  INFO    [dice] XGB F1=0.7283  AUC=0.8193
+2026-05-28 05:58:44  INFO    Dataset german complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/german
+2026-05-28 05:58:44  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/classification/small
+2026-05-28 05:59:41  INFO    [tabddpm] Generated 18 synthetic rows in 96.2s
+2026-05-28 05:59:41  INFO    [tabddpm] RF  F1=0.8205  AUC=0.9088
+2026-05-28 05:59:41  INFO    [tabddpm] XGB F1=0.8087  AUC=0.8902
+2026-05-28 06:00:17  INFO    [great] Generated 18 synthetic rows in 33.2s
+2026-05-28 06:00:18  INFO    [great] RF  F1=0.8419  AUC=0.9188
+2026-05-28 06:00:18  INFO    [great] XGB F1=0.8087  AUC=0.9063
+2026-05-28 06:00:41  INFO    [dice] Generated 291 synthetic rows in 20.0s
+2026-05-28 06:00:42  INFO    [dice] RF  F1=0.8178  AUC=0.8995
+2026-05-28 06:00:42  INFO    [dice] XGB F1=0.8193  AUC=0.8824
+2026-05-28 06:00:45  INFO    [baseline] RF  F1=0.7861  AUC=0.8754
+2026-05-28 06:00:45  INFO    [baseline] XGB F1=0.7827  AUC=0.8395
+2026-05-28 06:00:46  INFO    [smote_nc] Generated 18 synthetic rows in 0.0s
+2026-05-28 06:00:47  INFO    [smote_nc] RF  F1=0.7967  AUC=0.8827
+2026-05-28 06:00:47  INFO    [smote_nc] XGB F1=0.7827  AUC=0.8751
+2026-05-28 06:00:55  INFO    [ctgan] Generated 18 synthetic rows in 4.5s
+2026-05-28 06:00:55  INFO    [ctgan] RF  F1=0.8193  AUC=0.8951
+2026-05-28 06:00:55  INFO    [ctgan] XGB F1=0.7741  AUC=0.8741
+2026-05-28 06:01:01  INFO    [tvae] Generated 18 synthetic rows in 2.3s
+2026-05-28 06:01:02  INFO    [tvae] RF  F1=0.7547  AUC=0.8776
+2026-05-28 06:01:02  INFO    [tvae] XGB F1=0.7981  AUC=0.8434
+2026-05-28 06:02:32  INFO    [tabddpm] Generated 18 synthetic rows in 87.0s
+2026-05-28 06:02:33  INFO    [tabddpm] RF  F1=0.8299  AUC=0.8951
+2026-05-28 06:02:33  INFO    [tabddpm] XGB F1=0.7950  AUC=0.8722
+2026-05-28 06:03:09  INFO    [great] Generated 18 synthetic rows in 33.1s
+2026-05-28 06:03:09  INFO    [great] RF  F1=0.8072  AUC=0.9041
+2026-05-28 06:03:09  INFO    [great] XGB F1=0.7636  AUC=0.8673
+2026-05-28 06:03:33  INFO    [dice] Generated 291 synthetic rows in 20.0s
+2026-05-28 06:03:33  INFO    [dice] RF  F1=0.7932  AUC=0.8766
+2026-05-28 06:03:33  INFO    [dice] XGB F1=0.7827  AUC=0.859
+2026-05-28 06:03:37  INFO    Dataset heart_c complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/heart_c
+2026-05-28 06:03:38  INFO    [baseline] RF  F1=0.6242  AUC=0.716
+2026-05-28 06:03:38  INFO    [baseline] XGB F1=0.6279  AUC=0.6587
+2026-05-28 06:03:39  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 06:03:40  INFO    [smote_nc] RF  F1=0.6684  AUC=0.7246
+2026-05-28 06:03:40  INFO    [smote_nc] XGB F1=0.6860  AUC=0.7083
+2026-05-28 06:03:46  INFO    [ctgan] Generated 99 synthetic rows in 4.3s
+2026-05-28 06:03:47  INFO    [ctgan] RF  F1=0.6203  AUC=0.7064
+2026-05-28 06:03:47  INFO    [ctgan] XGB F1=0.6082  AUC=0.668
+2026-05-28 06:03:53  INFO    [tvae] Generated 99 synthetic rows in 2.8s
+2026-05-28 06:03:53  INFO    [tvae] RF  F1=0.6221  AUC=0.7335
+2026-05-28 06:03:53  INFO    [tvae] XGB F1=0.6242  AUC=0.6838
+2026-05-28 06:04:50  INFO    [tabddpm] Generated 99 synthetic rows in 53.9s
+2026-05-28 06:04:51  INFO    [tabddpm] RF  F1=0.6688  AUC=0.7271
+2026-05-28 06:04:51  INFO    [tabddpm] XGB F1=0.6000  AUC=0.6944
+2026-05-28 06:05:30  INFO    [great] Generated 99 synthetic rows in 36.7s
+2026-05-28 06:05:31  INFO    [great] RF  F1=0.6221  AUC=0.7285
+2026-05-28 06:05:31  INFO    [great] XGB F1=0.6142  AUC=0.7042
+2026-05-28 06:05:43  INFO    [dice] Generated 299 synthetic rows in 9.7s
+2026-05-28 06:05:44  INFO    [dice] RF  F1=0.6508  AUC=0.7355
+2026-05-28 06:05:44  INFO    [dice] XGB F1=0.6659  AUC=0.6786
+2026-05-28 06:05:48  INFO    [baseline] RF  F1=0.6372  AUC=0.7589
+2026-05-28 06:05:48  INFO    [baseline] XGB F1=0.6436  AUC=0.7388
+2026-05-28 06:05:49  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 06:05:49  INFO    [smote_nc] RF  F1=0.6603  AUC=0.7748
+2026-05-28 06:05:49  INFO    [smote_nc] XGB F1=0.6905  AUC=0.7768
+2026-05-28 06:05:57  INFO    [ctgan] Generated 99 synthetic rows in 4.7s
+2026-05-28 06:05:57  INFO    [ctgan] RF  F1=0.6181  AUC=0.7656
+2026-05-28 06:05:57  INFO    [ctgan] XGB F1=0.6552  AUC=0.7321
+2026-05-28 06:06:04  INFO    [tvae] Generated 99 synthetic rows in 2.8s
+2026-05-28 06:06:04  INFO    [tvae] RF  F1=0.5912  AUC=0.7542
+2026-05-28 06:06:04  INFO    [tvae] XGB F1=0.6133  AUC=0.7475
+2026-05-28 06:07:01  INFO    [tabddpm] Generated 99 synthetic rows in 53.7s
+2026-05-28 06:07:02  INFO    [tabddpm] RF  F1=0.6378  AUC=0.7403
+2026-05-28 06:07:02  INFO    [tabddpm] XGB F1=0.6375  AUC=0.7601
+2026-05-28 06:07:40  INFO    [great] Generated 99 synthetic rows in 36.6s
+2026-05-28 06:07:41  ERROR    [great] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [  0   1 100]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 311, in run_dataset
+    result = run_one_method(
+             ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 165, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [  0   1 100]
+2026-05-28 06:07:53  INFO    [dice] Generated 298 synthetic rows in 11.7s
+2026-05-28 06:07:53  INFO    [dice] RF  F1=0.6378  AUC=0.7794
+2026-05-28 06:07:53  INFO    [dice] XGB F1=0.6198  AUC=0.739
+2026-05-28 06:07:57  INFO    [baseline] RF  F1=0.7232  AUC=0.7944
+2026-05-28 06:07:57  INFO    [baseline] XGB F1=0.6318  AUC=0.7271
+2026-05-28 06:07:58  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 06:07:58  INFO    [smote_nc] RF  F1=0.7006  AUC=0.7695
+2026-05-28 06:07:58  INFO    [smote_nc] XGB F1=0.6977  AUC=0.745
+2026-05-28 06:08:06  INFO    [ctgan] Generated 99 synthetic rows in 4.7s
+2026-05-28 06:08:07  INFO    [ctgan] RF  F1=0.6257  AUC=0.7826
+2026-05-28 06:08:07  INFO    [ctgan] XGB F1=0.6079  AUC=0.6983
+2026-05-28 06:08:13  INFO    [tvae] Generated 99 synthetic rows in 3.5s
+2026-05-28 06:08:14  INFO    [tvae] RF  F1=0.5744  AUC=0.7645
+2026-05-28 06:08:14  INFO    [tvae] XGB F1=0.5545  AUC=0.6909
+2026-05-28 06:09:11  INFO    [tabddpm] Generated 99 synthetic rows in 54.0s
+2026-05-28 06:09:11  INFO    [tabddpm] RF  F1=0.6857  AUC=0.7831
+2026-05-28 06:09:11  INFO    [tabddpm] XGB F1=0.6429  AUC=0.7152
+2026-05-28 06:09:51  INFO    [great] Generated 99 synthetic rows in 36.6s
+2026-05-28 06:09:51  INFO    [great] RF  F1=0.7036  AUC=0.814
+2026-05-28 06:09:51  INFO    [great] XGB F1=0.6139  AUC=0.7507
+2026-05-28 06:10:09  INFO    [dice] Generated 296 synthetic rows in 14.6s
+2026-05-28 06:10:09  INFO    [dice] RF  F1=0.7306  AUC=0.8174
+2026-05-28 06:10:09  INFO    [dice] XGB F1=0.6951  AUC=0.7633
+2026-05-28 06:10:13  INFO    [baseline] RF  F1=0.5848  AUC=0.689
+2026-05-28 06:10:13  INFO    [baseline] XGB F1=0.5623  AUC=0.6106
+2026-05-28 06:10:14  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 06:10:14  INFO    [smote_nc] RF  F1=0.6101  AUC=0.7183
+2026-05-28 06:10:14  INFO    [smote_nc] XGB F1=0.5982  AUC=0.6339
+2026-05-28 06:10:21  INFO    [ctgan] Generated 99 synthetic rows in 4.4s
+2026-05-28 06:10:21  INFO    [ctgan] RF  F1=0.5779  AUC=0.6637
+2026-05-28 06:10:21  INFO    [ctgan] XGB F1=0.5567  AUC=0.5884
+2026-05-28 06:10:28  INFO    [tvae] Generated 99 synthetic rows in 2.8s
+2026-05-28 06:10:28  INFO    [tvae] RF  F1=0.6021  AUC=0.7438
+2026-05-28 06:10:28  INFO    [tvae] XGB F1=0.6195  AUC=0.666
+2026-05-28 06:11:25  INFO    [tabddpm] Generated 99 synthetic rows in 53.4s
+2026-05-28 06:11:25  INFO    [tabddpm] RF  F1=0.6010  AUC=0.6835
+2026-05-28 06:11:25  INFO    [tabddpm] XGB F1=0.5791  AUC=0.6282
+2026-05-28 06:12:04  INFO    [great] Generated 99 synthetic rows in 36.6s
+2026-05-28 06:12:05  INFO    [great] RF  F1=0.6074  AUC=0.7
+2026-05-28 06:12:05  INFO    [great] XGB F1=0.5557  AUC=0.5994
+2026-05-28 06:12:21  INFO    [dice] Generated 297 synthetic rows in 12.9s
+2026-05-28 06:12:21  INFO    [dice] RF  F1=0.6079  AUC=0.6893
+2026-05-28 06:12:21  INFO    [dice] XGB F1=0.5620  AUC=0.6596
+2026-05-28 06:12:25  INFO    [baseline] RF  F1=0.5734  AUC=0.7016
+2026-05-28 06:12:25  INFO    [baseline] XGB F1=0.5344  AUC=0.6651
+2026-05-28 06:12:26  INFO    [smote_nc] Generated 99 synthetic rows in 0.0s
+2026-05-28 06:12:26  INFO    [smote_nc] RF  F1=0.6252  AUC=0.6812
+2026-05-28 06:12:26  INFO    [smote_nc] XGB F1=0.6022  AUC=0.6774
+2026-05-28 06:12:33  INFO    [ctgan] Generated 99 synthetic rows in 4.4s
+2026-05-28 06:12:33  INFO    [ctgan] RF  F1=0.6068  AUC=0.7003
+2026-05-28 06:12:33  INFO    [ctgan] XGB F1=0.5863  AUC=0.6593
+2026-05-28 06:12:40  INFO    [tvae] Generated 99 synthetic rows in 2.9s
+2026-05-28 06:12:40  INFO    [tvae] RF  F1=0.5668  AUC=0.6852
+2026-05-28 06:12:40  INFO    [tvae] XGB F1=0.5511  AUC=0.6605
+2026-05-28 06:13:37  INFO    [tabddpm] Generated 99 synthetic rows in 53.7s
+2026-05-28 06:13:38  INFO    [tabddpm] RF  F1=0.5567  AUC=0.6814
+2026-05-28 06:13:38  INFO    [tabddpm] XGB F1=0.5344  AUC=0.6467
+2026-05-28 06:14:16  INFO    [great] Generated 99 synthetic rows in 36.4s
+2026-05-28 06:14:17  INFO    [great] RF  F1=0.5963  AUC=0.7138
+2026-05-28 06:14:17  INFO    [great] XGB F1=0.6021  AUC=0.66
+2026-05-28 06:14:27  INFO    [dice] Generated 300 synthetic rows in 7.5s
+2026-05-28 06:14:28  INFO    [dice] RF  F1=0.6195  AUC=0.6972
+2026-05-28 06:14:28  INFO    [dice] XGB F1=0.5791  AUC=0.6781
+2026-05-28 06:14:32  INFO    Dataset saheart complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/saheart
+2026-05-28 06:14:33  INFO    [baseline] RF  F1=0.8878  AUC=0.9529
+2026-05-28 06:14:33  INFO    [baseline] XGB F1=0.8928  AUC=0.9417
+2026-05-28 06:14:34  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 06:14:35  INFO    [smote_nc] RF  F1=0.8878  AUC=0.9518
+2026-05-28 06:14:35  INFO    [smote_nc] XGB F1=0.8733  AUC=0.9417
+2026-05-28 06:14:44  INFO    [ctgan] Generated 53 synthetic rows in 5.0s
+2026-05-28 06:14:45  INFO    [ctgan] RF  F1=0.8826  AUC=0.9489
+2026-05-28 06:14:45  INFO    [ctgan] XGB F1=0.8388  AUC=0.9302
+2026-05-28 06:14:52  INFO    [tvae] Generated 53 synthetic rows in 3.1s
+2026-05-28 06:14:52  INFO    [tvae] RF  F1=0.8829  AUC=0.956
+2026-05-28 06:14:52  INFO    [tvae] XGB F1=0.8683  AUC=0.9402
+2026-05-28 06:17:04  INFO    [tabddpm] Generated 53 synthetic rows in 127.3s
+2026-05-28 06:17:04  INFO    [tabddpm] RF  F1=0.8926  AUC=0.9564
+2026-05-28 06:17:04  INFO    [tabddpm] XGB F1=0.8683  AUC=0.9434
+2026-05-28 06:18:02  INFO    [great] Generated 53 synthetic rows in 54.5s
+2026-05-28 06:18:02  INFO    [great] RF  F1=0.8728  AUC=0.9498
+2026-05-28 06:18:02  INFO    [great] XGB F1=0.8829  AUC=0.9409
+2026-05-28 06:18:29  INFO    [dice] Generated 300 synthetic rows in 22.6s
+2026-05-28 06:18:30  INFO    [dice] RF  F1=0.8826  AUC=0.9545
+2026-05-28 06:18:30  INFO    [dice] XGB F1=0.8588  AUC=0.9445
+2026-05-28 06:18:33  INFO    [baseline] RF  F1=0.8384  AUC=0.9181
+2026-05-28 06:18:33  INFO    [baseline] XGB F1=0.8394  AUC=0.909
+2026-05-28 06:18:34  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 06:18:35  INFO    [smote_nc] RF  F1=0.8485  AUC=0.9122
+2026-05-28 06:18:35  INFO    [smote_nc] XGB F1=0.8543  AUC=0.9093
+2026-05-28 06:18:44  INFO    [ctgan] Generated 53 synthetic rows in 5.0s
+2026-05-28 06:18:44  INFO    [ctgan] RF  F1=0.8396  AUC=0.9193
+2026-05-28 06:18:44  INFO    [ctgan] XGB F1=0.8299  AUC=0.9086
+2026-05-28 06:18:51  INFO    [tvae] Generated 53 synthetic rows in 2.7s
+2026-05-28 06:18:52  INFO    [tvae] RF  F1=0.8337  AUC=0.9148
+2026-05-28 06:18:52  INFO    [tvae] XGB F1=0.8394  AUC=0.9086
+2026-05-28 06:21:03  INFO    [tabddpm] Generated 53 synthetic rows in 126.9s
+2026-05-28 06:21:04  INFO    [tabddpm] RF  F1=0.8536  AUC=0.9132
+2026-05-28 06:21:04  INFO    [tabddpm] XGB F1=0.8488  AUC=0.9123
+2026-05-28 06:22:01  INFO    [great] Generated 53 synthetic rows in 54.5s
+2026-05-28 06:22:02  INFO    [great] RF  F1=0.8384  AUC=0.9135
+2026-05-28 06:22:02  INFO    [great] XGB F1=0.8149  AUC=0.9024
+2026-05-28 06:22:28  INFO    [dice] Generated 300 synthetic rows in 22.4s
+2026-05-28 06:22:29  INFO    [dice] RF  F1=0.8580  AUC=0.9064
+2026-05-28 06:22:29  INFO    [dice] XGB F1=0.8286  AUC=0.8966
+2026-05-28 06:22:33  INFO    [baseline] RF  F1=0.8728  AUC=0.9396
+2026-05-28 06:22:33  INFO    [baseline] XGB F1=0.8725  AUC=0.9356
+2026-05-28 06:22:34  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 06:22:34  INFO    [smote_nc] RF  F1=0.8683  AUC=0.94
+2026-05-28 06:22:34  INFO    [smote_nc] XGB F1=0.8826  AUC=0.9325
+2026-05-28 06:22:43  INFO    [ctgan] Generated 53 synthetic rows in 4.9s
+2026-05-28 06:22:43  INFO    [ctgan] RF  F1=0.8633  AUC=0.9382
+2026-05-28 06:22:43  INFO    [ctgan] XGB F1=0.8728  AUC=0.934
+2026-05-28 06:22:50  INFO    [tvae] Generated 53 synthetic rows in 2.6s
+2026-05-28 06:22:51  INFO    [tvae] RF  F1=0.8776  AUC=0.9432
+2026-05-28 06:22:51  INFO    [tvae] XGB F1=0.8722  AUC=0.9336
+2026-05-28 06:25:02  INFO    [tabddpm] Generated 53 synthetic rows in 127.2s
+2026-05-28 06:25:03  INFO    [tabddpm] RF  F1=0.8773  AUC=0.9403
+2026-05-28 06:25:03  INFO    [tabddpm] XGB F1=0.8776  AUC=0.9349
+2026-05-28 06:26:00  INFO    [great] Generated 53 synthetic rows in 54.6s
+2026-05-28 06:26:01  INFO    [great] RF  F1=0.8776  AUC=0.94
+2026-05-28 06:26:01  INFO    [great] XGB F1=0.8533  AUC=0.9301
+2026-05-28 06:26:37  INFO    [dice] Generated 299 synthetic rows in 32.5s
+2026-05-28 06:26:38  INFO    [dice] RF  F1=0.8624  AUC=0.9435
+2026-05-28 06:26:38  INFO    [dice] XGB F1=0.8616  AUC=0.9269
+2026-05-28 06:26:41  INFO    [baseline] RF  F1=0.9073  AUC=0.9511
+2026-05-28 06:26:41  INFO    [baseline] XGB F1=0.8972  AUC=0.9482
+2026-05-28 06:26:43  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 06:26:43  INFO    [smote_nc] RF  F1=0.9077  AUC=0.9479
+2026-05-28 06:26:43  INFO    [smote_nc] XGB F1=0.8974  AUC=0.9491
+2026-05-28 06:26:52  INFO    [ctgan] Generated 53 synthetic rows in 4.8s
+2026-05-28 06:26:53  INFO    [ctgan] RF  F1=0.8978  AUC=0.9472
+2026-05-28 06:26:53  INFO    [ctgan] XGB F1=0.8485  AUC=0.9292
+2026-05-28 06:27:00  INFO    [tvae] Generated 53 synthetic rows in 2.6s
+2026-05-28 06:27:00  INFO    [tvae] RF  F1=0.8924  AUC=0.9512
+2026-05-28 06:27:00  INFO    [tvae] XGB F1=0.9020  AUC=0.9554
+2026-05-28 06:29:12  INFO    [tabddpm] Generated 53 synthetic rows in 127.6s
+2026-05-28 06:29:13  INFO    [tabddpm] RF  F1=0.9078  AUC=0.9515
+2026-05-28 06:29:13  INFO    [tabddpm] XGB F1=0.8731  AUC=0.9391
+2026-05-28 06:30:11  INFO    [great] Generated 53 synthetic rows in 55.0s
+2026-05-28 06:30:11  INFO    [great] RF  F1=0.9171  AUC=0.9523
+2026-05-28 06:30:11  INFO    [great] XGB F1=0.8829  AUC=0.9474
+2026-05-28 06:30:37  INFO    [dice] Generated 300 synthetic rows in 21.8s
+2026-05-28 06:30:38  INFO    [dice] RF  F1=0.8924  AUC=0.9574
+2026-05-28 06:30:38  INFO    [dice] XGB F1=0.8874  AUC=0.9547
+2026-05-28 06:30:41  INFO    [baseline] RF  F1=0.8536  AUC=0.9326
+2026-05-28 06:30:41  INFO    [baseline] XGB F1=0.8681  AUC=0.9419
+2026-05-28 06:30:42  INFO    [smote_nc] Generated 53 synthetic rows in 0.0s
+2026-05-28 06:30:43  INFO    [smote_nc] RF  F1=0.8636  AUC=0.927
+2026-05-28 06:30:43  INFO    [smote_nc] XGB F1=0.8728  AUC=0.9466
+2026-05-28 06:30:52  INFO    [ctgan] Generated 53 synthetic rows in 5.1s
+2026-05-28 06:30:53  INFO    [ctgan] RF  F1=0.8485  AUC=0.9304
+2026-05-28 06:30:53  INFO    [ctgan] XGB F1=0.8627  AUC=0.9267
+2026-05-28 06:31:00  INFO    [tvae] Generated 53 synthetic rows in 2.7s
+2026-05-28 06:31:01  INFO    [tvae] RF  F1=0.8488  AUC=0.9315
+2026-05-28 06:31:01  INFO    [tvae] XGB F1=0.8638  AUC=0.9344
+2026-05-28 06:33:13  INFO    [tabddpm] Generated 53 synthetic rows in 127.8s
+2026-05-28 06:33:13  INFO    [tabddpm] RF  F1=0.8588  AUC=0.9323
+2026-05-28 06:33:13  INFO    [tabddpm] XGB F1=0.8681  AUC=0.9419
+2026-05-28 06:34:11  INFO    [great] Generated 53 synthetic rows in 54.8s
+2026-05-28 06:34:12  INFO    [great] RF  F1=0.8686  AUC=0.9305
+2026-05-28 06:34:12  INFO    [great] XGB F1=0.8876  AUC=0.9367
+2026-05-28 06:35:00  INFO    [dice] Generated 298 synthetic rows in 44.0s
+2026-05-28 06:35:00  INFO    [dice] RF  F1=0.8781  AUC=0.9319
+2026-05-28 06:35:00  INFO    [dice] XGB F1=0.8376  AUC=0.9273
+2026-05-28 06:35:05  INFO    Dataset australian complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/australian
+2026-05-28 06:35:06  INFO    [baseline] RF  F1=0.6733  AUC=0.8096
+2026-05-28 06:35:06  INFO    [baseline] XGB F1=0.7086  AUC=0.7862
+2026-05-28 06:35:08  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 06:35:08  INFO    [smote_nc] RF  F1=0.6858  AUC=0.8184
+2026-05-28 06:35:08  INFO    [smote_nc] XGB F1=0.7106  AUC=0.7915
+2026-05-28 06:35:27  INFO    [ctgan] Generated 280 synthetic rows in 12.6s
+2026-05-28 06:35:27  INFO    [ctgan] RF  F1=0.6472  AUC=0.8022
+2026-05-28 06:35:27  INFO    [ctgan] XGB F1=0.6621  AUC=0.7433
+2026-05-28 06:35:38  INFO    [tvae] Generated 280 synthetic rows in 4.3s
+2026-05-28 06:35:39  INFO    [tvae] RF  F1=0.6607  AUC=0.8065
+2026-05-28 06:35:39  INFO    [tvae] XGB F1=0.7004  AUC=0.7996
+2026-05-28 06:40:39  INFO    [tabddpm] Generated 280 synthetic rows in 293.9s
+2026-05-28 06:40:40  INFO    [tabddpm] RF  F1=0.6770  AUC=0.8293
+2026-05-28 06:40:40  INFO    [tabddpm] XGB F1=0.7141  AUC=0.7918
+2026-05-28 06:42:48  INFO    [great] Generated 280 synthetic rows in 121.9s
+2026-05-28 06:42:49  INFO    [great] RF  F1=0.6472  AUC=0.7877
+2026-05-28 06:42:49  INFO    [great] XGB F1=0.6327  AUC=0.7207
+2026-05-28 06:44:23  INFO    [dice] Generated 298 synthetic rows in 89.2s
+2026-05-28 06:44:23  INFO    [dice] RF  F1=0.6738  AUC=0.8128
+2026-05-28 06:44:23  INFO    [dice] XGB F1=0.7137  AUC=0.7744
+2026-05-28 06:44:29  INFO    [baseline] RF  F1=0.6832  AUC=0.7901
+2026-05-28 06:44:29  INFO    [baseline] XGB F1=0.7106  AUC=0.7823
+2026-05-28 06:44:30  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 06:44:31  INFO    [smote_nc] RF  F1=0.6445  AUC=0.7631
+2026-05-28 06:44:31  INFO    [smote_nc] XGB F1=0.7032  AUC=0.7837
+2026-05-28 06:44:49  INFO    [ctgan] Generated 280 synthetic rows in 13.1s
+2026-05-28 06:44:50  INFO    [ctgan] RF  F1=0.5894  AUC=0.7398
+2026-05-28 06:44:50  INFO    [ctgan] XGB F1=0.6649  AUC=0.7342
+2026-05-28 06:45:00  INFO    [tvae] Generated 280 synthetic rows in 4.2s
+2026-05-28 06:45:01  INFO    [tvae] RF  F1=0.6273  AUC=0.7698
+2026-05-28 06:45:01  INFO    [tvae] XGB F1=0.6795  AUC=0.7724
+2026-05-28 06:50:02  INFO    [tabddpm] Generated 280 synthetic rows in 295.0s
+2026-05-28 06:50:03  INFO    [tabddpm] RF  F1=0.6233  AUC=0.7837
+2026-05-28 06:50:03  INFO    [tabddpm] XGB F1=0.6912  AUC=0.7918
+2026-05-28 06:52:11  INFO    [great] Generated 280 synthetic rows in 121.6s
+2026-05-28 06:52:11  INFO    [great] RF  F1=0.6619  AUC=0.7679
+2026-05-28 06:52:11  INFO    [great] XGB F1=0.6590  AUC=0.7551
+2026-05-28 06:53:59  INFO    [dice] Generated 296 synthetic rows in 103.6s
+2026-05-28 06:54:00  INFO    [dice] RF  F1=0.6387  AUC=0.7584
+2026-05-28 06:54:00  INFO    [dice] XGB F1=0.6752  AUC=0.7549
+2026-05-28 06:54:05  INFO    [baseline] RF  F1=0.6920  AUC=0.7998
+2026-05-28 06:54:05  INFO    [baseline] XGB F1=0.7198  AUC=0.7869
+2026-05-28 06:54:08  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 06:54:08  INFO    [smote_nc] RF  F1=0.7347  AUC=0.7995
+2026-05-28 06:54:08  INFO    [smote_nc] XGB F1=0.7297  AUC=0.7897
+2026-05-28 06:54:27  INFO    [ctgan] Generated 280 synthetic rows in 12.9s
+2026-05-28 06:54:28  INFO    [ctgan] RF  F1=0.6502  AUC=0.8043
+2026-05-28 06:54:28  INFO    [ctgan] XGB F1=0.6945  AUC=0.7872
+2026-05-28 06:54:40  INFO    [tvae] Generated 280 synthetic rows in 5.0s
+2026-05-28 06:54:40  INFO    [tvae] RF  F1=0.6802  AUC=0.8049
+2026-05-28 06:54:40  INFO    [tvae] XGB F1=0.6606  AUC=0.7656
+2026-05-28 06:59:38  INFO    [tabddpm] Generated 280 synthetic rows in 292.0s
+2026-05-28 06:59:39  INFO    [tabddpm] RF  F1=0.7124  AUC=0.8056
+2026-05-28 06:59:39  INFO    [tabddpm] XGB F1=0.7229  AUC=0.7904
+2026-05-28 07:01:45  INFO    [great] Generated 280 synthetic rows in 120.9s
+2026-05-28 07:01:45  INFO    [great] RF  F1=0.6832  AUC=0.7998
+2026-05-28 07:01:45  INFO    [great] XGB F1=0.6805  AUC=0.757
+2026-05-28 07:03:00  INFO    [dice] Generated 298 synthetic rows in 68.3s
+2026-05-28 07:03:01  INFO    [dice] RF  F1=0.6886  AUC=0.7698
+2026-05-28 07:03:01  INFO    [dice] XGB F1=0.7168  AUC=0.7831
+2026-05-28 07:03:08  INFO    [baseline] RF  F1=0.7133  AUC=0.8049
+2026-05-28 07:03:08  INFO    [baseline] XGB F1=0.7189  AUC=0.7626
+2026-05-28 07:03:10  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 07:03:10  INFO    [smote_nc] RF  F1=0.7197  AUC=0.7904
+2026-05-28 07:03:10  INFO    [smote_nc] XGB F1=0.7087  AUC=0.772
+2026-05-28 07:03:30  INFO    [ctgan] Generated 280 synthetic rows in 13.3s
+2026-05-28 07:03:31  INFO    [ctgan] RF  F1=0.6881  AUC=0.7746
+2026-05-28 07:03:31  INFO    [ctgan] XGB F1=0.7147  AUC=0.7615
+2026-05-28 07:03:42  INFO    [tvae] Generated 280 synthetic rows in 4.4s
+2026-05-28 07:03:42  INFO    [tvae] RF  F1=0.6802  AUC=0.7875
+2026-05-28 07:03:42  INFO    [tvae] XGB F1=0.6888  AUC=0.7524
+2026-05-28 07:08:42  INFO    [tabddpm] Generated 280 synthetic rows in 293.8s
+2026-05-28 07:08:43  INFO    [tabddpm] RF  F1=0.7102  AUC=0.796
+2026-05-28 07:08:43  INFO    [tabddpm] XGB F1=0.7360  AUC=0.7598
+2026-05-28 07:10:51  INFO    [great] Generated 280 synthetic rows in 121.7s
+2026-05-28 07:10:52  INFO    [great] RF  F1=0.6925  AUC=0.8141
+2026-05-28 07:10:52  INFO    [great] XGB F1=0.6971  AUC=0.7539
+2026-05-28 07:12:05  INFO    [dice] Generated 298 synthetic rows in 67.5s
+2026-05-28 07:12:06  INFO    [dice] RF  F1=0.7200  AUC=0.7976
+2026-05-28 07:12:06  INFO    [dice] XGB F1=0.7124  AUC=0.7829
+2026-05-28 07:12:12  INFO    [baseline] RF  F1=0.6706  AUC=0.8276
+2026-05-28 07:12:12  INFO    [baseline] XGB F1=0.7067  AUC=0.8259
+2026-05-28 07:12:13  INFO    [smote_nc] Generated 280 synthetic rows in 0.1s
+2026-05-28 07:12:14  INFO    [smote_nc] RF  F1=0.7315  AUC=0.8287
+2026-05-28 07:12:14  INFO    [smote_nc] XGB F1=0.7188  AUC=0.8246
+2026-05-28 07:12:33  INFO    [ctgan] Generated 280 synthetic rows in 13.1s
+2026-05-28 07:12:34  INFO    [ctgan] RF  F1=0.6170  AUC=0.8089
+2026-05-28 07:12:34  INFO    [ctgan] XGB F1=0.7086  AUC=0.8048
+2026-05-28 07:12:46  INFO    [tvae] Generated 280 synthetic rows in 4.9s
+2026-05-28 07:12:46  INFO    [tvae] RF  F1=0.6377  AUC=0.7996
+2026-05-28 07:12:46  INFO    [tvae] XGB F1=0.6798  AUC=0.8001
+2026-05-28 07:17:45  INFO    [tabddpm] Generated 280 synthetic rows in 291.9s
+2026-05-28 07:17:45  INFO    [tabddpm] RF  F1=0.6416  AUC=0.8294
+2026-05-28 07:17:45  INFO    [tabddpm] XGB F1=0.7125  AUC=0.8208
+2026-05-28 07:19:53  INFO    [great] Generated 280 synthetic rows in 122.0s
+2026-05-28 07:19:53  ERROR    [great] Unexpected error: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [0 1 3]
+Traceback (most recent call last):
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 311, in run_dataset
+    result = run_one_method(
+             ^^^^^^^^^^^^^^^
+  File "/projects/sig/usman.ashfaq/Implementation/clf_small.py", line 165, in run_one_method
+    xgb.fit(X_aug_enc, y_aug)
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/core.py", line 751, in inner_f
+    return func(**kwargs)
+           ^^^^^^^^^^^^^^
+  File "/home/usman.ashfaq/.local/lib/python3.12/site-packages/xgboost/sklearn.py", line 1761, in fit
+    raise ValueError(
+ValueError: Invalid classes inferred from unique values of `y`.  Expected: [0 1 2], got [0 1 3]
+2026-05-28 07:21:39  INFO    [dice] Generated 296 synthetic rows in 105.4s
+2026-05-28 07:21:39  INFO    [dice] RF  F1=0.6593  AUC=0.8049
+2026-05-28 07:21:39  INFO    [dice] XGB F1=0.7188  AUC=0.8135
+2026-05-28 07:21:47  INFO    Dataset german complete. Outputs -> /projects/sig/usman.ashfaq/Implementation/outputs/classification/small/german
+2026-05-28 07:21:47  INFO  All outputs saved under: /projects/sig/usman.ashfaq/Implementation/outputs/classification/small

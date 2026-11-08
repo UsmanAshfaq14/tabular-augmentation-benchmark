@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_year,ks_month,ks_day,ks_RPT,ks_VAL,ks_ROS,ks_KIL,ks_SHA,ks_BIR,ks_DUB,ks_CLA,ks_MUL,ks_CLO,ks_BEL,seed,dataset,kl_year,kl_month,kl_day,kl_RPT,kl_VAL,kl_ROS,kl_KIL,kl_SHA,kl_BIR,kl_DUB,kl_CLA,kl_MUL,kl_CLO,kl_BEL
+smogn,0.0158,0.0235,0.1663,14,0.0084,0.0078,0.0076,0.0144,0.0144,0.0144,0.0169,0.0163,0.0174,0.0208,0.0183,0.0235,0.021,0.0204,999,503_wind,0.0428,0.0607,0.0006,0.001,0.001,0.001,0.0013,0.0012,0.0016,0.0019,0.0021,0.0023,0.0024,0.0019

@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+rf,tvae,1.2388,1.5772,0.7588,208.3,1.5772,1.2388,0.7588,770,2.0025,1.6885,0.8828,159,1.4462,1.1218,0.4801,611,999,529_pollen

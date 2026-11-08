@@ -1,0 +1,65 @@
+{
+  "size": "small",
+  "task": "regression",
+  "test_size": 0.3,
+  "datasets": [
+    "230_machine_cpu",
+    "560_bodyfat",
+    "547_no2",
+    "1028_SWD"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smogn",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "great",
+    "dice"
+  ],
+  "gan_epochs": 100,
+  "great_epochs": 25,
+  "diffusion_steps": 5000,
+  "smote_k": 3,
+  "reg_aug_pct": 0.2,
+  "dataset": "1028_SWD",
+  "info": {
+    "name": "1028_SWD",
+    "n_samples": 1000,
+    "n_features": 10,
+    "binary_cols": [
+      "In6"
+    ],
+    "cat_cols": [],
+    "cont_cols": [
+      "In1",
+      "In2",
+      "In3",
+      "In4",
+      "In5",
+      "In7",
+      "In8",
+      "In9",
+      "In10"
+    ],
+    "n_classes": 4,
+    "class_counts": {
+      "4.0": 399,
+      "3.0": 352,
+      "5.0": 217,
+      "2.0": 32
+    },
+    "missing": 0,
+    "target_min": 2.0,
+    "target_max": 5.0,
+    "target_mean": 3.801,
+    "target_std": 0.8112,
+    "target_skew": 0.0176
+  }
+}

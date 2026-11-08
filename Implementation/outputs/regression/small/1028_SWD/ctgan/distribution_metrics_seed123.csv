@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_In1,ks_In2,ks_In3,ks_In4,ks_In5,ks_In6,ks_In7,ks_In8,ks_In9,ks_In10,seed,dataset,kl_In1,kl_In2,kl_In3,kl_In4,kl_In5,kl_In6,kl_In7,kl_In8,kl_In9,kl_In10
+ctgan,0.0089,0.0202,0.255,10,0.0026,0.0055,0.0071,0.0088,0.0143,0.0,0.0107,0.0202,0.011,0.0088,123,1028_SWD,0.0001,0.0001,0.0002,0.0002,0.0014,0.0,0.0005,0.0011,0.0003,0.0002

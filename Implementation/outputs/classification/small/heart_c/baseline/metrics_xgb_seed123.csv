@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+xgb,baseline,0.8571,0.8626,0.8502,0.8537,0.7128,0.918,123,heart_c

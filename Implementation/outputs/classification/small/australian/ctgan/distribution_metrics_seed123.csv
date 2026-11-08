@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_A1,ks_A2,ks_A3,ks_A4,ks_A5,ks_A6,ks_A7,ks_A8,ks_A9,ks_A10,ks_A11,ks_A12,ks_A13,ks_A14,seed,dataset,kl_A1,kl_A2,kl_A3,kl_A4,kl_A5,kl_A6,kl_A7,kl_A8,kl_A9,kl_A10,kl_A11,kl_A12,kl_A13,kl_A14
+ctgan,0.0179,0.0397,0.2924,14,0.0033,0.0207,0.0381,0.0017,0.0109,0.0051,0.0397,0.005,0.0107,0.0368,0.0085,0.0092,0.0292,0.032,123,australian,0.0,0.0078,0.0035,0.0004,0.0013,0.0004,0.0021,0.0,0.0002,0.0036,0.0001,0.0006,0.0025,0.0006

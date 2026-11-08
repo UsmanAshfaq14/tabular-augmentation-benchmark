@@ -1,0 +1,26 @@
+method,spearman_corr,mean_abs_diff,top5_overlap,top_baseline,top_augmented,seed,dataset,model
+smote_nc,0.9297,0.0117,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",42,adult,rf
+ctgan,0.956,0.0067,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",42,adult,rf
+tvae,0.9868,0.0046,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",42,adult,rf
+tabddpm,0.9824,0.0031,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",42,adult,rf
+dice,0.9824,0.0029,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",42,adult,rf
+smote_nc,0.9516,0.0131,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",123,adult,rf
+ctgan,0.9956,0.0072,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",123,adult,rf
+tvae,0.9736,0.0052,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",123,adult,rf
+tabddpm,0.9868,0.0032,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",123,adult,rf
+dice,0.9912,0.0026,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",123,adult,rf
+smote_nc,0.9385,0.0134,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",456,adult,rf
+ctgan,0.9956,0.0047,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",456,adult,rf
+tvae,0.9736,0.0073,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",456,adult,rf
+tabddpm,0.9912,0.0025,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",456,adult,rf
+dice,0.9912,0.0028,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",456,adult,rf
+smote_nc,0.9253,0.0164,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",789,adult,rf
+ctgan,0.9912,0.005,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",789,adult,rf
+tvae,0.9824,0.0048,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",789,adult,rf
+tabddpm,0.9956,0.0025,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",789,adult,rf
+dice,0.9956,0.0022,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",789,adult,rf
+smote_nc,0.9341,0.015,0.8,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, hours-per-week, age",999,adult,rf
+ctgan,0.9912,0.0069,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",999,adult,rf
+tvae,0.9868,0.0058,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",999,adult,rf
+tabddpm,0.9956,0.0031,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",999,adult,rf
+dice,0.9912,0.003,1.0,"education-num, relationship, marital-status, capital-gain, age","education-num, relationship, marital-status, capital-gain, age",999,adult,rf

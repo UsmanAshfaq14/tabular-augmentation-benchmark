@@ -1,0 +1,64 @@
+{
+  "size": "medium",
+  "task": "classification",
+  "test_size": 0.2,
+  "datasets": [
+    "flare",
+    "cmc",
+    "car",
+    "churn"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice"
+  ],
+  "gpu": "NVIDIA L40S",
+  "gan_epochs": 300,
+  "great_epochs": 75,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "dataset": "churn",
+  "n_classes": 2,
+  "info": {
+    "name": "churn",
+    "n_samples": 5000,
+    "n_features": 20,
+    "binary_cols": [
+      "international plan",
+      "voice mail plan"
+    ],
+    "cat_cols": [],
+    "cont_cols": [
+      "state",
+      "account length",
+      "area code",
+      "phone number",
+      "number vmail messages",
+      "total day minutes",
+      "total day calls",
+      "total day charge",
+      "total eve minutes",
+      "total eve calls",
+      "total eve charge",
+      "total night minutes",
+      "total night calls",
+      "total night charge",
+      "total intl minutes",
+      "total intl calls",
+      "total intl charge",
+      "number customer service calls"
+    ],
+    "n_classes": 2,
+    "missing": 0
+  }
+}

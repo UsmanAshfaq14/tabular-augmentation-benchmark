@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_MYCT,ks_MMIN,ks_MMAX,ks_CACH,ks_CHMIN,ks_CHMAX,seed,dataset,kl_MYCT,kl_MMIN,kl_MMAX,kl_CACH,kl_CHMIN,kl_CHMAX
+tabddpm,0.0383,0.0476,0.1017,6,0.0337,0.0257,0.037,0.0476,0.0463,0.0395,999,230_machine_cpu,0.0039,0.0079,0.0138,0.0147,0.0026,0.0048

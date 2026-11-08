@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,ctgan,0.4024,0.5263,0.5485,11.94,0.5263,0.4024,0.5485,150,0.7191,0.5897,0.7294,32,0.4602,0.3516,0.1818,118,789,547_no2

@@ -1,0 +1,2 @@
+model,method,mae,rmse,r2,mape,overall_rmse,overall_mae,overall_r2,overall_n,rare_rmse,rare_mae,rare_r2,rare_n,normal_rmse,normal_mae,normal_r2,normal_n,seed,dataset
+xgb,tvae,1.6812,2.3964,0.9848,2.46,2.3964,1.6812,0.9848,1639,3.0597,1.7763,0.9863,96,2.349,1.6753,0.912,1543,789,197_cpu_act

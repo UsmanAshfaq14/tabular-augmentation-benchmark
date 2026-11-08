@@ -1,0 +1,2 @@
+model,method,accuracy,precision,recall,f1_macro,mcc,auc_roc,seed,dataset
+rf,dice,0.8566,0.8105,0.7797,0.7931,0.5894,0.9049,789,adult

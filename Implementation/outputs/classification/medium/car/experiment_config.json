@@ -1,0 +1,49 @@
+{
+  "size": "medium",
+  "task": "classification",
+  "test_size": 0.2,
+  "datasets": [
+    "flare",
+    "cmc",
+    "car",
+    "churn"
+  ],
+  "seeds": [
+    42,
+    123,
+    456,
+    789,
+    999
+  ],
+  "methods": [
+    "smote_nc",
+    "ctgan",
+    "tvae",
+    "tabddpm",
+    "dice"
+  ],
+  "gpu": "NVIDIA L40S",
+  "gan_epochs": 300,
+  "great_epochs": 75,
+  "diffusion_steps": 15000,
+  "smote_k": 5,
+  "dataset": "car",
+  "n_classes": 4,
+  "info": {
+    "name": "car",
+    "n_samples": 1728,
+    "n_features": 6,
+    "binary_cols": [],
+    "cat_cols": [
+      "buying",
+      "maint",
+      "doors",
+      "persons",
+      "lug_boot",
+      "safety"
+    ],
+    "cont_cols": [],
+    "n_classes": 4,
+    "missing": 0
+  }
+}

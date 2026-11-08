@@ -1,0 +1,2 @@
+method,ks_mean,ks_max,corr_frob,n_features_compared,ks_x1,ks_x2,ks_x3,ks_x4,ks_x5,ks_x6,ks_x7,ks_x8,ks_x9,ks_x10,seed,dataset,kl_x1,kl_x2,kl_x3,kl_x4,kl_x5,kl_x6,kl_x7,kl_x8,kl_x9,kl_x10
+tvae,0.0277,0.0732,0.1849,10,0.0119,0.0131,0.0622,0.0181,0.0144,0.0061,0.0434,0.002,0.0322,0.0732,999,344_mv,0.0012,0.0019,0.0085,0.0016,0.002,0.0005,0.0048,0.0,0.0091,0.0163
